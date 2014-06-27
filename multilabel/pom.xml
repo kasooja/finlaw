@@ -1,10 +1,44 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>edu.insight</groupId>
-    <artifactId>finlaw</artifactId>
-    <version>1.0.0</version>
-  </parent>
-  <artifactId>multilabel</artifactId>
-  <name>MultiLabel Classification</name>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>edu.insight</groupId>
+		<artifactId>finlaw</artifactId>
+		<version>1.0.0</version>
+	</parent>
+	<artifactId>multilabel</artifactId>
+	<name>MultiLabel Classification</name>
+
+	<dependencies>
+		<dependency>
+			<groupId>net.sf.meka</groupId>
+			<artifactId>meka</artifactId>
+			<version>1.6.2</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.meka.thirdparty</groupId>
+			<artifactId>mulan</artifactId>
+			<version>1.4.0</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.meka.thirdparty</groupId>
+			<artifactId>mst</artifactId>
+			<version>4.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>gate</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>ontology</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		
+
+	</dependencies>
+
 </project>
