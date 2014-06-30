@@ -1,18 +1,17 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix firoh1:<http://www.GRCTC.com/ontologies/FIRO/FIRO-H_1.0#> . 
-@prefix purpose:<http://www.GRCTC.com/ontologies/FIRO/Purpose_Specific_v1.0#> . 
 @prefix firos1:<http://www.GRCTC.com/ontologies/FIRO/FIRO-S_1.0#> . 
 
 
 firos1:AML2007-Prohibition
-a firoh1:Prohibition;
+a firoh1:Modality;
 
 .
 
 
 
 firos1:AML2007-Obligation
-a firoh1:Obligation;
+a firoh1:Modality;
 
 .
 
@@ -108,9 +107,11 @@ firos1:hasNum	firos1:AML2007-num1-1;
 firos1:AML2007-Interpretation1
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section1-sub1;
+firoh1:inSubSection	firos1:AML2007-section1-sub1;
 
-purpose:inSection	firos1:AML2007-section1;
+firoh1:inSection	firos1:AML2007-section1;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -163,6 +164,32 @@ firos1:hasNum	firos1:AML2007-num1-2;
 
 
 
+firos1:AML2007-Interpretation2
+a firoh1:Interpretation;
+
+firoh1:inSubSection	firos1:AML2007-section1-sub2;
+
+firoh1:inSection	firos1:AML2007-section1;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
+firos1:AML2007-Supervision3
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section1-sub2;
+
+firoh1:inSection	firos1:AML2007-section1;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section1-3-HTMLblock3-p
 a firos1:p;
 
@@ -205,6 +232,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section1-sub3-content;
 
 firos1:hasNum	firos1:AML2007-num1-3;
+
+.
+
+
+
+firos1:AML2007-Interpretation4
+a firoh1:Interpretation;
+
+firoh1:inSubSection	firos1:AML2007-section1-sub3;
+
+firoh1:inSection	firos1:AML2007-section1;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -306,12 +346,14 @@ firos1:hasNum	firos1:AML2007-num2-1;
 
 
 
-firos1:AML2007-Interpretation2
+firos1:AML2007-Interpretation5
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section2-sub1;
+firoh1:inSubSection	firos1:AML2007-section2-sub1;
 
-purpose:inSection	firos1:AML2007-section2;
+firoh1:inSection	firos1:AML2007-section2;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -364,12 +406,14 @@ firos1:hasNum	firos1:AML2007-num2-2;
 
 
 
-firos1:AML2007-Interpretation3
+firos1:AML2007-Interpretation6
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section2-sub2;
+firoh1:inSubSection	firos1:AML2007-section2-sub2;
 
-purpose:inSection	firos1:AML2007-section2;
+firoh1:inSection	firos1:AML2007-section2;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -422,12 +466,14 @@ firos1:hasNum	firos1:AML2007-num2-3;
 
 
 
-firos1:AML2007-Interpretation4
+firos1:AML2007-Interpretation7
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section2-sub3;
+firoh1:inSubSection	firos1:AML2007-section2-sub3;
 
-purpose:inSection	firos1:AML2007-section2;
+firoh1:inSection	firos1:AML2007-section2;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -529,12 +575,27 @@ firos1:hasNum	firos1:AML2007-num3-h;
 
 
 
-firos1:AML2007-Interpretation5
+firos1:AML2007-Interpretation8
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section3-subh;
+firoh1:inSubSection	firos1:AML2007-section3-subh;
 
-purpose:inSection	firos1:AML2007-section3;
+firoh1:inSection	firos1:AML2007-section3;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
+firos1:AML2007-Supervision9
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section3-subh;
+
+firoh1:inSection	firos1:AML2007-section3;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -587,12 +648,14 @@ firos1:hasNum	firos1:AML2007-num3-b;
 
 
 
-firos1:AML2007-Interpretation6
+firos1:AML2007-Interpretation10
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section3-subb;
+firoh1:inSubSection	firos1:AML2007-section3-subb;
 
-purpose:inSection	firos1:AML2007-section3;
+firoh1:inSection	firos1:AML2007-section3;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -645,6 +708,19 @@ firos1:hasNum	firos1:AML2007-num3-h;
 
 
 
+firos1:AML2007-Interpretation11
+a firoh1:Interpretation;
+
+firoh1:inSubSection	firos1:AML2007-section3-subh;
+
+firoh1:inSection	firos1:AML2007-section3;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section3-4-HTMLblock10-p
 a firos1:p;
 
@@ -687,6 +763,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section3-sub4-content;
 
 firos1:hasNum	firos1:AML2007-num3-4;
+
+.
+
+
+
+firos1:AML2007-Interpretation12
+a firoh1:Interpretation;
+
+firoh1:inSubSection	firos1:AML2007-section3-sub4;
+
+firoh1:inSection	firos1:AML2007-section3;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -739,12 +828,14 @@ firos1:hasNum	firos1:AML2007-num3-b;
 
 
 
-firos1:AML2007-Interpretation7
-a firoh1:Interpretation;
+firos1:AML2007-Supervision13
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section3-subb;
+firoh1:inSubSection	firos1:AML2007-section3-subb;
 
-purpose:inSection	firos1:AML2007-section3;
+firoh1:inSection	firos1:AML2007-section3;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -797,12 +888,14 @@ firos1:hasNum	firos1:AML2007-num3-6;
 
 
 
-firos1:AML2007-Interpretation8
+firos1:AML2007-Interpretation14
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section3-sub6;
+firoh1:inSubSection	firos1:AML2007-section3-sub6;
 
-purpose:inSection	firos1:AML2007-section3;
+firoh1:inSection	firos1:AML2007-section3;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -855,12 +948,14 @@ firos1:hasNum	firos1:AML2007-num3-7;
 
 
 
-firos1:AML2007-Interpretation9
+firos1:AML2007-Interpretation15
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section3-sub7;
+firoh1:inSubSection	firos1:AML2007-section3-sub7;
 
-purpose:inSection	firos1:AML2007-section3;
+firoh1:inSection	firos1:AML2007-section3;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -913,12 +1008,14 @@ firos1:hasNum	firos1:AML2007-num3-8;
 
 
 
-firos1:AML2007-Interpretation10
+firos1:AML2007-Interpretation16
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section3-sub8;
+firoh1:inSubSection	firos1:AML2007-section3-sub8;
 
-purpose:inSection	firos1:AML2007-section3;
+firoh1:inSection	firos1:AML2007-section3;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -971,12 +1068,14 @@ firos1:hasNum	firos1:AML2007-num3-e;
 
 
 
-firos1:AML2007-Interpretation11
+firos1:AML2007-Interpretation17
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section3-sube;
+firoh1:inSubSection	firos1:AML2007-section3-sube;
 
-purpose:inSection	firos1:AML2007-section3;
+firoh1:inSection	firos1:AML2007-section3;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -1029,6 +1128,19 @@ firos1:hasNum	firos1:AML2007-num3-ii;
 
 
 
+firos1:AML2007-Interpretation18
+a firoh1:Interpretation;
+
+firoh1:inSubSection	firos1:AML2007-section3-subii;
+
+firoh1:inSection	firos1:AML2007-section3;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section3-b-HTMLblock17-p
 a firos1:p;
 
@@ -1076,12 +1188,14 @@ firos1:hasNum	firos1:AML2007-num3-b;
 
 
 
-firos1:AML2007-Interpretation12
+firos1:AML2007-Interpretation19
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section3-subb;
+firoh1:inSubSection	firos1:AML2007-section3-subb;
 
-purpose:inSection	firos1:AML2007-section3;
+firoh1:inSection	firos1:AML2007-section3;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -1134,6 +1248,19 @@ firos1:hasNum	firos1:AML2007-num3-12;
 
 
 
+firos1:AML2007-Supervision20
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section3-sub12;
+
+firoh1:inSection	firos1:AML2007-section3;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section3-13-HTMLblock19-p
 a firos1:p;
 
@@ -1181,12 +1308,14 @@ firos1:hasNum	firos1:AML2007-num3-13;
 
 
 
-firos1:AML2007-Interpretation13
+firos1:AML2007-Interpretation21
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section3-sub13;
+firoh1:inSubSection	firos1:AML2007-section3-sub13;
 
-purpose:inSection	firos1:AML2007-section3;
+firoh1:inSection	firos1:AML2007-section3;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -1239,12 +1368,14 @@ firos1:hasNum	firos1:AML2007-num3-14;
 
 
 
-firos1:AML2007-Interpretation14
+firos1:AML2007-Interpretation22
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section3-sub14;
+firoh1:inSubSection	firos1:AML2007-section3-sub14;
 
-purpose:inSection	firos1:AML2007-section3;
+firoh1:inSection	firos1:AML2007-section3;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -1346,12 +1477,12 @@ firos1:hasNum	firos1:AML2007-num4-f;
 
 
 
-firos1:AML2007-Supervision15
+firos1:AML2007-Supervision23
 a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section4-subf;
+firoh1:inSubSection	firos1:AML2007-section4-subf;
 
-purpose:inSection	firos1:AML2007-section4;
+firoh1:inSection	firos1:AML2007-section4;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -1406,12 +1537,14 @@ firos1:hasNum	firos1:AML2007-num4-2;
 
 
 
-firos1:AML2007-Interpretation16
-a firoh1:Interpretation;
+firos1:AML2007-Supervision24
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section4-sub2;
+firoh1:inSubSection	firos1:AML2007-section4-sub2;
 
-purpose:inSection	firos1:AML2007-section4;
+firoh1:inSection	firos1:AML2007-section4;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -1464,12 +1597,14 @@ firos1:hasNum	firos1:AML2007-num4-g;
 
 
 
-firos1:AML2007-Interpretation17
+firos1:AML2007-Interpretation25
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section4-subg;
+firoh1:inSubSection	firos1:AML2007-section4-subg;
 
-purpose:inSection	firos1:AML2007-section4;
+firoh1:inSection	firos1:AML2007-section4;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -1522,12 +1657,14 @@ firos1:hasNum	firos1:AML2007-num4-4;
 
 
 
-firos1:AML2007-Interpretation18
+firos1:AML2007-Interpretation26
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section4-sub4;
+firoh1:inSubSection	firos1:AML2007-section4-sub4;
 
-purpose:inSection	firos1:AML2007-section4;
+firoh1:inSection	firos1:AML2007-section4;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -1676,6 +1813,19 @@ firos1:hasNum	firos1:AML2007-num6-b;
 
 
 
+firos1:AML2007-Interpretation27
+a firoh1:Interpretation;
+
+firoh1:inSubSection	firos1:AML2007-section6-subb;
+
+firoh1:inSection	firos1:AML2007-section6;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section6-b-HTMLblock26-p
 a firos1:p;
 
@@ -1718,6 +1868,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section6-subb-content;
 
 firos1:hasNum	firos1:AML2007-num6-b;
+
+.
+
+
+
+firos1:AML2007-Interpretation28
+a firoh1:Interpretation;
+
+firoh1:inSubSection	firos1:AML2007-section6-subb;
+
+firoh1:inSection	firos1:AML2007-section6;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -1770,6 +1933,19 @@ firos1:hasNum	firos1:AML2007-num6-c;
 
 
 
+firos1:AML2007-Interpretation29
+a firoh1:Interpretation;
+
+firoh1:inSubSection	firos1:AML2007-section6-subc;
+
+firoh1:inSection	firos1:AML2007-section6;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section6-4-HTMLblock28-p
 a firos1:p;
 
@@ -1817,12 +1993,12 @@ firos1:hasNum	firos1:AML2007-num6-4;
 
 
 
-firos1:AML2007-Supervision19
+firos1:AML2007-Supervision30
 a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section6-sub4;
+firoh1:inSubSection	firos1:AML2007-section6-sub4;
 
-purpose:inSection	firos1:AML2007-section6;
+firoh1:inSection	firos1:AML2007-section6;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -1877,12 +2053,12 @@ firos1:hasNum	firos1:AML2007-num6-iv;
 
 
 
-firos1:AML2007-Supervision20
+firos1:AML2007-Supervision31
 a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section6-subiv;
+firoh1:inSubSection	firos1:AML2007-section6-subiv;
 
-purpose:inSection	firos1:AML2007-section6;
+firoh1:inSection	firos1:AML2007-section6;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -1984,17 +2160,6 @@ firos1:hasNum	firos1:AML2007-num6-7;
 
 
 
-firos1:AML2007-Interpretation21
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section6-sub7;
-
-purpose:inSection	firos1:AML2007-section6;
-
-.
-
-
-
 firos1:AML2007-section6-b-HTMLblock32-p
 a firos1:p;
 
@@ -2042,12 +2207,14 @@ firos1:hasNum	firos1:AML2007-num6-b;
 
 
 
-firos1:AML2007-Interpretation22
+firos1:AML2007-Interpretation32
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section6-subb;
+firoh1:inSubSection	firos1:AML2007-section6-subb;
 
-purpose:inSection	firos1:AML2007-section6;
+firoh1:inSection	firos1:AML2007-section6;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -2100,12 +2267,12 @@ firos1:hasNum	firos1:AML2007-num6-9;
 
 
 
-firos1:AML2007-CustomerDueDiligence23
-a firoh1:CustomerDueDiligence;
+firos1:AML2007-Interpretation33
+a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section6-sub9;
+firoh1:inSubSection	firos1:AML2007-section6-sub9;
 
-purpose:inSection	firos1:AML2007-section6;
+firoh1:inSection	firos1:AML2007-section6;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -2160,12 +2327,14 @@ firos1:hasNum	firos1:AML2007-num6-10;
 
 
 
-firos1:AML2007-Interpretation24
+firos1:AML2007-Interpretation34
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section6-sub10;
+firoh1:inSubSection	firos1:AML2007-section6-sub10;
 
-purpose:inSection	firos1:AML2007-section6;
+firoh1:inSection	firos1:AML2007-section6;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -2267,30 +2436,6 @@ firos1:hasNum	firos1:AML2007-num7-d;
 
 
 
-firos1:AML2007-CustomerDueDiligence25
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section7-subd;
-
-purpose:inSection	firos1:AML2007-section7;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Interpretation26
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section7-subd;
-
-purpose:inSection	firos1:AML2007-section7;
-
-.
-
-
-
 firos1:AML2007-section7-2-HTMLblock36-p
 a firos1:p;
 
@@ -2333,30 +2478,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section7-sub2-content;
 
 firos1:hasNum	firos1:AML2007-num7-2;
-
-.
-
-
-
-firos1:AML2007-CustomerDueDiligence27
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section7-sub2;
-
-purpose:inSection	firos1:AML2007-section7;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Interpretation28
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section7-sub2;
-
-purpose:inSection	firos1:AML2007-section7;
 
 .
 
@@ -2409,30 +2530,6 @@ firos1:hasNum	firos1:AML2007-num7-b;
 
 
 
-firos1:AML2007-CustomerDueDiligence29
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section7-subb;
-
-purpose:inSection	firos1:AML2007-section7;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Interpretation30
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section7-subb;
-
-purpose:inSection	firos1:AML2007-section7;
-
-.
-
-
-
 firos1:AML2007-section7-b-HTMLblock38-p
 a firos1:p;
 
@@ -2480,25 +2577,14 @@ firos1:hasNum	firos1:AML2007-num7-b;
 
 
 
-firos1:AML2007-CustomerDueDiligence31
+firos1:AML2007-CustomerDueDiligence35
 a firoh1:CustomerDueDiligence;
 
-purpose:inSubSection	firos1:AML2007-section7-subb;
+firoh1:inSubSection	firos1:AML2007-section7-subb;
 
-purpose:inSection	firos1:AML2007-section7;
+firoh1:inSection	firos1:AML2007-section7;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Interpretation32
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section7-subb;
-
-purpose:inSection	firos1:AML2007-section7;
 
 .
 
@@ -2551,12 +2637,14 @@ firos1:hasNum	firos1:AML2007-num7-5;
 
 
 
-firos1:AML2007-Interpretation33
+firos1:AML2007-Interpretation36
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section7-sub5;
+firoh1:inSubSection	firos1:AML2007-section7-sub5;
 
-purpose:inSection	firos1:AML2007-section7;
+firoh1:inSection	firos1:AML2007-section7;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -2658,12 +2746,14 @@ firos1:hasNum	firos1:AML2007-num8-1;
 
 
 
-firos1:AML2007-Interpretation34
+firos1:AML2007-Interpretation37
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section8-sub1;
+firoh1:inSubSection	firos1:AML2007-section8-sub1;
 
-purpose:inSection	firos1:AML2007-section8;
+firoh1:inSection	firos1:AML2007-section8;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -2716,12 +2806,12 @@ firos1:hasNum	firos1:AML2007-num8-b;
 
 
 
-firos1:AML2007-CustomerDueDiligence35
+firos1:AML2007-CustomerDueDiligence38
 a firoh1:CustomerDueDiligence;
 
-purpose:inSubSection	firos1:AML2007-section8-subb;
+firoh1:inSubSection	firos1:AML2007-section8-subb;
 
-purpose:inSection	firos1:AML2007-section8;
+firoh1:inSection	firos1:AML2007-section8;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -2776,25 +2866,14 @@ firos1:hasNum	firos1:AML2007-num8-3;
 
 
 
-firos1:AML2007-CustomerDueDiligence36
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section8-sub3;
-
-purpose:inSection	firos1:AML2007-section8;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Interpretation37
+firos1:AML2007-Interpretation39
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section8-sub3;
+firoh1:inSubSection	firos1:AML2007-section8-sub3;
 
-purpose:inSection	firos1:AML2007-section8;
+firoh1:inSection	firos1:AML2007-section8;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -2896,25 +2975,14 @@ firos1:hasNum	firos1:AML2007-num9-1;
 
 
 
-firos1:AML2007-CustomerDueDiligence38
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section9-sub1;
-
-purpose:inSection	firos1:AML2007-section9;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Interpretation39
+firos1:AML2007-Interpretation40
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section9-sub1;
+firoh1:inSubSection	firos1:AML2007-section9-sub1;
 
-purpose:inSection	firos1:AML2007-section9;
+firoh1:inSection	firos1:AML2007-section9;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -2962,30 +3030,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section9-sub2-content;
 
 firos1:hasNum	firos1:AML2007-num9-2;
-
-.
-
-
-
-firos1:AML2007-CustomerDueDiligence40
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section9-sub2;
-
-purpose:inSection	firos1:AML2007-section9;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Interpretation41
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section9-sub2;
-
-purpose:inSection	firos1:AML2007-section9;
 
 .
 
@@ -3085,12 +3129,14 @@ firos1:hasNum	firos1:AML2007-num9-4;
 
 
 
-firos1:AML2007-Interpretation42
+firos1:AML2007-Interpretation41
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section9-sub4;
+firoh1:inSubSection	firos1:AML2007-section9-sub4;
 
-purpose:inSection	firos1:AML2007-section9;
+firoh1:inSection	firos1:AML2007-section9;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -3286,12 +3332,12 @@ firos1:hasNum	firos1:AML2007-num10-iii;
 
 
 
-firos1:AML2007-CustomerDueDiligence43
-a firoh1:CustomerDueDiligence;
+firos1:AML2007-Interpretation42
+a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section10-subiii;
+firoh1:inSubSection	firos1:AML2007-section10-subiii;
 
-purpose:inSection	firos1:AML2007-section10;
+firoh1:inSection	firos1:AML2007-section10;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -3346,12 +3392,14 @@ firos1:hasNum	firos1:AML2007-num10-3;
 
 
 
-firos1:AML2007-Interpretation44
+firos1:AML2007-Interpretation43
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section10-sub3;
+firoh1:inSubSection	firos1:AML2007-section10-sub3;
 
-purpose:inSection	firos1:AML2007-section10;
+firoh1:inSection	firos1:AML2007-section10;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -3453,12 +3501,12 @@ firos1:hasNum	firos1:AML2007-num11-d;
 
 
 
-firos1:AML2007-CustomerDueDiligence45
-a firoh1:CustomerDueDiligence;
+firos1:AML2007-Interpretation44
+a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section11-subd;
+firoh1:inSubSection	firos1:AML2007-section11-subd;
 
-purpose:inSection	firos1:AML2007-section11;
+firoh1:inSection	firos1:AML2007-section11;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -3555,6 +3603,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section11-subb-content;
 
 firos1:hasNum	firos1:AML2007-num11-b;
+
+.
+
+
+
+firos1:AML2007-Interpretation45
+a firoh1:Interpretation;
+
+firoh1:inSubSection	firos1:AML2007-section11-subb;
+
+firoh1:inSection	firos1:AML2007-section11;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -3659,9 +3720,9 @@ firos1:hasNum	firos1:AML2007-num12-b;
 firos1:AML2007-CustomerDueDiligence46
 a firoh1:CustomerDueDiligence;
 
-purpose:inSubSection	firos1:AML2007-section12-subb;
+firoh1:inSubSection	firos1:AML2007-section12-subb;
 
-purpose:inSection	firos1:AML2007-section12;
+firoh1:inSection	firos1:AML2007-section12;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -3719,9 +3780,11 @@ firos1:hasNum	firos1:AML2007-num12-b;
 firos1:AML2007-Interpretation47
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section12-subb;
+firoh1:inSubSection	firos1:AML2007-section12-subb;
 
-purpose:inSection	firos1:AML2007-section12;
+firoh1:inSection	firos1:AML2007-section12;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -3826,9 +3889,9 @@ firos1:hasNum	firos1:AML2007-num13-1;
 firos1:AML2007-CustomerDueDiligence48
 a firoh1:CustomerDueDiligence;
 
-purpose:inSubSection	firos1:AML2007-section13-sub1;
+firoh1:inSubSection	firos1:AML2007-section13-sub1;
 
-purpose:inSection	firos1:AML2007-section13;
+firoh1:inSection	firos1:AML2007-section13;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -3883,12 +3946,12 @@ firos1:hasNum	firos1:AML2007-num13-ii;
 
 
 
-firos1:AML2007-CustomerDueDiligence49
-a firoh1:CustomerDueDiligence;
+firos1:AML2007-Interpretation49
+a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section13-subii;
+firoh1:inSubSection	firos1:AML2007-section13-subii;
 
-purpose:inSection	firos1:AML2007-section13;
+firoh1:inSection	firos1:AML2007-section13;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -3943,12 +4006,12 @@ firos1:hasNum	firos1:AML2007-num13-3;
 
 
 
-firos1:AML2007-CustomerDueDiligence50
-a firoh1:CustomerDueDiligence;
+firos1:AML2007-Interpretation50
+a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section13-sub3;
+firoh1:inSubSection	firos1:AML2007-section13-sub3;
 
-purpose:inSection	firos1:AML2007-section13;
+firoh1:inSection	firos1:AML2007-section13;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -4003,19 +4066,6 @@ firos1:hasNum	firos1:AML2007-num13-b;
 
 
 
-firos1:AML2007-CustomerDueDiligence51
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section13-subb;
-
-purpose:inSection	firos1:AML2007-section13;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
 firos1:AML2007-section13-5-HTMLblock60-p
 a firos1:p;
 
@@ -4063,12 +4113,12 @@ firos1:hasNum	firos1:AML2007-num13-5;
 
 
 
-firos1:AML2007-CustomerDueDiligence52
-a firoh1:CustomerDueDiligence;
+firos1:AML2007-Interpretation51
+a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section13-sub5;
+firoh1:inSubSection	firos1:AML2007-section13-sub5;
 
-purpose:inSection	firos1:AML2007-section13;
+firoh1:inSection	firos1:AML2007-section13;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -4123,12 +4173,12 @@ firos1:hasNum	firos1:AML2007-num13-6;
 
 
 
-firos1:AML2007-CustomerDueDiligence53
-a firoh1:CustomerDueDiligence;
+firos1:AML2007-Interpretation52
+a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section13-sub6;
+firoh1:inSubSection	firos1:AML2007-section13-sub6;
 
-purpose:inSection	firos1:AML2007-section13;
+firoh1:inSection	firos1:AML2007-section13;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -4183,19 +4233,6 @@ firos1:hasNum	firos1:AML2007-num13-ii;
 
 
 
-firos1:AML2007-Supervision54
-a firoh1:Supervision;
-
-purpose:inSubSection	firos1:AML2007-section13-subii;
-
-purpose:inSection	firos1:AML2007-section13;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
 firos1:AML2007-section13-8-HTMLblock63-p
 a firos1:p;
 
@@ -4243,12 +4280,14 @@ firos1:hasNum	firos1:AML2007-num13-8;
 
 
 
-firos1:AML2007-Interpretation55
+firos1:AML2007-Interpretation53
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section13-sub8;
+firoh1:inSubSection	firos1:AML2007-section13-sub8;
 
-purpose:inSection	firos1:AML2007-section13;
+firoh1:inSection	firos1:AML2007-section13;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -4301,12 +4340,14 @@ firos1:hasNum	firos1:AML2007-num13-9;
 
 
 
-firos1:AML2007-Interpretation56
+firos1:AML2007-Interpretation54
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section13-sub9;
+firoh1:inSubSection	firos1:AML2007-section13-sub9;
 
-purpose:inSection	firos1:AML2007-section13;
+firoh1:inSection	firos1:AML2007-section13;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -4408,30 +4449,6 @@ firos1:hasNum	firos1:AML2007-num14-b;
 
 
 
-firos1:AML2007-CustomerDueDiligence57
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section14-subb;
-
-purpose:inSection	firos1:AML2007-section14;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Interpretation58
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section14-subb;
-
-purpose:inSection	firos1:AML2007-section14;
-
-.
-
-
-
 firos1:AML2007-section14-c-HTMLblock66-p
 a firos1:p;
 
@@ -4474,30 +4491,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section14-subc-content;
 
 firos1:hasNum	firos1:AML2007-num14-c;
-
-.
-
-
-
-firos1:AML2007-CustomerDueDiligence59
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section14-subc;
-
-purpose:inSection	firos1:AML2007-section14;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Interpretation60
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section14-subc;
-
-purpose:inSection	firos1:AML2007-section14;
 
 .
 
@@ -4550,30 +4543,6 @@ firos1:hasNum	firos1:AML2007-num14-ii;
 
 
 
-firos1:AML2007-CustomerDueDiligence61
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section14-subii;
-
-purpose:inSection	firos1:AML2007-section14;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Interpretation62
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section14-subii;
-
-purpose:inSection	firos1:AML2007-section14;
-
-.
-
-
-
 firos1:AML2007-section14-c-HTMLblock68-p
 a firos1:p;
 
@@ -4621,17 +4590,6 @@ firos1:hasNum	firos1:AML2007-num14-c;
 
 
 
-firos1:AML2007-Interpretation63
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section14-subc;
-
-purpose:inSection	firos1:AML2007-section14;
-
-.
-
-
-
 firos1:AML2007-section14-c-HTMLblock69-p
 a firos1:p;
 
@@ -4674,6 +4632,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section14-subc-content;
 
 firos1:hasNum	firos1:AML2007-num14-c;
+
+.
+
+
+
+firos1:AML2007-Supervision55
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section14-subc;
+
+firoh1:inSection	firos1:AML2007-section14;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -4822,19 +4793,6 @@ firos1:hasNum	firos1:AML2007-num15-1;
 
 
 
-firos1:AML2007-CustomerDueDiligence64
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section15-sub1;
-
-purpose:inSection	firos1:AML2007-section15;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
 firos1:AML2007-section15-b-HTMLblock72-p
 a firos1:p;
 
@@ -4877,17 +4835,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section15-subb-content;
 
 firos1:hasNum	firos1:AML2007-num15-b;
-
-.
-
-
-
-firos1:AML2007-Interpretation65
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section15-subb;
-
-purpose:inSection	firos1:AML2007-section15;
 
 .
 
@@ -4940,23 +4887,12 @@ firos1:hasNum	firos1:AML2007-num15-b;
 
 
 
-firos1:AML2007-Interpretation66
+firos1:AML2007-Interpretation56
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section15-subb;
+firoh1:inSubSection	firos1:AML2007-section15-subb;
 
-purpose:inSection	firos1:AML2007-section15;
-
-.
-
-
-
-firos1:AML2007-Supervision67
-a firoh1:Supervision;
-
-purpose:inSubSection	firos1:AML2007-section15-subb;
-
-purpose:inSection	firos1:AML2007-section15;
+firoh1:inSection	firos1:AML2007-section15;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -5011,12 +4947,14 @@ firos1:hasNum	firos1:AML2007-num15-4;
 
 
 
-firos1:AML2007-Interpretation68
+firos1:AML2007-Interpretation57
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section15-sub4;
+firoh1:inSubSection	firos1:AML2007-section15-sub4;
 
-purpose:inSection	firos1:AML2007-section15;
+firoh1:inSection	firos1:AML2007-section15;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -5118,12 +5056,14 @@ firos1:hasNum	firos1:AML2007-num16-1;
 
 
 
-firos1:AML2007-Interpretation69
+firos1:AML2007-Interpretation58
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section16-sub1;
+firoh1:inSubSection	firos1:AML2007-section16-sub1;
 
-purpose:inSection	firos1:AML2007-section16;
+firoh1:inSection	firos1:AML2007-section16;
+
+firoh1:hasModality	firos1:AML2007-Prohibition;
 
 .
 
@@ -5223,25 +5163,14 @@ firos1:hasNum	firos1:AML2007-num16-3;
 
 
 
-firos1:AML2007-CustomerDueDiligence70
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section16-sub3;
-
-purpose:inSection	firos1:AML2007-section16;
-
-firoh1:hasModality	firos1:AML2007-Prohibition;
-
-.
-
-
-
-firos1:AML2007-Interpretation71
+firos1:AML2007-Interpretation59
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section16-sub3;
+firoh1:inSubSection	firos1:AML2007-section16-sub3;
 
-purpose:inSection	firos1:AML2007-section16;
+firoh1:inSection	firos1:AML2007-section16;
+
+firoh1:hasModality	firos1:AML2007-Prohibition;
 
 .
 
@@ -5294,12 +5223,12 @@ firos1:hasNum	firos1:AML2007-num16-4;
 
 
 
-firos1:AML2007-CustomerDueDiligence72
-a firoh1:CustomerDueDiligence;
+firos1:AML2007-Interpretation60
+a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section16-sub4;
+firoh1:inSubSection	firos1:AML2007-section16-sub4;
 
-purpose:inSection	firos1:AML2007-section16;
+firoh1:inSection	firos1:AML2007-section16;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -5354,6 +5283,19 @@ firos1:hasNum	firos1:AML2007-num16-5;
 
 
 
+firos1:AML2007-Interpretation61
+a firoh1:Interpretation;
+
+firoh1:inSubSection	firos1:AML2007-section16-sub5;
+
+firoh1:inSection	firos1:AML2007-section16;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section16-6-HTMLblock80-p
 a firos1:p;
 
@@ -5401,12 +5343,27 @@ firos1:hasNum	firos1:AML2007-num16-6;
 
 
 
-firos1:AML2007-Interpretation73
+firos1:AML2007-Interpretation62
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section16-sub6;
+firoh1:inSubSection	firos1:AML2007-section16-sub6;
 
-purpose:inSection	firos1:AML2007-section16;
+firoh1:inSection	firos1:AML2007-section16;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
+firos1:AML2007-Supervision63
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section16-sub6;
+
+firoh1:inSection	firos1:AML2007-section16;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -5508,30 +5465,6 @@ firos1:hasNum	firos1:AML2007-num17-b;
 
 
 
-firos1:AML2007-CustomerDueDiligence74
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section17-subb;
-
-purpose:inSection	firos1:AML2007-section17;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Interpretation75
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section17-subb;
-
-purpose:inSection	firos1:AML2007-section17;
-
-.
-
-
-
 firos1:AML2007-section17-iv-HTMLblock82-p
 a firos1:p;
 
@@ -5579,12 +5512,14 @@ firos1:hasNum	firos1:AML2007-num17-iv;
 
 
 
-firos1:AML2007-Interpretation76
+firos1:AML2007-Interpretation64
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section17-subiv;
+firoh1:inSubSection	firos1:AML2007-section17-subiv;
 
-purpose:inSection	firos1:AML2007-section17;
+firoh1:inSection	firos1:AML2007-section17;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -5637,12 +5572,14 @@ firos1:hasNum	firos1:AML2007-num17-3;
 
 
 
-firos1:AML2007-Interpretation77
-a firoh1:Interpretation;
+firos1:AML2007-Supervision65
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section17-sub3;
+firoh1:inSubSection	firos1:AML2007-section17-sub3;
 
-purpose:inSection	firos1:AML2007-section17;
+firoh1:inSection	firos1:AML2007-section17;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -5695,17 +5632,6 @@ firos1:hasNum	firos1:AML2007-num17-4;
 
 
 
-firos1:AML2007-Interpretation78
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section17-sub4;
-
-purpose:inSection	firos1:AML2007-section17;
-
-.
-
-
-
 firos1:AML2007-section17-5-HTMLblock85-p
 a firos1:p;
 
@@ -5753,12 +5679,14 @@ firos1:hasNum	firos1:AML2007-num17-5;
 
 
 
-firos1:AML2007-Interpretation79
+firos1:AML2007-Interpretation66
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section17-sub5;
+firoh1:inSubSection	firos1:AML2007-section17-sub5;
 
-purpose:inSection	firos1:AML2007-section17;
+firoh1:inSection	firos1:AML2007-section17;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -5907,17 +5835,6 @@ firos1:hasNum	firos1:AML2007-num19-1;
 
 
 
-firos1:AML2007-Interpretation80
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section19-sub1;
-
-purpose:inSection	firos1:AML2007-section19;
-
-.
-
-
-
 firos1:AML2007-section19-b-HTMLblock87-p
 a firos1:p;
 
@@ -5965,30 +5882,6 @@ firos1:hasNum	firos1:AML2007-num19-b;
 
 
 
-firos1:AML2007-CustomerDueDiligence81
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section19-subb;
-
-purpose:inSection	firos1:AML2007-section19;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Interpretation82
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section19-subb;
-
-purpose:inSection	firos1:AML2007-section19;
-
-.
-
-
-
 firos1:AML2007-section19-ii-HTMLblock88-p
 a firos1:p;
 
@@ -6031,17 +5924,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section19-subii-content;
 
 firos1:hasNum	firos1:AML2007-num19-ii;
-
-.
-
-
-
-firos1:AML2007-Interpretation83
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section19-subii;
-
-purpose:inSection	firos1:AML2007-section19;
 
 .
 
@@ -6141,19 +6023,6 @@ firos1:hasNum	firos1:AML2007-num19-b;
 
 
 
-firos1:AML2007-CustomerDueDiligence84
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section19-subb;
-
-purpose:inSection	firos1:AML2007-section19;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
 firos1:AML2007-section19-b-HTMLblock91-p
 a firos1:p;
 
@@ -6196,30 +6065,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section19-subb-content;
 
 firos1:hasNum	firos1:AML2007-num19-b;
-
-.
-
-
-
-firos1:AML2007-CustomerDueDiligence85
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section19-subb;
-
-purpose:inSection	firos1:AML2007-section19;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Interpretation86
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section19-subb;
-
-purpose:inSection	firos1:AML2007-section19;
 
 .
 
@@ -6272,12 +6117,14 @@ firos1:hasNum	firos1:AML2007-num19-7;
 
 
 
-firos1:AML2007-Interpretation87
+firos1:AML2007-Interpretation67
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section19-sub7;
+firoh1:inSubSection	firos1:AML2007-section19-sub7;
 
-purpose:inSection	firos1:AML2007-section19;
+firoh1:inSection	firos1:AML2007-section19;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -6330,12 +6177,14 @@ firos1:hasNum	firos1:AML2007-num19-8;
 
 
 
-firos1:AML2007-Interpretation88
-a firoh1:Interpretation;
+firos1:AML2007-Supervision68
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section19-sub8;
+firoh1:inSubSection	firos1:AML2007-section19-sub8;
 
-purpose:inSection	firos1:AML2007-section19;
+firoh1:inSection	firos1:AML2007-section19;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -6437,30 +6286,6 @@ firos1:hasNum	firos1:AML2007-num20-f;
 
 
 
-firos1:AML2007-CustomerDueDiligence89
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section20-subf;
-
-purpose:inSection	firos1:AML2007-section20;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Interpretation90
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section20-subf;
-
-purpose:inSection	firos1:AML2007-section20;
-
-.
-
-
-
 firos1:AML2007-section20-iii-HTMLblock95-p
 a firos1:p;
 
@@ -6503,19 +6328,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section20-subiii-content;
 
 firos1:hasNum	firos1:AML2007-num20-iii;
-
-.
-
-
-
-firos1:AML2007-CustomerDueDiligence91
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section20-subiii;
-
-purpose:inSection	firos1:AML2007-section20;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -6568,6 +6380,19 @@ firos1:hasNum	firos1:AML2007-num20-3;
 
 
 
+firos1:AML2007-Supervision69
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section20-sub3;
+
+firoh1:inSection	firos1:AML2007-section20;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section20-b-HTMLblock97-p
 a firos1:p;
 
@@ -6615,23 +6440,12 @@ firos1:hasNum	firos1:AML2007-num20-b;
 
 
 
-firos1:AML2007-Interpretation92
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section20-subb;
-
-purpose:inSection	firos1:AML2007-section20;
-
-.
-
-
-
-firos1:AML2007-Supervision93
+firos1:AML2007-Supervision70
 a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section20-subb;
+firoh1:inSubSection	firos1:AML2007-section20-subb;
 
-purpose:inSection	firos1:AML2007-section20;
+firoh1:inSection	firos1:AML2007-section20;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -6733,12 +6547,14 @@ firos1:hasNum	firos1:AML2007-num20-6;
 
 
 
-firos1:AML2007-Interpretation94
+firos1:AML2007-Interpretation71
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section20-sub6;
+firoh1:inSubSection	firos1:AML2007-section20-sub6;
 
-purpose:inSection	firos1:AML2007-section20;
+firoh1:inSection	firos1:AML2007-section20;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -6887,23 +6703,25 @@ firos1:hasNum	firos1:AML2007-num22-1;
 
 
 
-firos1:AML2007-Interpretation95
+firos1:AML2007-Interpretation72
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section22-sub1;
+firoh1:inSubSection	firos1:AML2007-section22-sub1;
 
-purpose:inSection	firos1:AML2007-section22;
+firoh1:inSection	firos1:AML2007-section22;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
 
 
-firos1:AML2007-Supervision96
+firos1:AML2007-Supervision73
 a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section22-sub1;
+firoh1:inSubSection	firos1:AML2007-section22-sub1;
 
-purpose:inSection	firos1:AML2007-section22;
+firoh1:inSection	firos1:AML2007-section22;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -6958,12 +6776,27 @@ firos1:hasNum	firos1:AML2007-num22-2;
 
 
 
-firos1:AML2007-Interpretation97
+firos1:AML2007-Interpretation74
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section22-sub2;
+firoh1:inSubSection	firos1:AML2007-section22-sub2;
 
-purpose:inSection	firos1:AML2007-section22;
+firoh1:inSection	firos1:AML2007-section22;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
+firos1:AML2007-Supervision75
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section22-sub2;
+
+firoh1:inSection	firos1:AML2007-section22;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -7065,23 +6898,25 @@ firos1:hasNum	firos1:AML2007-num23-g;
 
 
 
-firos1:AML2007-Interpretation98
+firos1:AML2007-Interpretation76
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section23-subg;
+firoh1:inSubSection	firos1:AML2007-section23-subg;
 
-purpose:inSection	firos1:AML2007-section23;
+firoh1:inSection	firos1:AML2007-section23;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
 
 
-firos1:AML2007-Supervision99
+firos1:AML2007-Supervision77
 a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section23-subg;
+firoh1:inSubSection	firos1:AML2007-section23-subg;
 
-purpose:inSection	firos1:AML2007-section23;
+firoh1:inSection	firos1:AML2007-section23;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -7136,6 +6971,19 @@ firos1:hasNum	firos1:AML2007-num23-2;
 
 
 
+firos1:AML2007-Supervision78
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section23-sub2;
+
+firoh1:inSection	firos1:AML2007-section23;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section23-3-HTMLblock104-p
 a firos1:p;
 
@@ -7183,23 +7031,12 @@ firos1:hasNum	firos1:AML2007-num23-3;
 
 
 
-firos1:AML2007-Interpretation100
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section23-sub3;
-
-purpose:inSection	firos1:AML2007-section23;
-
-.
-
-
-
-firos1:AML2007-Supervision101
+firos1:AML2007-Supervision79
 a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section23-sub3;
+firoh1:inSubSection	firos1:AML2007-section23-sub3;
 
-purpose:inSection	firos1:AML2007-section23;
+firoh1:inSection	firos1:AML2007-section23;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -7254,12 +7091,14 @@ firos1:hasNum	firos1:AML2007-num23-4;
 
 
 
-firos1:AML2007-Interpretation102
-a firoh1:Interpretation;
+firos1:AML2007-Supervision80
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section23-sub4;
+firoh1:inSubSection	firos1:AML2007-section23-sub4;
 
-purpose:inSection	firos1:AML2007-section23;
+firoh1:inSection	firos1:AML2007-section23;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -7361,6 +7200,19 @@ firos1:hasNum	firos1:AML2007-num24-1;
 
 
 
+firos1:AML2007-Supervision81
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section24-sub1;
+
+firoh1:inSection	firos1:AML2007-section24;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section24-2-HTMLblock107-p
 a firos1:p;
 
@@ -7408,12 +7260,12 @@ firos1:hasNum	firos1:AML2007-num24-2;
 
 
 
-firos1:AML2007-Supervision103
+firos1:AML2007-Supervision82
 a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section24-sub2;
+firoh1:inSubSection	firos1:AML2007-section24-sub2;
 
-purpose:inSection	firos1:AML2007-section24;
+firoh1:inSection	firos1:AML2007-section24;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -7468,6 +7320,19 @@ firos1:hasNum	firos1:AML2007-num24-3;
 
 
 
+firos1:AML2007-Supervision83
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section24-sub3;
+
+firoh1:inSection	firos1:AML2007-section24;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section24-4-HTMLblock109-p
 a firos1:p;
 
@@ -7515,12 +7380,27 @@ firos1:hasNum	firos1:AML2007-num24-4;
 
 
 
-firos1:AML2007-Interpretation104
+firos1:AML2007-Interpretation84
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section24-sub4;
+firoh1:inSubSection	firos1:AML2007-section24-sub4;
 
-purpose:inSection	firos1:AML2007-section24;
+firoh1:inSection	firos1:AML2007-section24;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
+firos1:AML2007-Supervision85
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section24-sub4;
+
+firoh1:inSection	firos1:AML2007-section24;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -7622,6 +7502,19 @@ firos1:hasNum	firos1:AML2007-num25-c;
 
 
 
+firos1:AML2007-Supervision86
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section25-subc;
+
+firoh1:inSection	firos1:AML2007-section25;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section25-2-HTMLblock111-p
 a firos1:p;
 
@@ -7669,12 +7562,14 @@ firos1:hasNum	firos1:AML2007-num25-2;
 
 
 
-firos1:AML2007-Interpretation105
+firos1:AML2007-Interpretation87
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section25-sub2;
+firoh1:inSubSection	firos1:AML2007-section25-sub2;
 
-purpose:inSection	firos1:AML2007-section25;
+firoh1:inSection	firos1:AML2007-section25;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -7727,23 +7622,12 @@ firos1:hasNum	firos1:AML2007-num25-3;
 
 
 
-firos1:AML2007-Interpretation106
-a firoh1:Interpretation;
+firos1:AML2007-Supervision88
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section25-sub3;
+firoh1:inSubSection	firos1:AML2007-section25-sub3;
 
-purpose:inSection	firos1:AML2007-section25;
-
-.
-
-
-
-firos1:AML2007-Registration107
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section25-sub3;
-
-purpose:inSection	firos1:AML2007-section25;
+firoh1:inSection	firos1:AML2007-section25;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -7847,12 +7731,12 @@ firos1:hasNum	firos1:AML2007-num26-c;
 
 
 
-firos1:AML2007-Registration108
-a firoh1:Registration;
+firos1:AML2007-Supervision89
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section26-subc;
+firoh1:inSubSection	firos1:AML2007-section26-subc;
 
-purpose:inSection	firos1:AML2007-section26;
+firoh1:inSection	firos1:AML2007-section26;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -7902,6 +7786,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section26-sub2-content;
 
 firos1:hasNum	firos1:AML2007-num26-2;
+
+.
+
+
+
+firos1:AML2007-Interpretation90
+a firoh1:Interpretation;
+
+firoh1:inSubSection	firos1:AML2007-section26-sub2;
+
+firoh1:inSection	firos1:AML2007-section26;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -8003,23 +7900,12 @@ firos1:hasNum	firos1:AML2007-num27-1;
 
 
 
-firos1:AML2007-Interpretation109
-a firoh1:Interpretation;
+firos1:AML2007-Supervision91
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section27-sub1;
+firoh1:inSubSection	firos1:AML2007-section27-sub1;
 
-purpose:inSection	firos1:AML2007-section27;
-
-.
-
-
-
-firos1:AML2007-Registration110
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section27-sub1;
-
-purpose:inSection	firos1:AML2007-section27;
+firoh1:inSection	firos1:AML2007-section27;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -8074,12 +7960,14 @@ firos1:hasNum	firos1:AML2007-num27-ii;
 
 
 
-firos1:AML2007-Interpretation111
-a firoh1:Interpretation;
+firos1:AML2007-Supervision92
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section27-subii;
+firoh1:inSubSection	firos1:AML2007-section27-subii;
 
-purpose:inSection	firos1:AML2007-section27;
+firoh1:inSection	firos1:AML2007-section27;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -8132,12 +8020,14 @@ firos1:hasNum	firos1:AML2007-num27-3;
 
 
 
-firos1:AML2007-Interpretation112
+firos1:AML2007-Interpretation93
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section27-sub3;
+firoh1:inSubSection	firos1:AML2007-section27-sub3;
 
-purpose:inSection	firos1:AML2007-section27;
+firoh1:inSection	firos1:AML2007-section27;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -8190,6 +8080,19 @@ firos1:hasNum	firos1:AML2007-num27-b;
 
 
 
+firos1:AML2007-Supervision94
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section27-subb;
+
+firoh1:inSection	firos1:AML2007-section27;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section27-5-HTMLblock119-p
 a firos1:p;
 
@@ -8237,12 +8140,14 @@ firos1:hasNum	firos1:AML2007-num27-5;
 
 
 
-firos1:AML2007-Interpretation113
+firos1:AML2007-Interpretation95
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section27-sub5;
+firoh1:inSubSection	firos1:AML2007-section27-sub5;
 
-purpose:inSection	firos1:AML2007-section27;
+firoh1:inSection	firos1:AML2007-section27;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -8295,12 +8200,14 @@ firos1:hasNum	firos1:AML2007-num27-6;
 
 
 
-firos1:AML2007-Interpretation114
-a firoh1:Interpretation;
+firos1:AML2007-Supervision96
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section27-sub6;
+firoh1:inSubSection	firos1:AML2007-section27-sub6;
 
-purpose:inSection	firos1:AML2007-section27;
+firoh1:inSection	firos1:AML2007-section27;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -8402,23 +8309,12 @@ firos1:hasNum	firos1:AML2007-num28-d;
 
 
 
-firos1:AML2007-Interpretation115
-a firoh1:Interpretation;
+firos1:AML2007-Supervision97
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section28-subd;
+firoh1:inSubSection	firos1:AML2007-section28-subd;
 
-purpose:inSection	firos1:AML2007-section28;
-
-.
-
-
-
-firos1:AML2007-Registration116
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section28-subd;
-
-purpose:inSection	firos1:AML2007-section28;
+firoh1:inSection	firos1:AML2007-section28;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -8473,23 +8369,25 @@ firos1:hasNum	firos1:AML2007-num28-h;
 
 
 
-firos1:AML2007-Interpretation117
+firos1:AML2007-Interpretation98
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section28-subh;
+firoh1:inSubSection	firos1:AML2007-section28-subh;
 
-purpose:inSection	firos1:AML2007-section28;
+firoh1:inSection	firos1:AML2007-section28;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
 
 
-firos1:AML2007-Supervision118
+firos1:AML2007-Supervision99
 a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section28-subh;
+firoh1:inSubSection	firos1:AML2007-section28-subh;
 
-purpose:inSection	firos1:AML2007-section28;
+firoh1:inSection	firos1:AML2007-section28;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -8539,17 +8437,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section28-sub3-content;
 
 firos1:hasNum	firos1:AML2007-num28-3;
-
-.
-
-
-
-firos1:AML2007-Interpretation119
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section28-sub3;
-
-purpose:inSection	firos1:AML2007-section28;
 
 .
 
@@ -8651,12 +8538,12 @@ firos1:hasNum	firos1:AML2007-num29-c;
 
 
 
-firos1:AML2007-Registration120
-a firoh1:Registration;
+firos1:AML2007-Supervision100
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section29-subc;
+firoh1:inSubSection	firos1:AML2007-section29-subc;
 
-purpose:inSection	firos1:AML2007-section29;
+firoh1:inSection	firos1:AML2007-section29;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -8711,23 +8598,12 @@ firos1:hasNum	firos1:AML2007-num29-iv;
 
 
 
-firos1:AML2007-Interpretation121
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section29-subiv;
-
-purpose:inSection	firos1:AML2007-section29;
-
-.
-
-
-
-firos1:AML2007-Supervision122
+firos1:AML2007-Supervision101
 a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section29-subiv;
+firoh1:inSubSection	firos1:AML2007-section29-subiv;
 
-purpose:inSection	firos1:AML2007-section29;
+firoh1:inSection	firos1:AML2007-section29;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -8782,23 +8658,12 @@ firos1:hasNum	firos1:AML2007-num29-3;
 
 
 
-firos1:AML2007-Interpretation123
-a firoh1:Interpretation;
+firos1:AML2007-Supervision102
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section29-sub3;
+firoh1:inSubSection	firos1:AML2007-section29-sub3;
 
-purpose:inSection	firos1:AML2007-section29;
-
-.
-
-
-
-firos1:AML2007-Registration124
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section29-sub3;
-
-purpose:inSection	firos1:AML2007-section29;
+firoh1:inSection	firos1:AML2007-section29;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -8902,6 +8767,19 @@ firos1:hasNum	firos1:AML2007-num30-1;
 
 
 
+firos1:AML2007-Supervision103
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section30-sub1;
+
+firoh1:inSection	firos1:AML2007-section30;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section30-2-HTMLblock128-p
 a firos1:p;
 
@@ -8949,23 +8827,12 @@ firos1:hasNum	firos1:AML2007-num30-2;
 
 
 
-firos1:AML2007-Interpretation125
-a firoh1:Interpretation;
+firos1:AML2007-Supervision104
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section30-sub2;
+firoh1:inSubSection	firos1:AML2007-section30-sub2;
 
-purpose:inSection	firos1:AML2007-section30;
-
-.
-
-
-
-firos1:AML2007-Registration126
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section30-sub2;
-
-purpose:inSection	firos1:AML2007-section30;
+firoh1:inSection	firos1:AML2007-section30;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -9020,23 +8887,12 @@ firos1:hasNum	firos1:AML2007-num30-d;
 
 
 
-firos1:AML2007-Interpretation127
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section30-subd;
-
-purpose:inSection	firos1:AML2007-section30;
-
-.
-
-
-
-firos1:AML2007-Supervision128
+firos1:AML2007-Supervision105
 a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section30-subd;
+firoh1:inSubSection	firos1:AML2007-section30-subd;
 
-purpose:inSection	firos1:AML2007-section30;
+firoh1:inSection	firos1:AML2007-section30;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -9086,17 +8942,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section30-subb-content;
 
 firos1:hasNum	firos1:AML2007-num30-b;
-
-.
-
-
-
-firos1:AML2007-Interpretation129
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section30-subb;
-
-purpose:inSection	firos1:AML2007-section30;
 
 .
 
@@ -9198,6 +9043,19 @@ firos1:hasNum	firos1:AML2007-num31-1;
 
 
 
+firos1:AML2007-Supervision106
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section31-sub1;
+
+firoh1:inSection	firos1:AML2007-section31;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section31-b-HTMLblock132-p
 a firos1:p;
 
@@ -9240,6 +9098,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section31-subb-content;
 
 firos1:hasNum	firos1:AML2007-num31-b;
+
+.
+
+
+
+firos1:AML2007-Supervision107
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section31-subb;
+
+firoh1:inSection	firos1:AML2007-section31;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -9292,6 +9163,19 @@ firos1:hasNum	firos1:AML2007-num31-3;
 
 
 
+firos1:AML2007-Supervision108
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section31-sub3;
+
+firoh1:inSection	firos1:AML2007-section31;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section31-4-HTMLblock134-p
 a firos1:p;
 
@@ -9334,6 +9218,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section31-sub4-content;
 
 firos1:hasNum	firos1:AML2007-num31-4;
+
+.
+
+
+
+firos1:AML2007-Supervision109
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section31-sub4;
+
+firoh1:inSection	firos1:AML2007-section31;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -9386,12 +9283,14 @@ firos1:hasNum	firos1:AML2007-num31-5;
 
 
 
-firos1:AML2007-Interpretation130
-a firoh1:Interpretation;
+firos1:AML2007-Supervision110
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section31-sub5;
+firoh1:inSubSection	firos1:AML2007-section31-sub5;
 
-purpose:inSection	firos1:AML2007-section31;
+firoh1:inSection	firos1:AML2007-section31;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -9493,23 +9392,12 @@ firos1:hasNum	firos1:AML2007-num32-1;
 
 
 
-firos1:AML2007-Interpretation131
-a firoh1:Interpretation;
+firos1:AML2007-Supervision111
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section32-sub1;
+firoh1:inSubSection	firos1:AML2007-section32-sub1;
 
-purpose:inSection	firos1:AML2007-section32;
-
-.
-
-
-
-firos1:AML2007-Registration132
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section32-sub1;
-
-purpose:inSection	firos1:AML2007-section32;
+firoh1:inSection	firos1:AML2007-section32;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -9564,23 +9452,25 @@ firos1:hasNum	firos1:AML2007-num32-2;
 
 
 
-firos1:AML2007-Interpretation133
+firos1:AML2007-Interpretation112
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section32-sub2;
+firoh1:inSubSection	firos1:AML2007-section32-sub2;
 
-purpose:inSection	firos1:AML2007-section32;
+firoh1:inSection	firos1:AML2007-section32;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
 
 
-firos1:AML2007-Registration134
-a firoh1:Registration;
+firos1:AML2007-Supervision113
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section32-sub2;
+firoh1:inSubSection	firos1:AML2007-section32-sub2;
 
-purpose:inSection	firos1:AML2007-section32;
+firoh1:inSection	firos1:AML2007-section32;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -9635,12 +9525,14 @@ firos1:hasNum	firos1:AML2007-num32-b;
 
 
 
-firos1:AML2007-Interpretation135
+firos1:AML2007-Interpretation114
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section32-subb;
+firoh1:inSubSection	firos1:AML2007-section32-subb;
 
-purpose:inSection	firos1:AML2007-section32;
+firoh1:inSection	firos1:AML2007-section32;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -9693,6 +9585,32 @@ firos1:hasNum	firos1:AML2007-num32-c;
 
 
 
+firos1:AML2007-Interpretation115
+a firoh1:Interpretation;
+
+firoh1:inSubSection	firos1:AML2007-section32-subc;
+
+firoh1:inSection	firos1:AML2007-section32;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
+firos1:AML2007-Supervision116
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section32-subc;
+
+firoh1:inSection	firos1:AML2007-section32;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section32-5-HTMLblock140-p
 a firos1:p;
 
@@ -9740,12 +9658,12 @@ firos1:hasNum	firos1:AML2007-num32-5;
 
 
 
-firos1:AML2007-Registration136
-a firoh1:Registration;
+firos1:AML2007-Supervision117
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section32-sub5;
+firoh1:inSubSection	firos1:AML2007-section32-sub5;
 
-purpose:inSection	firos1:AML2007-section32;
+firoh1:inSection	firos1:AML2007-section32;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -9800,23 +9718,12 @@ firos1:hasNum	firos1:AML2007-num32-6;
 
 
 
-firos1:AML2007-Interpretation137
-a firoh1:Interpretation;
+firos1:AML2007-Supervision118
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section32-sub6;
+firoh1:inSubSection	firos1:AML2007-section32-sub6;
 
-purpose:inSection	firos1:AML2007-section32;
-
-.
-
-
-
-firos1:AML2007-Registration138
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section32-sub6;
-
-purpose:inSection	firos1:AML2007-section32;
+firoh1:inSection	firos1:AML2007-section32;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -9871,23 +9778,12 @@ firos1:hasNum	firos1:AML2007-num32-7;
 
 
 
-firos1:AML2007-Interpretation139
-a firoh1:Interpretation;
+firos1:AML2007-Supervision119
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section32-sub7;
+firoh1:inSubSection	firos1:AML2007-section32-sub7;
 
-purpose:inSection	firos1:AML2007-section32;
-
-.
-
-
-
-firos1:AML2007-Registration140
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section32-sub7;
-
-purpose:inSection	firos1:AML2007-section32;
+firoh1:inSection	firos1:AML2007-section32;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -10038,23 +9934,25 @@ firos1:hasNum	firos1:AML2007-num34-1;
 
 
 
-firos1:AML2007-Interpretation141
+firos1:AML2007-Interpretation120
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section34-sub1;
+firoh1:inSubSection	firos1:AML2007-section34-sub1;
 
-purpose:inSection	firos1:AML2007-section34;
+firoh1:inSection	firos1:AML2007-section34;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
 
 
-firos1:AML2007-Registration142
-a firoh1:Registration;
+firos1:AML2007-Supervision121
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section34-sub1;
+firoh1:inSubSection	firos1:AML2007-section34-sub1;
 
-purpose:inSection	firos1:AML2007-section34;
+firoh1:inSection	firos1:AML2007-section34;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -10109,12 +10007,12 @@ firos1:hasNum	firos1:AML2007-num34-2;
 
 
 
-firos1:AML2007-Registration143
-a firoh1:Registration;
+firos1:AML2007-Supervision122
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section34-sub2;
+firoh1:inSubSection	firos1:AML2007-section34-sub2;
 
-purpose:inSection	firos1:AML2007-section34;
+firoh1:inSection	firos1:AML2007-section34;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -10169,12 +10067,12 @@ firos1:hasNum	firos1:AML2007-num34-c;
 
 
 
-firos1:AML2007-Registration144
-a firoh1:Registration;
+firos1:AML2007-Supervision123
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section34-subc;
+firoh1:inSubSection	firos1:AML2007-section34-subc;
 
-purpose:inSection	firos1:AML2007-section34;
+firoh1:inSection	firos1:AML2007-section34;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -10229,12 +10127,12 @@ firos1:hasNum	firos1:AML2007-num34-iii;
 
 
 
-firos1:AML2007-Supervision145
+firos1:AML2007-Supervision124
 a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section34-subiii;
+firoh1:inSubSection	firos1:AML2007-section34-subiii;
 
-purpose:inSection	firos1:AML2007-section34;
+firoh1:inSection	firos1:AML2007-section34;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -10289,12 +10187,14 @@ firos1:hasNum	firos1:AML2007-num34-iii;
 
 
 
-firos1:AML2007-Interpretation146
-a firoh1:Interpretation;
+firos1:AML2007-Supervision125
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section34-subiii;
+firoh1:inSubSection	firos1:AML2007-section34-subiii;
 
-purpose:inSection	firos1:AML2007-section34;
+firoh1:inSection	firos1:AML2007-section34;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -10347,23 +10247,12 @@ firos1:hasNum	firos1:AML2007-num34-6;
 
 
 
-firos1:AML2007-Interpretation147
-a firoh1:Interpretation;
+firos1:AML2007-Supervision126
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section34-sub6;
+firoh1:inSubSection	firos1:AML2007-section34-sub6;
 
-purpose:inSection	firos1:AML2007-section34;
-
-.
-
-
-
-firos1:AML2007-Registration148
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section34-sub6;
-
-purpose:inSection	firos1:AML2007-section34;
+firoh1:inSection	firos1:AML2007-section34;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -10418,23 +10307,12 @@ firos1:hasNum	firos1:AML2007-num34-7;
 
 
 
-firos1:AML2007-Interpretation149
-a firoh1:Interpretation;
+firos1:AML2007-Supervision127
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section34-sub7;
+firoh1:inSubSection	firos1:AML2007-section34-sub7;
 
-purpose:inSection	firos1:AML2007-section34;
-
-.
-
-
-
-firos1:AML2007-Registration150
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section34-sub7;
-
-purpose:inSection	firos1:AML2007-section34;
+firoh1:inSection	firos1:AML2007-section34;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -10489,17 +10367,6 @@ firos1:hasNum	firos1:AML2007-num34-c;
 
 
 
-firos1:AML2007-Interpretation151
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section34-subc;
-
-purpose:inSection	firos1:AML2007-section34;
-
-.
-
-
-
 firos1:AML2007-section34-iii-HTMLblock151-p
 a firos1:p;
 
@@ -10547,23 +10414,12 @@ firos1:hasNum	firos1:AML2007-num34-iii;
 
 
 
-firos1:AML2007-Interpretation152
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section34-subiii;
-
-purpose:inSection	firos1:AML2007-section34;
-
-.
-
-
-
-firos1:AML2007-Supervision153
+firos1:AML2007-Supervision128
 a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section34-subiii;
+firoh1:inSubSection	firos1:AML2007-section34-subiii;
 
-purpose:inSection	firos1:AML2007-section34;
+firoh1:inSection	firos1:AML2007-section34;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -10618,12 +10474,14 @@ firos1:hasNum	firos1:AML2007-num34-b;
 
 
 
-firos1:AML2007-Interpretation154
-a firoh1:Interpretation;
+firos1:AML2007-Supervision129
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section34-subb;
+firoh1:inSubSection	firos1:AML2007-section34-subb;
 
-purpose:inSection	firos1:AML2007-section34;
+firoh1:inSection	firos1:AML2007-section34;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -10671,6 +10529,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section34-sub11-content;
 
 firos1:hasNum	firos1:AML2007-num34-11;
+
+.
+
+
+
+firos1:AML2007-Interpretation130
+a firoh1:Interpretation;
+
+firoh1:inSubSection	firos1:AML2007-section34-sub11;
+
+firoh1:inSection	firos1:AML2007-section34;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -10772,12 +10643,14 @@ firos1:hasNum	firos1:AML2007-num35-b;
 
 
 
-firos1:AML2007-Interpretation155
+firos1:AML2007-Interpretation131
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section35-subb;
+firoh1:inSubSection	firos1:AML2007-section35-subb;
 
-purpose:inSection	firos1:AML2007-section35;
+firoh1:inSection	firos1:AML2007-section35;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -10830,12 +10703,14 @@ firos1:hasNum	firos1:AML2007-num35-2;
 
 
 
-firos1:AML2007-Interpretation156
-a firoh1:Interpretation;
+firos1:AML2007-Supervision132
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section35-sub2;
+firoh1:inSubSection	firos1:AML2007-section35-sub2;
 
-purpose:inSection	firos1:AML2007-section35;
+firoh1:inSection	firos1:AML2007-section35;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -10888,12 +10763,14 @@ firos1:hasNum	firos1:AML2007-num35-3;
 
 
 
-firos1:AML2007-Interpretation157
-a firoh1:Interpretation;
+firos1:AML2007-Supervision133
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section35-sub3;
+firoh1:inSubSection	firos1:AML2007-section35-sub3;
 
-purpose:inSection	firos1:AML2007-section35;
+firoh1:inSection	firos1:AML2007-section35;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -10946,12 +10823,14 @@ firos1:hasNum	firos1:AML2007-num35-4;
 
 
 
-firos1:AML2007-Interpretation158
-a firoh1:Interpretation;
+firos1:AML2007-Supervision134
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section35-sub4;
+firoh1:inSubSection	firos1:AML2007-section35-sub4;
 
-purpose:inSection	firos1:AML2007-section35;
+firoh1:inSection	firos1:AML2007-section35;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -11004,12 +10883,14 @@ firos1:hasNum	firos1:AML2007-num35-b;
 
 
 
-firos1:AML2007-Interpretation159
+firos1:AML2007-Interpretation135
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section35-subb;
+firoh1:inSubSection	firos1:AML2007-section35-subb;
 
-purpose:inSection	firos1:AML2007-section35;
+firoh1:inSection	firos1:AML2007-section35;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -11158,12 +11039,14 @@ firos1:hasNum	firos1:AML2007-num37-c;
 
 
 
-firos1:AML2007-Interpretation160
-a firoh1:Interpretation;
+firos1:AML2007-Supervision136
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section37-subc;
+firoh1:inSubSection	firos1:AML2007-section37-subc;
 
-purpose:inSection	firos1:AML2007-section37;
+firoh1:inSection	firos1:AML2007-section37;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -11216,6 +11099,19 @@ firos1:hasNum	firos1:AML2007-num37-2;
 
 
 
+firos1:AML2007-Supervision137
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section37-sub2;
+
+firoh1:inSection	firos1:AML2007-section37;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section37-3-HTMLblock161-p
 a firos1:p;
 
@@ -11258,6 +11154,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section37-sub3-content;
 
 firos1:hasNum	firos1:AML2007-num37-3;
+
+.
+
+
+
+firos1:AML2007-Supervision138
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section37-sub3;
+
+firoh1:inSection	firos1:AML2007-section37;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -11310,17 +11219,6 @@ firos1:hasNum	firos1:AML2007-num37-ii;
 
 
 
-firos1:AML2007-Interpretation161
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section37-subii;
-
-purpose:inSection	firos1:AML2007-section37;
-
-.
-
-
-
 firos1:AML2007-section37-5-HTMLblock163-p
 a firos1:p;
 
@@ -11368,12 +11266,14 @@ firos1:hasNum	firos1:AML2007-num37-5;
 
 
 
-firos1:AML2007-Interpretation162
+firos1:AML2007-Interpretation139
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section37-sub5;
+firoh1:inSubSection	firos1:AML2007-section37-sub5;
 
-purpose:inSection	firos1:AML2007-section37;
+firoh1:inSection	firos1:AML2007-section37;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -11426,12 +11326,14 @@ firos1:hasNum	firos1:AML2007-num37-6;
 
 
 
-firos1:AML2007-Interpretation163
+firos1:AML2007-Interpretation140
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section37-sub6;
+firoh1:inSubSection	firos1:AML2007-section37-sub6;
 
-purpose:inSection	firos1:AML2007-section37;
+firoh1:inSection	firos1:AML2007-section37;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -11484,23 +11386,12 @@ firos1:hasNum	firos1:AML2007-num37-7;
 
 
 
-firos1:AML2007-Interpretation164
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section37-sub7;
-
-purpose:inSection	firos1:AML2007-section37;
-
-.
-
-
-
-firos1:AML2007-Supervision165
+firos1:AML2007-Supervision141
 a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section37-sub7;
+firoh1:inSubSection	firos1:AML2007-section37-sub7;
 
-purpose:inSection	firos1:AML2007-section37;
+firoh1:inSection	firos1:AML2007-section37;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -11555,6 +11446,19 @@ firos1:hasNum	firos1:AML2007-num37-8;
 
 
 
+firos1:AML2007-Supervision142
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section37-sub8;
+
+firoh1:inSection	firos1:AML2007-section37;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section37-b-HTMLblock167-p
 a firos1:p;
 
@@ -11602,12 +11506,14 @@ firos1:hasNum	firos1:AML2007-num37-b;
 
 
 
-firos1:AML2007-Interpretation166
-a firoh1:Interpretation;
+firos1:AML2007-Supervision143
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section37-subb;
+firoh1:inSubSection	firos1:AML2007-section37-subb;
 
-purpose:inSection	firos1:AML2007-section37;
+firoh1:inSection	firos1:AML2007-section37;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -11660,12 +11566,14 @@ firos1:hasNum	firos1:AML2007-num37-c;
 
 
 
-firos1:AML2007-Interpretation167
+firos1:AML2007-Interpretation144
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section37-subc;
+firoh1:inSubSection	firos1:AML2007-section37-subc;
 
-purpose:inSection	firos1:AML2007-section37;
+firoh1:inSection	firos1:AML2007-section37;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -11814,6 +11722,19 @@ firos1:hasNum	firos1:AML2007-num38-f;
 
 
 
+firos1:AML2007-Supervision145
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section38-subf;
+
+firoh1:inSection	firos1:AML2007-section38;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section38-2-HTMLblock171-p
 a firos1:p;
 
@@ -11861,12 +11782,14 @@ firos1:hasNum	firos1:AML2007-num38-2;
 
 
 
-firos1:AML2007-Interpretation168
+firos1:AML2007-Interpretation146
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section38-sub2;
+firoh1:inSubSection	firos1:AML2007-section38-sub2;
 
-purpose:inSection	firos1:AML2007-section38;
+firoh1:inSection	firos1:AML2007-section38;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -11919,12 +11842,14 @@ firos1:hasNum	firos1:AML2007-num38-3;
 
 
 
-firos1:AML2007-Interpretation169
-a firoh1:Interpretation;
+firos1:AML2007-Supervision147
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section38-sub3;
+firoh1:inSubSection	firos1:AML2007-section38-sub3;
 
-purpose:inSection	firos1:AML2007-section38;
+firoh1:inSection	firos1:AML2007-section38;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -11977,6 +11902,19 @@ firos1:hasNum	firos1:AML2007-num38-4;
 
 
 
+firos1:AML2007-Supervision148
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section38-sub4;
+
+firoh1:inSection	firos1:AML2007-section38;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section38-5-HTMLblock174-p
 a firos1:p;
 
@@ -12024,12 +11962,14 @@ firos1:hasNum	firos1:AML2007-num38-5;
 
 
 
-firos1:AML2007-Interpretation170
+firos1:AML2007-Interpretation149
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section38-sub5;
+firoh1:inSubSection	firos1:AML2007-section38-sub5;
 
-purpose:inSection	firos1:AML2007-section38;
+firoh1:inSection	firos1:AML2007-section38;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -12131,6 +12071,19 @@ firos1:hasNum	firos1:AML2007-num39-1;
 
 
 
+firos1:AML2007-Supervision150
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section39-sub1;
+
+firoh1:inSection	firos1:AML2007-section39;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section39-ii-HTMLblock176-p
 a firos1:p;
 
@@ -12178,12 +12131,12 @@ firos1:hasNum	firos1:AML2007-num39-ii;
 
 
 
-firos1:AML2007-Supervision171
+firos1:AML2007-Supervision151
 a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section39-subii;
+firoh1:inSubSection	firos1:AML2007-section39-subii;
 
-purpose:inSection	firos1:AML2007-section39;
+firoh1:inSection	firos1:AML2007-section39;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -12238,12 +12191,12 @@ firos1:hasNum	firos1:AML2007-num39-b;
 
 
 
-firos1:AML2007-Supervision172
+firos1:AML2007-Supervision152
 a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section39-subb;
+firoh1:inSubSection	firos1:AML2007-section39-subb;
 
-purpose:inSection	firos1:AML2007-section39;
+firoh1:inSection	firos1:AML2007-section39;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -12298,12 +12251,12 @@ firos1:hasNum	firos1:AML2007-num39-b;
 
 
 
-firos1:AML2007-Supervision173
+firos1:AML2007-Supervision153
 a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section39-subb;
+firoh1:inSubSection	firos1:AML2007-section39-subb;
 
-purpose:inSection	firos1:AML2007-section39;
+firoh1:inSection	firos1:AML2007-section39;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -12358,6 +12311,19 @@ firos1:hasNum	firos1:AML2007-num39-b;
 
 
 
+firos1:AML2007-Supervision154
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section39-subb;
+
+firoh1:inSection	firos1:AML2007-section39;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section39-e-HTMLblock180-p
 a firos1:p;
 
@@ -12405,23 +12371,12 @@ firos1:hasNum	firos1:AML2007-num39-e;
 
 
 
-firos1:AML2007-Interpretation174
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section39-sube;
-
-purpose:inSection	firos1:AML2007-section39;
-
-.
-
-
-
-firos1:AML2007-Supervision175
+firos1:AML2007-Supervision155
 a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section39-sube;
+firoh1:inSubSection	firos1:AML2007-section39-sube;
 
-purpose:inSection	firos1:AML2007-section39;
+firoh1:inSection	firos1:AML2007-section39;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -12476,6 +12431,19 @@ firos1:hasNum	firos1:AML2007-num39-7;
 
 
 
+firos1:AML2007-Supervision156
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section39-sub7;
+
+firoh1:inSection	firos1:AML2007-section39;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section39-c-HTMLblock182-p
 a firos1:p;
 
@@ -12523,12 +12491,14 @@ firos1:hasNum	firos1:AML2007-num39-c;
 
 
 
-firos1:AML2007-Interpretation176
+firos1:AML2007-Interpretation157
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section39-subc;
+firoh1:inSubSection	firos1:AML2007-section39-subc;
 
-purpose:inSection	firos1:AML2007-section39;
+firoh1:inSection	firos1:AML2007-section39;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -12576,6 +12546,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section39-sub9-content;
 
 firos1:hasNum	firos1:AML2007-num39-9;
+
+.
+
+
+
+firos1:AML2007-Interpretation158
+a firoh1:Interpretation;
+
+firoh1:inSubSection	firos1:AML2007-section39-sub9;
+
+firoh1:inSection	firos1:AML2007-section39;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -12677,12 +12660,14 @@ firos1:hasNum	firos1:AML2007-num40-ii;
 
 
 
-firos1:AML2007-Interpretation177
-a firoh1:Interpretation;
+firos1:AML2007-Supervision159
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section40-subii;
+firoh1:inSubSection	firos1:AML2007-section40-subii;
 
-purpose:inSection	firos1:AML2007-section40;
+firoh1:inSection	firos1:AML2007-section40;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -12735,17 +12720,6 @@ firos1:hasNum	firos1:AML2007-num40-b;
 
 
 
-firos1:AML2007-Interpretation178
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section40-subb;
-
-purpose:inSection	firos1:AML2007-section40;
-
-.
-
-
-
 firos1:AML2007-section40-3-HTMLblock186-p
 a firos1:p;
 
@@ -12788,6 +12762,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section40-sub3-content;
 
 firos1:hasNum	firos1:AML2007-num40-3;
+
+.
+
+
+
+firos1:AML2007-Supervision160
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section40-sub3;
+
+firoh1:inSection	firos1:AML2007-section40;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -12840,12 +12827,14 @@ firos1:hasNum	firos1:AML2007-num40-b;
 
 
 
-firos1:AML2007-Interpretation179
+firos1:AML2007-Interpretation161
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section40-subb;
+firoh1:inSubSection	firos1:AML2007-section40-subb;
 
-purpose:inSection	firos1:AML2007-section40;
+firoh1:inSection	firos1:AML2007-section40;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -12947,30 +12936,6 @@ firos1:hasNum	firos1:AML2007-num41-b;
 
 
 
-firos1:AML2007-Interpretation180
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section41-subb;
-
-purpose:inSection	firos1:AML2007-section41;
-
-.
-
-
-
-firos1:AML2007-Supervision181
-a firoh1:Supervision;
-
-purpose:inSubSection	firos1:AML2007-section41-subb;
-
-purpose:inSection	firos1:AML2007-section41;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
 firos1:AML2007-section41-2-HTMLblock189-p
 a firos1:p;
 
@@ -13018,12 +12983,14 @@ firos1:hasNum	firos1:AML2007-num41-2;
 
 
 
-firos1:AML2007-Interpretation182
+firos1:AML2007-Interpretation162
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section41-sub2;
+firoh1:inSubSection	firos1:AML2007-section41-sub2;
 
-purpose:inSection	firos1:AML2007-section41;
+firoh1:inSection	firos1:AML2007-section41;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -13076,12 +13043,14 @@ firos1:hasNum	firos1:AML2007-num41-3;
 
 
 
-firos1:AML2007-Interpretation183
-a firoh1:Interpretation;
+firos1:AML2007-Supervision163
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section41-sub3;
+firoh1:inSubSection	firos1:AML2007-section41-sub3;
 
-purpose:inSection	firos1:AML2007-section41;
+firoh1:inSection	firos1:AML2007-section41;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -13129,6 +13098,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section41-subb-content;
 
 firos1:hasNum	firos1:AML2007-num41-b;
+
+.
+
+
+
+firos1:AML2007-Supervision164
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section41-subb;
+
+firoh1:inSection	firos1:AML2007-section41;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -13230,12 +13212,14 @@ firos1:hasNum	firos1:AML2007-num42-1;
 
 
 
-firos1:AML2007-Interpretation184
-a firoh1:Interpretation;
+firos1:AML2007-Supervision165
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section42-sub1;
+firoh1:inSubSection	firos1:AML2007-section42-sub1;
 
-purpose:inSection	firos1:AML2007-section42;
+firoh1:inSection	firos1:AML2007-section42;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -13288,6 +13272,19 @@ firos1:hasNum	firos1:AML2007-num42-2;
 
 
 
+firos1:AML2007-Supervision166
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section42-sub2;
+
+firoh1:inSection	firos1:AML2007-section42;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section42-c-HTMLblock194-p
 a firos1:p;
 
@@ -13335,12 +13332,14 @@ firos1:hasNum	firos1:AML2007-num42-c;
 
 
 
-firos1:AML2007-Interpretation185
-a firoh1:Interpretation;
+firos1:AML2007-Supervision167
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section42-subc;
+firoh1:inSubSection	firos1:AML2007-section42-subc;
 
-purpose:inSection	firos1:AML2007-section42;
+firoh1:inSection	firos1:AML2007-section42;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -13393,6 +13392,19 @@ firos1:hasNum	firos1:AML2007-num42-4;
 
 
 
+firos1:AML2007-Interpretation168
+a firoh1:Interpretation;
+
+firoh1:inSubSection	firos1:AML2007-section42-sub4;
+
+firoh1:inSection	firos1:AML2007-section42;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section42-d-HTMLblock196-p
 a firos1:p;
 
@@ -13440,12 +13452,14 @@ firos1:hasNum	firos1:AML2007-num42-d;
 
 
 
-firos1:AML2007-Interpretation186
-a firoh1:Interpretation;
+firos1:AML2007-Supervision169
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section42-subd;
+firoh1:inSubSection	firos1:AML2007-section42-subd;
 
-purpose:inSection	firos1:AML2007-section42;
+firoh1:inSection	firos1:AML2007-section42;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -13498,23 +13512,12 @@ firos1:hasNum	firos1:AML2007-num42-c;
 
 
 
-firos1:AML2007-Interpretation187
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section42-subc;
-
-purpose:inSection	firos1:AML2007-section42;
-
-.
-
-
-
-firos1:AML2007-Supervision188
+firos1:AML2007-Supervision170
 a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section42-subc;
+firoh1:inSubSection	firos1:AML2007-section42-subc;
 
-purpose:inSection	firos1:AML2007-section42;
+firoh1:inSection	firos1:AML2007-section42;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -13569,12 +13572,14 @@ firos1:hasNum	firos1:AML2007-num42-iii;
 
 
 
-firos1:AML2007-Interpretation189
-a firoh1:Interpretation;
+firos1:AML2007-Supervision171
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section42-subiii;
+firoh1:inSubSection	firos1:AML2007-section42-subiii;
 
-purpose:inSection	firos1:AML2007-section42;
+firoh1:inSection	firos1:AML2007-section42;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -13627,12 +13632,12 @@ firos1:hasNum	firos1:AML2007-num42-8;
 
 
 
-firos1:AML2007-Supervision190
+firos1:AML2007-Supervision172
 a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section42-sub8;
+firoh1:inSubSection	firos1:AML2007-section42-sub8;
 
-purpose:inSection	firos1:AML2007-section42;
+firoh1:inSection	firos1:AML2007-section42;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -13736,23 +13741,12 @@ firos1:hasNum	firos1:AML2007-num43-c;
 
 
 
-firos1:AML2007-Interpretation191
-a firoh1:Interpretation;
+firos1:AML2007-Supervision173
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section43-subc;
+firoh1:inSubSection	firos1:AML2007-section43-subc;
 
-purpose:inSection	firos1:AML2007-section43;
-
-.
-
-
-
-firos1:AML2007-Registration192
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section43-subc;
-
-purpose:inSection	firos1:AML2007-section43;
+firoh1:inSection	firos1:AML2007-section43;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -13807,6 +13801,19 @@ firos1:hasNum	firos1:AML2007-num43-2;
 
 
 
+firos1:AML2007-Supervision174
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section43-sub2;
+
+firoh1:inSection	firos1:AML2007-section43;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section43-3-HTMLblock202-p
 a firos1:p;
 
@@ -13849,6 +13856,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section43-sub3-content;
 
 firos1:hasNum	firos1:AML2007-num43-3;
+
+.
+
+
+
+firos1:AML2007-Supervision175
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section43-sub3;
+
+firoh1:inSection	firos1:AML2007-section43;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -13901,6 +13921,19 @@ firos1:hasNum	firos1:AML2007-num43-b;
 
 
 
+firos1:AML2007-Supervision176
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section43-subb;
+
+firoh1:inSection	firos1:AML2007-section43;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section43-5-HTMLblock204-p
 a firos1:p;
 
@@ -13943,6 +13976,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section43-sub5-content;
 
 firos1:hasNum	firos1:AML2007-num43-5;
+
+.
+
+
+
+firos1:AML2007-Supervision177
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section43-sub5;
+
+firoh1:inSection	firos1:AML2007-section43;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -14044,12 +14090,14 @@ firos1:hasNum	firos1:AML2007-num44-b;
 
 
 
-firos1:AML2007-Interpretation193
-a firoh1:Interpretation;
+firos1:AML2007-Supervision178
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section44-subb;
+firoh1:inSubSection	firos1:AML2007-section44-subb;
 
-purpose:inSection	firos1:AML2007-section44;
+firoh1:inSection	firos1:AML2007-section44;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -14102,6 +14150,32 @@ firos1:hasNum	firos1:AML2007-num44-d;
 
 
 
+firos1:AML2007-Interpretation179
+a firoh1:Interpretation;
+
+firoh1:inSubSection	firos1:AML2007-section44-subd;
+
+firoh1:inSection	firos1:AML2007-section44;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
+firos1:AML2007-Supervision180
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section44-subd;
+
+firoh1:inSection	firos1:AML2007-section44;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section44-3-HTMLblock207-p
 a firos1:p;
 
@@ -14144,17 +14218,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section44-sub3-content;
 
 firos1:hasNum	firos1:AML2007-num44-3;
-
-.
-
-
-
-firos1:AML2007-Interpretation194
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section44-sub3;
-
-purpose:inSection	firos1:AML2007-section44;
 
 .
 
@@ -14207,12 +14270,14 @@ firos1:hasNum	firos1:AML2007-num44-4;
 
 
 
-firos1:AML2007-Interpretation195
+firos1:AML2007-Interpretation181
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section44-sub4;
+firoh1:inSubSection	firos1:AML2007-section44-sub4;
 
-purpose:inSection	firos1:AML2007-section44;
+firoh1:inSection	firos1:AML2007-section44;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -14265,12 +14330,14 @@ firos1:hasNum	firos1:AML2007-num44-5;
 
 
 
-firos1:AML2007-Interpretation196
+firos1:AML2007-Interpretation182
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section44-sub5;
+firoh1:inSubSection	firos1:AML2007-section44-sub5;
 
-purpose:inSection	firos1:AML2007-section44;
+firoh1:inSection	firos1:AML2007-section44;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -14323,12 +14390,14 @@ firos1:hasNum	firos1:AML2007-num44-b;
 
 
 
-firos1:AML2007-Interpretation197
-a firoh1:Interpretation;
+firos1:AML2007-Supervision183
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section44-subb;
+firoh1:inSubSection	firos1:AML2007-section44-subb;
 
-purpose:inSection	firos1:AML2007-section44;
+firoh1:inSection	firos1:AML2007-section44;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -14381,6 +14450,19 @@ firos1:hasNum	firos1:AML2007-num44-b;
 
 
 
+firos1:AML2007-Supervision184
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section44-subb;
+
+firoh1:inSection	firos1:AML2007-section44;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section44-8-HTMLblock212-p
 a firos1:p;
 
@@ -14428,12 +14510,27 @@ firos1:hasNum	firos1:AML2007-num44-8;
 
 
 
-firos1:AML2007-Interpretation198
+firos1:AML2007-Interpretation185
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section44-sub8;
+firoh1:inSubSection	firos1:AML2007-section44-sub8;
 
-purpose:inSection	firos1:AML2007-section44;
+firoh1:inSection	firos1:AML2007-section44;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
+firos1:AML2007-Supervision186
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section44-sub8;
+
+firoh1:inSection	firos1:AML2007-section44;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -14535,6 +14632,19 @@ firos1:hasNum	firos1:AML2007-num45-b;
 
 
 
+firos1:AML2007-Supervision187
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section45-subb;
+
+firoh1:inSection	firos1:AML2007-section45;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section45-c-HTMLblock214-p
 a firos1:p;
 
@@ -14582,23 +14692,12 @@ firos1:hasNum	firos1:AML2007-num45-c;
 
 
 
-firos1:AML2007-Interpretation199
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section45-subc;
-
-purpose:inSection	firos1:AML2007-section45;
-
-.
-
-
-
-firos1:AML2007-Supervision200
+firos1:AML2007-Supervision188
 a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section45-subc;
+firoh1:inSubSection	firos1:AML2007-section45-subc;
 
-purpose:inSection	firos1:AML2007-section45;
+firoh1:inSection	firos1:AML2007-section45;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -14653,6 +14752,19 @@ firos1:hasNum	firos1:AML2007-num45-3;
 
 
 
+firos1:AML2007-Interpretation189
+a firoh1:Interpretation;
+
+firoh1:inSubSection	firos1:AML2007-section45-sub3;
+
+firoh1:inSection	firos1:AML2007-section45;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section45-4-HTMLblock216-p
 a firos1:p;
 
@@ -14700,6 +14812,19 @@ firos1:hasNum	firos1:AML2007-num45-4;
 
 
 
+firos1:AML2007-Supervision190
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section45-sub4;
+
+firoh1:inSection	firos1:AML2007-section45;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section45-5-HTMLblock217-p
 a firos1:p;
 
@@ -14742,6 +14867,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section45-sub5-content;
 
 firos1:hasNum	firos1:AML2007-num45-5;
+
+.
+
+
+
+firos1:AML2007-Supervision191
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section45-sub5;
+
+firoh1:inSection	firos1:AML2007-section45;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -14843,12 +14981,14 @@ firos1:hasNum	firos1:AML2007-num46-f;
 
 
 
-firos1:AML2007-Interpretation201
-a firoh1:Interpretation;
+firos1:AML2007-Supervision192
+a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section46-subf;
+firoh1:inSubSection	firos1:AML2007-section46-subf;
 
-purpose:inSection	firos1:AML2007-section46;
+firoh1:inSection	firos1:AML2007-section46;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -14901,6 +15041,19 @@ firos1:hasNum	firos1:AML2007-num46-2;
 
 
 
+firos1:AML2007-Supervision193
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section46-sub2;
+
+firoh1:inSection	firos1:AML2007-section46;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section46-3-HTMLblock220-p
 a firos1:p;
 
@@ -14943,6 +15096,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section46-sub3-content;
 
 firos1:hasNum	firos1:AML2007-num46-3;
+
+.
+
+
+
+firos1:AML2007-Supervision194
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section46-sub3;
+
+firoh1:inSection	firos1:AML2007-section46;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -14995,12 +15161,12 @@ firos1:hasNum	firos1:AML2007-num46-4;
 
 
 
-firos1:AML2007-Supervision202
+firos1:AML2007-Supervision195
 a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section46-sub4;
+firoh1:inSubSection	firos1:AML2007-section46-sub4;
 
-purpose:inSection	firos1:AML2007-section46;
+firoh1:inSection	firos1:AML2007-section46;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -15055,6 +15221,19 @@ firos1:hasNum	firos1:AML2007-num46-5;
 
 
 
+firos1:AML2007-Interpretation196
+a firoh1:Interpretation;
+
+firoh1:inSubSection	firos1:AML2007-section46-sub5;
+
+firoh1:inSection	firos1:AML2007-section46;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section46-6-HTMLblock223-p
 a firos1:p;
 
@@ -15102,12 +15281,14 @@ firos1:hasNum	firos1:AML2007-num46-6;
 
 
 
-firos1:AML2007-Interpretation203
+firos1:AML2007-Interpretation197
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section46-sub6;
+firoh1:inSubSection	firos1:AML2007-section46-sub6;
 
-purpose:inSection	firos1:AML2007-section46;
+firoh1:inSection	firos1:AML2007-section46;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -15160,6 +15341,19 @@ firos1:hasNum	firos1:AML2007-num46-b;
 
 
 
+firos1:AML2007-Supervision198
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section46-subb;
+
+firoh1:inSection	firos1:AML2007-section46;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section46-8-HTMLblock225-p
 a firos1:p;
 
@@ -15207,12 +15401,14 @@ firos1:hasNum	firos1:AML2007-num46-8;
 
 
 
-firos1:AML2007-Interpretation204
+firos1:AML2007-Interpretation199
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section46-sub8;
+firoh1:inSubSection	firos1:AML2007-section46-sub8;
 
-purpose:inSection	firos1:AML2007-section46;
+firoh1:inSection	firos1:AML2007-section46;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -15314,6 +15510,19 @@ firos1:hasNum	firos1:AML2007-num47-b;
 
 
 
+firos1:AML2007-Supervision200
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section47-subb;
+
+firoh1:inSection	firos1:AML2007-section47;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section47-b-HTMLblock227-p
 a firos1:p;
 
@@ -15356,6 +15565,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section47-subb-content;
 
 firos1:hasNum	firos1:AML2007-num47-b;
+
+.
+
+
+
+firos1:AML2007-Supervision201
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section47-subb;
+
+firoh1:inSection	firos1:AML2007-section47;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -15408,6 +15630,19 @@ firos1:hasNum	firos1:AML2007-num47-b;
 
 
 
+firos1:AML2007-Supervision202
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section47-subb;
+
+firoh1:inSection	firos1:AML2007-section47;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section47-4-HTMLblock229-p
 a firos1:p;
 
@@ -15450,6 +15685,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section47-sub4-content;
 
 firos1:hasNum	firos1:AML2007-num47-4;
+
+.
+
+
+
+firos1:AML2007-Interpretation203
+a firoh1:Interpretation;
+
+firoh1:inSubSection	firos1:AML2007-section47-sub4;
+
+firoh1:inSection	firos1:AML2007-section47;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -15502,17 +15750,6 @@ firos1:hasNum	firos1:AML2007-num47-5;
 
 
 
-firos1:AML2007-Interpretation205
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section47-sub5;
-
-purpose:inSection	firos1:AML2007-section47;
-
-.
-
-
-
 firos1:AML2007-section47-6-HTMLblock231-p
 a firos1:p;
 
@@ -15560,12 +15797,14 @@ firos1:hasNum	firos1:AML2007-num47-6;
 
 
 
-firos1:AML2007-Interpretation206
+firos1:AML2007-Interpretation204
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section47-sub6;
+firoh1:inSubSection	firos1:AML2007-section47-sub6;
 
-purpose:inSection	firos1:AML2007-section47;
+firoh1:inSection	firos1:AML2007-section47;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -15618,6 +15857,19 @@ firos1:hasNum	firos1:AML2007-num47-7;
 
 
 
+firos1:AML2007-Interpretation205
+a firoh1:Interpretation;
+
+firoh1:inSubSection	firos1:AML2007-section47-sub7;
+
+firoh1:inSection	firos1:AML2007-section47;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section47-c-HTMLblock233-p
 a firos1:p;
 
@@ -15665,12 +15917,14 @@ firos1:hasNum	firos1:AML2007-num47-c;
 
 
 
-firos1:AML2007-Interpretation207
+firos1:AML2007-Interpretation206
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section47-subc;
+firoh1:inSubSection	firos1:AML2007-section47-subc;
 
-purpose:inSection	firos1:AML2007-section47;
+firoh1:inSection	firos1:AML2007-section47;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -15723,12 +15977,14 @@ firos1:hasNum	firos1:AML2007-num47-9;
 
 
 
-firos1:AML2007-Interpretation208
+firos1:AML2007-Interpretation207
 a firoh1:Interpretation;
 
-purpose:inSubSection	firos1:AML2007-section47-sub9;
+firoh1:inSubSection	firos1:AML2007-section47-sub9;
 
-purpose:inSection	firos1:AML2007-section47;
+firoh1:inSection	firos1:AML2007-section47;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -15877,6 +16133,19 @@ firos1:hasNum	firos1:AML2007-num49-u;
 
 
 
+firos1:AML2007-Supervision208
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section49-subu;
+
+firoh1:inSection	firos1:AML2007-section49;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
 firos1:AML2007-section49-2-HTMLblock236-p
 a firos1:p;
 
@@ -15919,6 +16188,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section49-sub2-content;
 
 firos1:hasNum	firos1:AML2007-num49-2;
+
+.
+
+
+
+firos1:AML2007-Supervision209
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section49-sub2;
+
+firoh1:inSection	firos1:AML2007-section49;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -16020,25 +16302,12 @@ firos1:hasNum	firos1:AML2007-num50-b;
 
 
 
-firos1:AML2007-Registration209
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section50-subb;
-
-purpose:inSection	firos1:AML2007-section50;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
 firos1:AML2007-Supervision210
 a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section50-subb;
+firoh1:inSubSection	firos1:AML2007-section50-subb;
 
-purpose:inSection	firos1:AML2007-section50;
+firoh1:inSection	firos1:AML2007-section50;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -16093,36 +16362,12 @@ firos1:hasNum	firos1:AML2007-num50-c;
 
 
 
-firos1:AML2007-Interpretation211
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section50-subc;
-
-purpose:inSection	firos1:AML2007-section50;
-
-.
-
-
-
-firos1:AML2007-Registration212
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section50-subc;
-
-purpose:inSection	firos1:AML2007-section50;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Supervision213
+firos1:AML2007-Supervision211
 a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section50-subc;
+firoh1:inSubSection	firos1:AML2007-section50-subc;
 
-purpose:inSection	firos1:AML2007-section50;
+firoh1:inSection	firos1:AML2007-section50;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -16177,36 +16422,12 @@ firos1:hasNum	firos1:AML2007-num50-b;
 
 
 
-firos1:AML2007-Interpretation214
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section50-subb;
-
-purpose:inSection	firos1:AML2007-section50;
-
-.
-
-
-
-firos1:AML2007-Registration215
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section50-subb;
-
-purpose:inSection	firos1:AML2007-section50;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Supervision216
+firos1:AML2007-Supervision212
 a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section50-subb;
+firoh1:inSubSection	firos1:AML2007-section50-subb;
 
-purpose:inSection	firos1:AML2007-section50;
+firoh1:inSection	firos1:AML2007-section50;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -16261,36 +16482,12 @@ firos1:hasNum	firos1:AML2007-num50-c;
 
 
 
-firos1:AML2007-Interpretation217
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section50-subc;
-
-purpose:inSection	firos1:AML2007-section50;
-
-.
-
-
-
-firos1:AML2007-Registration218
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section50-subc;
-
-purpose:inSection	firos1:AML2007-section50;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Supervision219
+firos1:AML2007-Supervision213
 a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section50-subc;
+firoh1:inSubSection	firos1:AML2007-section50-subc;
 
-purpose:inSection	firos1:AML2007-section50;
+firoh1:inSection	firos1:AML2007-section50;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -16345,36 +16542,12 @@ firos1:hasNum	firos1:AML2007-num50-5;
 
 
 
-firos1:AML2007-Interpretation220
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section50-sub5;
-
-purpose:inSection	firos1:AML2007-section50;
-
-.
-
-
-
-firos1:AML2007-Registration221
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section50-sub5;
-
-purpose:inSection	firos1:AML2007-section50;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Supervision222
+firos1:AML2007-Supervision214
 a firoh1:Supervision;
 
-purpose:inSubSection	firos1:AML2007-section50-sub5;
+firoh1:inSubSection	firos1:AML2007-section50-sub5;
 
-purpose:inSection	firos1:AML2007-section50;
+firoh1:inSection	firos1:AML2007-section50;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
 
@@ -17225,6 +17398,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section4-subii-content;
 
 firos1:hasNum	firos1:AML2007-num4-ii;
+
+.
+
+
+
+firos1:AML2007-Supervision215
+a firoh1:Supervision;
+
+firoh1:inSubSection	firos1:AML2007-section4-subii;
+
+firoh1:inSection	firos1:AML2007-section4;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 

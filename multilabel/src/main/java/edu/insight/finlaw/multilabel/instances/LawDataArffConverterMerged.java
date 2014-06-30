@@ -63,6 +63,59 @@ public class LawDataArffConverterMerged {
 			allAnnotationTypeMap.put(annotationType, count++);
 	}
 
+	public static Instance getInstance(String content, Instances trainingInstances) {			
+		// - nominal
+		attVals = new ArrayList<String>();
+		attVals.add("0"); attVals.add("1");	
+
+		tOrfVals = new ArrayList<String>();
+		tOrfVals.add("f"); tOrfVals.add("t");		
+		vals = new double[trainingInstances.numAttributes()];
+		for(int count=0; count<=15; count++)
+			vals[count] = attVals.indexOf("0");
+
+		int j = 0;
+		vals = new double[trainingInstances.numAttributes()];					
+		vals[16] = tOrfVals.indexOf("f");
+		vals[17] = tOrfVals.indexOf("f"); 
+		vals[18] = tOrfVals.indexOf("f"); 
+		vals[19] = tOrfVals.indexOf("f"); 
+		vals[20] = tOrfVals.indexOf("f"); 
+		vals[21] = tOrfVals.indexOf("f"); 
+		vals[22] = tOrfVals.indexOf("f"); 
+		vals[23] = tOrfVals.indexOf("f"); 
+		vals[24] = tOrfVals.indexOf("f"); 
+		vals[25] = tOrfVals.indexOf("f"); 
+		vals[26] = tOrfVals.indexOf("f");				
+
+		if(content.contains("Interpretation") || content.contains("interpretation"))
+			vals[16] = tOrfVals.indexOf("t");
+		if(content.contains("means"))
+			vals[17] = tOrfVals.indexOf("t");					
+		if(content.contains("has the meaning"))
+			vals[18] = tOrfVals.indexOf("t"); 
+		if(content.contains("have the same meaning"))
+			vals[19] = tOrfVals.indexOf("t"); 
+		if(content.contains("meaning of") || content.contains("Meaning of"))
+			vals[20] = tOrfVals.indexOf("t"); 
+		if(content.contains("have the meanings"))
+			vals[21] = tOrfVals.indexOf("t"); 
+		if(content.contains("require") || content.contains("Require"))
+			vals[22] = tOrfVals.indexOf("t"); 
+		if(content.contains("Must") || content.contains("must"))
+			vals[23] = tOrfVals.indexOf("t"); 
+		if(content.contains("should") || content.contains("Should"))
+			vals[24] = tOrfVals.indexOf("t"); 
+		if(content.contains("register") || content.contains("Register"))
+			vals[25] = tOrfVals.indexOf("t"); 
+		if(content.contains("Requirement") || content.contains("requirement"))
+			vals[26] = tOrfVals.indexOf("t");
+		vals[27] = trainingInstances.attribute(27).addStringValue(content.replace("class", "classwekaattribute").trim());
+		Instance instance = new DenseInstance(1.0, vals);	
+		instance.setDataset(trainingInstances);
+		return instance;
+	}
+
 	public static Instances getInstances(String annotatedGateFile) {
 		String annotationSetName = null; //null is for default
 		GateAnnotationReader gateAnnoReader = new GateAnnotationReader();
@@ -209,13 +262,9 @@ public class LawDataArffConverterMerged {
 
 
 	public static void main(String[] args) {
-		String annotatedGateFile = "final/UK_AML_xml_updated.xml";		
-		String arffFileNameNonFilt = "final/FiroUKMulFeat_merged.arff";
-		String arffFiltFileName =  "final/FiroUKMulFeatFilt.arff";				
-		String arffTrainFileName =  "final/FiroUKTrainMulFeatFilt.arff";				
-		String arffTestFileName =  "final/FiroUKTestFeatFiltUpdated.arff";
+		String annotatedGateFile = "src/main/resources/grctcData/UK_AML_xml_annotated_firo.xml";		
+		String arffFileNameNonFilt = "src/main/resources/grctcData/arff/AllClassesFiroUKAMLMulti.arff";
 		Instances instances = getInstances(annotatedGateFile);
-		//System.out.println(instances);
 		System.out.println(instances.numInstances());
 		instances.setRelationName("FIRO: -C -16");
 		ArffSaver saver = new ArffSaver();		

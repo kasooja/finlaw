@@ -63,10 +63,10 @@ public class LawDataFirohArffConverter {
 		tOrfVals.add("f"); tOrfVals.add("t");		
 
 		vals = new double[trainingInstances.numAttributes()];
+		
 		for(int count=0; count<=4; count++)
 			vals[count] = attVals.indexOf("0");	
-	
-		
+			
 		vals[5] = tOrfVals.indexOf("f");
 		vals[6] = tOrfVals.indexOf("f"); 
 		vals[7] = tOrfVals.indexOf("f"); 
@@ -101,6 +101,7 @@ public class LawDataFirohArffConverter {
 			vals[14] = tOrfVals.indexOf("t"); 
 		if(content.contains("Requirement") || content.contains("requirement"))
 			vals[15] = tOrfVals.indexOf("t");
+		
 		vals[16] = trainingInstances.attribute(16).addStringValue(content.replace("class", "classwekaattribute").trim());
 		Instance instance = new DenseInstance(1.0, vals);	
 		instance.setDataset(trainingInstances);

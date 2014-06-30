@@ -16,7 +16,8 @@ public class Firo_H_1Ontology {
 		classNameUriMap.put("supervision" , prefix + "Supervision");
 		classNameUriMap.put("registration" , prefix + "Registration");
 		classNameUriMap.put("customer due diligence" , prefix + "CustomerDueDiligence");
-		classNameUriMap.put("training and educationtation" , prefix + "TrainingAndEducation");		
+		classNameUriMap.put("training and education" , prefix + "TrainingAndEducation");
+		
 	}
 
 	public class Class {
@@ -26,9 +27,10 @@ public class Firo_H_1Ontology {
 		public static final String registrationClass = prefix + "Registration";
 		public static final String customerDueDiligenceClass = prefix + "CustomerDueDiligence";
 		public static final String trainingAndEducationClass = prefix + "TrainingAndEducation";
+		public static final String prohibitionClass = prefix + "Prohibition";
+		public static final String obligationClass = prefix + "Obligation";
+			
 		public static final String Modality = prefix + "Modality";
-		
-	
 	}
 	
 	
@@ -37,15 +39,11 @@ public class Firo_H_1Ontology {
 
 		public class DataProperty{
 			//data properties
-			public static final String hasAxisIncrementValueDatProp = prefix + "hasAxisIncrementValue";
-			public static final String hasAxisStartValueDatProp = prefix + "hasAxisStartValue";
 		}
 
 		public class ObjectProperty{
 			//object properties
 			public static final String hasModalityObjProp = prefix + "hasModality";
-			public static final String inSectionObjProp = prefix + "inSection";
-			public static final String inSubSectionObjProp = prefix + "inSubSection";		
 		}
 
 	}

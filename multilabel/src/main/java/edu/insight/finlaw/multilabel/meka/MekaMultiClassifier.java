@@ -99,11 +99,12 @@ public class MekaMultiClassifier {
 	}
 
 	public FilteredClassifier getLearnedClassifier(String arffFileNameNonFilt) {
+		
 		trainingInstances = loadInstances(arffFileNameNonFilt);		
 		FilteredClassifier filteredClassifier = new FilteredClassifier();
 		filteredClassifier.setFilter(getStringToWordVectorFilter());
-		//filteredClassifier.setClassifier(makeMulClassifier());
-		filteredClassifier.setClassifier(makeSVMbasedClassifier());
+		filteredClassifier.setClassifier(makeMulClassifier());
+		//filteredClassifier.setClassifier(makeSVMbasedClassifier());
 		try {
 			filteredClassifier.buildClassifier(trainingInstances);
 		} catch (Exception e) {
@@ -114,7 +115,6 @@ public class MekaMultiClassifier {
 
 	public FilteredClassifier getLearnedBinClassifier(String arffFileNameNonFilt) {
 		//trainingInstances = loadInstances(arffFileNameNonFilt);
-
 		DataSource source;
 		try {
 			source = new DataSource(arffFileNameNonFilt);
