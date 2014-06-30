@@ -6,6 +6,7 @@ import java.util.List;
 public class P1Group {
 	
 	public String p1groupValue;
-	public List<P1> p1s = new ArrayList<P1>();	
+	public List<P1> p1s = new ArrayList<P1>();
+	public String title = "";
 	
 }

@@ -1,4 +1,4 @@
-package edu.insight.finlaw.multilabel.weka;
+package edu.insight.finlaw.multilabel.utils;
 
 
 import java.io.FileNotFoundException;
@@ -16,7 +16,8 @@ public class ConfigParameters {
 
 	private List<String> listOfClassifiers;
 	private Integer noOfAttributes;
-	private String outputFile;	private Integer noOfFolds;
+	private String outputFile;	
+	private Integer noOfFolds;
 
 
 	public List<String> getListOfClassifiers() {
@@ -33,7 +34,6 @@ public class ConfigParameters {
 
 	private void parameterParser(String path) {
 		JSONParser parser = new JSONParser();
-
 		JSONObject jsonObject = null;
 		try {
 			jsonObject = (JSONObject) parser.parse(new FileReader(path));
@@ -48,11 +48,6 @@ public class ConfigParameters {
 		} catch (ParseException e) {
 			e.printStackTrace();
 		}
-	}
-
-	public static void main(String[] args) {
-	//	String path = "src/main/resources/config/traintest.json";
-		//ConfigParameters configParameters = new ConfigParameters(path);
 	}
 
 	public String getOutputFile() {

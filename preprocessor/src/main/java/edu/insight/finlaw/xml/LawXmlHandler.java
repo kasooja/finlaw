@@ -1,6 +1,9 @@
 package edu.insight.finlaw.xml;
 
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
@@ -13,7 +16,7 @@ public class LawXmlHandler extends DefaultHandler {
 	private P2 currentP2 = null;
 	private P1para currentP1Para = null;	
 	private boolean takeText = false;
-	private String tagStringValue = null;
+	private String tagStringValue = "";
 	private Law law; 
 	private String whichP = "";
 
@@ -29,21 +32,26 @@ public class LawXmlHandler extends DefaultHandler {
 			whichP = "Part";
 		}
 
-		if (qName.equalsIgnoreCase("Number")) {
+		if (qName.equalsIgnoreCase("Number") && whichP.equalsIgnoreCase("Part")) {
 			takeText = true;
 		}	
 
 		if (qName.equalsIgnoreCase("P1group")) {			
 			currentP1Group = new P1Group();
 			currentPart.p1groups.add(currentP1Group);
+			whichP = "P1group";
 		}
-
+		
+		if (qName.equalsIgnoreCase("Title") && whichP.equalsIgnoreCase("P1group")) {
+			takeText = true;		
+		}
+		
 		if (qName.equalsIgnoreCase("P1")) {
 			currentP1 = new P1();
 			currentP1Group.p1s.add(currentP1);
 			whichP = "P1";
-		}
-
+		}		
+		
 		if (qName.equalsIgnoreCase("P1para")) {
 			currentP1Para = new P1para();
 			currentP1.p1paras.add(currentP1Para);
@@ -56,27 +64,35 @@ public class LawXmlHandler extends DefaultHandler {
 			whichP = "P2";								
 		}
 
-		if (qName.equalsIgnoreCase("Pnumber")) {
+		if (qName.equalsIgnoreCase("Pnumber") && (whichP.equalsIgnoreCase("P1") || whichP.equalsIgnoreCase("P2"))) {
 			takeText = true;
 		}
-		if (qName.equalsIgnoreCase("Text")) {
+		if (qName.equalsIgnoreCase("Text") && (whichP.equalsIgnoreCase("P2") || whichP.equalsIgnoreCase("P1para"))) {
 			takeText = true;
 		}
 	}
 
 	public void endElement(String uri, String localName, String qName) throws SAXException {
 		if(qName.equalsIgnoreCase("Number") && whichP.equalsIgnoreCase("Part")){
-			currentPart.partNumber = tagStringValue;
+			currentPart.partNumber = tagStringValue.trim();
 			tagStringValue = "";			
 			takeText = false;
 		}
 		if(qName.equalsIgnoreCase("Pnumber") && whichP.equalsIgnoreCase("P1")){
-			currentP1.pnumber = Integer.parseInt(tagStringValue.trim());
+			String number = tagStringValue.trim();
+			if(number.matches("[0-9]*"))
+				currentP1.pnumber = Integer.parseInt(number);
+			else { 
+				Pattern numPattern = Pattern.compile("([0-9]*)");
+				Matcher matcher = numPattern.matcher(number);
+				if(matcher.find())
+					currentP1.pnumber = Integer.parseInt(matcher.group(1).trim());				
+			}			
 			tagStringValue = "";			
 			takeText = false;
 		}
 		if(qName.equalsIgnoreCase("Pnumber") && whichP.equalsIgnoreCase("P2")){
-			currentP2.p2number = Integer.parseInt(tagStringValue.trim());
+			currentP2.p2number = tagStringValue.trim();
 			tagStringValue = "";			
 			takeText = false;
 		}
@@ -90,6 +106,12 @@ public class LawXmlHandler extends DefaultHandler {
 			tagStringValue = "";
 			takeText = false;
 		}
+		if(qName.equalsIgnoreCase("Title") && whichP.equalsIgnoreCase("P1group")){
+			currentP1Group.title = currentP1Group.title + " " + tagStringValue + " ";
+			tagStringValue = "";
+			takeText = false;
+		}
+		
 		if(qName.equalsIgnoreCase("P2"))
 			whichP = "";
 		if(qName.equalsIgnoreCase("P1"))
@@ -98,7 +120,8 @@ public class LawXmlHandler extends DefaultHandler {
 			whichP = "";	
 		if(qName.equalsIgnoreCase("P1para"))
 			whichP = "";
-
+		if(qName.equalsIgnoreCase("P1group"))
+			whichP = "";
 	}
 
 	public void characters(char ch[], int start, int length) throws SAXException {

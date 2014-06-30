@@ -1,4 +1,4 @@
-package edu.insight.finlaw.multilabel.weka;
+package edu.insight.finlaw.multilabel.instances;
 
 import edu.insight.finlaw.gate.annotation.reader.GateAnnotationReader;
 import gate.Annotation;

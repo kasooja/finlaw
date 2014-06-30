@@ -18,6 +18,7 @@ import weka.core.Utils;
 import weka.core.tokenizers.NGramTokenizer;
 import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.StringToWordVector;
+import edu.insight.finlaw.multilabel.utils.ConfigParameters;
 import edu.insight.finlaw.utils.BasicFileTools;
 
 public class MulanMain {
@@ -154,12 +155,12 @@ public class MulanMain {
 			for(int labIndex = 0; labIndex<=15; labIndex++){
 				String[] labelNames;// = mulD_nonFilt.getLabelNames();
 				System.out.println("------------------------------------------------------------------------------------------");
-				labels.append(labelNames[labIndex].replace("_class", "").trim() + "\t");
+	//			labels.append(labelNames[labIndex].replace("_class", "").trim() + "\t");
 				//results.append(crossValidate.getMean("Macro-averaged F-Measure", labIndex) + "\t");		
-				System.out.println("LabelName:\t" + labelNames[labIndex]);
-				System.out.println("Macro-averaged Precision\t" + crossValidate.getMean("Macro-averaged Precision", labIndex) + "\t(1.0)");
-				System.out.println("Macro-averaged Recall\t" + crossValidate.getMean("Macro-averaged Recall", labIndex) + "\t(1.0)");
-				System.out.println("Macro-averaged F-Measure\t" + crossValidate.getMean("Macro-averaged F-Measure", labIndex) + "\t(1.0)");
+	//			System.out.println("LabelName:\t" + labelNames[labIndex]);
+//				System.out.println("Macro-averaged Precision\t" + crossValidate.getMean("Macro-averaged Precision", labIndex) + "\t(1.0)");
+//				System.out.println("Macro-averaged Recall\t" + crossValidate.getMean("Macro-averaged Recall", labIndex) + "\t(1.0)");
+//				System.out.println("Macro-averaged F-Measure\t" + crossValidate.getMean("Macro-averaged F-Measure", labIndex) + "\t(1.0)");
 			}			
 			System.out.println(labels);
 			System.out.println(noOfInstances);

@@ -20,7 +20,7 @@
  *
  */
 
-package edu.insight.finlaw.multilabel.weka;
+package edu.insight.finlaw.multilabel.rough;
 
 import weka.core.Attribute;
 import weka.core.DenseInstance;

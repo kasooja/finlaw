@@ -17,7 +17,7 @@ import weka.core.Utils;
 import weka.core.converters.ConverterUtils.DataSource;
 import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.StringToWordVector;
-import edu.insight.finlaw.multilabel.weka.ConfigParameters;
+import edu.insight.finlaw.multilabel.utils.ConfigParameters;
 import edu.insight.finlaw.utils.BasicFileTools;
 
 

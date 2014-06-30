@@ -19,7 +19,7 @@ import weka.core.Utils;
 import weka.core.tokenizers.NGramTokenizer;
 import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.StringToWordVector;
-import edu.insight.finlaw.multilabel.weka.ConfigParameters;
+import edu.insight.finlaw.multilabel.utils.ConfigParameters;
 import edu.insight.finlaw.utils.BasicFileTools;
 
 public class SVM {

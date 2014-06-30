@@ -1,4 +1,4 @@
-package edu.insight.finlaw.multilabel.meka.onto;
+package edu.insight.finlaw.onto;
 
 
 

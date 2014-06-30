@@ -1,0 +1,287 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf200
+{\fonttbl\f0\fmodern\fcharset0 CourierNewPS-BoldMT;\f1\fmodern\fcharset0 CourierNewPSMT;}
+{\colortbl;\red255\green255\blue255;\red0\green77\blue187;\red255\green0\blue0;}
+\margl1701\margr1701\margb1417\margt1417\vieww24620\viewh14600\viewkind1
+\deftab720
+\pard\pardeftab720\ri0\qc
+
+\f0\b\fs36 \cf0 INSTANCE REQUIREMENTS:\
+\pard\pardeftab720\ri0
+
+\f1\b0\fs22 \cf0 \
+Instructions: \
+\
+The red text indicates what you need to create each time you find an instance in a document. \
+\
+For instance, if you find a CostSupervision instance and also you identify that this CostSupervision is a modality type (Prohibition, Obligation), then, you need to create the CostSupervision instance: Step 1-2.\
+\
+Afther this, you need to indicate in which section and subsection it is allocated this CostSupervision instance. Then, you need to create the section in AkomaNtoso structure: Steps 3-6.\
+\
+Then, the 
+\f0\b \cf2 red text must be replaced
+\f1\b0 \cf0 , according to each instance you find in the legal document.\
+\
+In this example, the CostSupervision is named CostSupervision2, it is a Prohibition, and it is located in section 35, subsection 2.\
+\
+\
+\pard\pardeftab720\ri0
+
+\f0\b\fs28 \cf0 1. To create the COSTSUPERVISION instance:\
+\pard\pardeftab720\ri0
+
+\f1\b0\fs22 \cf0 \
+    <Declaration>\
+        <NamedIndividual IRI="#\cf3 AML2007-CostSupervision2\cf0 "/>\
+    </Declaration>\
+    \
+\pard\pardeftab720\fi720\ri0
+\cf0 <ClassAssertion>\
+\pard\pardeftab720\ri0
+\cf0         <Class IRI="http://www.GRCTC.com/ontologies/FIRO/FIRO-H_1.0#CostSupervisio"/>\
+        <NamedIndividual IRI="#\cf3 AML2007-CostSupervision2\cf0 "/>\
+    </ClassAssertion>\
+\
+\
+\pard\pardeftab720\ri0
+
+\f0\b\fs28 \cf0 2. To create the COSTSUPERVISION's object/data properties:\
+\pard\pardeftab720\ri0
+
+\f1\b0\fs22 \cf0 \
+    <ObjectPropertyAssertion>\
+    	   <ObjectProperty IRI="http://www.GRCTC.com/ontologies/FIRO/FIRO-H_1.0#\cf3 hasModality\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-CostSupervision2\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-Prohibition\cf0 "/>\
+    </ObjectPropertyAssertion>\
+   \
+    <ObjectPropertyAssertion>\
+        <ObjectProperty IRI="#\cf3 inSection\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-CostSupervision2\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35\cf0 "/>\
+    </ObjectPropertyAssertion>\
+   \
+    <ObjectPropertyAssertion>\
+        <ObjectProperty IRI="#\cf3 inSubSection\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-CostSupervision2\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35-sub2\cf0 "/>\
+    </ObjectPropertyAssertion>\
+\
+\
+\pard\pardeftab720\ri0
+
+\f0\b\fs28 \cf0 3. For the document structure: \
+   To create the SECTION instance (in AkomaNtoso):\
+\pard\pardeftab720\ri0
+
+\f1\b0\fs22 \cf0 \
+    <Declaration>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35\cf0 "/>\
+    </Declaration>\
+    \
+	<ObjectPropertyAssertion>\
+        <ObjectProperty IRI="http://www.GRCTC.com/ontologies/FIRO/FIRO-S_1.0#\cf3 hasHeading\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-heading35\cf0 "/>\
+      </ObjectPropertyAssertion>\
+\
+    <ObjectPropertyAssertion>\
+        <ObjectProperty IRI="http://www.GRCTC.com/ontologies/FIRO/FIRO-S_1.0#\cf3 hasNum\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-num35\cf0 "/>\
+\
+    </ObjectPropertyAssertion>\
+    <ObjectPropertyAssertion>\
+        <ObjectProperty IRI="http://www.GRCTC.com/ontologies/FIRO/FIRO-S_1.0#\cf3 hasHierElements\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35-hierElems35\cf0 "/>\
+    </ObjectPropertyAssertion>\
+\
+	<Declaration>\
+        <NamedIndividual IRI="#\cf3 AML2007-heading35\cf0 "/>\
+    </Declaration>\
+    \
+        <DataProperty IRI="http://www.GRCTC.com/ontologies/FIRO/FIRO-S_1.0#\cf3 hasString\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-heading35\cf0 "/>\
+        <Literal datatypeIRI="&xsd;string">\cf3 Costs of supervision\cf0 </Literal>\
+    </DataPropertyAssertion>\
+\
+    <Declaration>\
+        <NamedIndividual IRI="#\cf3 AML2007-num35\cf0 "/>\
+    </Declaration>\
+\
+    <DataPropertyAssertion>\
+        <DataProperty IRI="#\cf3 hasNum\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-num35\cf0 "/>\
+        <Literal datatypeIRI="&xsd;int">\cf3 35\cf0 </Literal>\
+    </DataPropertyAssertion>\
+\
+    <DataPropertyAssertion>\
+\
+    <Declaration>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35-hierElems35\cf0 "/>\
+    </Declaration>\
+\
+	<ObjectPropertyAssertion>\
+        <ObjectProperty IRI="http://www.GRCTC.com/ontologies/FIRO/FIRO-S_1.0#\cf3 hasANhier\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35-hierElems35\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-hierElems35-ANhier35\cf0 "/>\
+    </ObjectPropertyAssertion>\
+\
+    <Declaration>\
+        <NamedIndividual IRI="#\cf3 AML2007-hierElems35-ANhier35\cf0 "/>\
+    </Declaration>\
+\
+\pard\pardeftab720\ri0
+
+\f0\b\fs28 \cf0 4. For EACH subsection, create:\
+\pard\pardeftab720\ri0
+
+\f1\b0\fs22 \cf0 \
+    <ObjectPropertyAssertion>\
+        <ObjectProperty IRI="#\cf3 hasSubSection\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-hierElems35-ANhier35\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35-sub2\cf0 "/>\
+    </ObjectPropertyAssertion>\
+\
+	<Declaration>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35-sub2\cf0 "/>\
+    </Declaration>\
+\
+    <ObjectPropertyAssertion>\
+        <ObjectProperty IRI="http://www.GRCTC.com/ontologies/FIRO/FIRO-S_1.0#\cf3 hasNum\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35-sub2\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-num35-2\cf0 "/>\
+    </ObjectPropertyAssertion>\
+\
+    <ObjectPropertyAssertion>\
+        <ObjectProperty IRI="#\cf3 hasContent\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35-sub2\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35-sub2-content\cf0 "/>\
+    </ObjectPropertyAssertion>\
+\
+    <Declaration>\
+        <NamedIndividual IRI="#\cf3 AML2007-num35-2\cf0 "/>\
+    </Declaration>\
+\
+    <DataPropertyAssertion>\
+        <DataProperty IRI="#\cf3 hasNum\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-num35-2\cf0 "/>\
+        <Literal datatypeIRI="&xsd;int">\cf3 2\cf0 </Literal>\
+    </DataPropertyAssertion>\
+\
+    <Declaration>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35-sub2-content\cf0 "/>\
+    </Declaration>\
+\
+    <ObjectPropertyAssertion>\
+        <ObjectProperty IRI="http://www.GRCTC.com/ontologies/FIRO/FIRO-S_1.0#\cf3 hasBlockElements\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35-sub2-content\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35-2-blockElems\cf0 "/>\
+    </ObjectPropertyAssertion>\
+    \
+	<Declaration>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35-2-blockElems\cf0 "/>\
+    </Declaration>\
+\
+    <ObjectPropertyAssertion>\
+        <ObjectProperty IRI=\'93#h\cf3 hasHTMLblock\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35-2-blockElems\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35-2-HTMLblock1\cf0 "/>\
+    </ObjectPropertyAssertion>\
+\
+    <Declaration>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35-2-HTMLblock1\cf0 "/>\
+    </Declaration>\
+\
+    <ObjectPropertyAssertion>\
+        <ObjectProperty IRI="http://www.GRCTC.com/ontologies/FIRO/FIRO-S_1.0#\cf3 hasP\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35-2-HTMLblock1\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35-2-HTMLblock1-p\cf0 "/>\
+    </ObjectPropertyAssertion>\
+\
+    <Declaration>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35-2-HTMLblock1-p\cf0 "/>\
+    </Declaration>\
+\
+    <DataPropertyAssertion>\
+        <DataProperty IRI="http://www.GRCTC.com/ontologies/FIRO/FIRO-S_1.0#\cf3 hasString\cf0 "/>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35-2-HTMLblock1-p\cf0 "/>\
+        <Literal datatypeIRI="&xsd;string">\cf3 Charges levied under paragraph (1) must not exceed such amount as the Authority, the OFT or the Commissioners (as the case may be) consider will enable them to meet any expenses reasonably incurred by them in carrying out their functions under these Regulations or for any incidental purpose.\cf0 </Literal>\
+    </DataPropertyAssertion>\
+\
+\
+\pard\pardeftab720\ri0
+
+\f0\b\fs28 \cf0 5. To create the classes assertions:\
+\pard\pardeftab720\ri0
+
+\f1\b0\fs22 \cf0 \
+    <ClassAssertion>\
+        <Class IRI="http://www.GRCTC.com/ontologies/FIRO/FIRO-S_1.0#section"/>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35\cf0 "/>\
+    </ClassAssertion>\
+\
+    <ClassAssertion>\
+        <Class IRI="http://www.GRCTC.com/ontologies/FIRO/FIRO-S_1.0#heading"/>\
+        <NamedIndividual IRI="#\cf3 AML2007-heading35\cf0 "/>\
+    </ClassAssertion>\
+\
+    <ClassAssertion>\
+        <Class IRI="http://www.GRCTC.com/ontologies/FIRO/FIRO-S_1.0#hierElements"/>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35-hierElems35\cf0 "/>\
+    </ClassAssertion>\
+\
+    <ClassAssertion>\
+        <Class IRI="http://www.GRCTC.com/ontologies/FIRO/FIRO-S_1.0#num"/>\
+        <NamedIndividual IRI="#\cf3 AML2007-num35\cf0 "/>\
+    </ClassAssertion>\
+\
+    <ClassAssertion>\
+        <Class IRI="http://www.GRCTC.com/ontologies/FIRO/FIRO-S_1.0#ANhier"/>\
+        <NamedIndividual IRI="#\cf3 AML2007-hierElems35-ANhier35\cf0 "/>\
+    </ClassAssertion>\
+\
+\
+\
+\pard\pardeftab720\ri0
+
+\f0\b\fs28 \cf0 6. For EACH subsection, create the following class assertions:\
+\pard\pardeftab720\ri0
+
+\f1\b0\fs22 \cf0 \
+      <ClassAssertion>\
+        <Class IRI="http://www.GRCTC.com/ontologies/FIRO/FIRO-S_1.0#subsection"/>\
+      <NamedIndividual IRI="#\cf3 AML2007-section35-sub2\cf0 "/>\
+    </ClassAssertion>\
+\
+    <ClassAssertion>\
+        <Class IRI="http://www.GRCTC.com/ontologies/FIRO/FIRO-S_1.0#num"/>\
+        <NamedIndividual IRI="#\cf3 AML2007-num35-2\cf0 "/>\
+    </ClassAssertion>\
+\
+    <ClassAssertion>\
+        <Class IRI="http://www.GRCTC.com/ontologies/FIRO/FIRO-S_1.0#content"/>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35-sub2-content\cf0 "/>\
+    </ClassAssertion>\
+\
+    <ClassAssertion>\
+        <Class IRI="http://www.GRCTC.com/ontologies/FIRO/FIRO-S_1.0#blockElements"/>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35-2-blockElems\cf0 "/>\
+    </ClassAssertion>\
+\
+    <ClassAssertion>\
+        <Class IRI="http://www.GRCTC.com/ontologies/FIRO/FIRO-S_1.0#HTMLBlock"/>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35-2-HTMLblock1\cf0 "/>\
+    </ClassAssertion>\
+   \
+	 <ClassAssertion>\
+        <Class IRI="http://www.GRCTC.com/ontologies/FIRO/FIRO-S_1.0#p"/>\
+        <NamedIndividual IRI="#\cf3 AML2007-section35-2-HTMLblock1-p\cf0 "/>\
+    </ClassAssertion>\
+\
+\
+\
+\
+\
+\
+}

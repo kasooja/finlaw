@@ -1,7 +1,7 @@
 package edu.insight.finlaw.multilabel.meka;
 
 
-import edu.insight.finlaw.multilabel.weka.ConfigParameters;
+import edu.insight.finlaw.multilabel.utils.ConfigParameters;
 import meka.classifiers.multilabel.BR;
 import meka.classifiers.multilabel.CC;
 import meka.classifiers.multilabel.Evaluation;
