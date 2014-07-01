@@ -1,0 +1,97 @@
+
+1.FIRST REQUIRED QUERY
+
+PREFIX firoh: <http://www.GRCTC.com/ontologies/FIRO/FIRO-H_1.0#>
+PREFIX firos: <http://www.GRCTC.com/ontologies/FIRO/FIRO-S_1.0#>
+PREFIX purpose: <http://www.GRCTC.com/ontologies/FIRO/Purpose_Specific_v1.0#>
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?Provision ?Modality  ?section ?subSection
+	WHERE{   ?Provision  firoh:hasModality ?Modality.
+	         ?Provision  purpose:inSection ?section.
+	         ?Provision  purpose:inSubSection ?subSection.
+		?Modality rdf:type firoh:Prohibition.    }
+
+
+
+2. SECOND REQUIRED QUERY
+
+PREFIX firoh: <http://www.GRCTC.com/ontologies/FIRO/FIRO-H_1.0#>
+PREFIX firos: <http://www.GRCTC.com/ontologies/FIRO/FIRO-S_1.0#>
+PREFIX purpose: <http://www.GRCTC.com/ontologies/FIRO/Purpose_Specific_v1.0#>
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?Provision ?Modality  ?section ?subSection  ?CurrentText
+	WHERE{   
+	               ?Provision  firoh:hasModality ?Modality.    ?Provision  purpose:inSection ?section.   ?Provision  purpose:inSubSection ?subSection.  ?Modality rdf:type firoh:Prohibition. 
+	               ?Subsection firos:hasContent ?Content. ?Content firos:hasBlockElements ?BE. ?BE purpose:hasHTMLblock ?HTMLblock. ?HTMLblock firos:hasP ?p. ?p firos:hasString ?CurrentText
+      		}
+
+
+3. THIRD REQUIRED QUERY                                  
+
+PREFIX firoh: <http://www.GRCTC.com/ontologies/FIRO/FIRO-H_1.0#>
+PREFIX firos: <http://www.GRCTC.com/ontologies/FIRO/FIRO-S_1.0#>
+PREFIX purpose: <http://www.GRCTC.com/ontologies/FIRO/Purpose_Specific_v1.0#>
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT   ?Modality ?Provision ?subClass ?instance
+	WHERE{   	?Provision rdf:type firoh:CustomerDueDilig. 
+		 ?subClass rdfs:subClassOf firoh:CustomerDueDilig.
+		?instance a ?subClass.
+		 ?Modality rdf:type firoh:Obligation 
+		          
+	}   
+
+
+
+4. ANOTHER QUERY
+
+PREFIX firoh: <http://www.GRCTC.com/ontologies/FIRO/FIRO-H_1.0#>
+PREFIX firos: <http://www.GRCTC.com/ontologies/FIRO/FIRO-S_1.0#>
+PREFIX purpose: <http://www.GRCTC.com/ontologies/FIRO/Purpose_Specific_v1.0#>
+
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?Provision ?Modality  ?section ?subSection
+	WHERE{ ?Provision  firoh:hasModality ?Modality.
+	               ?Provision  purpose:inSection ?section.
+	               ?Provision  purpose:inSubSection ?subSection.
+	     }
+
+
+5. Query that shows all sections containing Provisions, the provision modality type
+
+PREFIX firoh: <http://www.GRCTC.com/ontologies/FIRO/FIRO-H_1.0#>
+PREFIX firos: <http://www.GRCTC.com/ontologies/FIRO/FIRO-S_1.0#>
+PREFIX purpose: <http://www.GRCTC.com/ontologies/FIRO/Purpose_Specific_v1.0#>
+
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT   ?section ?Modality 
+	WHERE{ ?Provision  firoh:hasModality ?Modality.
+	               ?Provision  purpose:inSection ?section.
+	              
+	     }
+
+
