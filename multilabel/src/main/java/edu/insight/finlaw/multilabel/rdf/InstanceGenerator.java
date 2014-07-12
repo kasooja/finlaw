@@ -135,7 +135,7 @@ public class InstanceGenerator {
 							htmlBlockResourceProps.put(Firo_S_1Ontology.Property.ObjectProperty.hasPObjProp, pResource);
 							rdfWriter.addRDF(htmlBlockResource, Firo_S_1Ontology.Class.htmlBlockClass, htmlBlockResourceProps);							
 
-							blockElementsResourceProps.put(Firo_S_1Ontology.Property.ObjectProperty.hasHTMLblockObjProp, htmlBlockResource);
+							blockElementsResourceProps.put(PurposeSpecificOntology.Property.ObjectProperty.hasHTMLblockObjProp, htmlBlockResource);
 							rdfWriter.addRDF(blockElementsResource, Firo_S_1Ontology.Class.blockElementsClass, blockElementsResourceProps);
 
 							contentResourceProps.put(Firo_S_1Ontology.Property.ObjectProperty.hasBlockElementsObjProp, blockElementsResource);

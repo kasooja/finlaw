@@ -17,6 +17,9 @@ public class Firo_H_1Ontology {
 		classNameUriMap.put("registration" , prefix + "Registration");
 		classNameUriMap.put("customer due diligence" , prefix + "CustomerDueDiligence");
 		classNameUriMap.put("training and education" , prefix + "TrainingAndEducation");
+		classNameUriMap.put("monitoring" , prefix + "Monitoring");
+		
+		
 		
 	}
 
@@ -27,6 +30,9 @@ public class Firo_H_1Ontology {
 		public static final String registrationClass = prefix + "Registration";
 		public static final String customerDueDiligenceClass = prefix + "CustomerDueDiligence";
 		public static final String trainingAndEducationClass = prefix + "TrainingAndEducation";
+		
+		public static final String monitoringClass = prefix + "Monitoring";
+		
 		public static final String prohibitionClass = prefix + "Prohibition";
 		public static final String obligationClass = prefix + "Obligation";
 			

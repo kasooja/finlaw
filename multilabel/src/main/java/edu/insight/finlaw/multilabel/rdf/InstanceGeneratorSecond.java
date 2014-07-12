@@ -27,6 +27,7 @@ import edu.insight.finlaw.xml.P1para;
 import edu.insight.finlaw.xml.P2;
 import edu.insight.finlaw.xml.Part;
 
+//this is the class used for rdf generation corresponding to the labels asked by angelina
 public class InstanceGeneratorSecond {
 
 	public static Law law = new Law();
@@ -141,7 +142,7 @@ public class InstanceGeneratorSecond {
 							htmlBlockResourceProps.put(Firo_S_1Ontology.Property.ObjectProperty.hasPObjProp, pResource);
 							rdfWriter.addRDF(htmlBlockResource, Firo_S_1Ontology.Class.htmlBlockClass, htmlBlockResourceProps);							
 
-							blockElementsResourceProps.put(Firo_S_1Ontology.Property.ObjectProperty.hasHTMLblockObjProp, htmlBlockResource);
+							blockElementsResourceProps.put(PurposeSpecificOntology.Property.ObjectProperty.hasHTMLblockObjProp, htmlBlockResource);
 							rdfWriter.addRDF(blockElementsResource, Firo_S_1Ontology.Class.blockElementsClass, blockElementsResourceProps);
 
 							contentResourceProps.put(Firo_S_1Ontology.Property.ObjectProperty.hasBlockElementsObjProp, blockElementsResource);
@@ -165,7 +166,7 @@ public class InstanceGeneratorSecond {
 										String labelResource = lawName + "-" + Firo_H_1Ontology.classNameUriMap.get(label.toLowerCase()).replace("firoh1:", "") + labelCounter++;										
 										Map<String, String> labelResourceProps = new HashMap<String, String>();
 										if(label.toLowerCase().equalsIgnoreCase("customer due diligence") || label.toLowerCase().equalsIgnoreCase("registration") || 
-												label.toLowerCase().equalsIgnoreCase("supervision"))											
+												label.toLowerCase().equalsIgnoreCase("supervision") || label.toLowerCase().equalsIgnoreCase("monitoring"))											
 											labelResourceProps.put(Firo_H_1Ontology.Property.ObjectProperty.hasModalityObjProp, modalityResource);
 										labelResourceProps.put(PurposeSpecificOntology.Property.ObjectProperty.inSectionObjProp, sectionResource);										
 										labelResourceProps.put(PurposeSpecificOntology.Property.ObjectProperty.inSubSectionObjProp, subSectionResource);								
@@ -210,11 +211,13 @@ public class InstanceGeneratorSecond {
 		try {
 			Instance instance = LawDataArffConverterMerged.getInstance(p2Text, trainingInstances);
 			double[] distributionForInstance = firohClassifier.distributionForInstance(instance);
-			int count = 0;
+			int count = 12;
 			for(double score : distributionForInstance){
-				if(score > 0.8){
+				if(score >= 0.8){
 					Attribute attribute = trainingInstances.attribute(count);
-					classes.add(attribute.name().replace("_Class-", "").trim());
+					String attributeName = attribute.name().replace("_Class", "").trim();
+					attributeName = attributeName.replace("-", "").trim();
+					classes.add(attributeName);
 				}
 				count++;
 			}			

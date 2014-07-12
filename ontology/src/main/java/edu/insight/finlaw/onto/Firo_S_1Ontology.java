@@ -41,7 +41,8 @@ public class Firo_S_1Ontology {
 			public static final String hasSubSectionObjProp = prefix + "hasSubSection";
 			public static final String hasContentObjProp = prefix + "hasContent";
 			public static final String hasBlockElementsObjProp = prefix + "hasBlockElements";
-			public static final String hasHTMLblockObjProp = prefix + "hasHTMLblock";
+			//have doubt the hasHTMLblock property, where it should be? PS or FIROS			
+			//public static final String hasHTMLblockObjProp = prefix + "hasHTMLblock";
 			public static final String hasPObjProp = prefix + "hasP";				
 		}
 			

@@ -79,7 +79,7 @@ firos1:hasP	firos1:AML2007-section1-1-HTMLblock1-p;
 firos1:AML2007-section1-1-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section1-1-HTMLblock1;
+purpose:hasHTMLblock	firos1:AML2007-section1-1-HTMLblock1;
 
 .
 
@@ -100,17 +100,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section1-sub1-content;
 
 firos1:hasNum	firos1:AML2007-num1-1;
-
-.
-
-
-
-firos1:AML2007-Interpretation1
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section1-sub1;
-
-purpose:inSection	firos1:AML2007-section1;
 
 .
 
@@ -137,7 +126,7 @@ firos1:hasP	firos1:AML2007-section1-2-HTMLblock2-p;
 firos1:AML2007-section1-2-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section1-2-HTMLblock2;
+purpose:hasHTMLblock	firos1:AML2007-section1-2-HTMLblock2;
 
 .
 
@@ -184,7 +173,7 @@ firos1:hasP	firos1:AML2007-section1-3-HTMLblock3-p;
 firos1:AML2007-section1-3-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section1-3-HTMLblock3;
+purpose:hasHTMLblock	firos1:AML2007-section1-3-HTMLblock3;
 
 .
 
@@ -280,7 +269,7 @@ firos1:hasP	firos1:AML2007-section2-1-HTMLblock4-p;
 firos1:AML2007-section2-1-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section2-1-HTMLblock4;
+purpose:hasHTMLblock	firos1:AML2007-section2-1-HTMLblock4;
 
 .
 
@@ -306,12 +295,25 @@ firos1:hasNum	firos1:AML2007-num2-1;
 
 
 
-firos1:AML2007-Interpretation2
+firos1:AML2007-Interpretation1
 a firoh1:Interpretation;
 
 purpose:inSubSection	firos1:AML2007-section2-sub1;
 
 purpose:inSection	firos1:AML2007-section2;
+
+.
+
+
+
+firos1:AML2007-Registration2
+a firoh1:Registration;
+
+purpose:inSubSection	firos1:AML2007-section2-sub1;
+
+purpose:inSection	firos1:AML2007-section2;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -338,7 +340,7 @@ firos1:hasP	firos1:AML2007-section2-2-HTMLblock5-p;
 firos1:AML2007-section2-2-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section2-2-HTMLblock5;
+purpose:hasHTMLblock	firos1:AML2007-section2-2-HTMLblock5;
 
 .
 
@@ -359,17 +361,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section2-sub2-content;
 
 firos1:hasNum	firos1:AML2007-num2-2;
-
-.
-
-
-
-firos1:AML2007-Interpretation3
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section2-sub2;
-
-purpose:inSection	firos1:AML2007-section2;
 
 .
 
@@ -396,7 +387,7 @@ firos1:hasP	firos1:AML2007-section2-3-HTMLblock6-p;
 firos1:AML2007-section2-3-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section2-3-HTMLblock6;
+purpose:hasHTMLblock	firos1:AML2007-section2-3-HTMLblock6;
 
 .
 
@@ -417,17 +408,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section2-sub3-content;
 
 firos1:hasNum	firos1:AML2007-num2-3;
-
-.
-
-
-
-firos1:AML2007-Interpretation4
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section2-sub3;
-
-purpose:inSection	firos1:AML2007-section2;
 
 .
 
@@ -503,7 +483,7 @@ firos1:hasP	firos1:AML2007-section3-h-HTMLblock7-p;
 firos1:AML2007-section3-h-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section3-h-HTMLblock7;
+purpose:hasHTMLblock	firos1:AML2007-section3-h-HTMLblock7;
 
 .
 
@@ -524,17 +504,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section3-subh-content;
 
 firos1:hasNum	firos1:AML2007-num3-h;
-
-.
-
-
-
-firos1:AML2007-Interpretation5
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section3-subh;
-
-purpose:inSection	firos1:AML2007-section3;
 
 .
 
@@ -561,7 +530,7 @@ firos1:hasP	firos1:AML2007-section3-b-HTMLblock8-p;
 firos1:AML2007-section3-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section3-b-HTMLblock8;
+purpose:hasHTMLblock	firos1:AML2007-section3-b-HTMLblock8;
 
 .
 
@@ -587,12 +556,14 @@ firos1:hasNum	firos1:AML2007-num3-b;
 
 
 
-firos1:AML2007-Interpretation6
-a firoh1:Interpretation;
+firos1:AML2007-CustomerDueDiligence3
+a firoh1:CustomerDueDiligence;
 
 purpose:inSubSection	firos1:AML2007-section3-subb;
 
 purpose:inSection	firos1:AML2007-section3;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -619,7 +590,7 @@ firos1:hasP	firos1:AML2007-section3-h-HTMLblock9-p;
 firos1:AML2007-section3-h-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section3-h-HTMLblock9;
+purpose:hasHTMLblock	firos1:AML2007-section3-h-HTMLblock9;
 
 .
 
@@ -666,7 +637,7 @@ firos1:hasP	firos1:AML2007-section3-4-HTMLblock10-p;
 firos1:AML2007-section3-4-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section3-4-HTMLblock10;
+purpose:hasHTMLblock	firos1:AML2007-section3-4-HTMLblock10;
 
 .
 
@@ -687,6 +658,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section3-sub4-content;
 
 firos1:hasNum	firos1:AML2007-num3-4;
+
+.
+
+
+
+firos1:AML2007-CustomerDueDiligence4
+a firoh1:CustomerDueDiligence;
+
+purpose:inSubSection	firos1:AML2007-section3-sub4;
+
+purpose:inSection	firos1:AML2007-section3;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -713,7 +697,7 @@ firos1:hasP	firos1:AML2007-section3-b-HTMLblock11-p;
 firos1:AML2007-section3-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section3-b-HTMLblock11;
+purpose:hasHTMLblock	firos1:AML2007-section3-b-HTMLblock11;
 
 .
 
@@ -734,17 +718,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section3-subb-content;
 
 firos1:hasNum	firos1:AML2007-num3-b;
-
-.
-
-
-
-firos1:AML2007-Interpretation7
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section3-subb;
-
-purpose:inSection	firos1:AML2007-section3;
 
 .
 
@@ -771,7 +744,7 @@ firos1:hasP	firos1:AML2007-section3-6-HTMLblock12-p;
 firos1:AML2007-section3-6-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section3-6-HTMLblock12;
+purpose:hasHTMLblock	firos1:AML2007-section3-6-HTMLblock12;
 
 .
 
@@ -797,12 +770,14 @@ firos1:hasNum	firos1:AML2007-num3-6;
 
 
 
-firos1:AML2007-Interpretation8
-a firoh1:Interpretation;
+firos1:AML2007-CustomerDueDiligence5
+a firoh1:CustomerDueDiligence;
 
 purpose:inSubSection	firos1:AML2007-section3-sub6;
 
 purpose:inSection	firos1:AML2007-section3;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -829,7 +804,7 @@ firos1:hasP	firos1:AML2007-section3-7-HTMLblock13-p;
 firos1:AML2007-section3-7-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section3-7-HTMLblock13;
+purpose:hasHTMLblock	firos1:AML2007-section3-7-HTMLblock13;
 
 .
 
@@ -850,17 +825,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section3-sub7-content;
 
 firos1:hasNum	firos1:AML2007-num3-7;
-
-.
-
-
-
-firos1:AML2007-Interpretation9
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section3-sub7;
-
-purpose:inSection	firos1:AML2007-section3;
 
 .
 
@@ -887,7 +851,7 @@ firos1:hasP	firos1:AML2007-section3-8-HTMLblock14-p;
 firos1:AML2007-section3-8-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section3-8-HTMLblock14;
+purpose:hasHTMLblock	firos1:AML2007-section3-8-HTMLblock14;
 
 .
 
@@ -908,17 +872,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section3-sub8-content;
 
 firos1:hasNum	firos1:AML2007-num3-8;
-
-.
-
-
-
-firos1:AML2007-Interpretation10
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section3-sub8;
-
-purpose:inSection	firos1:AML2007-section3;
 
 .
 
@@ -945,7 +898,7 @@ firos1:hasP	firos1:AML2007-section3-e-HTMLblock15-p;
 firos1:AML2007-section3-e-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section3-e-HTMLblock15;
+purpose:hasHTMLblock	firos1:AML2007-section3-e-HTMLblock15;
 
 .
 
@@ -966,17 +919,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section3-sube-content;
 
 firos1:hasNum	firos1:AML2007-num3-e;
-
-.
-
-
-
-firos1:AML2007-Interpretation11
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section3-sube;
-
-purpose:inSection	firos1:AML2007-section3;
 
 .
 
@@ -1003,7 +945,7 @@ firos1:hasP	firos1:AML2007-section3-ii-HTMLblock16-p;
 firos1:AML2007-section3-ii-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section3-ii-HTMLblock16;
+purpose:hasHTMLblock	firos1:AML2007-section3-ii-HTMLblock16;
 
 .
 
@@ -1050,7 +992,7 @@ firos1:hasP	firos1:AML2007-section3-b-HTMLblock17-p;
 firos1:AML2007-section3-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section3-b-HTMLblock17;
+purpose:hasHTMLblock	firos1:AML2007-section3-b-HTMLblock17;
 
 .
 
@@ -1076,12 +1018,14 @@ firos1:hasNum	firos1:AML2007-num3-b;
 
 
 
-firos1:AML2007-Interpretation12
-a firoh1:Interpretation;
+firos1:AML2007-CustomerDueDiligence6
+a firoh1:CustomerDueDiligence;
 
 purpose:inSubSection	firos1:AML2007-section3-subb;
 
 purpose:inSection	firos1:AML2007-section3;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -1108,7 +1052,7 @@ firos1:hasP	firos1:AML2007-section3-12-HTMLblock18-p;
 firos1:AML2007-section3-12-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section3-12-HTMLblock18;
+purpose:hasHTMLblock	firos1:AML2007-section3-12-HTMLblock18;
 
 .
 
@@ -1155,7 +1099,7 @@ firos1:hasP	firos1:AML2007-section3-13-HTMLblock19-p;
 firos1:AML2007-section3-13-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section3-13-HTMLblock19;
+purpose:hasHTMLblock	firos1:AML2007-section3-13-HTMLblock19;
 
 .
 
@@ -1181,12 +1125,14 @@ firos1:hasNum	firos1:AML2007-num3-13;
 
 
 
-firos1:AML2007-Interpretation13
-a firoh1:Interpretation;
+firos1:AML2007-CustomerDueDiligence7
+a firoh1:CustomerDueDiligence;
 
 purpose:inSubSection	firos1:AML2007-section3-sub13;
 
 purpose:inSection	firos1:AML2007-section3;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -1213,7 +1159,7 @@ firos1:hasP	firos1:AML2007-section3-14-HTMLblock20-p;
 firos1:AML2007-section3-14-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section3-14-HTMLblock20;
+purpose:hasHTMLblock	firos1:AML2007-section3-14-HTMLblock20;
 
 .
 
@@ -1234,17 +1180,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section3-sub14-content;
 
 firos1:hasNum	firos1:AML2007-num3-14;
-
-.
-
-
-
-firos1:AML2007-Interpretation14
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section3-sub14;
-
-purpose:inSection	firos1:AML2007-section3;
 
 .
 
@@ -1320,7 +1255,7 @@ firos1:hasP	firos1:AML2007-section4-f-HTMLblock21-p;
 firos1:AML2007-section4-f-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section4-f-HTMLblock21;
+purpose:hasHTMLblock	firos1:AML2007-section4-f-HTMLblock21;
 
 .
 
@@ -1346,8 +1281,8 @@ firos1:hasNum	firos1:AML2007-num4-f;
 
 
 
-firos1:AML2007-Supervision15
-a firoh1:Supervision;
+firos1:AML2007-Registration8
+a firoh1:Registration;
 
 purpose:inSubSection	firos1:AML2007-section4-subf;
 
@@ -1380,7 +1315,7 @@ firos1:hasP	firos1:AML2007-section4-2-HTMLblock22-p;
 firos1:AML2007-section4-2-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section4-2-HTMLblock22;
+purpose:hasHTMLblock	firos1:AML2007-section4-2-HTMLblock22;
 
 .
 
@@ -1401,17 +1336,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section4-sub2-content;
 
 firos1:hasNum	firos1:AML2007-num4-2;
-
-.
-
-
-
-firos1:AML2007-Interpretation16
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section4-sub2;
-
-purpose:inSection	firos1:AML2007-section4;
 
 .
 
@@ -1438,7 +1362,7 @@ firos1:hasP	firos1:AML2007-section4-g-HTMLblock23-p;
 firos1:AML2007-section4-g-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section4-g-HTMLblock23;
+purpose:hasHTMLblock	firos1:AML2007-section4-g-HTMLblock23;
 
 .
 
@@ -1459,17 +1383,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section4-subg-content;
 
 firos1:hasNum	firos1:AML2007-num4-g;
-
-.
-
-
-
-firos1:AML2007-Interpretation17
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section4-subg;
-
-purpose:inSection	firos1:AML2007-section4;
 
 .
 
@@ -1496,7 +1409,7 @@ firos1:hasP	firos1:AML2007-section4-4-HTMLblock24-p;
 firos1:AML2007-section4-4-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section4-4-HTMLblock24;
+purpose:hasHTMLblock	firos1:AML2007-section4-4-HTMLblock24;
 
 .
 
@@ -1517,17 +1430,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section4-sub4-content;
 
 firos1:hasNum	firos1:AML2007-num4-4;
-
-.
-
-
-
-firos1:AML2007-Interpretation18
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section4-sub4;
-
-purpose:inSection	firos1:AML2007-section4;
 
 .
 
@@ -1650,7 +1552,7 @@ firos1:hasP	firos1:AML2007-section6-b-HTMLblock25-p;
 firos1:AML2007-section6-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section6-b-HTMLblock25;
+purpose:hasHTMLblock	firos1:AML2007-section6-b-HTMLblock25;
 
 .
 
@@ -1697,7 +1599,7 @@ firos1:hasP	firos1:AML2007-section6-b-HTMLblock26-p;
 firos1:AML2007-section6-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section6-b-HTMLblock26;
+purpose:hasHTMLblock	firos1:AML2007-section6-b-HTMLblock26;
 
 .
 
@@ -1744,7 +1646,7 @@ firos1:hasP	firos1:AML2007-section6-c-HTMLblock27-p;
 firos1:AML2007-section6-c-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section6-c-HTMLblock27;
+purpose:hasHTMLblock	firos1:AML2007-section6-c-HTMLblock27;
 
 .
 
@@ -1791,7 +1693,7 @@ firos1:hasP	firos1:AML2007-section6-4-HTMLblock28-p;
 firos1:AML2007-section6-4-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section6-4-HTMLblock28;
+purpose:hasHTMLblock	firos1:AML2007-section6-4-HTMLblock28;
 
 .
 
@@ -1812,19 +1714,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section6-sub4-content;
 
 firos1:hasNum	firos1:AML2007-num6-4;
-
-.
-
-
-
-firos1:AML2007-Supervision19
-a firoh1:Supervision;
-
-purpose:inSubSection	firos1:AML2007-section6-sub4;
-
-purpose:inSection	firos1:AML2007-section6;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -1851,7 +1740,7 @@ firos1:hasP	firos1:AML2007-section6-iv-HTMLblock29-p;
 firos1:AML2007-section6-iv-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section6-iv-HTMLblock29;
+purpose:hasHTMLblock	firos1:AML2007-section6-iv-HTMLblock29;
 
 .
 
@@ -1877,8 +1766,8 @@ firos1:hasNum	firos1:AML2007-num6-iv;
 
 
 
-firos1:AML2007-Supervision20
-a firoh1:Supervision;
+firos1:AML2007-Registration9
+a firoh1:Registration;
 
 purpose:inSubSection	firos1:AML2007-section6-subiv;
 
@@ -1911,7 +1800,7 @@ firos1:hasP	firos1:AML2007-section6-c-HTMLblock30-p;
 firos1:AML2007-section6-c-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section6-c-HTMLblock30;
+purpose:hasHTMLblock	firos1:AML2007-section6-c-HTMLblock30;
 
 .
 
@@ -1958,7 +1847,7 @@ firos1:hasP	firos1:AML2007-section6-7-HTMLblock31-p;
 firos1:AML2007-section6-7-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section6-7-HTMLblock31;
+purpose:hasHTMLblock	firos1:AML2007-section6-7-HTMLblock31;
 
 .
 
@@ -1979,17 +1868,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section6-sub7-content;
 
 firos1:hasNum	firos1:AML2007-num6-7;
-
-.
-
-
-
-firos1:AML2007-Interpretation21
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section6-sub7;
-
-purpose:inSection	firos1:AML2007-section6;
 
 .
 
@@ -2016,7 +1894,7 @@ firos1:hasP	firos1:AML2007-section6-b-HTMLblock32-p;
 firos1:AML2007-section6-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section6-b-HTMLblock32;
+purpose:hasHTMLblock	firos1:AML2007-section6-b-HTMLblock32;
 
 .
 
@@ -2037,17 +1915,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section6-subb-content;
 
 firos1:hasNum	firos1:AML2007-num6-b;
-
-.
-
-
-
-firos1:AML2007-Interpretation22
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section6-subb;
-
-purpose:inSection	firos1:AML2007-section6;
 
 .
 
@@ -2074,7 +1941,7 @@ firos1:hasP	firos1:AML2007-section6-9-HTMLblock33-p;
 firos1:AML2007-section6-9-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section6-9-HTMLblock33;
+purpose:hasHTMLblock	firos1:AML2007-section6-9-HTMLblock33;
 
 .
 
@@ -2095,19 +1962,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section6-sub9-content;
 
 firos1:hasNum	firos1:AML2007-num6-9;
-
-.
-
-
-
-firos1:AML2007-CustomerDueDiligence23
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section6-sub9;
-
-purpose:inSection	firos1:AML2007-section6;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -2134,7 +1988,7 @@ firos1:hasP	firos1:AML2007-section6-10-HTMLblock34-p;
 firos1:AML2007-section6-10-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section6-10-HTMLblock34;
+purpose:hasHTMLblock	firos1:AML2007-section6-10-HTMLblock34;
 
 .
 
@@ -2160,12 +2014,14 @@ firos1:hasNum	firos1:AML2007-num6-10;
 
 
 
-firos1:AML2007-Interpretation24
-a firoh1:Interpretation;
+firos1:AML2007-CustomerDueDiligence10
+a firoh1:CustomerDueDiligence;
 
 purpose:inSubSection	firos1:AML2007-section6-sub10;
 
 purpose:inSection	firos1:AML2007-section6;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -2241,7 +2097,7 @@ firos1:hasP	firos1:AML2007-section7-d-HTMLblock35-p;
 firos1:AML2007-section7-d-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section7-d-HTMLblock35;
+purpose:hasHTMLblock	firos1:AML2007-section7-d-HTMLblock35;
 
 .
 
@@ -2267,25 +2123,14 @@ firos1:hasNum	firos1:AML2007-num7-d;
 
 
 
-firos1:AML2007-CustomerDueDiligence25
-a firoh1:CustomerDueDiligence;
+firos1:AML2007-Monitoring11
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section7-subd;
 
 purpose:inSection	firos1:AML2007-section7;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Interpretation26
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section7-subd;
-
-purpose:inSection	firos1:AML2007-section7;
 
 .
 
@@ -2312,7 +2157,7 @@ firos1:hasP	firos1:AML2007-section7-2-HTMLblock36-p;
 firos1:AML2007-section7-2-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section7-2-HTMLblock36;
+purpose:hasHTMLblock	firos1:AML2007-section7-2-HTMLblock36;
 
 .
 
@@ -2338,25 +2183,14 @@ firos1:hasNum	firos1:AML2007-num7-2;
 
 
 
-firos1:AML2007-CustomerDueDiligence27
-a firoh1:CustomerDueDiligence;
+firos1:AML2007-Monitoring12
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section7-sub2;
 
 purpose:inSection	firos1:AML2007-section7;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Interpretation28
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section7-sub2;
-
-purpose:inSection	firos1:AML2007-section7;
 
 .
 
@@ -2383,7 +2217,7 @@ firos1:hasP	firos1:AML2007-section7-b-HTMLblock37-p;
 firos1:AML2007-section7-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section7-b-HTMLblock37;
+purpose:hasHTMLblock	firos1:AML2007-section7-b-HTMLblock37;
 
 .
 
@@ -2404,30 +2238,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section7-subb-content;
 
 firos1:hasNum	firos1:AML2007-num7-b;
-
-.
-
-
-
-firos1:AML2007-CustomerDueDiligence29
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section7-subb;
-
-purpose:inSection	firos1:AML2007-section7;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Interpretation30
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section7-subb;
-
-purpose:inSection	firos1:AML2007-section7;
 
 .
 
@@ -2454,7 +2264,7 @@ firos1:hasP	firos1:AML2007-section7-b-HTMLblock38-p;
 firos1:AML2007-section7-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section7-b-HTMLblock38;
+purpose:hasHTMLblock	firos1:AML2007-section7-b-HTMLblock38;
 
 .
 
@@ -2475,30 +2285,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section7-subb-content;
 
 firos1:hasNum	firos1:AML2007-num7-b;
-
-.
-
-
-
-firos1:AML2007-CustomerDueDiligence31
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section7-subb;
-
-purpose:inSection	firos1:AML2007-section7;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Interpretation32
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section7-subb;
-
-purpose:inSection	firos1:AML2007-section7;
 
 .
 
@@ -2525,7 +2311,7 @@ firos1:hasP	firos1:AML2007-section7-5-HTMLblock39-p;
 firos1:AML2007-section7-5-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section7-5-HTMLblock39;
+purpose:hasHTMLblock	firos1:AML2007-section7-5-HTMLblock39;
 
 .
 
@@ -2546,17 +2332,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section7-sub5-content;
 
 firos1:hasNum	firos1:AML2007-num7-5;
-
-.
-
-
-
-firos1:AML2007-Interpretation33
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section7-sub5;
-
-purpose:inSection	firos1:AML2007-section7;
 
 .
 
@@ -2632,7 +2407,7 @@ firos1:hasP	firos1:AML2007-section8-1-HTMLblock40-p;
 firos1:AML2007-section8-1-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section8-1-HTMLblock40;
+purpose:hasHTMLblock	firos1:AML2007-section8-1-HTMLblock40;
 
 .
 
@@ -2658,12 +2433,14 @@ firos1:hasNum	firos1:AML2007-num8-1;
 
 
 
-firos1:AML2007-Interpretation34
-a firoh1:Interpretation;
+firos1:AML2007-Monitoring13
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section8-sub1;
 
 purpose:inSection	firos1:AML2007-section8;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -2690,7 +2467,7 @@ firos1:hasP	firos1:AML2007-section8-b-HTMLblock41-p;
 firos1:AML2007-section8-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section8-b-HTMLblock41;
+purpose:hasHTMLblock	firos1:AML2007-section8-b-HTMLblock41;
 
 .
 
@@ -2711,19 +2488,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section8-subb-content;
 
 firos1:hasNum	firos1:AML2007-num8-b;
-
-.
-
-
-
-firos1:AML2007-CustomerDueDiligence35
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section8-subb;
-
-purpose:inSection	firos1:AML2007-section8;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -2750,7 +2514,7 @@ firos1:hasP	firos1:AML2007-section8-3-HTMLblock42-p;
 firos1:AML2007-section8-3-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section8-3-HTMLblock42;
+purpose:hasHTMLblock	firos1:AML2007-section8-3-HTMLblock42;
 
 .
 
@@ -2771,30 +2535,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section8-sub3-content;
 
 firos1:hasNum	firos1:AML2007-num8-3;
-
-.
-
-
-
-firos1:AML2007-CustomerDueDiligence36
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section8-sub3;
-
-purpose:inSection	firos1:AML2007-section8;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Interpretation37
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section8-sub3;
-
-purpose:inSection	firos1:AML2007-section8;
 
 .
 
@@ -2870,7 +2610,7 @@ firos1:hasP	firos1:AML2007-section9-1-HTMLblock43-p;
 firos1:AML2007-section9-1-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section9-1-HTMLblock43;
+purpose:hasHTMLblock	firos1:AML2007-section9-1-HTMLblock43;
 
 .
 
@@ -2891,30 +2631,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section9-sub1-content;
 
 firos1:hasNum	firos1:AML2007-num9-1;
-
-.
-
-
-
-firos1:AML2007-CustomerDueDiligence38
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section9-sub1;
-
-purpose:inSection	firos1:AML2007-section9;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Interpretation39
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section9-sub1;
-
-purpose:inSection	firos1:AML2007-section9;
 
 .
 
@@ -2941,7 +2657,7 @@ firos1:hasP	firos1:AML2007-section9-2-HTMLblock44-p;
 firos1:AML2007-section9-2-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section9-2-HTMLblock44;
+purpose:hasHTMLblock	firos1:AML2007-section9-2-HTMLblock44;
 
 .
 
@@ -2967,25 +2683,14 @@ firos1:hasNum	firos1:AML2007-num9-2;
 
 
 
-firos1:AML2007-CustomerDueDiligence40
-a firoh1:CustomerDueDiligence;
+firos1:AML2007-Monitoring14
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section9-sub2;
 
 purpose:inSection	firos1:AML2007-section9;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Interpretation41
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section9-sub2;
-
-purpose:inSection	firos1:AML2007-section9;
 
 .
 
@@ -3012,7 +2717,7 @@ firos1:hasP	firos1:AML2007-section9-b-HTMLblock45-p;
 firos1:AML2007-section9-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section9-b-HTMLblock45;
+purpose:hasHTMLblock	firos1:AML2007-section9-b-HTMLblock45;
 
 .
 
@@ -3059,7 +2764,7 @@ firos1:hasP	firos1:AML2007-section9-4-HTMLblock46-p;
 firos1:AML2007-section9-4-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section9-4-HTMLblock46;
+purpose:hasHTMLblock	firos1:AML2007-section9-4-HTMLblock46;
 
 .
 
@@ -3080,17 +2785,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section9-sub4-content;
 
 firos1:hasNum	firos1:AML2007-num9-4;
-
-.
-
-
-
-firos1:AML2007-Interpretation42
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section9-sub4;
-
-purpose:inSection	firos1:AML2007-section9;
 
 .
 
@@ -3117,7 +2811,7 @@ firos1:hasP	firos1:AML2007-section9-b-HTMLblock47-p;
 firos1:AML2007-section9-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section9-b-HTMLblock47;
+purpose:hasHTMLblock	firos1:AML2007-section9-b-HTMLblock47;
 
 .
 
@@ -3213,7 +2907,7 @@ firos1:hasP	firos1:AML2007-section10-iii-HTMLblock48-p;
 firos1:AML2007-section10-iii-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section10-iii-HTMLblock48;
+purpose:hasHTMLblock	firos1:AML2007-section10-iii-HTMLblock48;
 
 .
 
@@ -3234,6 +2928,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section10-subiii-content;
 
 firos1:hasNum	firos1:AML2007-num10-iii;
+
+.
+
+
+
+firos1:AML2007-Monitoring15
+a firoh1:Monitoring;
+
+purpose:inSubSection	firos1:AML2007-section10-subiii;
+
+purpose:inSection	firos1:AML2007-section10;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -3260,7 +2967,7 @@ firos1:hasP	firos1:AML2007-section10-iii-HTMLblock49-p;
 firos1:AML2007-section10-iii-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section10-iii-HTMLblock49;
+purpose:hasHTMLblock	firos1:AML2007-section10-iii-HTMLblock49;
 
 .
 
@@ -3281,19 +2988,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section10-subiii-content;
 
 firos1:hasNum	firos1:AML2007-num10-iii;
-
-.
-
-
-
-firos1:AML2007-CustomerDueDiligence43
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section10-subiii;
-
-purpose:inSection	firos1:AML2007-section10;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -3320,7 +3014,7 @@ firos1:hasP	firos1:AML2007-section10-3-HTMLblock50-p;
 firos1:AML2007-section10-3-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section10-3-HTMLblock50;
+purpose:hasHTMLblock	firos1:AML2007-section10-3-HTMLblock50;
 
 .
 
@@ -3346,12 +3040,14 @@ firos1:hasNum	firos1:AML2007-num10-3;
 
 
 
-firos1:AML2007-Interpretation44
-a firoh1:Interpretation;
+firos1:AML2007-CustomerDueDiligence16
+a firoh1:CustomerDueDiligence;
 
 purpose:inSubSection	firos1:AML2007-section10-sub3;
 
 purpose:inSection	firos1:AML2007-section10;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -3427,7 +3123,7 @@ firos1:hasP	firos1:AML2007-section11-d-HTMLblock51-p;
 firos1:AML2007-section11-d-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section11-d-HTMLblock51;
+purpose:hasHTMLblock	firos1:AML2007-section11-d-HTMLblock51;
 
 .
 
@@ -3453,8 +3149,8 @@ firos1:hasNum	firos1:AML2007-num11-d;
 
 
 
-firos1:AML2007-CustomerDueDiligence45
-a firoh1:CustomerDueDiligence;
+firos1:AML2007-Monitoring17
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section11-subd;
 
@@ -3487,7 +3183,7 @@ firos1:hasP	firos1:AML2007-section11-2-HTMLblock52-p;
 firos1:AML2007-section11-2-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section11-2-HTMLblock52;
+purpose:hasHTMLblock	firos1:AML2007-section11-2-HTMLblock52;
 
 .
 
@@ -3534,7 +3230,7 @@ firos1:hasP	firos1:AML2007-section11-b-HTMLblock53-p;
 firos1:AML2007-section11-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section11-b-HTMLblock53;
+purpose:hasHTMLblock	firos1:AML2007-section11-b-HTMLblock53;
 
 .
 
@@ -3630,7 +3326,7 @@ firos1:hasP	firos1:AML2007-section12-b-HTMLblock54-p;
 firos1:AML2007-section12-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section12-b-HTMLblock54;
+purpose:hasHTMLblock	firos1:AML2007-section12-b-HTMLblock54;
 
 .
 
@@ -3651,19 +3347,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section12-subb-content;
 
 firos1:hasNum	firos1:AML2007-num12-b;
-
-.
-
-
-
-firos1:AML2007-CustomerDueDiligence46
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section12-subb;
-
-purpose:inSection	firos1:AML2007-section12;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -3690,7 +3373,7 @@ firos1:hasP	firos1:AML2007-section12-b-HTMLblock55-p;
 firos1:AML2007-section12-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section12-b-HTMLblock55;
+purpose:hasHTMLblock	firos1:AML2007-section12-b-HTMLblock55;
 
 .
 
@@ -3711,17 +3394,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section12-subb-content;
 
 firos1:hasNum	firos1:AML2007-num12-b;
-
-.
-
-
-
-firos1:AML2007-Interpretation47
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section12-subb;
-
-purpose:inSection	firos1:AML2007-section12;
 
 .
 
@@ -3797,7 +3469,7 @@ firos1:hasP	firos1:AML2007-section13-1-HTMLblock56-p;
 firos1:AML2007-section13-1-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section13-1-HTMLblock56;
+purpose:hasHTMLblock	firos1:AML2007-section13-1-HTMLblock56;
 
 .
 
@@ -3818,19 +3490,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section13-sub1-content;
 
 firos1:hasNum	firos1:AML2007-num13-1;
-
-.
-
-
-
-firos1:AML2007-CustomerDueDiligence48
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section13-sub1;
-
-purpose:inSection	firos1:AML2007-section13;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -3857,7 +3516,7 @@ firos1:hasP	firos1:AML2007-section13-ii-HTMLblock57-p;
 firos1:AML2007-section13-ii-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section13-ii-HTMLblock57;
+purpose:hasHTMLblock	firos1:AML2007-section13-ii-HTMLblock57;
 
 .
 
@@ -3878,19 +3537,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section13-subii-content;
 
 firos1:hasNum	firos1:AML2007-num13-ii;
-
-.
-
-
-
-firos1:AML2007-CustomerDueDiligence49
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section13-subii;
-
-purpose:inSection	firos1:AML2007-section13;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -3917,7 +3563,7 @@ firos1:hasP	firos1:AML2007-section13-3-HTMLblock58-p;
 firos1:AML2007-section13-3-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section13-3-HTMLblock58;
+purpose:hasHTMLblock	firos1:AML2007-section13-3-HTMLblock58;
 
 .
 
@@ -3943,8 +3589,8 @@ firos1:hasNum	firos1:AML2007-num13-3;
 
 
 
-firos1:AML2007-CustomerDueDiligence50
-a firoh1:CustomerDueDiligence;
+firos1:AML2007-Registration18
+a firoh1:Registration;
 
 purpose:inSubSection	firos1:AML2007-section13-sub3;
 
@@ -3977,7 +3623,7 @@ firos1:hasP	firos1:AML2007-section13-b-HTMLblock59-p;
 firos1:AML2007-section13-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section13-b-HTMLblock59;
+purpose:hasHTMLblock	firos1:AML2007-section13-b-HTMLblock59;
 
 .
 
@@ -3998,19 +3644,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section13-subb-content;
 
 firos1:hasNum	firos1:AML2007-num13-b;
-
-.
-
-
-
-firos1:AML2007-CustomerDueDiligence51
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section13-subb;
-
-purpose:inSection	firos1:AML2007-section13;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -4037,7 +3670,7 @@ firos1:hasP	firos1:AML2007-section13-5-HTMLblock60-p;
 firos1:AML2007-section13-5-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section13-5-HTMLblock60;
+purpose:hasHTMLblock	firos1:AML2007-section13-5-HTMLblock60;
 
 .
 
@@ -4058,19 +3691,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section13-sub5-content;
 
 firos1:hasNum	firos1:AML2007-num13-5;
-
-.
-
-
-
-firos1:AML2007-CustomerDueDiligence52
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section13-sub5;
-
-purpose:inSection	firos1:AML2007-section13;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -4097,7 +3717,7 @@ firos1:hasP	firos1:AML2007-section13-6-HTMLblock61-p;
 firos1:AML2007-section13-6-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section13-6-HTMLblock61;
+purpose:hasHTMLblock	firos1:AML2007-section13-6-HTMLblock61;
 
 .
 
@@ -4118,19 +3738,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section13-sub6-content;
 
 firos1:hasNum	firos1:AML2007-num13-6;
-
-.
-
-
-
-firos1:AML2007-CustomerDueDiligence53
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section13-sub6;
-
-purpose:inSection	firos1:AML2007-section13;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -4157,7 +3764,7 @@ firos1:hasP	firos1:AML2007-section13-ii-HTMLblock62-p;
 firos1:AML2007-section13-ii-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section13-ii-HTMLblock62;
+purpose:hasHTMLblock	firos1:AML2007-section13-ii-HTMLblock62;
 
 .
 
@@ -4183,8 +3790,8 @@ firos1:hasNum	firos1:AML2007-num13-ii;
 
 
 
-firos1:AML2007-Supervision54
-a firoh1:Supervision;
+firos1:AML2007-Registration19
+a firoh1:Registration;
 
 purpose:inSubSection	firos1:AML2007-section13-subii;
 
@@ -4217,7 +3824,7 @@ firos1:hasP	firos1:AML2007-section13-8-HTMLblock63-p;
 firos1:AML2007-section13-8-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section13-8-HTMLblock63;
+purpose:hasHTMLblock	firos1:AML2007-section13-8-HTMLblock63;
 
 .
 
@@ -4238,17 +3845,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section13-sub8-content;
 
 firos1:hasNum	firos1:AML2007-num13-8;
-
-.
-
-
-
-firos1:AML2007-Interpretation55
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section13-sub8;
-
-purpose:inSection	firos1:AML2007-section13;
 
 .
 
@@ -4275,7 +3871,7 @@ firos1:hasP	firos1:AML2007-section13-9-HTMLblock64-p;
 firos1:AML2007-section13-9-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section13-9-HTMLblock64;
+purpose:hasHTMLblock	firos1:AML2007-section13-9-HTMLblock64;
 
 .
 
@@ -4301,12 +3897,14 @@ firos1:hasNum	firos1:AML2007-num13-9;
 
 
 
-firos1:AML2007-Interpretation56
-a firoh1:Interpretation;
+firos1:AML2007-CustomerDueDiligence20
+a firoh1:CustomerDueDiligence;
 
 purpose:inSubSection	firos1:AML2007-section13-sub9;
 
 purpose:inSection	firos1:AML2007-section13;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -4382,7 +3980,7 @@ firos1:hasP	firos1:AML2007-section14-b-HTMLblock65-p;
 firos1:AML2007-section14-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section14-b-HTMLblock65;
+purpose:hasHTMLblock	firos1:AML2007-section14-b-HTMLblock65;
 
 .
 
@@ -4408,25 +4006,14 @@ firos1:hasNum	firos1:AML2007-num14-b;
 
 
 
-firos1:AML2007-CustomerDueDiligence57
-a firoh1:CustomerDueDiligence;
+firos1:AML2007-Monitoring21
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section14-subb;
 
 purpose:inSection	firos1:AML2007-section14;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Interpretation58
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section14-subb;
-
-purpose:inSection	firos1:AML2007-section14;
 
 .
 
@@ -4453,7 +4040,7 @@ firos1:hasP	firos1:AML2007-section14-c-HTMLblock66-p;
 firos1:AML2007-section14-c-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section14-c-HTMLblock66;
+purpose:hasHTMLblock	firos1:AML2007-section14-c-HTMLblock66;
 
 .
 
@@ -4479,25 +4066,14 @@ firos1:hasNum	firos1:AML2007-num14-c;
 
 
 
-firos1:AML2007-CustomerDueDiligence59
-a firoh1:CustomerDueDiligence;
+firos1:AML2007-Monitoring22
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section14-subc;
 
 purpose:inSection	firos1:AML2007-section14;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Interpretation60
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section14-subc;
-
-purpose:inSection	firos1:AML2007-section14;
 
 .
 
@@ -4524,7 +4100,7 @@ firos1:hasP	firos1:AML2007-section14-ii-HTMLblock67-p;
 firos1:AML2007-section14-ii-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section14-ii-HTMLblock67;
+purpose:hasHTMLblock	firos1:AML2007-section14-ii-HTMLblock67;
 
 .
 
@@ -4545,30 +4121,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section14-subii-content;
 
 firos1:hasNum	firos1:AML2007-num14-ii;
-
-.
-
-
-
-firos1:AML2007-CustomerDueDiligence61
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section14-subii;
-
-purpose:inSection	firos1:AML2007-section14;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Interpretation62
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section14-subii;
-
-purpose:inSection	firos1:AML2007-section14;
 
 .
 
@@ -4595,7 +4147,7 @@ firos1:hasP	firos1:AML2007-section14-c-HTMLblock68-p;
 firos1:AML2007-section14-c-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section14-c-HTMLblock68;
+purpose:hasHTMLblock	firos1:AML2007-section14-c-HTMLblock68;
 
 .
 
@@ -4616,17 +4168,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section14-subc-content;
 
 firos1:hasNum	firos1:AML2007-num14-c;
-
-.
-
-
-
-firos1:AML2007-Interpretation63
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section14-subc;
-
-purpose:inSection	firos1:AML2007-section14;
 
 .
 
@@ -4653,7 +4194,7 @@ firos1:hasP	firos1:AML2007-section14-c-HTMLblock69-p;
 firos1:AML2007-section14-c-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section14-c-HTMLblock69;
+purpose:hasHTMLblock	firos1:AML2007-section14-c-HTMLblock69;
 
 .
 
@@ -4700,7 +4241,7 @@ firos1:hasP	firos1:AML2007-section14-6-HTMLblock70-p;
 firos1:AML2007-section14-6-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section14-6-HTMLblock70;
+purpose:hasHTMLblock	firos1:AML2007-section14-6-HTMLblock70;
 
 .
 
@@ -4796,7 +4337,7 @@ firos1:hasP	firos1:AML2007-section15-1-HTMLblock71-p;
 firos1:AML2007-section15-1-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section15-1-HTMLblock71;
+purpose:hasHTMLblock	firos1:AML2007-section15-1-HTMLblock71;
 
 .
 
@@ -4822,8 +4363,8 @@ firos1:hasNum	firos1:AML2007-num15-1;
 
 
 
-firos1:AML2007-CustomerDueDiligence64
-a firoh1:CustomerDueDiligence;
+firos1:AML2007-Monitoring23
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section15-sub1;
 
@@ -4856,7 +4397,7 @@ firos1:hasP	firos1:AML2007-section15-b-HTMLblock72-p;
 firos1:AML2007-section15-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section15-b-HTMLblock72;
+purpose:hasHTMLblock	firos1:AML2007-section15-b-HTMLblock72;
 
 .
 
@@ -4877,17 +4418,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section15-subb-content;
 
 firos1:hasNum	firos1:AML2007-num15-b;
-
-.
-
-
-
-firos1:AML2007-Interpretation65
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section15-subb;
-
-purpose:inSection	firos1:AML2007-section15;
 
 .
 
@@ -4914,7 +4444,7 @@ firos1:hasP	firos1:AML2007-section15-b-HTMLblock73-p;
 firos1:AML2007-section15-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section15-b-HTMLblock73;
+purpose:hasHTMLblock	firos1:AML2007-section15-b-HTMLblock73;
 
 .
 
@@ -4940,19 +4470,8 @@ firos1:hasNum	firos1:AML2007-num15-b;
 
 
 
-firos1:AML2007-Interpretation66
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section15-subb;
-
-purpose:inSection	firos1:AML2007-section15;
-
-.
-
-
-
-firos1:AML2007-Supervision67
-a firoh1:Supervision;
+firos1:AML2007-CustomerDueDiligence24
+a firoh1:CustomerDueDiligence;
 
 purpose:inSubSection	firos1:AML2007-section15-subb;
 
@@ -4985,7 +4504,7 @@ firos1:hasP	firos1:AML2007-section15-4-HTMLblock74-p;
 firos1:AML2007-section15-4-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section15-4-HTMLblock74;
+purpose:hasHTMLblock	firos1:AML2007-section15-4-HTMLblock74;
 
 .
 
@@ -5006,17 +4525,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section15-sub4-content;
 
 firos1:hasNum	firos1:AML2007-num15-4;
-
-.
-
-
-
-firos1:AML2007-Interpretation68
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section15-sub4;
-
-purpose:inSection	firos1:AML2007-section15;
 
 .
 
@@ -5092,7 +4600,7 @@ firos1:hasP	firos1:AML2007-section16-1-HTMLblock75-p;
 firos1:AML2007-section16-1-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section16-1-HTMLblock75;
+purpose:hasHTMLblock	firos1:AML2007-section16-1-HTMLblock75;
 
 .
 
@@ -5118,12 +4626,14 @@ firos1:hasNum	firos1:AML2007-num16-1;
 
 
 
-firos1:AML2007-Interpretation69
-a firoh1:Interpretation;
+firos1:AML2007-Monitoring25
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section16-sub1;
 
 purpose:inSection	firos1:AML2007-section16;
+
+firoh1:hasModality	firos1:AML2007-Prohibition;
 
 .
 
@@ -5150,7 +4660,7 @@ firos1:hasP	firos1:AML2007-section16-2-HTMLblock76-p;
 firos1:AML2007-section16-2-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section16-2-HTMLblock76;
+purpose:hasHTMLblock	firos1:AML2007-section16-2-HTMLblock76;
 
 .
 
@@ -5171,6 +4681,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section16-sub2-content;
 
 firos1:hasNum	firos1:AML2007-num16-2;
+
+.
+
+
+
+firos1:AML2007-Monitoring26
+a firoh1:Monitoring;
+
+purpose:inSubSection	firos1:AML2007-section16-sub2;
+
+purpose:inSection	firos1:AML2007-section16;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -5197,7 +4720,7 @@ firos1:hasP	firos1:AML2007-section16-3-HTMLblock77-p;
 firos1:AML2007-section16-3-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section16-3-HTMLblock77;
+purpose:hasHTMLblock	firos1:AML2007-section16-3-HTMLblock77;
 
 .
 
@@ -5223,25 +4746,14 @@ firos1:hasNum	firos1:AML2007-num16-3;
 
 
 
-firos1:AML2007-CustomerDueDiligence70
-a firoh1:CustomerDueDiligence;
+firos1:AML2007-Monitoring27
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section16-sub3;
 
 purpose:inSection	firos1:AML2007-section16;
 
 firoh1:hasModality	firos1:AML2007-Prohibition;
-
-.
-
-
-
-firos1:AML2007-Interpretation71
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section16-sub3;
-
-purpose:inSection	firos1:AML2007-section16;
 
 .
 
@@ -5268,7 +4780,7 @@ firos1:hasP	firos1:AML2007-section16-4-HTMLblock78-p;
 firos1:AML2007-section16-4-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section16-4-HTMLblock78;
+purpose:hasHTMLblock	firos1:AML2007-section16-4-HTMLblock78;
 
 .
 
@@ -5294,8 +4806,8 @@ firos1:hasNum	firos1:AML2007-num16-4;
 
 
 
-firos1:AML2007-CustomerDueDiligence72
-a firoh1:CustomerDueDiligence;
+firos1:AML2007-Monitoring28
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section16-sub4;
 
@@ -5328,7 +4840,7 @@ firos1:hasP	firos1:AML2007-section16-5-HTMLblock79-p;
 firos1:AML2007-section16-5-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section16-5-HTMLblock79;
+purpose:hasHTMLblock	firos1:AML2007-section16-5-HTMLblock79;
 
 .
 
@@ -5375,7 +4887,7 @@ firos1:hasP	firos1:AML2007-section16-6-HTMLblock80-p;
 firos1:AML2007-section16-6-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section16-6-HTMLblock80;
+purpose:hasHTMLblock	firos1:AML2007-section16-6-HTMLblock80;
 
 .
 
@@ -5396,17 +4908,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section16-sub6-content;
 
 firos1:hasNum	firos1:AML2007-num16-6;
-
-.
-
-
-
-firos1:AML2007-Interpretation73
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section16-sub6;
-
-purpose:inSection	firos1:AML2007-section16;
 
 .
 
@@ -5482,7 +4983,7 @@ firos1:hasP	firos1:AML2007-section17-b-HTMLblock81-p;
 firos1:AML2007-section17-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section17-b-HTMLblock81;
+purpose:hasHTMLblock	firos1:AML2007-section17-b-HTMLblock81;
 
 .
 
@@ -5503,30 +5004,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section17-subb-content;
 
 firos1:hasNum	firos1:AML2007-num17-b;
-
-.
-
-
-
-firos1:AML2007-CustomerDueDiligence74
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section17-subb;
-
-purpose:inSection	firos1:AML2007-section17;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Interpretation75
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section17-subb;
-
-purpose:inSection	firos1:AML2007-section17;
 
 .
 
@@ -5553,7 +5030,7 @@ firos1:hasP	firos1:AML2007-section17-iv-HTMLblock82-p;
 firos1:AML2007-section17-iv-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section17-iv-HTMLblock82;
+purpose:hasHTMLblock	firos1:AML2007-section17-iv-HTMLblock82;
 
 .
 
@@ -5574,17 +5051,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section17-subiv-content;
 
 firos1:hasNum	firos1:AML2007-num17-iv;
-
-.
-
-
-
-firos1:AML2007-Interpretation76
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section17-subiv;
-
-purpose:inSection	firos1:AML2007-section17;
 
 .
 
@@ -5611,7 +5077,7 @@ firos1:hasP	firos1:AML2007-section17-3-HTMLblock83-p;
 firos1:AML2007-section17-3-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section17-3-HTMLblock83;
+purpose:hasHTMLblock	firos1:AML2007-section17-3-HTMLblock83;
 
 .
 
@@ -5632,17 +5098,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section17-sub3-content;
 
 firos1:hasNum	firos1:AML2007-num17-3;
-
-.
-
-
-
-firos1:AML2007-Interpretation77
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section17-sub3;
-
-purpose:inSection	firos1:AML2007-section17;
 
 .
 
@@ -5669,7 +5124,7 @@ firos1:hasP	firos1:AML2007-section17-4-HTMLblock84-p;
 firos1:AML2007-section17-4-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section17-4-HTMLblock84;
+purpose:hasHTMLblock	firos1:AML2007-section17-4-HTMLblock84;
 
 .
 
@@ -5690,17 +5145,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section17-sub4-content;
 
 firos1:hasNum	firos1:AML2007-num17-4;
-
-.
-
-
-
-firos1:AML2007-Interpretation78
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section17-sub4;
-
-purpose:inSection	firos1:AML2007-section17;
 
 .
 
@@ -5727,7 +5171,7 @@ firos1:hasP	firos1:AML2007-section17-5-HTMLblock85-p;
 firos1:AML2007-section17-5-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section17-5-HTMLblock85;
+purpose:hasHTMLblock	firos1:AML2007-section17-5-HTMLblock85;
 
 .
 
@@ -5748,17 +5192,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section17-sub5-content;
 
 firos1:hasNum	firos1:AML2007-num17-5;
-
-.
-
-
-
-firos1:AML2007-Interpretation79
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section17-sub5;
-
-purpose:inSection	firos1:AML2007-section17;
 
 .
 
@@ -5881,7 +5314,7 @@ firos1:hasP	firos1:AML2007-section19-1-HTMLblock86-p;
 firos1:AML2007-section19-1-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section19-1-HTMLblock86;
+purpose:hasHTMLblock	firos1:AML2007-section19-1-HTMLblock86;
 
 .
 
@@ -5907,12 +5340,14 @@ firos1:hasNum	firos1:AML2007-num19-1;
 
 
 
-firos1:AML2007-Interpretation80
-a firoh1:Interpretation;
+firos1:AML2007-Monitoring29
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section19-sub1;
 
 purpose:inSection	firos1:AML2007-section19;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -5939,7 +5374,7 @@ firos1:hasP	firos1:AML2007-section19-b-HTMLblock87-p;
 firos1:AML2007-section19-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section19-b-HTMLblock87;
+purpose:hasHTMLblock	firos1:AML2007-section19-b-HTMLblock87;
 
 .
 
@@ -5960,30 +5395,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section19-subb-content;
 
 firos1:hasNum	firos1:AML2007-num19-b;
-
-.
-
-
-
-firos1:AML2007-CustomerDueDiligence81
-a firoh1:CustomerDueDiligence;
-
-purpose:inSubSection	firos1:AML2007-section19-subb;
-
-purpose:inSection	firos1:AML2007-section19;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Interpretation82
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section19-subb;
-
-purpose:inSection	firos1:AML2007-section19;
 
 .
 
@@ -6010,7 +5421,7 @@ firos1:hasP	firos1:AML2007-section19-ii-HTMLblock88-p;
 firos1:AML2007-section19-ii-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section19-ii-HTMLblock88;
+purpose:hasHTMLblock	firos1:AML2007-section19-ii-HTMLblock88;
 
 .
 
@@ -6036,12 +5447,14 @@ firos1:hasNum	firos1:AML2007-num19-ii;
 
 
 
-firos1:AML2007-Interpretation83
-a firoh1:Interpretation;
+firos1:AML2007-Registration30
+a firoh1:Registration;
 
 purpose:inSubSection	firos1:AML2007-section19-subii;
 
 purpose:inSection	firos1:AML2007-section19;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -6068,7 +5481,7 @@ firos1:hasP	firos1:AML2007-section19-4-HTMLblock89-p;
 firos1:AML2007-section19-4-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section19-4-HTMLblock89;
+purpose:hasHTMLblock	firos1:AML2007-section19-4-HTMLblock89;
 
 .
 
@@ -6089,6 +5502,32 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section19-sub4-content;
 
 firos1:hasNum	firos1:AML2007-num19-4;
+
+.
+
+
+
+firos1:AML2007-Monitoring31
+a firoh1:Monitoring;
+
+purpose:inSubSection	firos1:AML2007-section19-sub4;
+
+purpose:inSection	firos1:AML2007-section19;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
+firos1:AML2007-Registration32
+a firoh1:Registration;
+
+purpose:inSubSection	firos1:AML2007-section19-sub4;
+
+purpose:inSection	firos1:AML2007-section19;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -6115,7 +5554,7 @@ firos1:hasP	firos1:AML2007-section19-b-HTMLblock90-p;
 firos1:AML2007-section19-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section19-b-HTMLblock90;
+purpose:hasHTMLblock	firos1:AML2007-section19-b-HTMLblock90;
 
 .
 
@@ -6141,8 +5580,21 @@ firos1:hasNum	firos1:AML2007-num19-b;
 
 
 
-firos1:AML2007-CustomerDueDiligence84
-a firoh1:CustomerDueDiligence;
+firos1:AML2007-Monitoring33
+a firoh1:Monitoring;
+
+purpose:inSubSection	firos1:AML2007-section19-subb;
+
+purpose:inSection	firos1:AML2007-section19;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
+firos1:AML2007-Registration34
+a firoh1:Registration;
 
 purpose:inSubSection	firos1:AML2007-section19-subb;
 
@@ -6175,7 +5627,7 @@ firos1:hasP	firos1:AML2007-section19-b-HTMLblock91-p;
 firos1:AML2007-section19-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section19-b-HTMLblock91;
+purpose:hasHTMLblock	firos1:AML2007-section19-b-HTMLblock91;
 
 .
 
@@ -6201,8 +5653,8 @@ firos1:hasNum	firos1:AML2007-num19-b;
 
 
 
-firos1:AML2007-CustomerDueDiligence85
-a firoh1:CustomerDueDiligence;
+firos1:AML2007-Monitoring35
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section19-subb;
 
@@ -6214,12 +5666,14 @@ firoh1:hasModality	firos1:AML2007-Obligation;
 
 
 
-firos1:AML2007-Interpretation86
-a firoh1:Interpretation;
+firos1:AML2007-Registration36
+a firoh1:Registration;
 
 purpose:inSubSection	firos1:AML2007-section19-subb;
 
 purpose:inSection	firos1:AML2007-section19;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -6246,7 +5700,7 @@ firos1:hasP	firos1:AML2007-section19-7-HTMLblock92-p;
 firos1:AML2007-section19-7-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section19-7-HTMLblock92;
+purpose:hasHTMLblock	firos1:AML2007-section19-7-HTMLblock92;
 
 .
 
@@ -6267,17 +5721,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section19-sub7-content;
 
 firos1:hasNum	firos1:AML2007-num19-7;
-
-.
-
-
-
-firos1:AML2007-Interpretation87
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section19-sub7;
-
-purpose:inSection	firos1:AML2007-section19;
 
 .
 
@@ -6304,7 +5747,7 @@ firos1:hasP	firos1:AML2007-section19-8-HTMLblock93-p;
 firos1:AML2007-section19-8-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section19-8-HTMLblock93;
+purpose:hasHTMLblock	firos1:AML2007-section19-8-HTMLblock93;
 
 .
 
@@ -6325,17 +5768,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section19-sub8-content;
 
 firos1:hasNum	firos1:AML2007-num19-8;
-
-.
-
-
-
-firos1:AML2007-Interpretation88
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section19-sub8;
-
-purpose:inSection	firos1:AML2007-section19;
 
 .
 
@@ -6411,7 +5843,7 @@ firos1:hasP	firos1:AML2007-section20-f-HTMLblock94-p;
 firos1:AML2007-section20-f-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section20-f-HTMLblock94;
+purpose:hasHTMLblock	firos1:AML2007-section20-f-HTMLblock94;
 
 .
 
@@ -6437,25 +5869,14 @@ firos1:hasNum	firos1:AML2007-num20-f;
 
 
 
-firos1:AML2007-CustomerDueDiligence89
-a firoh1:CustomerDueDiligence;
+firos1:AML2007-Monitoring37
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section20-subf;
 
 purpose:inSection	firos1:AML2007-section20;
 
 firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Interpretation90
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section20-subf;
-
-purpose:inSection	firos1:AML2007-section20;
 
 .
 
@@ -6482,7 +5903,7 @@ firos1:hasP	firos1:AML2007-section20-iii-HTMLblock95-p;
 firos1:AML2007-section20-iii-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section20-iii-HTMLblock95;
+purpose:hasHTMLblock	firos1:AML2007-section20-iii-HTMLblock95;
 
 .
 
@@ -6508,8 +5929,8 @@ firos1:hasNum	firos1:AML2007-num20-iii;
 
 
 
-firos1:AML2007-CustomerDueDiligence91
-a firoh1:CustomerDueDiligence;
+firos1:AML2007-Monitoring38
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section20-subiii;
 
@@ -6542,7 +5963,7 @@ firos1:hasP	firos1:AML2007-section20-3-HTMLblock96-p;
 firos1:AML2007-section20-3-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section20-3-HTMLblock96;
+purpose:hasHTMLblock	firos1:AML2007-section20-3-HTMLblock96;
 
 .
 
@@ -6589,7 +6010,7 @@ firos1:hasP	firos1:AML2007-section20-b-HTMLblock97-p;
 firos1:AML2007-section20-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section20-b-HTMLblock97;
+purpose:hasHTMLblock	firos1:AML2007-section20-b-HTMLblock97;
 
 .
 
@@ -6615,19 +6036,8 @@ firos1:hasNum	firos1:AML2007-num20-b;
 
 
 
-firos1:AML2007-Interpretation92
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section20-subb;
-
-purpose:inSection	firos1:AML2007-section20;
-
-.
-
-
-
-firos1:AML2007-Supervision93
-a firoh1:Supervision;
+firos1:AML2007-Monitoring39
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section20-subb;
 
@@ -6660,7 +6070,7 @@ firos1:hasP	firos1:AML2007-section20-5-HTMLblock98-p;
 firos1:AML2007-section20-5-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section20-5-HTMLblock98;
+purpose:hasHTMLblock	firos1:AML2007-section20-5-HTMLblock98;
 
 .
 
@@ -6681,6 +6091,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section20-sub5-content;
 
 firos1:hasNum	firos1:AML2007-num20-5;
+
+.
+
+
+
+firos1:AML2007-Monitoring40
+a firoh1:Monitoring;
+
+purpose:inSubSection	firos1:AML2007-section20-sub5;
+
+purpose:inSection	firos1:AML2007-section20;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -6707,7 +6130,7 @@ firos1:hasP	firos1:AML2007-section20-6-HTMLblock99-p;
 firos1:AML2007-section20-6-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section20-6-HTMLblock99;
+purpose:hasHTMLblock	firos1:AML2007-section20-6-HTMLblock99;
 
 .
 
@@ -6728,17 +6151,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section20-sub6-content;
 
 firos1:hasNum	firos1:AML2007-num20-6;
-
-.
-
-
-
-firos1:AML2007-Interpretation94
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section20-sub6;
-
-purpose:inSection	firos1:AML2007-section20;
 
 .
 
@@ -6861,7 +6273,7 @@ firos1:hasP	firos1:AML2007-section22-1-HTMLblock100-p;
 firos1:AML2007-section22-1-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section22-1-HTMLblock100;
+purpose:hasHTMLblock	firos1:AML2007-section22-1-HTMLblock100;
 
 .
 
@@ -6882,30 +6294,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section22-sub1-content;
 
 firos1:hasNum	firos1:AML2007-num22-1;
-
-.
-
-
-
-firos1:AML2007-Interpretation95
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section22-sub1;
-
-purpose:inSection	firos1:AML2007-section22;
-
-.
-
-
-
-firos1:AML2007-Supervision96
-a firoh1:Supervision;
-
-purpose:inSubSection	firos1:AML2007-section22-sub1;
-
-purpose:inSection	firos1:AML2007-section22;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -6932,7 +6320,7 @@ firos1:hasP	firos1:AML2007-section22-2-HTMLblock101-p;
 firos1:AML2007-section22-2-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section22-2-HTMLblock101;
+purpose:hasHTMLblock	firos1:AML2007-section22-2-HTMLblock101;
 
 .
 
@@ -6958,12 +6346,14 @@ firos1:hasNum	firos1:AML2007-num22-2;
 
 
 
-firos1:AML2007-Interpretation97
-a firoh1:Interpretation;
+firos1:AML2007-CustomerDueDiligence41
+a firoh1:CustomerDueDiligence;
 
 purpose:inSubSection	firos1:AML2007-section22-sub2;
 
 purpose:inSection	firos1:AML2007-section22;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -7039,7 +6429,7 @@ firos1:hasP	firos1:AML2007-section23-g-HTMLblock102-p;
 firos1:AML2007-section23-g-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section23-g-HTMLblock102;
+purpose:hasHTMLblock	firos1:AML2007-section23-g-HTMLblock102;
 
 .
 
@@ -7060,30 +6450,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section23-subg-content;
 
 firos1:hasNum	firos1:AML2007-num23-g;
-
-.
-
-
-
-firos1:AML2007-Interpretation98
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section23-subg;
-
-purpose:inSection	firos1:AML2007-section23;
-
-.
-
-
-
-firos1:AML2007-Supervision99
-a firoh1:Supervision;
-
-purpose:inSubSection	firos1:AML2007-section23-subg;
-
-purpose:inSection	firos1:AML2007-section23;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -7110,7 +6476,7 @@ firos1:hasP	firos1:AML2007-section23-2-HTMLblock103-p;
 firos1:AML2007-section23-2-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section23-2-HTMLblock103;
+purpose:hasHTMLblock	firos1:AML2007-section23-2-HTMLblock103;
 
 .
 
@@ -7157,7 +6523,7 @@ firos1:hasP	firos1:AML2007-section23-3-HTMLblock104-p;
 firos1:AML2007-section23-3-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section23-3-HTMLblock104;
+purpose:hasHTMLblock	firos1:AML2007-section23-3-HTMLblock104;
 
 .
 
@@ -7183,19 +6549,8 @@ firos1:hasNum	firos1:AML2007-num23-3;
 
 
 
-firos1:AML2007-Interpretation100
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section23-sub3;
-
-purpose:inSection	firos1:AML2007-section23;
-
-.
-
-
-
-firos1:AML2007-Supervision101
-a firoh1:Supervision;
+firos1:AML2007-Monitoring42
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section23-sub3;
 
@@ -7228,7 +6583,7 @@ firos1:hasP	firos1:AML2007-section23-4-HTMLblock105-p;
 firos1:AML2007-section23-4-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section23-4-HTMLblock105;
+purpose:hasHTMLblock	firos1:AML2007-section23-4-HTMLblock105;
 
 .
 
@@ -7254,12 +6609,14 @@ firos1:hasNum	firos1:AML2007-num23-4;
 
 
 
-firos1:AML2007-Interpretation102
-a firoh1:Interpretation;
+firos1:AML2007-Monitoring43
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section23-sub4;
 
 purpose:inSection	firos1:AML2007-section23;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -7335,7 +6692,7 @@ firos1:hasP	firos1:AML2007-section24-1-HTMLblock106-p;
 firos1:AML2007-section24-1-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section24-1-HTMLblock106;
+purpose:hasHTMLblock	firos1:AML2007-section24-1-HTMLblock106;
 
 .
 
@@ -7356,6 +6713,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section24-sub1-content;
 
 firos1:hasNum	firos1:AML2007-num24-1;
+
+.
+
+
+
+firos1:AML2007-Monitoring44
+a firoh1:Monitoring;
+
+purpose:inSubSection	firos1:AML2007-section24-sub1;
+
+purpose:inSection	firos1:AML2007-section24;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -7382,7 +6752,7 @@ firos1:hasP	firos1:AML2007-section24-2-HTMLblock107-p;
 firos1:AML2007-section24-2-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section24-2-HTMLblock107;
+purpose:hasHTMLblock	firos1:AML2007-section24-2-HTMLblock107;
 
 .
 
@@ -7408,8 +6778,8 @@ firos1:hasNum	firos1:AML2007-num24-2;
 
 
 
-firos1:AML2007-Supervision103
-a firoh1:Supervision;
+firos1:AML2007-Monitoring45
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section24-sub2;
 
@@ -7442,7 +6812,7 @@ firos1:hasP	firos1:AML2007-section24-3-HTMLblock108-p;
 firos1:AML2007-section24-3-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section24-3-HTMLblock108;
+purpose:hasHTMLblock	firos1:AML2007-section24-3-HTMLblock108;
 
 .
 
@@ -7489,7 +6859,7 @@ firos1:hasP	firos1:AML2007-section24-4-HTMLblock109-p;
 firos1:AML2007-section24-4-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section24-4-HTMLblock109;
+purpose:hasHTMLblock	firos1:AML2007-section24-4-HTMLblock109;
 
 .
 
@@ -7510,17 +6880,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section24-sub4-content;
 
 firos1:hasNum	firos1:AML2007-num24-4;
-
-.
-
-
-
-firos1:AML2007-Interpretation104
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section24-sub4;
-
-purpose:inSection	firos1:AML2007-section24;
 
 .
 
@@ -7596,7 +6955,7 @@ firos1:hasP	firos1:AML2007-section25-c-HTMLblock110-p;
 firos1:AML2007-section25-c-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section25-c-HTMLblock110;
+purpose:hasHTMLblock	firos1:AML2007-section25-c-HTMLblock110;
 
 .
 
@@ -7617,6 +6976,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section25-subc-content;
 
 firos1:hasNum	firos1:AML2007-num25-c;
+
+.
+
+
+
+firos1:AML2007-Monitoring46
+a firoh1:Monitoring;
+
+purpose:inSubSection	firos1:AML2007-section25-subc;
+
+purpose:inSection	firos1:AML2007-section25;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -7643,7 +7015,7 @@ firos1:hasP	firos1:AML2007-section25-2-HTMLblock111-p;
 firos1:AML2007-section25-2-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section25-2-HTMLblock111;
+purpose:hasHTMLblock	firos1:AML2007-section25-2-HTMLblock111;
 
 .
 
@@ -7664,17 +7036,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section25-sub2-content;
 
 firos1:hasNum	firos1:AML2007-num25-2;
-
-.
-
-
-
-firos1:AML2007-Interpretation105
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section25-sub2;
-
-purpose:inSection	firos1:AML2007-section25;
 
 .
 
@@ -7701,7 +7062,7 @@ firos1:hasP	firos1:AML2007-section25-3-HTMLblock112-p;
 firos1:AML2007-section25-3-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section25-3-HTMLblock112;
+purpose:hasHTMLblock	firos1:AML2007-section25-3-HTMLblock112;
 
 .
 
@@ -7722,30 +7083,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section25-sub3-content;
 
 firos1:hasNum	firos1:AML2007-num25-3;
-
-.
-
-
-
-firos1:AML2007-Interpretation106
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section25-sub3;
-
-purpose:inSection	firos1:AML2007-section25;
-
-.
-
-
-
-firos1:AML2007-Registration107
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section25-sub3;
-
-purpose:inSection	firos1:AML2007-section25;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -7821,7 +7158,7 @@ firos1:hasP	firos1:AML2007-section26-c-HTMLblock113-p;
 firos1:AML2007-section26-c-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section26-c-HTMLblock113;
+purpose:hasHTMLblock	firos1:AML2007-section26-c-HTMLblock113;
 
 .
 
@@ -7847,8 +7184,8 @@ firos1:hasNum	firos1:AML2007-num26-c;
 
 
 
-firos1:AML2007-Registration108
-a firoh1:Registration;
+firos1:AML2007-Monitoring47
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section26-subc;
 
@@ -7881,7 +7218,7 @@ firos1:hasP	firos1:AML2007-section26-2-HTMLblock114-p;
 firos1:AML2007-section26-2-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section26-2-HTMLblock114;
+purpose:hasHTMLblock	firos1:AML2007-section26-2-HTMLblock114;
 
 .
 
@@ -7977,7 +7314,7 @@ firos1:hasP	firos1:AML2007-section27-1-HTMLblock115-p;
 firos1:AML2007-section27-1-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section27-1-HTMLblock115;
+purpose:hasHTMLblock	firos1:AML2007-section27-1-HTMLblock115;
 
 .
 
@@ -8003,19 +7340,8 @@ firos1:hasNum	firos1:AML2007-num27-1;
 
 
 
-firos1:AML2007-Interpretation109
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section27-sub1;
-
-purpose:inSection	firos1:AML2007-section27;
-
-.
-
-
-
-firos1:AML2007-Registration110
-a firoh1:Registration;
+firos1:AML2007-Monitoring48
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section27-sub1;
 
@@ -8048,7 +7374,7 @@ firos1:hasP	firos1:AML2007-section27-ii-HTMLblock116-p;
 firos1:AML2007-section27-ii-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section27-ii-HTMLblock116;
+purpose:hasHTMLblock	firos1:AML2007-section27-ii-HTMLblock116;
 
 .
 
@@ -8074,12 +7400,14 @@ firos1:hasNum	firos1:AML2007-num27-ii;
 
 
 
-firos1:AML2007-Interpretation111
-a firoh1:Interpretation;
+firos1:AML2007-Monitoring49
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section27-subii;
 
 purpose:inSection	firos1:AML2007-section27;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -8106,7 +7434,7 @@ firos1:hasP	firos1:AML2007-section27-3-HTMLblock117-p;
 firos1:AML2007-section27-3-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section27-3-HTMLblock117;
+purpose:hasHTMLblock	firos1:AML2007-section27-3-HTMLblock117;
 
 .
 
@@ -8127,17 +7455,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section27-sub3-content;
 
 firos1:hasNum	firos1:AML2007-num27-3;
-
-.
-
-
-
-firos1:AML2007-Interpretation112
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section27-sub3;
-
-purpose:inSection	firos1:AML2007-section27;
 
 .
 
@@ -8164,7 +7481,7 @@ firos1:hasP	firos1:AML2007-section27-b-HTMLblock118-p;
 firos1:AML2007-section27-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section27-b-HTMLblock118;
+purpose:hasHTMLblock	firos1:AML2007-section27-b-HTMLblock118;
 
 .
 
@@ -8185,6 +7502,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section27-subb-content;
 
 firos1:hasNum	firos1:AML2007-num27-b;
+
+.
+
+
+
+firos1:AML2007-Monitoring50
+a firoh1:Monitoring;
+
+purpose:inSubSection	firos1:AML2007-section27-subb;
+
+purpose:inSection	firos1:AML2007-section27;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -8211,7 +7541,7 @@ firos1:hasP	firos1:AML2007-section27-5-HTMLblock119-p;
 firos1:AML2007-section27-5-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section27-5-HTMLblock119;
+purpose:hasHTMLblock	firos1:AML2007-section27-5-HTMLblock119;
 
 .
 
@@ -8232,17 +7562,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section27-sub5-content;
 
 firos1:hasNum	firos1:AML2007-num27-5;
-
-.
-
-
-
-firos1:AML2007-Interpretation113
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section27-sub5;
-
-purpose:inSection	firos1:AML2007-section27;
 
 .
 
@@ -8269,7 +7588,7 @@ firos1:hasP	firos1:AML2007-section27-6-HTMLblock120-p;
 firos1:AML2007-section27-6-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section27-6-HTMLblock120;
+purpose:hasHTMLblock	firos1:AML2007-section27-6-HTMLblock120;
 
 .
 
@@ -8295,12 +7614,14 @@ firos1:hasNum	firos1:AML2007-num27-6;
 
 
 
-firos1:AML2007-Interpretation114
-a firoh1:Interpretation;
+firos1:AML2007-Monitoring51
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section27-sub6;
 
 purpose:inSection	firos1:AML2007-section27;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -8376,7 +7697,7 @@ firos1:hasP	firos1:AML2007-section28-d-HTMLblock121-p;
 firos1:AML2007-section28-d-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section28-d-HTMLblock121;
+purpose:hasHTMLblock	firos1:AML2007-section28-d-HTMLblock121;
 
 .
 
@@ -8402,19 +7723,8 @@ firos1:hasNum	firos1:AML2007-num28-d;
 
 
 
-firos1:AML2007-Interpretation115
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section28-subd;
-
-purpose:inSection	firos1:AML2007-section28;
-
-.
-
-
-
-firos1:AML2007-Registration116
-a firoh1:Registration;
+firos1:AML2007-Monitoring52
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section28-subd;
 
@@ -8447,7 +7757,7 @@ firos1:hasP	firos1:AML2007-section28-h-HTMLblock122-p;
 firos1:AML2007-section28-h-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section28-h-HTMLblock122;
+purpose:hasHTMLblock	firos1:AML2007-section28-h-HTMLblock122;
 
 .
 
@@ -8473,7 +7783,7 @@ firos1:hasNum	firos1:AML2007-num28-h;
 
 
 
-firos1:AML2007-Interpretation117
+firos1:AML2007-Interpretation53
 a firoh1:Interpretation;
 
 purpose:inSubSection	firos1:AML2007-section28-subh;
@@ -8484,8 +7794,8 @@ purpose:inSection	firos1:AML2007-section28;
 
 
 
-firos1:AML2007-Supervision118
-a firoh1:Supervision;
+firos1:AML2007-Registration54
+a firoh1:Registration;
 
 purpose:inSubSection	firos1:AML2007-section28-subh;
 
@@ -8518,7 +7828,7 @@ firos1:hasP	firos1:AML2007-section28-3-HTMLblock123-p;
 firos1:AML2007-section28-3-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section28-3-HTMLblock123;
+purpose:hasHTMLblock	firos1:AML2007-section28-3-HTMLblock123;
 
 .
 
@@ -8539,17 +7849,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section28-sub3-content;
 
 firos1:hasNum	firos1:AML2007-num28-3;
-
-.
-
-
-
-firos1:AML2007-Interpretation119
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section28-sub3;
-
-purpose:inSection	firos1:AML2007-section28;
 
 .
 
@@ -8625,7 +7924,7 @@ firos1:hasP	firos1:AML2007-section29-c-HTMLblock124-p;
 firos1:AML2007-section29-c-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section29-c-HTMLblock124;
+purpose:hasHTMLblock	firos1:AML2007-section29-c-HTMLblock124;
 
 .
 
@@ -8646,19 +7945,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section29-subc-content;
 
 firos1:hasNum	firos1:AML2007-num29-c;
-
-.
-
-
-
-firos1:AML2007-Registration120
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section29-subc;
-
-purpose:inSection	firos1:AML2007-section29;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -8685,7 +7971,7 @@ firos1:hasP	firos1:AML2007-section29-iv-HTMLblock125-p;
 firos1:AML2007-section29-iv-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section29-iv-HTMLblock125;
+purpose:hasHTMLblock	firos1:AML2007-section29-iv-HTMLblock125;
 
 .
 
@@ -8711,7 +7997,7 @@ firos1:hasNum	firos1:AML2007-num29-iv;
 
 
 
-firos1:AML2007-Interpretation121
+firos1:AML2007-Interpretation55
 a firoh1:Interpretation;
 
 purpose:inSubSection	firos1:AML2007-section29-subiv;
@@ -8722,8 +8008,21 @@ purpose:inSection	firos1:AML2007-section29;
 
 
 
-firos1:AML2007-Supervision122
-a firoh1:Supervision;
+firos1:AML2007-Monitoring56
+a firoh1:Monitoring;
+
+purpose:inSubSection	firos1:AML2007-section29-subiv;
+
+purpose:inSection	firos1:AML2007-section29;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
+firos1:AML2007-Registration57
+a firoh1:Registration;
 
 purpose:inSubSection	firos1:AML2007-section29-subiv;
 
@@ -8756,7 +8055,7 @@ firos1:hasP	firos1:AML2007-section29-3-HTMLblock126-p;
 firos1:AML2007-section29-3-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section29-3-HTMLblock126;
+purpose:hasHTMLblock	firos1:AML2007-section29-3-HTMLblock126;
 
 .
 
@@ -8782,19 +8081,8 @@ firos1:hasNum	firos1:AML2007-num29-3;
 
 
 
-firos1:AML2007-Interpretation123
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section29-sub3;
-
-purpose:inSection	firos1:AML2007-section29;
-
-.
-
-
-
-firos1:AML2007-Registration124
-a firoh1:Registration;
+firos1:AML2007-Monitoring58
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section29-sub3;
 
@@ -8876,7 +8164,7 @@ firos1:hasP	firos1:AML2007-section30-1-HTMLblock127-p;
 firos1:AML2007-section30-1-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section30-1-HTMLblock127;
+purpose:hasHTMLblock	firos1:AML2007-section30-1-HTMLblock127;
 
 .
 
@@ -8897,6 +8185,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section30-sub1-content;
 
 firos1:hasNum	firos1:AML2007-num30-1;
+
+.
+
+
+
+firos1:AML2007-Monitoring59
+a firoh1:Monitoring;
+
+purpose:inSubSection	firos1:AML2007-section30-sub1;
+
+purpose:inSection	firos1:AML2007-section30;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -8923,7 +8224,7 @@ firos1:hasP	firos1:AML2007-section30-2-HTMLblock128-p;
 firos1:AML2007-section30-2-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section30-2-HTMLblock128;
+purpose:hasHTMLblock	firos1:AML2007-section30-2-HTMLblock128;
 
 .
 
@@ -8944,30 +8245,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section30-sub2-content;
 
 firos1:hasNum	firos1:AML2007-num30-2;
-
-.
-
-
-
-firos1:AML2007-Interpretation125
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section30-sub2;
-
-purpose:inSection	firos1:AML2007-section30;
-
-.
-
-
-
-firos1:AML2007-Registration126
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section30-sub2;
-
-purpose:inSection	firos1:AML2007-section30;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -8994,7 +8271,7 @@ firos1:hasP	firos1:AML2007-section30-d-HTMLblock129-p;
 firos1:AML2007-section30-d-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section30-d-HTMLblock129;
+purpose:hasHTMLblock	firos1:AML2007-section30-d-HTMLblock129;
 
 .
 
@@ -9020,7 +8297,7 @@ firos1:hasNum	firos1:AML2007-num30-d;
 
 
 
-firos1:AML2007-Interpretation127
+firos1:AML2007-Interpretation60
 a firoh1:Interpretation;
 
 purpose:inSubSection	firos1:AML2007-section30-subd;
@@ -9031,8 +8308,8 @@ purpose:inSection	firos1:AML2007-section30;
 
 
 
-firos1:AML2007-Supervision128
-a firoh1:Supervision;
+firos1:AML2007-Monitoring61
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section30-subd;
 
@@ -9065,7 +8342,7 @@ firos1:hasP	firos1:AML2007-section30-b-HTMLblock130-p;
 firos1:AML2007-section30-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section30-b-HTMLblock130;
+purpose:hasHTMLblock	firos1:AML2007-section30-b-HTMLblock130;
 
 .
 
@@ -9091,7 +8368,7 @@ firos1:hasNum	firos1:AML2007-num30-b;
 
 
 
-firos1:AML2007-Interpretation129
+firos1:AML2007-Interpretation62
 a firoh1:Interpretation;
 
 purpose:inSubSection	firos1:AML2007-section30-subb;
@@ -9172,7 +8449,7 @@ firos1:hasP	firos1:AML2007-section31-1-HTMLblock131-p;
 firos1:AML2007-section31-1-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section31-1-HTMLblock131;
+purpose:hasHTMLblock	firos1:AML2007-section31-1-HTMLblock131;
 
 .
 
@@ -9193,6 +8470,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section31-sub1-content;
 
 firos1:hasNum	firos1:AML2007-num31-1;
+
+.
+
+
+
+firos1:AML2007-Monitoring63
+a firoh1:Monitoring;
+
+purpose:inSubSection	firos1:AML2007-section31-sub1;
+
+purpose:inSection	firos1:AML2007-section31;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -9219,7 +8509,7 @@ firos1:hasP	firos1:AML2007-section31-b-HTMLblock132-p;
 firos1:AML2007-section31-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section31-b-HTMLblock132;
+purpose:hasHTMLblock	firos1:AML2007-section31-b-HTMLblock132;
 
 .
 
@@ -9266,7 +8556,7 @@ firos1:hasP	firos1:AML2007-section31-3-HTMLblock133-p;
 firos1:AML2007-section31-3-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section31-3-HTMLblock133;
+purpose:hasHTMLblock	firos1:AML2007-section31-3-HTMLblock133;
 
 .
 
@@ -9287,6 +8577,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section31-sub3-content;
 
 firos1:hasNum	firos1:AML2007-num31-3;
+
+.
+
+
+
+firos1:AML2007-Monitoring64
+a firoh1:Monitoring;
+
+purpose:inSubSection	firos1:AML2007-section31-sub3;
+
+purpose:inSection	firos1:AML2007-section31;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -9313,7 +8616,7 @@ firos1:hasP	firos1:AML2007-section31-4-HTMLblock134-p;
 firos1:AML2007-section31-4-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section31-4-HTMLblock134;
+purpose:hasHTMLblock	firos1:AML2007-section31-4-HTMLblock134;
 
 .
 
@@ -9360,7 +8663,7 @@ firos1:hasP	firos1:AML2007-section31-5-HTMLblock135-p;
 firos1:AML2007-section31-5-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section31-5-HTMLblock135;
+purpose:hasHTMLblock	firos1:AML2007-section31-5-HTMLblock135;
 
 .
 
@@ -9386,12 +8689,14 @@ firos1:hasNum	firos1:AML2007-num31-5;
 
 
 
-firos1:AML2007-Interpretation130
-a firoh1:Interpretation;
+firos1:AML2007-Monitoring65
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section31-sub5;
 
 purpose:inSection	firos1:AML2007-section31;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -9467,7 +8772,7 @@ firos1:hasP	firos1:AML2007-section32-1-HTMLblock136-p;
 firos1:AML2007-section32-1-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section32-1-HTMLblock136;
+purpose:hasHTMLblock	firos1:AML2007-section32-1-HTMLblock136;
 
 .
 
@@ -9493,25 +8798,12 @@ firos1:hasNum	firos1:AML2007-num32-1;
 
 
 
-firos1:AML2007-Interpretation131
+firos1:AML2007-Interpretation66
 a firoh1:Interpretation;
 
 purpose:inSubSection	firos1:AML2007-section32-sub1;
 
 purpose:inSection	firos1:AML2007-section32;
-
-.
-
-
-
-firos1:AML2007-Registration132
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section32-sub1;
-
-purpose:inSection	firos1:AML2007-section32;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -9538,7 +8830,7 @@ firos1:hasP	firos1:AML2007-section32-2-HTMLblock137-p;
 firos1:AML2007-section32-2-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section32-2-HTMLblock137;
+purpose:hasHTMLblock	firos1:AML2007-section32-2-HTMLblock137;
 
 .
 
@@ -9559,30 +8851,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section32-sub2-content;
 
 firos1:hasNum	firos1:AML2007-num32-2;
-
-.
-
-
-
-firos1:AML2007-Interpretation133
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section32-sub2;
-
-purpose:inSection	firos1:AML2007-section32;
-
-.
-
-
-
-firos1:AML2007-Registration134
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section32-sub2;
-
-purpose:inSection	firos1:AML2007-section32;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -9609,7 +8877,7 @@ firos1:hasP	firos1:AML2007-section32-b-HTMLblock138-p;
 firos1:AML2007-section32-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section32-b-HTMLblock138;
+purpose:hasHTMLblock	firos1:AML2007-section32-b-HTMLblock138;
 
 .
 
@@ -9630,17 +8898,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section32-subb-content;
 
 firos1:hasNum	firos1:AML2007-num32-b;
-
-.
-
-
-
-firos1:AML2007-Interpretation135
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section32-subb;
-
-purpose:inSection	firos1:AML2007-section32;
 
 .
 
@@ -9667,7 +8924,7 @@ firos1:hasP	firos1:AML2007-section32-c-HTMLblock139-p;
 firos1:AML2007-section32-c-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section32-c-HTMLblock139;
+purpose:hasHTMLblock	firos1:AML2007-section32-c-HTMLblock139;
 
 .
 
@@ -9714,7 +8971,7 @@ firos1:hasP	firos1:AML2007-section32-5-HTMLblock140-p;
 firos1:AML2007-section32-5-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section32-5-HTMLblock140;
+purpose:hasHTMLblock	firos1:AML2007-section32-5-HTMLblock140;
 
 .
 
@@ -9740,8 +8997,8 @@ firos1:hasNum	firos1:AML2007-num32-5;
 
 
 
-firos1:AML2007-Registration136
-a firoh1:Registration;
+firos1:AML2007-Monitoring67
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section32-sub5;
 
@@ -9774,7 +9031,7 @@ firos1:hasP	firos1:AML2007-section32-6-HTMLblock141-p;
 firos1:AML2007-section32-6-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section32-6-HTMLblock141;
+purpose:hasHTMLblock	firos1:AML2007-section32-6-HTMLblock141;
 
 .
 
@@ -9795,30 +9052,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section32-sub6-content;
 
 firos1:hasNum	firos1:AML2007-num32-6;
-
-.
-
-
-
-firos1:AML2007-Interpretation137
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section32-sub6;
-
-purpose:inSection	firos1:AML2007-section32;
-
-.
-
-
-
-firos1:AML2007-Registration138
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section32-sub6;
-
-purpose:inSection	firos1:AML2007-section32;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -9845,7 +9078,7 @@ firos1:hasP	firos1:AML2007-section32-7-HTMLblock142-p;
 firos1:AML2007-section32-7-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section32-7-HTMLblock142;
+purpose:hasHTMLblock	firos1:AML2007-section32-7-HTMLblock142;
 
 .
 
@@ -9866,30 +9099,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section32-sub7-content;
 
 firos1:hasNum	firos1:AML2007-num32-7;
-
-.
-
-
-
-firos1:AML2007-Interpretation139
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section32-sub7;
-
-purpose:inSection	firos1:AML2007-section32;
-
-.
-
-
-
-firos1:AML2007-Registration140
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section32-sub7;
-
-purpose:inSection	firos1:AML2007-section32;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -10012,7 +9221,7 @@ firos1:hasP	firos1:AML2007-section34-1-HTMLblock143-p;
 firos1:AML2007-section34-1-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section34-1-HTMLblock143;
+purpose:hasHTMLblock	firos1:AML2007-section34-1-HTMLblock143;
 
 .
 
@@ -10033,30 +9242,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section34-sub1-content;
 
 firos1:hasNum	firos1:AML2007-num34-1;
-
-.
-
-
-
-firos1:AML2007-Interpretation141
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section34-sub1;
-
-purpose:inSection	firos1:AML2007-section34;
-
-.
-
-
-
-firos1:AML2007-Registration142
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section34-sub1;
-
-purpose:inSection	firos1:AML2007-section34;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -10083,7 +9268,7 @@ firos1:hasP	firos1:AML2007-section34-2-HTMLblock144-p;
 firos1:AML2007-section34-2-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section34-2-HTMLblock144;
+purpose:hasHTMLblock	firos1:AML2007-section34-2-HTMLblock144;
 
 .
 
@@ -10104,19 +9289,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section34-sub2-content;
 
 firos1:hasNum	firos1:AML2007-num34-2;
-
-.
-
-
-
-firos1:AML2007-Registration143
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section34-sub2;
-
-purpose:inSection	firos1:AML2007-section34;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -10143,7 +9315,7 @@ firos1:hasP	firos1:AML2007-section34-c-HTMLblock145-p;
 firos1:AML2007-section34-c-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section34-c-HTMLblock145;
+purpose:hasHTMLblock	firos1:AML2007-section34-c-HTMLblock145;
 
 .
 
@@ -10164,19 +9336,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section34-subc-content;
 
 firos1:hasNum	firos1:AML2007-num34-c;
-
-.
-
-
-
-firos1:AML2007-Registration144
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section34-subc;
-
-purpose:inSection	firos1:AML2007-section34;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -10203,7 +9362,7 @@ firos1:hasP	firos1:AML2007-section34-iii-HTMLblock146-p;
 firos1:AML2007-section34-iii-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section34-iii-HTMLblock146;
+purpose:hasHTMLblock	firos1:AML2007-section34-iii-HTMLblock146;
 
 .
 
@@ -10229,8 +9388,32 @@ firos1:hasNum	firos1:AML2007-num34-iii;
 
 
 
-firos1:AML2007-Supervision145
-a firoh1:Supervision;
+firos1:AML2007-Interpretation68
+a firoh1:Interpretation;
+
+purpose:inSubSection	firos1:AML2007-section34-subiii;
+
+purpose:inSection	firos1:AML2007-section34;
+
+.
+
+
+
+firos1:AML2007-Monitoring69
+a firoh1:Monitoring;
+
+purpose:inSubSection	firos1:AML2007-section34-subiii;
+
+purpose:inSection	firos1:AML2007-section34;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
+firos1:AML2007-Registration70
+a firoh1:Registration;
 
 purpose:inSubSection	firos1:AML2007-section34-subiii;
 
@@ -10263,7 +9446,7 @@ firos1:hasP	firos1:AML2007-section34-iii-HTMLblock147-p;
 firos1:AML2007-section34-iii-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section34-iii-HTMLblock147;
+purpose:hasHTMLblock	firos1:AML2007-section34-iii-HTMLblock147;
 
 .
 
@@ -10289,12 +9472,25 @@ firos1:hasNum	firos1:AML2007-num34-iii;
 
 
 
-firos1:AML2007-Interpretation146
+firos1:AML2007-Interpretation71
 a firoh1:Interpretation;
 
 purpose:inSubSection	firos1:AML2007-section34-subiii;
 
 purpose:inSection	firos1:AML2007-section34;
+
+.
+
+
+
+firos1:AML2007-Monitoring72
+a firoh1:Monitoring;
+
+purpose:inSubSection	firos1:AML2007-section34-subiii;
+
+purpose:inSection	firos1:AML2007-section34;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -10321,7 +9517,7 @@ firos1:hasP	firos1:AML2007-section34-6-HTMLblock148-p;
 firos1:AML2007-section34-6-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section34-6-HTMLblock148;
+purpose:hasHTMLblock	firos1:AML2007-section34-6-HTMLblock148;
 
 .
 
@@ -10347,19 +9543,8 @@ firos1:hasNum	firos1:AML2007-num34-6;
 
 
 
-firos1:AML2007-Interpretation147
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section34-sub6;
-
-purpose:inSection	firos1:AML2007-section34;
-
-.
-
-
-
-firos1:AML2007-Registration148
-a firoh1:Registration;
+firos1:AML2007-Monitoring73
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section34-sub6;
 
@@ -10392,7 +9577,7 @@ firos1:hasP	firos1:AML2007-section34-7-HTMLblock149-p;
 firos1:AML2007-section34-7-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section34-7-HTMLblock149;
+purpose:hasHTMLblock	firos1:AML2007-section34-7-HTMLblock149;
 
 .
 
@@ -10413,30 +9598,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section34-sub7-content;
 
 firos1:hasNum	firos1:AML2007-num34-7;
-
-.
-
-
-
-firos1:AML2007-Interpretation149
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section34-sub7;
-
-purpose:inSection	firos1:AML2007-section34;
-
-.
-
-
-
-firos1:AML2007-Registration150
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section34-sub7;
-
-purpose:inSection	firos1:AML2007-section34;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -10463,7 +9624,7 @@ firos1:hasP	firos1:AML2007-section34-c-HTMLblock150-p;
 firos1:AML2007-section34-c-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section34-c-HTMLblock150;
+purpose:hasHTMLblock	firos1:AML2007-section34-c-HTMLblock150;
 
 .
 
@@ -10489,12 +9650,25 @@ firos1:hasNum	firos1:AML2007-num34-c;
 
 
 
-firos1:AML2007-Interpretation151
+firos1:AML2007-Interpretation74
 a firoh1:Interpretation;
 
 purpose:inSubSection	firos1:AML2007-section34-subc;
 
 purpose:inSection	firos1:AML2007-section34;
+
+.
+
+
+
+firos1:AML2007-Monitoring75
+a firoh1:Monitoring;
+
+purpose:inSubSection	firos1:AML2007-section34-subc;
+
+purpose:inSection	firos1:AML2007-section34;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -10521,7 +9695,7 @@ firos1:hasP	firos1:AML2007-section34-iii-HTMLblock151-p;
 firos1:AML2007-section34-iii-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section34-iii-HTMLblock151;
+purpose:hasHTMLblock	firos1:AML2007-section34-iii-HTMLblock151;
 
 .
 
@@ -10547,7 +9721,7 @@ firos1:hasNum	firos1:AML2007-num34-iii;
 
 
 
-firos1:AML2007-Interpretation152
+firos1:AML2007-Interpretation76
 a firoh1:Interpretation;
 
 purpose:inSubSection	firos1:AML2007-section34-subiii;
@@ -10558,8 +9732,8 @@ purpose:inSection	firos1:AML2007-section34;
 
 
 
-firos1:AML2007-Supervision153
-a firoh1:Supervision;
+firos1:AML2007-Monitoring77
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section34-subiii;
 
@@ -10592,7 +9766,7 @@ firos1:hasP	firos1:AML2007-section34-b-HTMLblock152-p;
 firos1:AML2007-section34-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section34-b-HTMLblock152;
+purpose:hasHTMLblock	firos1:AML2007-section34-b-HTMLblock152;
 
 .
 
@@ -10618,7 +9792,7 @@ firos1:hasNum	firos1:AML2007-num34-b;
 
 
 
-firos1:AML2007-Interpretation154
+firos1:AML2007-Interpretation78
 a firoh1:Interpretation;
 
 purpose:inSubSection	firos1:AML2007-section34-subb;
@@ -10650,7 +9824,7 @@ firos1:hasP	firos1:AML2007-section34-11-HTMLblock153-p;
 firos1:AML2007-section34-11-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section34-11-HTMLblock153;
+purpose:hasHTMLblock	firos1:AML2007-section34-11-HTMLblock153;
 
 .
 
@@ -10746,7 +9920,7 @@ firos1:hasP	firos1:AML2007-section35-b-HTMLblock154-p;
 firos1:AML2007-section35-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section35-b-HTMLblock154;
+purpose:hasHTMLblock	firos1:AML2007-section35-b-HTMLblock154;
 
 .
 
@@ -10767,17 +9941,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section35-subb-content;
 
 firos1:hasNum	firos1:AML2007-num35-b;
-
-.
-
-
-
-firos1:AML2007-Interpretation155
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section35-subb;
-
-purpose:inSection	firos1:AML2007-section35;
 
 .
 
@@ -10804,7 +9967,7 @@ firos1:hasP	firos1:AML2007-section35-2-HTMLblock155-p;
 firos1:AML2007-section35-2-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section35-2-HTMLblock155;
+purpose:hasHTMLblock	firos1:AML2007-section35-2-HTMLblock155;
 
 .
 
@@ -10830,12 +9993,14 @@ firos1:hasNum	firos1:AML2007-num35-2;
 
 
 
-firos1:AML2007-Interpretation156
-a firoh1:Interpretation;
+firos1:AML2007-Monitoring79
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section35-sub2;
 
 purpose:inSection	firos1:AML2007-section35;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -10862,7 +10027,7 @@ firos1:hasP	firos1:AML2007-section35-3-HTMLblock156-p;
 firos1:AML2007-section35-3-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section35-3-HTMLblock156;
+purpose:hasHTMLblock	firos1:AML2007-section35-3-HTMLblock156;
 
 .
 
@@ -10883,17 +10048,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section35-sub3-content;
 
 firos1:hasNum	firos1:AML2007-num35-3;
-
-.
-
-
-
-firos1:AML2007-Interpretation157
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section35-sub3;
-
-purpose:inSection	firos1:AML2007-section35;
 
 .
 
@@ -10920,7 +10074,7 @@ firos1:hasP	firos1:AML2007-section35-4-HTMLblock157-p;
 firos1:AML2007-section35-4-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section35-4-HTMLblock157;
+purpose:hasHTMLblock	firos1:AML2007-section35-4-HTMLblock157;
 
 .
 
@@ -10946,12 +10100,14 @@ firos1:hasNum	firos1:AML2007-num35-4;
 
 
 
-firos1:AML2007-Interpretation158
-a firoh1:Interpretation;
+firos1:AML2007-Monitoring80
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section35-sub4;
 
 purpose:inSection	firos1:AML2007-section35;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -10978,7 +10134,7 @@ firos1:hasP	firos1:AML2007-section35-b-HTMLblock158-p;
 firos1:AML2007-section35-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section35-b-HTMLblock158;
+purpose:hasHTMLblock	firos1:AML2007-section35-b-HTMLblock158;
 
 .
 
@@ -10999,17 +10155,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section35-subb-content;
 
 firos1:hasNum	firos1:AML2007-num35-b;
-
-.
-
-
-
-firos1:AML2007-Interpretation159
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section35-subb;
-
-purpose:inSection	firos1:AML2007-section35;
 
 .
 
@@ -11132,7 +10277,7 @@ firos1:hasP	firos1:AML2007-section37-c-HTMLblock159-p;
 firos1:AML2007-section37-c-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section37-c-HTMLblock159;
+purpose:hasHTMLblock	firos1:AML2007-section37-c-HTMLblock159;
 
 .
 
@@ -11158,7 +10303,7 @@ firos1:hasNum	firos1:AML2007-num37-c;
 
 
 
-firos1:AML2007-Interpretation160
+firos1:AML2007-Interpretation81
 a firoh1:Interpretation;
 
 purpose:inSubSection	firos1:AML2007-section37-subc;
@@ -11190,7 +10335,7 @@ firos1:hasP	firos1:AML2007-section37-2-HTMLblock160-p;
 firos1:AML2007-section37-2-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section37-2-HTMLblock160;
+purpose:hasHTMLblock	firos1:AML2007-section37-2-HTMLblock160;
 
 .
 
@@ -11237,7 +10382,7 @@ firos1:hasP	firos1:AML2007-section37-3-HTMLblock161-p;
 firos1:AML2007-section37-3-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section37-3-HTMLblock161;
+purpose:hasHTMLblock	firos1:AML2007-section37-3-HTMLblock161;
 
 .
 
@@ -11284,7 +10429,7 @@ firos1:hasP	firos1:AML2007-section37-ii-HTMLblock162-p;
 firos1:AML2007-section37-ii-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section37-ii-HTMLblock162;
+purpose:hasHTMLblock	firos1:AML2007-section37-ii-HTMLblock162;
 
 .
 
@@ -11310,12 +10455,25 @@ firos1:hasNum	firos1:AML2007-num37-ii;
 
 
 
-firos1:AML2007-Interpretation161
+firos1:AML2007-Interpretation82
 a firoh1:Interpretation;
 
 purpose:inSubSection	firos1:AML2007-section37-subii;
 
 purpose:inSection	firos1:AML2007-section37;
+
+.
+
+
+
+firos1:AML2007-Monitoring83
+a firoh1:Monitoring;
+
+purpose:inSubSection	firos1:AML2007-section37-subii;
+
+purpose:inSection	firos1:AML2007-section37;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -11342,7 +10500,7 @@ firos1:hasP	firos1:AML2007-section37-5-HTMLblock163-p;
 firos1:AML2007-section37-5-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section37-5-HTMLblock163;
+purpose:hasHTMLblock	firos1:AML2007-section37-5-HTMLblock163;
 
 .
 
@@ -11363,17 +10521,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section37-sub5-content;
 
 firos1:hasNum	firos1:AML2007-num37-5;
-
-.
-
-
-
-firos1:AML2007-Interpretation162
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section37-sub5;
-
-purpose:inSection	firos1:AML2007-section37;
 
 .
 
@@ -11400,7 +10547,7 @@ firos1:hasP	firos1:AML2007-section37-6-HTMLblock164-p;
 firos1:AML2007-section37-6-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section37-6-HTMLblock164;
+purpose:hasHTMLblock	firos1:AML2007-section37-6-HTMLblock164;
 
 .
 
@@ -11421,17 +10568,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section37-sub6-content;
 
 firos1:hasNum	firos1:AML2007-num37-6;
-
-.
-
-
-
-firos1:AML2007-Interpretation163
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section37-sub6;
-
-purpose:inSection	firos1:AML2007-section37;
 
 .
 
@@ -11458,7 +10594,7 @@ firos1:hasP	firos1:AML2007-section37-7-HTMLblock165-p;
 firos1:AML2007-section37-7-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section37-7-HTMLblock165;
+purpose:hasHTMLblock	firos1:AML2007-section37-7-HTMLblock165;
 
 .
 
@@ -11479,30 +10615,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section37-sub7-content;
 
 firos1:hasNum	firos1:AML2007-num37-7;
-
-.
-
-
-
-firos1:AML2007-Interpretation164
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section37-sub7;
-
-purpose:inSection	firos1:AML2007-section37;
-
-.
-
-
-
-firos1:AML2007-Supervision165
-a firoh1:Supervision;
-
-purpose:inSubSection	firos1:AML2007-section37-sub7;
-
-purpose:inSection	firos1:AML2007-section37;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -11529,7 +10641,7 @@ firos1:hasP	firos1:AML2007-section37-8-HTMLblock166-p;
 firos1:AML2007-section37-8-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section37-8-HTMLblock166;
+purpose:hasHTMLblock	firos1:AML2007-section37-8-HTMLblock166;
 
 .
 
@@ -11576,7 +10688,7 @@ firos1:hasP	firos1:AML2007-section37-b-HTMLblock167-p;
 firos1:AML2007-section37-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section37-b-HTMLblock167;
+purpose:hasHTMLblock	firos1:AML2007-section37-b-HTMLblock167;
 
 .
 
@@ -11597,17 +10709,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section37-subb-content;
 
 firos1:hasNum	firos1:AML2007-num37-b;
-
-.
-
-
-
-firos1:AML2007-Interpretation166
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section37-subb;
-
-purpose:inSection	firos1:AML2007-section37;
 
 .
 
@@ -11634,7 +10735,7 @@ firos1:hasP	firos1:AML2007-section37-c-HTMLblock168-p;
 firos1:AML2007-section37-c-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section37-c-HTMLblock168;
+purpose:hasHTMLblock	firos1:AML2007-section37-c-HTMLblock168;
 
 .
 
@@ -11655,17 +10756,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section37-subc-content;
 
 firos1:hasNum	firos1:AML2007-num37-c;
-
-.
-
-
-
-firos1:AML2007-Interpretation167
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section37-subc;
-
-purpose:inSection	firos1:AML2007-section37;
 
 .
 
@@ -11692,7 +10782,7 @@ firos1:hasP	firos1:AML2007-section37-b-HTMLblock169-p;
 firos1:AML2007-section37-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section37-b-HTMLblock169;
+purpose:hasHTMLblock	firos1:AML2007-section37-b-HTMLblock169;
 
 .
 
@@ -11788,7 +10878,7 @@ firos1:hasP	firos1:AML2007-section38-f-HTMLblock170-p;
 firos1:AML2007-section38-f-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section38-f-HTMLblock170;
+purpose:hasHTMLblock	firos1:AML2007-section38-f-HTMLblock170;
 
 .
 
@@ -11835,7 +10925,7 @@ firos1:hasP	firos1:AML2007-section38-2-HTMLblock171-p;
 firos1:AML2007-section38-2-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section38-2-HTMLblock171;
+purpose:hasHTMLblock	firos1:AML2007-section38-2-HTMLblock171;
 
 .
 
@@ -11856,17 +10946,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section38-sub2-content;
 
 firos1:hasNum	firos1:AML2007-num38-2;
-
-.
-
-
-
-firos1:AML2007-Interpretation168
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section38-sub2;
-
-purpose:inSection	firos1:AML2007-section38;
 
 .
 
@@ -11893,7 +10972,7 @@ firos1:hasP	firos1:AML2007-section38-3-HTMLblock172-p;
 firos1:AML2007-section38-3-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section38-3-HTMLblock172;
+purpose:hasHTMLblock	firos1:AML2007-section38-3-HTMLblock172;
 
 .
 
@@ -11914,17 +10993,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section38-sub3-content;
 
 firos1:hasNum	firos1:AML2007-num38-3;
-
-.
-
-
-
-firos1:AML2007-Interpretation169
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section38-sub3;
-
-purpose:inSection	firos1:AML2007-section38;
 
 .
 
@@ -11951,7 +11019,7 @@ firos1:hasP	firos1:AML2007-section38-4-HTMLblock173-p;
 firos1:AML2007-section38-4-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section38-4-HTMLblock173;
+purpose:hasHTMLblock	firos1:AML2007-section38-4-HTMLblock173;
 
 .
 
@@ -11998,7 +11066,7 @@ firos1:hasP	firos1:AML2007-section38-5-HTMLblock174-p;
 firos1:AML2007-section38-5-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section38-5-HTMLblock174;
+purpose:hasHTMLblock	firos1:AML2007-section38-5-HTMLblock174;
 
 .
 
@@ -12019,17 +11087,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section38-sub5-content;
 
 firos1:hasNum	firos1:AML2007-num38-5;
-
-.
-
-
-
-firos1:AML2007-Interpretation170
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section38-sub5;
-
-purpose:inSection	firos1:AML2007-section38;
 
 .
 
@@ -12105,7 +11162,7 @@ firos1:hasP	firos1:AML2007-section39-1-HTMLblock175-p;
 firos1:AML2007-section39-1-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section39-1-HTMLblock175;
+purpose:hasHTMLblock	firos1:AML2007-section39-1-HTMLblock175;
 
 .
 
@@ -12126,6 +11183,17 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section39-sub1-content;
 
 firos1:hasNum	firos1:AML2007-num39-1;
+
+.
+
+
+
+firos1:AML2007-Interpretation84
+a firoh1:Interpretation;
+
+purpose:inSubSection	firos1:AML2007-section39-sub1;
+
+purpose:inSection	firos1:AML2007-section39;
 
 .
 
@@ -12152,7 +11220,7 @@ firos1:hasP	firos1:AML2007-section39-ii-HTMLblock176-p;
 firos1:AML2007-section39-ii-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section39-ii-HTMLblock176;
+purpose:hasHTMLblock	firos1:AML2007-section39-ii-HTMLblock176;
 
 .
 
@@ -12178,8 +11246,8 @@ firos1:hasNum	firos1:AML2007-num39-ii;
 
 
 
-firos1:AML2007-Supervision171
-a firoh1:Supervision;
+firos1:AML2007-Registration85
+a firoh1:Registration;
 
 purpose:inSubSection	firos1:AML2007-section39-subii;
 
@@ -12212,7 +11280,7 @@ firos1:hasP	firos1:AML2007-section39-b-HTMLblock177-p;
 firos1:AML2007-section39-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section39-b-HTMLblock177;
+purpose:hasHTMLblock	firos1:AML2007-section39-b-HTMLblock177;
 
 .
 
@@ -12238,8 +11306,8 @@ firos1:hasNum	firos1:AML2007-num39-b;
 
 
 
-firos1:AML2007-Supervision172
-a firoh1:Supervision;
+firos1:AML2007-Registration86
+a firoh1:Registration;
 
 purpose:inSubSection	firos1:AML2007-section39-subb;
 
@@ -12272,7 +11340,7 @@ firos1:hasP	firos1:AML2007-section39-b-HTMLblock178-p;
 firos1:AML2007-section39-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section39-b-HTMLblock178;
+purpose:hasHTMLblock	firos1:AML2007-section39-b-HTMLblock178;
 
 .
 
@@ -12298,8 +11366,8 @@ firos1:hasNum	firos1:AML2007-num39-b;
 
 
 
-firos1:AML2007-Supervision173
-a firoh1:Supervision;
+firos1:AML2007-Registration87
+a firoh1:Registration;
 
 purpose:inSubSection	firos1:AML2007-section39-subb;
 
@@ -12332,7 +11400,7 @@ firos1:hasP	firos1:AML2007-section39-b-HTMLblock179-p;
 firos1:AML2007-section39-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section39-b-HTMLblock179;
+purpose:hasHTMLblock	firos1:AML2007-section39-b-HTMLblock179;
 
 .
 
@@ -12353,6 +11421,30 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section39-subb-content;
 
 firos1:hasNum	firos1:AML2007-num39-b;
+
+.
+
+
+
+firos1:AML2007-Interpretation88
+a firoh1:Interpretation;
+
+purpose:inSubSection	firos1:AML2007-section39-subb;
+
+purpose:inSection	firos1:AML2007-section39;
+
+.
+
+
+
+firos1:AML2007-Registration89
+a firoh1:Registration;
+
+purpose:inSubSection	firos1:AML2007-section39-subb;
+
+purpose:inSection	firos1:AML2007-section39;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -12379,7 +11471,7 @@ firos1:hasP	firos1:AML2007-section39-e-HTMLblock180-p;
 firos1:AML2007-section39-e-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section39-e-HTMLblock180;
+purpose:hasHTMLblock	firos1:AML2007-section39-e-HTMLblock180;
 
 .
 
@@ -12405,19 +11497,8 @@ firos1:hasNum	firos1:AML2007-num39-e;
 
 
 
-firos1:AML2007-Interpretation174
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section39-sube;
-
-purpose:inSection	firos1:AML2007-section39;
-
-.
-
-
-
-firos1:AML2007-Supervision175
-a firoh1:Supervision;
+firos1:AML2007-Registration90
+a firoh1:Registration;
 
 purpose:inSubSection	firos1:AML2007-section39-sube;
 
@@ -12450,7 +11531,7 @@ firos1:hasP	firos1:AML2007-section39-7-HTMLblock181-p;
 firos1:AML2007-section39-7-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section39-7-HTMLblock181;
+purpose:hasHTMLblock	firos1:AML2007-section39-7-HTMLblock181;
 
 .
 
@@ -12497,7 +11578,7 @@ firos1:hasP	firos1:AML2007-section39-c-HTMLblock182-p;
 firos1:AML2007-section39-c-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section39-c-HTMLblock182;
+purpose:hasHTMLblock	firos1:AML2007-section39-c-HTMLblock182;
 
 .
 
@@ -12523,12 +11604,14 @@ firos1:hasNum	firos1:AML2007-num39-c;
 
 
 
-firos1:AML2007-Interpretation176
-a firoh1:Interpretation;
+firos1:AML2007-CustomerDueDiligence91
+a firoh1:CustomerDueDiligence;
 
 purpose:inSubSection	firos1:AML2007-section39-subc;
 
 purpose:inSection	firos1:AML2007-section39;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -12555,7 +11638,7 @@ firos1:hasP	firos1:AML2007-section39-9-HTMLblock183-p;
 firos1:AML2007-section39-9-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section39-9-HTMLblock183;
+purpose:hasHTMLblock	firos1:AML2007-section39-9-HTMLblock183;
 
 .
 
@@ -12651,7 +11734,7 @@ firos1:hasP	firos1:AML2007-section40-ii-HTMLblock184-p;
 firos1:AML2007-section40-ii-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section40-ii-HTMLblock184;
+purpose:hasHTMLblock	firos1:AML2007-section40-ii-HTMLblock184;
 
 .
 
@@ -12677,12 +11760,14 @@ firos1:hasNum	firos1:AML2007-num40-ii;
 
 
 
-firos1:AML2007-Interpretation177
-a firoh1:Interpretation;
+firos1:AML2007-Registration92
+a firoh1:Registration;
 
 purpose:inSubSection	firos1:AML2007-section40-subii;
 
 purpose:inSection	firos1:AML2007-section40;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -12709,7 +11794,7 @@ firos1:hasP	firos1:AML2007-section40-b-HTMLblock185-p;
 firos1:AML2007-section40-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section40-b-HTMLblock185;
+purpose:hasHTMLblock	firos1:AML2007-section40-b-HTMLblock185;
 
 .
 
@@ -12730,17 +11815,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section40-subb-content;
 
 firos1:hasNum	firos1:AML2007-num40-b;
-
-.
-
-
-
-firos1:AML2007-Interpretation178
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section40-subb;
-
-purpose:inSection	firos1:AML2007-section40;
 
 .
 
@@ -12767,7 +11841,7 @@ firos1:hasP	firos1:AML2007-section40-3-HTMLblock186-p;
 firos1:AML2007-section40-3-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section40-3-HTMLblock186;
+purpose:hasHTMLblock	firos1:AML2007-section40-3-HTMLblock186;
 
 .
 
@@ -12814,7 +11888,7 @@ firos1:hasP	firos1:AML2007-section40-b-HTMLblock187-p;
 firos1:AML2007-section40-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section40-b-HTMLblock187;
+purpose:hasHTMLblock	firos1:AML2007-section40-b-HTMLblock187;
 
 .
 
@@ -12835,17 +11909,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section40-subb-content;
 
 firos1:hasNum	firos1:AML2007-num40-b;
-
-.
-
-
-
-firos1:AML2007-Interpretation179
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section40-subb;
-
-purpose:inSection	firos1:AML2007-section40;
 
 .
 
@@ -12921,7 +11984,7 @@ firos1:hasP	firos1:AML2007-section41-b-HTMLblock188-p;
 firos1:AML2007-section41-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section41-b-HTMLblock188;
+purpose:hasHTMLblock	firos1:AML2007-section41-b-HTMLblock188;
 
 .
 
@@ -12942,30 +12005,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section41-subb-content;
 
 firos1:hasNum	firos1:AML2007-num41-b;
-
-.
-
-
-
-firos1:AML2007-Interpretation180
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section41-subb;
-
-purpose:inSection	firos1:AML2007-section41;
-
-.
-
-
-
-firos1:AML2007-Supervision181
-a firoh1:Supervision;
-
-purpose:inSubSection	firos1:AML2007-section41-subb;
-
-purpose:inSection	firos1:AML2007-section41;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -12992,7 +12031,7 @@ firos1:hasP	firos1:AML2007-section41-2-HTMLblock189-p;
 firos1:AML2007-section41-2-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section41-2-HTMLblock189;
+purpose:hasHTMLblock	firos1:AML2007-section41-2-HTMLblock189;
 
 .
 
@@ -13013,17 +12052,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section41-sub2-content;
 
 firos1:hasNum	firos1:AML2007-num41-2;
-
-.
-
-
-
-firos1:AML2007-Interpretation182
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section41-sub2;
-
-purpose:inSection	firos1:AML2007-section41;
 
 .
 
@@ -13050,7 +12078,7 @@ firos1:hasP	firos1:AML2007-section41-3-HTMLblock190-p;
 firos1:AML2007-section41-3-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section41-3-HTMLblock190;
+purpose:hasHTMLblock	firos1:AML2007-section41-3-HTMLblock190;
 
 .
 
@@ -13071,17 +12099,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section41-sub3-content;
 
 firos1:hasNum	firos1:AML2007-num41-3;
-
-.
-
-
-
-firos1:AML2007-Interpretation183
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section41-sub3;
-
-purpose:inSection	firos1:AML2007-section41;
 
 .
 
@@ -13108,7 +12125,7 @@ firos1:hasP	firos1:AML2007-section41-b-HTMLblock191-p;
 firos1:AML2007-section41-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section41-b-HTMLblock191;
+purpose:hasHTMLblock	firos1:AML2007-section41-b-HTMLblock191;
 
 .
 
@@ -13204,7 +12221,7 @@ firos1:hasP	firos1:AML2007-section42-1-HTMLblock192-p;
 firos1:AML2007-section42-1-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section42-1-HTMLblock192;
+purpose:hasHTMLblock	firos1:AML2007-section42-1-HTMLblock192;
 
 .
 
@@ -13225,17 +12242,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section42-sub1-content;
 
 firos1:hasNum	firos1:AML2007-num42-1;
-
-.
-
-
-
-firos1:AML2007-Interpretation184
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section42-sub1;
-
-purpose:inSection	firos1:AML2007-section42;
 
 .
 
@@ -13262,7 +12268,7 @@ firos1:hasP	firos1:AML2007-section42-2-HTMLblock193-p;
 firos1:AML2007-section42-2-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section42-2-HTMLblock193;
+purpose:hasHTMLblock	firos1:AML2007-section42-2-HTMLblock193;
 
 .
 
@@ -13283,6 +12289,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section42-sub2-content;
 
 firos1:hasNum	firos1:AML2007-num42-2;
+
+.
+
+
+
+firos1:AML2007-Monitoring93
+a firoh1:Monitoring;
+
+purpose:inSubSection	firos1:AML2007-section42-sub2;
+
+purpose:inSection	firos1:AML2007-section42;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -13309,7 +12328,7 @@ firos1:hasP	firos1:AML2007-section42-c-HTMLblock194-p;
 firos1:AML2007-section42-c-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section42-c-HTMLblock194;
+purpose:hasHTMLblock	firos1:AML2007-section42-c-HTMLblock194;
 
 .
 
@@ -13335,12 +12354,14 @@ firos1:hasNum	firos1:AML2007-num42-c;
 
 
 
-firos1:AML2007-Interpretation185
-a firoh1:Interpretation;
+firos1:AML2007-Monitoring94
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section42-subc;
 
 purpose:inSection	firos1:AML2007-section42;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -13367,7 +12388,7 @@ firos1:hasP	firos1:AML2007-section42-4-HTMLblock195-p;
 firos1:AML2007-section42-4-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section42-4-HTMLblock195;
+purpose:hasHTMLblock	firos1:AML2007-section42-4-HTMLblock195;
 
 .
 
@@ -13414,7 +12435,7 @@ firos1:hasP	firos1:AML2007-section42-d-HTMLblock196-p;
 firos1:AML2007-section42-d-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section42-d-HTMLblock196;
+purpose:hasHTMLblock	firos1:AML2007-section42-d-HTMLblock196;
 
 .
 
@@ -13440,12 +12461,25 @@ firos1:hasNum	firos1:AML2007-num42-d;
 
 
 
-firos1:AML2007-Interpretation186
+firos1:AML2007-Interpretation95
 a firoh1:Interpretation;
 
 purpose:inSubSection	firos1:AML2007-section42-subd;
 
 purpose:inSection	firos1:AML2007-section42;
+
+.
+
+
+
+firos1:AML2007-Monitoring96
+a firoh1:Monitoring;
+
+purpose:inSubSection	firos1:AML2007-section42-subd;
+
+purpose:inSection	firos1:AML2007-section42;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -13472,7 +12506,7 @@ firos1:hasP	firos1:AML2007-section42-c-HTMLblock197-p;
 firos1:AML2007-section42-c-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section42-c-HTMLblock197;
+purpose:hasHTMLblock	firos1:AML2007-section42-c-HTMLblock197;
 
 .
 
@@ -13498,7 +12532,7 @@ firos1:hasNum	firos1:AML2007-num42-c;
 
 
 
-firos1:AML2007-Interpretation187
+firos1:AML2007-Interpretation97
 a firoh1:Interpretation;
 
 purpose:inSubSection	firos1:AML2007-section42-subc;
@@ -13509,8 +12543,8 @@ purpose:inSection	firos1:AML2007-section42;
 
 
 
-firos1:AML2007-Supervision188
-a firoh1:Supervision;
+firos1:AML2007-Monitoring98
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section42-subc;
 
@@ -13543,7 +12577,7 @@ firos1:hasP	firos1:AML2007-section42-iii-HTMLblock198-p;
 firos1:AML2007-section42-iii-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section42-iii-HTMLblock198;
+purpose:hasHTMLblock	firos1:AML2007-section42-iii-HTMLblock198;
 
 .
 
@@ -13569,12 +12603,25 @@ firos1:hasNum	firos1:AML2007-num42-iii;
 
 
 
-firos1:AML2007-Interpretation189
+firos1:AML2007-Interpretation99
 a firoh1:Interpretation;
 
 purpose:inSubSection	firos1:AML2007-section42-subiii;
 
 purpose:inSection	firos1:AML2007-section42;
+
+.
+
+
+
+firos1:AML2007-Monitoring100
+a firoh1:Monitoring;
+
+purpose:inSubSection	firos1:AML2007-section42-subiii;
+
+purpose:inSection	firos1:AML2007-section42;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -13601,7 +12648,7 @@ firos1:hasP	firos1:AML2007-section42-8-HTMLblock199-p;
 firos1:AML2007-section42-8-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section42-8-HTMLblock199;
+purpose:hasHTMLblock	firos1:AML2007-section42-8-HTMLblock199;
 
 .
 
@@ -13622,19 +12669,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section42-sub8-content;
 
 firos1:hasNum	firos1:AML2007-num42-8;
-
-.
-
-
-
-firos1:AML2007-Supervision190
-a firoh1:Supervision;
-
-purpose:inSubSection	firos1:AML2007-section42-sub8;
-
-purpose:inSection	firos1:AML2007-section42;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -13710,7 +12744,7 @@ firos1:hasP	firos1:AML2007-section43-c-HTMLblock200-p;
 firos1:AML2007-section43-c-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section43-c-HTMLblock200;
+purpose:hasHTMLblock	firos1:AML2007-section43-c-HTMLblock200;
 
 .
 
@@ -13731,30 +12765,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section43-subc-content;
 
 firos1:hasNum	firos1:AML2007-num43-c;
-
-.
-
-
-
-firos1:AML2007-Interpretation191
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section43-subc;
-
-purpose:inSection	firos1:AML2007-section43;
-
-.
-
-
-
-firos1:AML2007-Registration192
-a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section43-subc;
-
-purpose:inSection	firos1:AML2007-section43;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -13781,7 +12791,7 @@ firos1:hasP	firos1:AML2007-section43-2-HTMLblock201-p;
 firos1:AML2007-section43-2-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section43-2-HTMLblock201;
+purpose:hasHTMLblock	firos1:AML2007-section43-2-HTMLblock201;
 
 .
 
@@ -13802,6 +12812,17 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section43-sub2-content;
 
 firos1:hasNum	firos1:AML2007-num43-2;
+
+.
+
+
+
+firos1:AML2007-Interpretation101
+a firoh1:Interpretation;
+
+purpose:inSubSection	firos1:AML2007-section43-sub2;
+
+purpose:inSection	firos1:AML2007-section43;
 
 .
 
@@ -13828,7 +12849,7 @@ firos1:hasP	firos1:AML2007-section43-3-HTMLblock202-p;
 firos1:AML2007-section43-3-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section43-3-HTMLblock202;
+purpose:hasHTMLblock	firos1:AML2007-section43-3-HTMLblock202;
 
 .
 
@@ -13849,6 +12870,17 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section43-sub3-content;
 
 firos1:hasNum	firos1:AML2007-num43-3;
+
+.
+
+
+
+firos1:AML2007-Interpretation102
+a firoh1:Interpretation;
+
+purpose:inSubSection	firos1:AML2007-section43-sub3;
+
+purpose:inSection	firos1:AML2007-section43;
 
 .
 
@@ -13875,7 +12907,7 @@ firos1:hasP	firos1:AML2007-section43-b-HTMLblock203-p;
 firos1:AML2007-section43-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section43-b-HTMLblock203;
+purpose:hasHTMLblock	firos1:AML2007-section43-b-HTMLblock203;
 
 .
 
@@ -13896,6 +12928,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section43-subb-content;
 
 firos1:hasNum	firos1:AML2007-num43-b;
+
+.
+
+
+
+firos1:AML2007-Monitoring103
+a firoh1:Monitoring;
+
+purpose:inSubSection	firos1:AML2007-section43-subb;
+
+purpose:inSection	firos1:AML2007-section43;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -13922,7 +12967,7 @@ firos1:hasP	firos1:AML2007-section43-5-HTMLblock204-p;
 firos1:AML2007-section43-5-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section43-5-HTMLblock204;
+purpose:hasHTMLblock	firos1:AML2007-section43-5-HTMLblock204;
 
 .
 
@@ -13943,6 +12988,17 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section43-sub5-content;
 
 firos1:hasNum	firos1:AML2007-num43-5;
+
+.
+
+
+
+firos1:AML2007-Interpretation104
+a firoh1:Interpretation;
+
+purpose:inSubSection	firos1:AML2007-section43-sub5;
+
+purpose:inSection	firos1:AML2007-section43;
 
 .
 
@@ -14018,7 +13074,7 @@ firos1:hasP	firos1:AML2007-section44-b-HTMLblock205-p;
 firos1:AML2007-section44-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section44-b-HTMLblock205;
+purpose:hasHTMLblock	firos1:AML2007-section44-b-HTMLblock205;
 
 .
 
@@ -14039,17 +13095,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section44-subb-content;
 
 firos1:hasNum	firos1:AML2007-num44-b;
-
-.
-
-
-
-firos1:AML2007-Interpretation193
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section44-subb;
-
-purpose:inSection	firos1:AML2007-section44;
 
 .
 
@@ -14076,7 +13121,7 @@ firos1:hasP	firos1:AML2007-section44-d-HTMLblock206-p;
 firos1:AML2007-section44-d-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section44-d-HTMLblock206;
+purpose:hasHTMLblock	firos1:AML2007-section44-d-HTMLblock206;
 
 .
 
@@ -14123,7 +13168,7 @@ firos1:hasP	firos1:AML2007-section44-3-HTMLblock207-p;
 firos1:AML2007-section44-3-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section44-3-HTMLblock207;
+purpose:hasHTMLblock	firos1:AML2007-section44-3-HTMLblock207;
 
 .
 
@@ -14149,7 +13194,7 @@ firos1:hasNum	firos1:AML2007-num44-3;
 
 
 
-firos1:AML2007-Interpretation194
+firos1:AML2007-Interpretation105
 a firoh1:Interpretation;
 
 purpose:inSubSection	firos1:AML2007-section44-sub3;
@@ -14181,7 +13226,7 @@ firos1:hasP	firos1:AML2007-section44-4-HTMLblock208-p;
 firos1:AML2007-section44-4-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section44-4-HTMLblock208;
+purpose:hasHTMLblock	firos1:AML2007-section44-4-HTMLblock208;
 
 .
 
@@ -14207,7 +13252,7 @@ firos1:hasNum	firos1:AML2007-num44-4;
 
 
 
-firos1:AML2007-Interpretation195
+firos1:AML2007-Interpretation106
 a firoh1:Interpretation;
 
 purpose:inSubSection	firos1:AML2007-section44-sub4;
@@ -14239,7 +13284,7 @@ firos1:hasP	firos1:AML2007-section44-5-HTMLblock209-p;
 firos1:AML2007-section44-5-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section44-5-HTMLblock209;
+purpose:hasHTMLblock	firos1:AML2007-section44-5-HTMLblock209;
 
 .
 
@@ -14260,17 +13305,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section44-sub5-content;
 
 firos1:hasNum	firos1:AML2007-num44-5;
-
-.
-
-
-
-firos1:AML2007-Interpretation196
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section44-sub5;
-
-purpose:inSection	firos1:AML2007-section44;
 
 .
 
@@ -14297,7 +13331,7 @@ firos1:hasP	firos1:AML2007-section44-b-HTMLblock210-p;
 firos1:AML2007-section44-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section44-b-HTMLblock210;
+purpose:hasHTMLblock	firos1:AML2007-section44-b-HTMLblock210;
 
 .
 
@@ -14318,17 +13352,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section44-subb-content;
 
 firos1:hasNum	firos1:AML2007-num44-b;
-
-.
-
-
-
-firos1:AML2007-Interpretation197
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section44-subb;
-
-purpose:inSection	firos1:AML2007-section44;
 
 .
 
@@ -14355,7 +13378,7 @@ firos1:hasP	firos1:AML2007-section44-b-HTMLblock211-p;
 firos1:AML2007-section44-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section44-b-HTMLblock211;
+purpose:hasHTMLblock	firos1:AML2007-section44-b-HTMLblock211;
 
 .
 
@@ -14402,7 +13425,7 @@ firos1:hasP	firos1:AML2007-section44-8-HTMLblock212-p;
 firos1:AML2007-section44-8-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section44-8-HTMLblock212;
+purpose:hasHTMLblock	firos1:AML2007-section44-8-HTMLblock212;
 
 .
 
@@ -14423,17 +13446,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section44-sub8-content;
 
 firos1:hasNum	firos1:AML2007-num44-8;
-
-.
-
-
-
-firos1:AML2007-Interpretation198
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section44-sub8;
-
-purpose:inSection	firos1:AML2007-section44;
 
 .
 
@@ -14509,7 +13521,7 @@ firos1:hasP	firos1:AML2007-section45-b-HTMLblock213-p;
 firos1:AML2007-section45-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section45-b-HTMLblock213;
+purpose:hasHTMLblock	firos1:AML2007-section45-b-HTMLblock213;
 
 .
 
@@ -14556,7 +13568,7 @@ firos1:hasP	firos1:AML2007-section45-c-HTMLblock214-p;
 firos1:AML2007-section45-c-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section45-c-HTMLblock214;
+purpose:hasHTMLblock	firos1:AML2007-section45-c-HTMLblock214;
 
 .
 
@@ -14582,19 +13594,8 @@ firos1:hasNum	firos1:AML2007-num45-c;
 
 
 
-firos1:AML2007-Interpretation199
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section45-subc;
-
-purpose:inSection	firos1:AML2007-section45;
-
-.
-
-
-
-firos1:AML2007-Supervision200
-a firoh1:Supervision;
+firos1:AML2007-Monitoring107
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section45-subc;
 
@@ -14627,7 +13628,7 @@ firos1:hasP	firos1:AML2007-section45-3-HTMLblock215-p;
 firos1:AML2007-section45-3-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section45-3-HTMLblock215;
+purpose:hasHTMLblock	firos1:AML2007-section45-3-HTMLblock215;
 
 .
 
@@ -14674,7 +13675,7 @@ firos1:hasP	firos1:AML2007-section45-4-HTMLblock216-p;
 firos1:AML2007-section45-4-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section45-4-HTMLblock216;
+purpose:hasHTMLblock	firos1:AML2007-section45-4-HTMLblock216;
 
 .
 
@@ -14721,7 +13722,7 @@ firos1:hasP	firos1:AML2007-section45-5-HTMLblock217-p;
 firos1:AML2007-section45-5-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section45-5-HTMLblock217;
+purpose:hasHTMLblock	firos1:AML2007-section45-5-HTMLblock217;
 
 .
 
@@ -14817,7 +13818,7 @@ firos1:hasP	firos1:AML2007-section46-f-HTMLblock218-p;
 firos1:AML2007-section46-f-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section46-f-HTMLblock218;
+purpose:hasHTMLblock	firos1:AML2007-section46-f-HTMLblock218;
 
 .
 
@@ -14838,17 +13839,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section46-subf-content;
 
 firos1:hasNum	firos1:AML2007-num46-f;
-
-.
-
-
-
-firos1:AML2007-Interpretation201
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section46-subf;
-
-purpose:inSection	firos1:AML2007-section46;
 
 .
 
@@ -14875,7 +13865,7 @@ firos1:hasP	firos1:AML2007-section46-2-HTMLblock219-p;
 firos1:AML2007-section46-2-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section46-2-HTMLblock219;
+purpose:hasHTMLblock	firos1:AML2007-section46-2-HTMLblock219;
 
 .
 
@@ -14922,7 +13912,7 @@ firos1:hasP	firos1:AML2007-section46-3-HTMLblock220-p;
 firos1:AML2007-section46-3-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section46-3-HTMLblock220;
+purpose:hasHTMLblock	firos1:AML2007-section46-3-HTMLblock220;
 
 .
 
@@ -14943,6 +13933,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section46-sub3-content;
 
 firos1:hasNum	firos1:AML2007-num46-3;
+
+.
+
+
+
+firos1:AML2007-Monitoring108
+a firoh1:Monitoring;
+
+purpose:inSubSection	firos1:AML2007-section46-sub3;
+
+purpose:inSection	firos1:AML2007-section46;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -14969,7 +13972,7 @@ firos1:hasP	firos1:AML2007-section46-4-HTMLblock221-p;
 firos1:AML2007-section46-4-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section46-4-HTMLblock221;
+purpose:hasHTMLblock	firos1:AML2007-section46-4-HTMLblock221;
 
 .
 
@@ -14995,8 +13998,19 @@ firos1:hasNum	firos1:AML2007-num46-4;
 
 
 
-firos1:AML2007-Supervision202
-a firoh1:Supervision;
+firos1:AML2007-Interpretation109
+a firoh1:Interpretation;
+
+purpose:inSubSection	firos1:AML2007-section46-sub4;
+
+purpose:inSection	firos1:AML2007-section46;
+
+.
+
+
+
+firos1:AML2007-Monitoring110
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section46-sub4;
 
@@ -15029,7 +14043,7 @@ firos1:hasP	firos1:AML2007-section46-5-HTMLblock222-p;
 firos1:AML2007-section46-5-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section46-5-HTMLblock222;
+purpose:hasHTMLblock	firos1:AML2007-section46-5-HTMLblock222;
 
 .
 
@@ -15050,6 +14064,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section46-sub5-content;
 
 firos1:hasNum	firos1:AML2007-num46-5;
+
+.
+
+
+
+firos1:AML2007-Monitoring111
+a firoh1:Monitoring;
+
+purpose:inSubSection	firos1:AML2007-section46-sub5;
+
+purpose:inSection	firos1:AML2007-section46;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -15076,7 +14103,7 @@ firos1:hasP	firos1:AML2007-section46-6-HTMLblock223-p;
 firos1:AML2007-section46-6-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section46-6-HTMLblock223;
+purpose:hasHTMLblock	firos1:AML2007-section46-6-HTMLblock223;
 
 .
 
@@ -15102,12 +14129,14 @@ firos1:hasNum	firos1:AML2007-num46-6;
 
 
 
-firos1:AML2007-Interpretation203
-a firoh1:Interpretation;
+firos1:AML2007-Monitoring112
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section46-sub6;
 
 purpose:inSection	firos1:AML2007-section46;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -15134,7 +14163,7 @@ firos1:hasP	firos1:AML2007-section46-b-HTMLblock224-p;
 firos1:AML2007-section46-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section46-b-HTMLblock224;
+purpose:hasHTMLblock	firos1:AML2007-section46-b-HTMLblock224;
 
 .
 
@@ -15155,6 +14184,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section46-subb-content;
 
 firos1:hasNum	firos1:AML2007-num46-b;
+
+.
+
+
+
+firos1:AML2007-CustomerDueDiligence113
+a firoh1:CustomerDueDiligence;
+
+purpose:inSubSection	firos1:AML2007-section46-subb;
+
+purpose:inSection	firos1:AML2007-section46;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -15181,7 +14223,7 @@ firos1:hasP	firos1:AML2007-section46-8-HTMLblock225-p;
 firos1:AML2007-section46-8-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section46-8-HTMLblock225;
+purpose:hasHTMLblock	firos1:AML2007-section46-8-HTMLblock225;
 
 .
 
@@ -15202,17 +14244,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section46-sub8-content;
 
 firos1:hasNum	firos1:AML2007-num46-8;
-
-.
-
-
-
-firos1:AML2007-Interpretation204
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section46-sub8;
-
-purpose:inSection	firos1:AML2007-section46;
 
 .
 
@@ -15288,7 +14319,7 @@ firos1:hasP	firos1:AML2007-section47-b-HTMLblock226-p;
 firos1:AML2007-section47-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section47-b-HTMLblock226;
+purpose:hasHTMLblock	firos1:AML2007-section47-b-HTMLblock226;
 
 .
 
@@ -15335,7 +14366,7 @@ firos1:hasP	firos1:AML2007-section47-b-HTMLblock227-p;
 firos1:AML2007-section47-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section47-b-HTMLblock227;
+purpose:hasHTMLblock	firos1:AML2007-section47-b-HTMLblock227;
 
 .
 
@@ -15356,6 +14387,19 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section47-subb-content;
 
 firos1:hasNum	firos1:AML2007-num47-b;
+
+.
+
+
+
+firos1:AML2007-Registration114
+a firoh1:Registration;
+
+purpose:inSubSection	firos1:AML2007-section47-subb;
+
+purpose:inSection	firos1:AML2007-section47;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -15382,7 +14426,7 @@ firos1:hasP	firos1:AML2007-section47-b-HTMLblock228-p;
 firos1:AML2007-section47-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section47-b-HTMLblock228;
+purpose:hasHTMLblock	firos1:AML2007-section47-b-HTMLblock228;
 
 .
 
@@ -15429,7 +14473,7 @@ firos1:hasP	firos1:AML2007-section47-4-HTMLblock229-p;
 firos1:AML2007-section47-4-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section47-4-HTMLblock229;
+purpose:hasHTMLblock	firos1:AML2007-section47-4-HTMLblock229;
 
 .
 
@@ -15476,7 +14520,7 @@ firos1:hasP	firos1:AML2007-section47-5-HTMLblock230-p;
 firos1:AML2007-section47-5-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section47-5-HTMLblock230;
+purpose:hasHTMLblock	firos1:AML2007-section47-5-HTMLblock230;
 
 .
 
@@ -15502,12 +14546,14 @@ firos1:hasNum	firos1:AML2007-num47-5;
 
 
 
-firos1:AML2007-Interpretation205
-a firoh1:Interpretation;
+firos1:AML2007-Monitoring115
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section47-sub5;
 
 purpose:inSection	firos1:AML2007-section47;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -15534,7 +14580,7 @@ firos1:hasP	firos1:AML2007-section47-6-HTMLblock231-p;
 firos1:AML2007-section47-6-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section47-6-HTMLblock231;
+purpose:hasHTMLblock	firos1:AML2007-section47-6-HTMLblock231;
 
 .
 
@@ -15555,17 +14601,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section47-sub6-content;
 
 firos1:hasNum	firos1:AML2007-num47-6;
-
-.
-
-
-
-firos1:AML2007-Interpretation206
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section47-sub6;
-
-purpose:inSection	firos1:AML2007-section47;
 
 .
 
@@ -15592,7 +14627,7 @@ firos1:hasP	firos1:AML2007-section47-7-HTMLblock232-p;
 firos1:AML2007-section47-7-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section47-7-HTMLblock232;
+purpose:hasHTMLblock	firos1:AML2007-section47-7-HTMLblock232;
 
 .
 
@@ -15639,7 +14674,7 @@ firos1:hasP	firos1:AML2007-section47-c-HTMLblock233-p;
 firos1:AML2007-section47-c-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section47-c-HTMLblock233;
+purpose:hasHTMLblock	firos1:AML2007-section47-c-HTMLblock233;
 
 .
 
@@ -15660,17 +14695,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section47-subc-content;
 
 firos1:hasNum	firos1:AML2007-num47-c;
-
-.
-
-
-
-firos1:AML2007-Interpretation207
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section47-subc;
-
-purpose:inSection	firos1:AML2007-section47;
 
 .
 
@@ -15697,7 +14721,7 @@ firos1:hasP	firos1:AML2007-section47-9-HTMLblock234-p;
 firos1:AML2007-section47-9-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section47-9-HTMLblock234;
+purpose:hasHTMLblock	firos1:AML2007-section47-9-HTMLblock234;
 
 .
 
@@ -15718,17 +14742,6 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section47-sub9-content;
 
 firos1:hasNum	firos1:AML2007-num47-9;
-
-.
-
-
-
-firos1:AML2007-Interpretation208
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section47-sub9;
-
-purpose:inSection	firos1:AML2007-section47;
 
 .
 
@@ -15851,7 +14864,7 @@ firos1:hasP	firos1:AML2007-section49-u-HTMLblock235-p;
 firos1:AML2007-section49-u-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section49-u-HTMLblock235;
+purpose:hasHTMLblock	firos1:AML2007-section49-u-HTMLblock235;
 
 .
 
@@ -15872,6 +14885,32 @@ a firos1:Subsection;
 firos1:hasContent	firos1:AML2007-section49-subu-content;
 
 firos1:hasNum	firos1:AML2007-num49-u;
+
+.
+
+
+
+firos1:AML2007-Monitoring116
+a firoh1:Monitoring;
+
+purpose:inSubSection	firos1:AML2007-section49-subu;
+
+purpose:inSection	firos1:AML2007-section49;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
+
+.
+
+
+
+firos1:AML2007-Registration117
+a firoh1:Registration;
+
+purpose:inSubSection	firos1:AML2007-section49-subu;
+
+purpose:inSection	firos1:AML2007-section49;
+
+firoh1:hasModality	firos1:AML2007-Obligation;
 
 .
 
@@ -15898,7 +14937,7 @@ firos1:hasP	firos1:AML2007-section49-2-HTMLblock236-p;
 firos1:AML2007-section49-2-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section49-2-HTMLblock236;
+purpose:hasHTMLblock	firos1:AML2007-section49-2-HTMLblock236;
 
 .
 
@@ -15994,7 +15033,7 @@ firos1:hasP	firos1:AML2007-section50-b-HTMLblock237-p;
 firos1:AML2007-section50-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section50-b-HTMLblock237;
+purpose:hasHTMLblock	firos1:AML2007-section50-b-HTMLblock237;
 
 .
 
@@ -16020,21 +15059,19 @@ firos1:hasNum	firos1:AML2007-num50-b;
 
 
 
-firos1:AML2007-Registration209
-a firoh1:Registration;
+firos1:AML2007-Interpretation118
+a firoh1:Interpretation;
 
 purpose:inSubSection	firos1:AML2007-section50-subb;
 
 purpose:inSection	firos1:AML2007-section50;
 
-firoh1:hasModality	firos1:AML2007-Obligation;
-
 .
 
 
 
-firos1:AML2007-Supervision210
-a firoh1:Supervision;
+firos1:AML2007-Registration119
+a firoh1:Registration;
 
 purpose:inSubSection	firos1:AML2007-section50-subb;
 
@@ -16067,7 +15104,7 @@ firos1:hasP	firos1:AML2007-section50-c-HTMLblock238-p;
 firos1:AML2007-section50-c-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section50-c-HTMLblock238;
+purpose:hasHTMLblock	firos1:AML2007-section50-c-HTMLblock238;
 
 .
 
@@ -16093,32 +15130,8 @@ firos1:hasNum	firos1:AML2007-num50-c;
 
 
 
-firos1:AML2007-Interpretation211
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section50-subc;
-
-purpose:inSection	firos1:AML2007-section50;
-
-.
-
-
-
-firos1:AML2007-Registration212
+firos1:AML2007-Registration120
 a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section50-subc;
-
-purpose:inSection	firos1:AML2007-section50;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Supervision213
-a firoh1:Supervision;
 
 purpose:inSubSection	firos1:AML2007-section50-subc;
 
@@ -16151,7 +15164,7 @@ firos1:hasP	firos1:AML2007-section50-b-HTMLblock239-p;
 firos1:AML2007-section50-b-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section50-b-HTMLblock239;
+purpose:hasHTMLblock	firos1:AML2007-section50-b-HTMLblock239;
 
 .
 
@@ -16177,7 +15190,7 @@ firos1:hasNum	firos1:AML2007-num50-b;
 
 
 
-firos1:AML2007-Interpretation214
+firos1:AML2007-Interpretation121
 a firoh1:Interpretation;
 
 purpose:inSubSection	firos1:AML2007-section50-subb;
@@ -16188,8 +15201,8 @@ purpose:inSection	firos1:AML2007-section50;
 
 
 
-firos1:AML2007-Registration215
-a firoh1:Registration;
+firos1:AML2007-Monitoring122
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section50-subb;
 
@@ -16201,8 +15214,8 @@ firoh1:hasModality	firos1:AML2007-Obligation;
 
 
 
-firos1:AML2007-Supervision216
-a firoh1:Supervision;
+firos1:AML2007-Registration123
+a firoh1:Registration;
 
 purpose:inSubSection	firos1:AML2007-section50-subb;
 
@@ -16235,7 +15248,7 @@ firos1:hasP	firos1:AML2007-section50-c-HTMLblock240-p;
 firos1:AML2007-section50-c-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section50-c-HTMLblock240;
+purpose:hasHTMLblock	firos1:AML2007-section50-c-HTMLblock240;
 
 .
 
@@ -16261,7 +15274,7 @@ firos1:hasNum	firos1:AML2007-num50-c;
 
 
 
-firos1:AML2007-Interpretation217
+firos1:AML2007-Interpretation124
 a firoh1:Interpretation;
 
 purpose:inSubSection	firos1:AML2007-section50-subc;
@@ -16272,8 +15285,8 @@ purpose:inSection	firos1:AML2007-section50;
 
 
 
-firos1:AML2007-Registration218
-a firoh1:Registration;
+firos1:AML2007-Monitoring125
+a firoh1:Monitoring;
 
 purpose:inSubSection	firos1:AML2007-section50-subc;
 
@@ -16285,8 +15298,8 @@ firoh1:hasModality	firos1:AML2007-Obligation;
 
 
 
-firos1:AML2007-Supervision219
-a firoh1:Supervision;
+firos1:AML2007-Registration126
+a firoh1:Registration;
 
 purpose:inSubSection	firos1:AML2007-section50-subc;
 
@@ -16319,7 +15332,7 @@ firos1:hasP	firos1:AML2007-section50-5-HTMLblock241-p;
 firos1:AML2007-section50-5-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section50-5-HTMLblock241;
+purpose:hasHTMLblock	firos1:AML2007-section50-5-HTMLblock241;
 
 .
 
@@ -16345,32 +15358,8 @@ firos1:hasNum	firos1:AML2007-num50-5;
 
 
 
-firos1:AML2007-Interpretation220
-a firoh1:Interpretation;
-
-purpose:inSubSection	firos1:AML2007-section50-sub5;
-
-purpose:inSection	firos1:AML2007-section50;
-
-.
-
-
-
-firos1:AML2007-Registration221
+firos1:AML2007-Registration127
 a firoh1:Registration;
-
-purpose:inSubSection	firos1:AML2007-section50-sub5;
-
-purpose:inSection	firos1:AML2007-section50;
-
-firoh1:hasModality	firos1:AML2007-Obligation;
-
-.
-
-
-
-firos1:AML2007-Supervision222
-a firoh1:Supervision;
 
 purpose:inSubSection	firos1:AML2007-section50-sub5;
 
@@ -17204,7 +16193,7 @@ firos1:hasP	firos1:AML2007-section4-ii-HTMLblock242-p;
 firos1:AML2007-section4-ii-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section4-ii-HTMLblock242;
+purpose:hasHTMLblock	firos1:AML2007-section4-ii-HTMLblock242;
 
 .
 
@@ -17251,7 +16240,7 @@ firos1:hasP	firos1:AML2007-section4-2-HTMLblock243-p;
 firos1:AML2007-section4-2-blockElems
 a firos1:BlockElements;
 
-firos1:hasHTMLblock	firos1:AML2007-section4-2-HTMLblock243;
+purpose:hasHTMLblock	firos1:AML2007-section4-2-HTMLblock243;
 
 .
 

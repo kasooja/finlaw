@@ -33,7 +33,11 @@ public class PurposeSpecificOntology {
 		public class ObjectProperty{
 			//object properties
 			public static final String inSectionObjProp = prefix + "inSection";
-			public static final String inSubSectionObjProp = prefix + "inSubSection";		
+			public static final String inSubSectionObjProp = prefix + "inSubSection";
+			//have doubt the hasHTMLblock property, where it should be? PS or FIROS
+			public static final String hasHTMLblockObjProp = prefix + "hasHTMLblock";
+			
+			
 		}
 
 	}

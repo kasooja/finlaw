@@ -1,4 +1,4 @@
-@relation 'FIRO: -C -16'
+@relation 'FIRO: -C 16'
 
 @attribute Interpretation-Nom {f,t}
 @attribute Means-Non {f,t}

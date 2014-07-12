@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<labels xmlns="http://mulan.sourceforge.net/labels">
+	<label name="Customer-Due-Diligence-Class"></label>
+	<label name="Customer-Identification-and-Verification-Class"></label>
+	<label name="Defence-Class"></label>
+	<label name="Disclosure-Class"></label>
+	<label name="Enforcement-Class"></label>
+	<label name="Internal-Programme-Class"></label>
+	<label name="Interpretation-Class"></label>
+	<label name="Monitoring-Class"></label>
+	<label name="Penalty-Class"></label>
+	<label name="Record-Keeping-Class"></label>
+	<label name="Registration-Class"></label>
+	<label name="Reporting-Class"></label>
+	<label name="Review-and-Appeal-Procedure-Class"></label>
+	<label name="Supervision-Class"></label>
+	<label name="Suspicious-Activity-Reporting-Class"></label>
+	<label name="Training-and-Education-Class"></label>
+</labels>
