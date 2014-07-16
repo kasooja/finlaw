@@ -17,11 +17,6 @@
 		</dependency>
 		<dependency>
 			<groupId>net.sf.meka.thirdparty</groupId>
-			<artifactId>mulan</artifactId>
-			<version>1.4.0</version>
-		</dependency>
-		<dependency>
-			<groupId>net.sf.meka.thirdparty</groupId>
 			<artifactId>mst</artifactId>
 			<version>4.0</version>
 		</dependency>
@@ -48,6 +43,24 @@
 			<groupId>nz.ac.waikato.cms.weka</groupId>
 			<artifactId>LibSVM</artifactId>
 			<version>1.0.6</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>net.sf.meka.thirdparty</groupId>
+			<artifactId>mulan</artifactId>
+			<version>1.4.0</version>
+			<scope>system</scope>
+			<systemPath>/Users/kartik/git/finlaw/multilabel/src/main/resources/lib/mulan.jar</systemPath>
+		</dependency>
+
+
+		<dependency>
+			<groupId>nz.ac.waikato.cms.weka</groupId>
+			<artifactId>weka-stable</artifactId>
+			<version>3.7.6</version>
+			<scope>system</scope>
+			<systemPath>/Users/kartik/git/finlaw/multilabel/src/main/resources/lib/weka-3.7.6.jar</systemPath>
 		</dependency>
 
 

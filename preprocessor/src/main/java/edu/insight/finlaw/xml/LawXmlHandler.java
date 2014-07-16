@@ -41,17 +41,17 @@ public class LawXmlHandler extends DefaultHandler {
 			currentPart.p1groups.add(currentP1Group);
 			whichP = "P1group";
 		}
-		
+
 		if (qName.equalsIgnoreCase("Title") && whichP.equalsIgnoreCase("P1group")) {
 			takeText = true;		
 		}
-		
+
 		if (qName.equalsIgnoreCase("P1")) {
 			currentP1 = new P1();
 			currentP1Group.p1s.add(currentP1);
 			whichP = "P1";
 		}		
-		
+
 		if (qName.equalsIgnoreCase("P1para")) {
 			currentP1Para = new P1para();
 			currentP1.p1paras.add(currentP1Para);
@@ -64,10 +64,10 @@ public class LawXmlHandler extends DefaultHandler {
 			whichP = "P2";								
 		}
 
-		if (qName.equalsIgnoreCase("Pnumber") && (whichP.equalsIgnoreCase("P1") || whichP.equalsIgnoreCase("P2"))) {
+		if (qName.equalsIgnoreCase("Pnumber") && ((whichP.equalsIgnoreCase("P1") || whichP.equalsIgnoreCase("P2")))) {
 			takeText = true;
 		}
-		if (qName.equalsIgnoreCase("Text") && (whichP.equalsIgnoreCase("P2") || whichP.equalsIgnoreCase("P1para"))) {
+		if (qName.equalsIgnoreCase("Text") && ((whichP.equalsIgnoreCase("P2") || whichP.equalsIgnoreCase("P1para")))) {
 			takeText = true;
 		}
 	}
@@ -80,6 +80,9 @@ public class LawXmlHandler extends DefaultHandler {
 		}
 		if(qName.equalsIgnoreCase("Pnumber") && whichP.equalsIgnoreCase("P1")){
 			String number = tagStringValue.trim();
+			if("50".equalsIgnoreCase(number)){
+				System.out.println("debug");
+			}
 			if(number.matches("[0-9]*"))
 				currentP1.pnumber = Integer.parseInt(number);
 			else { 
@@ -92,7 +95,8 @@ public class LawXmlHandler extends DefaultHandler {
 			takeText = false;
 		}
 		if(qName.equalsIgnoreCase("Pnumber") && whichP.equalsIgnoreCase("P2")){
-			currentP2.p2number = tagStringValue.trim();
+			if(currentP2.p2number == null || currentP2.p2number.equalsIgnoreCase(""))
+				currentP2.p2number = tagStringValue.trim();
 			tagStringValue = "";			
 			takeText = false;
 		}
@@ -111,7 +115,7 @@ public class LawXmlHandler extends DefaultHandler {
 			tagStringValue = "";
 			takeText = false;
 		}
-		
+
 		if(qName.equalsIgnoreCase("P2"))
 			whichP = "";
 		if(qName.equalsIgnoreCase("P1"))
