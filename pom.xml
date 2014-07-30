@@ -49,11 +49,12 @@
 	</build>
 
 	<modules>
-		<module>multilabel</module>
 		<module>preprocessor</module>
 		<module>common</module>
 		<module>gate</module>
 		<module>ontology</module>
+		<module>demo</module>
+		<module>multilabel</module>
 	</modules>
 
 </project>
