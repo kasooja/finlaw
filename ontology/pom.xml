@@ -25,7 +25,28 @@
 			<groupId>${project.groupId}</groupId>
 			<artifactId>common</artifactId>
 			<version>${project.version}</version>
-		</dependency>		
+		</dependency>
+
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>preprocessor</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+
+
+		<dependency>
+			<groupId>edu.insight</groupId>
+			<artifactId>multilabel.mulan</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+			<dependency>
+			<groupId>edu.insight</groupId>
+			<artifactId>multilabel.meka</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		
 	</dependencies>
+
 
 </project>
