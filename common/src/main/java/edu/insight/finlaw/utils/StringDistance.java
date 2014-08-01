@@ -6,7 +6,7 @@ public class StringDistance {
 		return Math.min(Math.min(a, b), c);
 	}
 
-	public static int computeLevenshteinDistance(String str1,String str2) {
+	public static int computeLevenshteinDistance(String str1, String str2) {
 		int[][] distance = new int[str1.length() + 1][str2.length() + 1];
 
 		for (int i = 0; i <= str1.length(); i++)

@@ -10,14 +10,19 @@ import gate.util.InvalidOffsetException;
 
 import java.io.File;
 import java.net.MalformedURLException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import com.google.common.collect.Lists;
+import com.google.common.collect.Sets;
+
 public class GateAnnotationReader {
 
-	private Document document = null;	
+	private Document document = null;
+	private List<String> annotationTypeList = new ArrayList<String>();
 
 	public GateAnnotationReader() {
 		setUp();
@@ -36,7 +41,7 @@ public class GateAnnotationReader {
 				Gate.setPluginsHome(new File("/Applications/GATE_Developer_7.1/gate.xml"));
 			if (Gate.getUserConfigFile() == null)
 				Gate.setUserConfigFile(new File(gateHome, "/Applications/GATE_Developer_7.1/gate.xml"));
-		    Gate.runInSandbox(true);		       
+			Gate.runInSandbox(true);		       
 			try {
 				Gate.init();
 			} catch (Exception e) {
@@ -59,15 +64,25 @@ public class GateAnnotationReader {
 		return document;
 	}
 
-	public Map<String, List<Annotation>> readAnnotatedGateFile(String[] annotationTypes, String annotationSetName) {
+	public Map<String, List<Annotation>> readAnnotatedGateFile(List<String> annotationTypeList, String annotationSetName) {
+		Set<String> annotationTypes = null;
+		if(annotationTypeList != null)			
+			annotationTypes = Sets.newHashSet(annotationTypeList);
 		AnnotationSet annotationsInSet  =  null;
 		if(annotationSetName == null)
 			annotationsInSet = document.getAnnotations();			
 		else 
-			annotationsInSet = document.getAnnotations(annotationSetName);			
-		Set<String> annotationSetNames = document.getAnnotationSetNames();
-		System.out.println(annotationSetNames);
-		Map<String, List<Annotation>> annotations = new HashMap<String, List<Annotation>>(); 
+			annotationsInSet = document.getAnnotations(annotationSetName);
+		boolean takeAllTypes = false;
+		if(annotationTypes == null)
+			takeAllTypes = true;
+		if(annotationTypes != null)
+			if(annotationTypes.isEmpty())
+				takeAllTypes = true;
+		if(takeAllTypes)	
+			annotationTypes = annotationsInSet.getAllTypes();		
+		this.annotationTypeList = Lists.newArrayList(annotationTypes);		
+		Map<String, List<Annotation>> annotations = new HashMap<String, List<Annotation>>();
 		for (String annoType : annotationTypes) {
 			annoType = annoType.replace("_Class", "").trim();			
 			AnnotationSet annotationTypeSet = annotationsInSet.get(annoType);
@@ -79,10 +94,15 @@ public class GateAnnotationReader {
 		return annotations;
 	} 
 
+	public void cleanUp()	{
+		document.cleanup();
+	}
+
 	public static void main(String[] args) {
 		GateAnnotationReader gateAnnoReader = new GateAnnotationReader();
-		String annotatedGateFile = "resources/UK_AML_Annotated_Xml";
-		String[] annotationTypes = {"Penalty"};
+		String annotatedGateFile = "src/main/resources/UK_AML_xml_annotated_firo.xml";
+		List<String> annotationTypes = new ArrayList<String>();
+		annotationTypes.add("Penalty");
 		String annotationSetName = null; //if null, then picks the default
 		gateAnnoReader.setDocument(annotatedGateFile);
 		Map<String, List<Annotation>> annotations = gateAnnoReader.readAnnotatedGateFile(annotationTypes, annotationSetName);
@@ -101,6 +121,14 @@ public class GateAnnotationReader {
 				}				
 			}
 		}
+	}
+
+	public List<String> getAnnotationTypeList() {
+		return annotationTypeList;
+	}
+
+	public void setAnnotationTypeList(List<String> annotationTypeList) {
+		this.annotationTypeList = annotationTypeList;
 	}
 
 }
