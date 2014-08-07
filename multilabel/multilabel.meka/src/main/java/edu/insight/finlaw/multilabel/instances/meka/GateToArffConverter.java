@@ -64,7 +64,12 @@ public class GateToArffConverter {
 			}
 			labelsToBeUsed.add(label.trim());
 		}
-	}	
+	}
+	
+//	public Instances getInst(String annotatedGateFile, List<String> features, String instancesName, double stringDistanceThreshold) {
+//		String annotationSetName = null;
+//	}
+//	
 
 	public Instances getInstBsdOnFeatsNStrDist(String annotatedGateFile, List<String> features, String instancesName, double stringDistanceThreshold) {
 		String annotationSetName = null; 
@@ -146,8 +151,7 @@ public class GateToArffConverter {
 		return features;
 	}
 
-	public static void createUKAMLInstances() {
-		String configFile = "src/main/resources/load/eu.insight.finlaw.multilabel.instances.meka";
+	public static void createUKAMLInstances(String configFile) {		
 		String annotatedGateFile = "src/main/resources/grctcData/UK_AML_xml_annotated_firo.xml";		
 		String arffFileNameNonFilt = "src/main/resources/grctcData/arff/UKAMLArff.arff";	
 		String featureFile1 = "src/main/resources/grctcData/leona_features";
@@ -171,8 +175,7 @@ public class GateToArffConverter {
 		}	
 	}
 	
-	public static void createModalityInstances() {
-		String configFile = "src/main/resources/load/eu.insight.finlaw.multilabel.instances.meka";		
+	public static void createModalityInstances(String configFile) {
 		String annotatedGateFile = "src/main/resources/grctcData/UK_AML_Annotated_CDDFragment_POS_LOB.xml";		
 		String arffFileNameNonFilt = "src/main/resources/grctcData/arff/ModalityUKAMLMulti.arff";
 		List<String> features = new ArrayList<String>();		
@@ -191,10 +194,11 @@ public class GateToArffConverter {
 		}			
 	}
 
-
 	public static void main(String[] args) {
-		createUKAMLInstances();
-		createModalityInstances();
+		String ukamlConfigFile = "src/main/resources/load/eu.insight.finlaw.multilabel.ukaml.instances.meka";
+		String modalityConfigFile = "src/main/resources/load/eu.insight.finlaw.multilabel.modality.instances.meka";
+		createUKAMLInstances(ukamlConfigFile);
+		createModalityInstances(modalityConfigFile);
 	}
 	
 }
