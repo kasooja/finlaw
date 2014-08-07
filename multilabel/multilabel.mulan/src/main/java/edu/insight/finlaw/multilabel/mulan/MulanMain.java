@@ -3,7 +3,6 @@ package edu.insight.finlaw.multilabel.mulan;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
-import java.util.Random;
 
 import mulan.classifier.transformation.BinaryRelevance;
 import mulan.data.InvalidDataFormatException;

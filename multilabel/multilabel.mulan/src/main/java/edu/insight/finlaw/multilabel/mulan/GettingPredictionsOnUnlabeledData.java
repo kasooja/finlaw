@@ -2,6 +2,7 @@ package edu.insight.finlaw.multilabel.mulan;
 import java.util.Arrays;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
 import mulan.classifier.MultiLabelOutput;
 import mulan.classifier.meta.RAkEL;
 import mulan.classifier.transformation.LabelPowerset;
@@ -9,7 +10,6 @@ import mulan.data.InvalidDataFormatException;
 import mulan.data.MultiLabelInstances;
 import weka.classifiers.trees.J48;
 import weka.core.Instance;
-import weka.core.Utils;
 
 /**
  * This examples shows how you can retrieve the predictions of a model on

@@ -10,6 +10,7 @@ import meka.classifiers.multilabel.meta.BaggingML;
 import meka.core.Result;
 import meka.gui.explorer.Explorer;
 import weka.classifiers.Classifier;
+import weka.classifiers.evaluation.EvaluationUtils;
 import weka.classifiers.functions.SMO;
 import weka.classifiers.trees.J48;
 import weka.core.Instances;
@@ -92,7 +93,7 @@ public class MekaDemo {
 
 	public static void main(String[] args) {
 		//Instances D = loadInstances("data/Music.arff");
-		Instances D = loadInstances("final/FiroUKMulFeat_merged.arff");
+		Instances D = loadInstances("src/main/resources/grctcData/arff/UKAMLArff.arff");
 		StringToWordVector stringToWordVectorFilter = getStringToWordVectorFilter();	
 		try {
 			stringToWordVectorFilter.setInputFormat(D);
@@ -100,31 +101,21 @@ public class MekaDemo {
 		} catch (Exception e1) {
 			e1.printStackTrace();
 		}			
-
-		//		Instances D_train = new Instances(D,0,80);
-		//		Instances D_test = new Instances(D,80,D.numInstances()-80);
-
-		// Train ECC
-
-
-		//MultilabelClassifier h = makeECC();
 		MultilabelClassifier h = makeMulClassifier();
-
-		// Eval
 		try {
 			h.buildClassifier(D);
-			double[] distributionForInstance = h.distributionForInstance(D.get(7));
+			//double[] distributionForInstance = h.distributionForInstance(D.get(7));
 			//Evaluation.cvModel(h, D, numFolds, top, vop)
-			Result[] cvModel = Evaluation.cvModel(h, D, 56, "PCut1", "6");
+			Result[] cvModel = Evaluation.cvModel(h, D, 28, "PCut1", "6");
 			System.out.println(cvModel.length);
 			double avg = 0.0;
 			int count = 0;
 			int[][][] matrices = new int[16][2][2];
-
+		
 			for(Result result : cvModel){
 				int[][] allActuals = result.allActuals();	
 				double[][] allPredictions = result.allPredictions();
-				
+
 				int counter = 0;
 				for(counter = 0; counter<16; counter++) {
 					if(allActuals[0][counter] == allPredictions[0][counter]){
@@ -144,15 +135,15 @@ public class MekaDemo {
 				avg = avg + accuracy;
 				System.out.println(result);
 				System.out.println("-------------------------------------------------------------");
-//				for(int labelNumber = 0; labelNumber < 16; labelNumber++) {
-//					System.out.println("Matrix Number: " + labelNumber);
-//					for(int row = 0; row<2; row++){
-//						for(int col = 0; col<2; col++){
-//							System.out.print(matrices[labelNumber][row][col] + "\t");
-//						}
-//						System.out.print("\n");
-//					}
-//				}
+				//				for(int labelNumber = 0; labelNumber < 16; labelNumber++) {
+				//					System.out.println("Matrix Number: " + labelNumber);
+				//					for(int row = 0; row<2; row++){
+				//						for(int col = 0; col<2; col++){
+				//							System.out.print(matrices[labelNumber][row][col] + "\t");
+				//						}
+				//						System.out.print("\n");
+				//					}
+				//				}
 				System.out.println("-------------------------------------------------------------");
 
 				for(int labelNumber = 0; labelNumber < 16; labelNumber++) {
@@ -164,8 +155,8 @@ public class MekaDemo {
 						System.out.print("\n");
 					}
 				}
-		
-				
+
+
 				System.out.println(count);
 				count ++;
 				//				System.out.println(allActuals);
@@ -175,7 +166,7 @@ public class MekaDemo {
 			System.out.println(avg/count);
 			System.out.println("CV Matrices: \n\n");
 			//int[][][] matrices = new int[16][2][2];
-			
+
 			for(int labelNumber = 0; labelNumber < 16; labelNumber++) {
 				System.out.println("Matrix Number: " + labelNumber);
 				for(int row = 0; row<2; row++){
@@ -185,7 +176,7 @@ public class MekaDemo {
 					System.out.print("\n");
 				}
 			}
-			
+
 			//			Result r1 = Evaluation.evaluateModel(h, D_train, D_test, "PCut1");
 			//			Result r2 = Evaluation.evaluateModel(h, D_train, D_test, "PCut1");
 			//			System.out.println(""+r1.output.get("Accuracy"));
