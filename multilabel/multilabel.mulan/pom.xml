@@ -23,18 +23,44 @@
 			<version>${project.version}</version>
 		</dependency>
 
+		<!--<dependency> <groupId>nz.ac.waikato.cms.weka</groupId> <artifactId>LibSVM</artifactId> 
+			<version>1.0.6</version> </dependency> -->
+
+		<!-- <dependency> <groupId>net.sf.meka.thirdparty</groupId> <artifactId>mulan</artifactId> 
+			<version>1.4.0</version> </dependency> -->
+		<dependency>
+			<groupId>net.sf.meka.thirdparty</groupId>
+			<artifactId>mulan</artifactId>
+			<scope>system</scope>
+			<systemPath>/Users/kartik/git/finlaw/multilabel/multilabel.mulan/src/main/resources/lib/mulan.jar</systemPath>
+			<version>1.4.0</version>
+		</dependency>
+
 		<dependency>
 			<groupId>nz.ac.waikato.cms.weka</groupId>
 			<artifactId>LibSVM</artifactId>
 			<version>1.0.6</version>
+			<scope>system</scope>
+			<systemPath>/Users/kartik/git/finlaw/multilabel/multilabel.mulan/src/main/resources/lib/LibSVM.jar</systemPath>
 		</dependency>
 
 		<dependency>
-			<groupId>net.sf.meka.thirdparty</groupId>
-			<artifactId>mulan</artifactId>
-			<version>1.4.0</version>
+			<groupId>nz.ac.waikato.cms.weka</groupId>
+			<artifactId>weka</artifactId>
+			<version>3.7.6</version>
+			<scope>system</scope>
+			<systemPath>/Users/kartik/git/finlaw/multilabel/multilabel.mulan/src/main/resources/lib/weka-3.7.6.jar</systemPath>
 		</dependency>
 
-	</dependencies>
+		<dependency>
+			<groupId>univ.svm</groupId>
+			<artifactId>libsvm_dep</artifactId>
+			<scope>system</scope>
+			<systemPath>/Users/kartik/git/finlaw/multilabel/multilabel.mulan/src/main/resources/lib/libsvm_dep.jar</systemPath>
+			<version>1.0.0</version>
+		</dependency>
 
-</project>
+
+
+	</dependencies>
+</project> 

@@ -17,10 +17,11 @@ import weka.filters.unsupervised.attribute.StringToWordVector;
 
 public class UKAMLClassifier {
 
-	public static Instances loadInstances(String arffFilePath) {
+	
+	public static Instances loadMekaInstances(String arffFilePath) {
 		try {
 			Instances D = DataSource.read(arffFilePath);
-			Explorer.prepareData(D);
+			Explorer.prepareData(D); //Explorer is a meka based class
 			return D;
 		} catch(Exception e) {
 			System.err.println("");
@@ -59,7 +60,7 @@ public class UKAMLClassifier {
 	}
 
 	public static void main(String[] args) {
-		Instances ukamlInstances = loadInstances("src/main/resources/grctcData/arff/UKAMLArffExtended.arff");
+		Instances ukamlInstances = loadMekaInstances("src/main/resources/grctcData/arff/UKAMLArffExtended.arff");
 		Instances filteredUKAMLInstances = null;
 		StringToWordVector stringToWordVectorFilter = getStringToWordVectorFilter();	
 		try {
@@ -74,7 +75,7 @@ public class UKAMLClassifier {
 			Result[] cvModel = Evaluation.cvModel(multiClassifier, filteredUKAMLInstances, 20, "PCut1", "6");
 			System.out.println(cvModel.length);
 			Result averageResults = MLEvalUtils.averageResults(cvModel);
-			String avgResultsString = Result.getResultAsString(averageResults);
+			//String avgResultsString = Result.getResultAsString(averageResults);
 			System.out.println(averageResults);
 			//System.out.println(averageResults.getValue(""));
 

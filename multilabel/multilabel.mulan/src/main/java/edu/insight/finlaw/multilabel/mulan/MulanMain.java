@@ -41,7 +41,9 @@ public class MulanMain {
 	}
 
 	public static Classifier getTheFirstBinaryClassifier() {
-		ConfigParameters configParameters = new ConfigParameters("final/config/traintest.json");
+		//ConfigParameters configParameters = new ConfigParameters("final/config/traintest.json");
+		ConfigParameters configParameters = new ConfigParameters("src/main/resources/load/traintest.json");
+		
 		for (String classifierName : configParameters.getListOfClassifiers()) {
 			System.out.println(classifierName);
 			String[] options = null;
@@ -82,8 +84,10 @@ public class MulanMain {
 	}
 
 	public static void main(String[] args) {
-		String labelXML =  "final/config/firo.xml";
-		Instances D_nonFilt = loadData( "final/FiroUKMulFeat.arff");
+//		String labelXML =  "final/config/firo.xml";
+		String labelXML =  "src/main/resources/load/mulanUKAML.xml";
+
+		Instances D_nonFilt = loadData( "src/main/resources/grctcData/arff/UKAMLArff.arff");
 		Instances D_filt = null;
 		//		Remove remove = new Remove();
 		//		remove.setAttributeIndices("28");
@@ -136,7 +140,7 @@ public class MulanMain {
 			results.append("F-m: SVM + Rakel" + "\t");
 			learner1.build(mulD_nonFilt);
 			Evaluator eval = new Evaluator();
-			int numFolds = 125;		
+			int numFolds = 20;		
 			MultipleEvaluation crossValidate = eval.crossValidate(learner1, mulD_nonFilt, numFolds);	
 
 			System.out.println(crossValidate);
