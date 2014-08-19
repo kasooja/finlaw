@@ -1,7 +1,6 @@
 package edu.insight.finlaw.multilabel.meka;
 
 
-import edu.insight.finlaw.multilabel.utils.ConfigParameters;
 import meka.classifiers.multilabel.BR;
 import meka.classifiers.multilabel.CC;
 import meka.classifiers.multilabel.Evaluation;
@@ -10,7 +9,6 @@ import meka.classifiers.multilabel.meta.BaggingML;
 import meka.core.Result;
 import meka.gui.explorer.Explorer;
 import weka.classifiers.Classifier;
-import weka.classifiers.evaluation.EvaluationUtils;
 import weka.classifiers.functions.SMO;
 import weka.classifiers.trees.J48;
 import weka.core.Instances;
@@ -21,6 +19,7 @@ import weka.core.converters.ConverterUtils.DataSource;
 import weka.core.tokenizers.NGramTokenizer;
 import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.StringToWordVector;
+import edu.insight.finlaw.multilabel.utils.ConfigParameters;
 
 public class MekaDemo {
 
@@ -91,7 +90,7 @@ public class MekaDemo {
 		return null;		
 	}
 
-	public static void main(String[] args) {
+	public static void mainOld(String[] args) {
 		//Instances D = loadInstances("data/Music.arff");
 		Instances D = loadInstances("src/main/resources/grctcData/arff/UKAMLArff.arff");
 		StringToWordVector stringToWordVectorFilter = getStringToWordVectorFilter();	
@@ -186,6 +185,10 @@ public class MekaDemo {
 			e.printStackTrace();
 		}
 
+	}
+	
+	public static void main(String[] args) {
+		
 	}
 
 }

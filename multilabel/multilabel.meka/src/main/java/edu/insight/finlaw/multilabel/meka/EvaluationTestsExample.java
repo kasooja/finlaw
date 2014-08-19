@@ -40,15 +40,15 @@ import meka.gui.explorer.Explorer;
  * @author Jesse Read (jesse@tsc.uc3m.es)
  * @version $Revision: 66 $
  */
-public class EvaluationTests extends TestCase {
+public class EvaluationTestsExample extends TestCase {
 
-	public EvaluationTests(String s) {
+	public EvaluationTestsExample(String s) {
 		super(s);
 		System.out.println("Evaluation Test");
 	}
 
 	public static Test suite() {
-		return new TestSuite(EvaluationTests.class);
+		return new TestSuite(EvaluationTestsExample.class);
 	}
 
 	protected void setUp(){
@@ -180,7 +180,7 @@ public class EvaluationTests extends TestCase {
 		CC cc = new CC();
 		cc.setClassifier(new Logistic());
 		h.setClassifier(cc);
-		Result r = EvaluationTests.cvEvaluateClassifier(h,"PCutL");
+		Result r = EvaluationTestsExample.cvEvaluateClassifier(h,"PCutL");
 		assertTrue("PCutL Thresholds OK?", r.info.get("Threshold").equals("[0.4, 0.4, 0.4, 0.4, 0.6, 0.6]") );
 	}
 
@@ -191,7 +191,7 @@ public class EvaluationTests extends TestCase {
 	public static Result cvEvaluateClassifier(MultilabelClassifier h, String top) {
 		Instances D = null;
 		try {
-			D = EvaluationTests.loadInstances("data/Music.arff");
+			D = EvaluationTestsExample.loadInstances("data/Music.arff");
 			h.buildClassifier(D);
 			Result folds[] = Evaluation.cvModel(h,D,5,top);
 			return MLEvalUtils.averageResults(folds);
