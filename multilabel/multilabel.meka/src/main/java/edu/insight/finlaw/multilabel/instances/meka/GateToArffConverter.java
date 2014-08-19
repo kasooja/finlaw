@@ -119,7 +119,7 @@ public class GateToArffConverter {
 						textAttributeIndex = count;
 						for(int i=0; i<annotationTypeList.size(); i++){
 							vals[count] = attVals.indexOf("0");
-							if(count == annoTypeIndex)
+							if(count == textAttributeIndex + annoTypeIndex)
 								vals[count] = attVals.indexOf("1");						
 							count++;
 						}
@@ -152,8 +152,11 @@ public class GateToArffConverter {
 	}
 
 	public static void createUKAMLInstances(String configFile) {		
-		String annotatedGateFile = "src/main/resources/grctcData/UK_AML_xml_annotated_firo.xml";		
-		String arffFileNameNonFilt = "src/main/resources/grctcData/arff/UKAMLArff.arff";	
+		//String annotatedGateFile = "src/main/resources/grctcData/UK_AML_xml_annotated_firo.xml";
+		String annotatedGateFile = "src/main/resources/grctcData/UK_AML_xml_annotated_firo_extended.xml";
+		//String arffFileNameNonFilt = "src/main/resources/grctcData/arff/UKAMLArff.arff";
+		String arffFileNameNonFilt = "src/main/resources/grctcData/arff/UKAMLArffExtended.arff";	
+		
 		String featureFile1 = "src/main/resources/grctcData/leona_features";
 		String featureFile2 = "src/main/resources/grctcData/my_features";
 		String instancesName = "FIROInstances";
@@ -198,7 +201,7 @@ public class GateToArffConverter {
 		String ukamlConfigFile = "src/main/resources/load/eu.insight.finlaw.multilabel.ukaml.instances.meka";
 		String modalityConfigFile = "src/main/resources/load/eu.insight.finlaw.multilabel.modality.instances.meka";
 		createUKAMLInstances(ukamlConfigFile);
-		createModalityInstances(modalityConfigFile);
+		//createModalityInstances(modalityConfigFile);
 	}
 	
 }

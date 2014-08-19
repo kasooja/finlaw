@@ -119,7 +119,7 @@ public class GateToArffConverter {
 						textAttributeIndex = count;
 						for(int i=0; i<annotationTypeList.size(); i++){
 							vals[count] = attVals.indexOf("0");
-							if(count == annoTypeIndex)
+							if(count == textAttributeIndex + annoTypeIndex)
 								vals[count] = attVals.indexOf("1");						
 							count++;
 						}
