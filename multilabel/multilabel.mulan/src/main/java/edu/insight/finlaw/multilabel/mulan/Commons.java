@@ -3,6 +3,7 @@ package edu.insight.finlaw.multilabel.mulan;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
+import java.util.Random;
 
 import weka.classifiers.Classifier;
 import weka.core.Instances;
@@ -15,7 +16,7 @@ import edu.insight.finlaw.multilabel.utils.ConfigParameters;
 import edu.insight.finlaw.utils.BasicFileTools;
 
 public class Commons {
-	
+
 	/**
 	 * Loads the dataset from disk.
 	 * 
@@ -72,6 +73,20 @@ public class Commons {
 			}
 		}
 		return null;		
+	}
+
+	public static void getTrainTest(Instances instances, Instances train, Instances test, String trainRelationName,
+			String testRelationName, float trainPercentage){		
+		Random ra = new Random();
+		instances.randomize(ra);		
+		System.out.println(instances.numInstances());
+		int cutoff = (int) ((trainPercentage/100) * instances.numInstances());
+		train = new Instances(instances, 0, cutoff);
+		test = new Instances(instances, cutoff, instances.numInstances()-cutoff);
+		train.setRelationName("FiroUKTrain: -C 16");
+		train.setRelationName(trainRelationName);		
+		test.setRelationName("FiroUKTest: -C 16");
+		test.setRelationName(testRelationName);
 	}
 
 

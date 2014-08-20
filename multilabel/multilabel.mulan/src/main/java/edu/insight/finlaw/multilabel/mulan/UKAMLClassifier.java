@@ -10,8 +10,7 @@ import weka.filters.unsupervised.attribute.StringToWordVector;
 
 public class UKAMLClassifier {
 
-
-	public static void main(String[] args) {
+	public static void crossValidation(){
 		String labelXML =  "src/main/resources/load/mulanUKAML.xml";
 		Instances ukamlInstances = Commons.loadWekaData("src/main/resources/grctcData/arff/UKAMLArffExtended.arff");
 		Instances filteredUKAMLInstances = null;
@@ -29,6 +28,11 @@ public class UKAMLClassifier {
 		} catch (Exception e1) {
 			e1.printStackTrace();
 		} 		
+	}
+	
+	
+	public static void main(String[] args) {
+		crossValidation();
 	}
 
 }

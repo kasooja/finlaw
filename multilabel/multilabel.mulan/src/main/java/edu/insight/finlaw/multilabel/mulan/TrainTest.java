@@ -1,7 +1,6 @@
 package edu.insight.finlaw.multilabel.mulan;
 
 import java.util.Arrays;
-import java.util.Random;
 
 import mulan.classifier.MultiLabelOutput;
 import mulan.classifier.transformation.BinaryRelevance;
@@ -13,30 +12,12 @@ import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.StringToWordVector;
 
 public class TrainTest {
-
-//	private static Instances filt = null;	
-	private static Instances filtTrain = null;
-	private static Instances filtTest = null;
-
-	public static void getTrainTest(Instances instances){		
-	//	filt.setRelationName("FiroUKFilt: -C 16");
-		float trainPercentage = 80;		
-		Random ra = new Random();
-		instances.randomize(ra);		
-		System.out.println(instances.numInstances());
-		int cutoff = (int) ((trainPercentage/100) * instances.numInstances());
-		filtTrain = new Instances(instances, 0, cutoff);
-		filtTest = new Instances(instances, cutoff, instances.numInstances()-cutoff);
-		filtTrain.setRelationName("FiroUKTrain: -C 16");	
-		filtTest.setRelationName("FiroUKTest: -C 16");	
-		System.out.println(filtTrain.numInstances());
-		System.out.println(filtTest.numInstances());
-	}
-
+	
 	public static void main(String[] args) {
 		String labelXML =  "final/config/firo.xml";
 		Instances D_nonFilt = Commons.loadWekaData("final/FiroUKMulFeat.arff");
 		Instances D_filt = null;
+	
 		//		Remove remove = new Remove();
 		//		remove.setAttributeIndices("28");
 		//		try {
@@ -53,8 +34,9 @@ public class TrainTest {
 		} catch (Exception e1) {
 			e1.printStackTrace();
 		}			
-		getTrainTest(D_filt);
-
+		Instances filtTrain = null;
+		Instances filtTest = null;
+		Commons.getTrainTest(D_filt, filtTrain, filtTest, "FiroUKTrain: -C 16", "FiroUKTest: -C 16", 80.0f);
 		StringBuffer labels = new StringBuffer();
 		StringBuffer results = new StringBuffer();
 		StringBuffer noOfInstances = new StringBuffer();
