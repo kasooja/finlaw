@@ -22,72 +22,11 @@ import edu.insight.finlaw.utils.BasicFileTools;
 
 public class MulanMain {
 
-
-	/**
-	 * Loads the dataset from disk.
-	 * 
-	 * @param file the dataset to load (e.g., "weka/classifiers/data/something.arff")
-	 * @throws Exception if loading fails, e.g., file does not exit
-	 */
-	public static Instances loadData(String filePath){
-		File file = new File(filePath);
-		BufferedReader reader = BasicFileTools.getBufferedReader(file);
-		try {
-			return new Instances(reader);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		return null;
-	}
-
-	public static Classifier getTheFirstBinaryClassifier() {
-		//ConfigParameters configParameters = new ConfigParameters("final/config/traintest.json");
-		ConfigParameters configParameters = new ConfigParameters("src/main/resources/load/traintest.json");
-		
-		for (String classifierName : configParameters.getListOfClassifiers()) {
-			System.out.println(classifierName);
-			String[] options = null;
-			String[] nameOption = classifierName.split(" -- ");
-			if (nameOption.length > 1) 
-				options = nameOption[1].split(" ");	
-			try {
-				Classifier binaryClassifier = (Classifier) Utils.forName(Classifier.class, nameOption[0], options);
-				return binaryClassifier;
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-		}
-		return null;		
-	}
-
-
-	public static StringToWordVector getStringToWordVectorFilter() {	
-		Tag[] tags = new Tag[3];
-		tags[0] = new Tag(0, "");			
-		tags[1] = new Tag(1, "");
-		tags[2] = new Tag(2, "");		
-		SelectedTag selectedTag = new SelectedTag(1, tags);
-		//Stemmer stemmer = new SnowballStemmer();
-		StringToWordVector stringToWordVector = new StringToWordVector();	
-		//stringToWordVector.setStemmer(stemmer);
-		stringToWordVector.setWordsToKeep(45);
-		stringToWordVector.setNormalizeDocLength(selectedTag);		
-		stringToWordVector.setMinTermFreq(4);
-		stringToWordVector.setLowerCaseTokens(true);
-		NGramTokenizer tok = new NGramTokenizer();
-		stringToWordVector.setTokenizer(tok);
-		//stringToWordVector.setIDFTransform(true);
-		//stringToWordVector.setTFTransform(true);
-		//stringToWordVector.setOutputWordCounts(true);
-		//stringToWordVector.setUseStoplist(true);
-		return stringToWordVector;
-	}
-
 	public static void main(String[] args) {
 //		String labelXML =  "final/config/firo.xml";
 		String labelXML =  "src/main/resources/load/mulanUKAML.xml";
 
-		Instances D_nonFilt = loadData( "src/main/resources/grctcData/arff/UKAMLArff.arff");
+		Instances D_nonFilt = Commons.loadWekaData("src/main/resources/grctcData/arff/UKAMLArff.arff");
 		Instances D_filt = null;
 		//		Remove remove = new Remove();
 		//		remove.setAttributeIndices("28");
@@ -98,7 +37,7 @@ public class MulanMain {
 		//			e1.printStackTrace();
 		//		}
 
-		StringToWordVector stringToWordVectorFilter = getStringToWordVectorFilter();	
+		StringToWordVector stringToWordVectorFilter = Commons.getStringToWordVectorFilter();	
 		try {
 			stringToWordVectorFilter.setInputFormat(D_nonFilt);
 			D_filt = Filter.useFilter(D_nonFilt, stringToWordVectorFilter);
@@ -135,7 +74,7 @@ public class MulanMain {
 			//RAkEL learner1 = new RAkEL(new LabelPowerset(getTheFirstBinaryClassifier()));
 
 			//RAkEL learner1 = new RAkEL(new LabelPowerset(new J48()));			
-			BinaryRelevance learner1 = new BinaryRelevance(getTheFirstBinaryClassifier());							
+			BinaryRelevance learner1 = new BinaryRelevance(Commons.getFirstBinClassifierFromJson());							
 			//results.append("F-m: J48 + Rakel + TextRemoved" + "\t");
 			results.append("F-m: SVM + Rakel" + "\t");
 			learner1.build(mulD_nonFilt);
