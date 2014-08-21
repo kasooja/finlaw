@@ -1,4 +1,4 @@
-package edu.insight.finlaw.multilabel.meka;
+package edu.insight.finlaw.multilabel.classification.meka;
 
 
 
