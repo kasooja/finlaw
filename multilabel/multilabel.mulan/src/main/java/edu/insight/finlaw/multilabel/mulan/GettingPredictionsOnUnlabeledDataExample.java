@@ -20,7 +20,7 @@ import weka.core.Instance;
  * @author Grigorios Tsoumakas
  * @version 2010.12.15
  */
-public class GettingPredictionsOnUnlabeledData {
+public class GettingPredictionsOnUnlabeledDataExample {
 
 	/**
 	 * Executes this example
@@ -65,7 +65,7 @@ public class GettingPredictionsOnUnlabeledData {
 		} catch (InvalidDataFormatException e) {
 			System.err.println(e.getMessage());
 		} catch (Exception ex) {
-			Logger.getLogger(GettingPredictionsOnUnlabeledData.class.getName()).log(Level.SEVERE, null, ex);
+			Logger.getLogger(GettingPredictionsOnUnlabeledDataExample.class.getName()).log(Level.SEVERE, null, ex);
 		}
 	}
 }

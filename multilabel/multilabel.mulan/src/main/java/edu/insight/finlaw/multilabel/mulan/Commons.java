@@ -90,4 +90,63 @@ public class Commons {
 	}
 
 
+	//		Remove remove = new Remove();
+	//		remove.setAttributeIndices("28");
+	//		try {
+	//			remove.setInputFormat(D_nonFilt);
+	//			D_nonFilt = Filter.useFilter(D_nonFilt, remove);
+	//		} catch (Exception e1) {
+	//			e1.printStackTrace();
+	//		}
+
+	//			System.out.println(crossValidate);
+	//			//int i = 0;
+	//			System.out.println("Hamming Loss\t" + crossValidate.getMean("Hamming Loss") + "\t(0.0)");
+	//			System.out.println("******************");			
+	//			System.out.println("Micro-averaged Precision\t" + crossValidate.getMean("Micro-averaged Precision") + "\t(1.0)");
+	//			System.out.println("Micro-averaged Recall\t" + crossValidate.getMean("Micro-averaged Recall") + "\t(1.0)");
+	//			System.out.println("Micro-averaged F-Measure\t" + crossValidate.getMean("Micro-averaged F-Measure") + "\t(1.0)");
+	//			System.out.println("******************");
+	//			System.out.println("Macro-averaged Precision\t" + crossValidate.getMean("Macro-averaged Precision") + "\t(1.0)");
+	//			System.out.println("Macro-averaged Recall\t" + crossValidate.getMean("Macro-averaged Recall") + "\t(1.0)");
+	//			System.out.println("Macro-averaged F-Measure\t" + crossValidate.getMean("Macro-averaged F-Measure") + "\t(1.0)");
+	//
+	//			for(int labIndex = 0; labIndex<=15; labIndex++){
+	//				String[] labelNames = mulD_nonFilt.getLabelNames();
+	//				System.out.println("------------------------------------------------------------------------------------------");
+	//				labels.append(labelNames[labIndex].replace("_class", "").trim() + "\t");
+	//				results.append(crossValidate.getMean("Macro-averaged F-Measure", labIndex) + "\t");		
+	//				System.out.println("LabelName:\t" + labelNames[labIndex]);
+	//				System.out.println("Macro-averaged Precision\t" + crossValidate.getMean("Macro-averaged Precision", labIndex) + "\t(1.0)");
+	//				System.out.println("Macro-averaged Recall\t" + crossValidate.getMean("Macro-averaged Recall", labIndex) + "\t(1.0)");
+	//				System.out.println("Macro-averaged F-Measure\t" + crossValidate.getMean("Macro-averaged F-Measure", labIndex) + "\t(1.0)");
+	//			}			
+	//			System.out.println(labels);
+	//			System.out.println(noOfInstances);
+	//			System.out.println(results);
+
+	
+
+//	for(Evaluation seval : crossValidate.getEvaluations()){
+//		System.out.println("Evaluation\t" + ++i);
+//		List<Measure> measures = seval.getMeasures();
+//		for(Measure measure : measures){
+//			System.out.println("Measure Name: " + measure.getName());
+//			System.out.println("Measure Ideal Value: " + measure.getIdealValue());
+//			System.out.println("Measure Value: " + measure.getValue());
+//		}
+//	}
+
+//eval.evaluate(learner, data, measures)
+//learner1.build(d_train);			
+//	Evaluation evaluate = eval.evaluate(learner1, d_test, d_train);
+//	List<Measure> measures = evaluate.getMeasures();
+//	for(Measure measure : measures){
+//		System.out.println("Measure Name: " + measure.getName());
+//		System.out.println("Measure Ideal Value: " + measure.getIdealValue());
+//		System.out.println("Measure Value: " + measure.getValue());
+//	}		
+
+
+	
 }
