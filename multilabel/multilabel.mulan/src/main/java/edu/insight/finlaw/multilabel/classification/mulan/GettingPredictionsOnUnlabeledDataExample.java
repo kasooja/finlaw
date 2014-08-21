@@ -1,4 +1,4 @@
-package edu.insight.finlaw.multilabel.mulan;
+package edu.insight.finlaw.multilabel.classification.mulan;
 import java.util.Arrays;
 import java.util.logging.Level;
 import java.util.logging.Logger;

@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import edu.insight.finlaw.multilabel.mulan.Commons;
+import edu.insight.finlaw.multilabel.classification.mulan.Commons;
 import weka.classifiers.Classifier;
 import weka.core.Attribute;
 import weka.core.Instance;

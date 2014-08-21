@@ -1,7 +1,8 @@
-package edu.insight.finlaw.multilabel.mulan;
+package edu.insight.finlaw.multilabel.classification.mulan;
 
 import java.util.Arrays;
 
+import edu.insight.finlaw.utils.Pair;
 import mulan.classifier.MultiLabelOutput;
 import mulan.classifier.transformation.BinaryRelevance;
 import mulan.data.InvalidDataFormatException;
@@ -35,7 +36,7 @@ public class UKAMLClassifier {
 		} 		
 	}	
 
-	public static void trainTest(String[] args) {
+	public static void trainTest() {
 		String labelXML =  "src/main/resources/load/mulanUKAML.xml";		
 		Instances ukamlInstances = Commons.loadWekaData("src/main/resources/grctcData/arff/UKAMLArffExtended.arff");
 		Instances filteredUKAMLInstances = null;
@@ -46,9 +47,9 @@ public class UKAMLClassifier {
 		} catch (Exception e1) {
 			e1.printStackTrace();
 		}			
-		Instances filtTrain = null;
-		Instances filtTest = null;
-		Commons.getTrainTest(filteredUKAMLInstances, filtTrain, filtTest, "FiroUKTrain: -C 16", "FiroUKTest: -C 16", 80.0f);
+		Pair<Instances, Instances> pair = Commons.getTrainTest(filteredUKAMLInstances, "FiroUKTrain: -C 16", "FiroUKTest: -C 16", 80.0f);
+		Instances filtTrain = pair.getFirst();
+		Instances filtTest = pair.getSecond();		
 		StringBuffer labels = new StringBuffer();
 		StringBuffer results = new StringBuffer();
 		StringBuffer noOfInstances = new StringBuffer();
@@ -200,7 +201,8 @@ public class UKAMLClassifier {
 
 	
 	public static void main(String[] args) {
-		crossValidation();
+	//	crossValidation();
+		trainTest();
 	}
 
 }

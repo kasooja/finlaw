@@ -1,4 +1,4 @@
-package edu.insight.finlaw.multilabel.mulan;
+package edu.insight.finlaw.multilabel.classification.mulan;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -14,6 +14,7 @@ import weka.core.tokenizers.NGramTokenizer;
 import weka.filters.unsupervised.attribute.StringToWordVector;
 import edu.insight.finlaw.multilabel.utils.ConfigParameters;
 import edu.insight.finlaw.utils.BasicFileTools;
+import edu.insight.finlaw.utils.Pair;
 
 public class Commons {
 
@@ -75,18 +76,20 @@ public class Commons {
 		return null;		
 	}
 
-	public static void getTrainTest(Instances instances, Instances train, Instances test, String trainRelationName,
+	public static Pair<Instances, Instances> getTrainTest(Instances instances, String trainRelationName,
 			String testRelationName, float trainPercentage){		
 		Random ra = new Random();
 		instances.randomize(ra);		
 		System.out.println(instances.numInstances());
 		int cutoff = (int) ((trainPercentage/100) * instances.numInstances());
-		train = new Instances(instances, 0, cutoff);
-		test = new Instances(instances, cutoff, instances.numInstances()-cutoff);
+		Instances train = new Instances(instances, 0, cutoff);
+		Instances test = new Instances(instances, cutoff, instances.numInstances()-cutoff);
 		train.setRelationName("FiroUKTrain: -C 16");
 		train.setRelationName(trainRelationName);		
 		test.setRelationName("FiroUKTest: -C 16");
 		test.setRelationName(testRelationName);
+		Pair<Instances, Instances> pair = new Pair<Instances, Instances>(train, test);
+		return pair;
 	}
 
 
