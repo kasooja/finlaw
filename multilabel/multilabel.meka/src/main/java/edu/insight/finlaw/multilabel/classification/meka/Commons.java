@@ -9,7 +9,6 @@ import meka.gui.explorer.Explorer;
 import weka.classifiers.Classifier;
 import weka.core.Instances;
 import weka.core.SelectedTag;
-import weka.core.Tag;
 import weka.core.Utils;
 import weka.core.converters.ConverterUtils.DataSource;
 import weka.core.tokenizers.NGramTokenizer;
@@ -51,27 +50,38 @@ public class Commons {
 		return null;
 	}
 
+	public static Instances prepareMekaInstances(Instances D) {
+		try {
+			//D = DataSource.read(arffFilePath);
+			Explorer.prepareData(D); //Explorer is a meka based class
 
-	public static StringToWordVector getStringToWordVectorFilter() {	
-		Tag[] tags = new Tag[3];
-		tags[0] = new Tag(0, "");			
-		tags[1] = new Tag(1, "");
-		tags[2] = new Tag(2, "");		
-		SelectedTag selectedTag = new SelectedTag(1, tags);
+			return D;
+		} catch(Exception e) {
+			System.err.println("error");
+			e.printStackTrace();
+			System.exit(1);
+		}
+		return null;
+	}
+
+
+
+	public static StringToWordVector getStringToWordVectorFilter() {		
+		SelectedTag selectedTag = new SelectedTag(StringToWordVector.FILTER_NORMALIZE_ALL, StringToWordVector.TAGS_FILTER);
 		//Stemmer stemmer = new SnowballStemmer();
 		StringToWordVector stringToWordVector = new StringToWordVector();	
 		//stringToWordVector.setStemmer(stemmer);
-		stringToWordVector.setWordsToKeep(500);
+		stringToWordVector.setWordsToKeep(20000);
 		stringToWordVector.setNormalizeDocLength(selectedTag);		
-		stringToWordVector.setMinTermFreq(4);
+		stringToWordVector.setMinTermFreq(2);
 		stringToWordVector.setLowerCaseTokens(true);
 		stringToWordVector.setDoNotOperateOnPerClassBasis(false);
 		NGramTokenizer tok = new NGramTokenizer();
-		stringToWordVector.setTokenizer(tok);
+		stringToWordVector.setTokenizer(tok);		
 		//stringToWordVector.setIDFTransform(true);
 		//stringToWordVector.setTFTransform(true);
 		stringToWordVector.setOutputWordCounts(true);
-		//stringToWordVector.setUseStoplist(true);
+		//stringToWordVector.setUseStoplist(true);		
 		return stringToWordVector;
 	}
 
@@ -101,9 +111,9 @@ public class Commons {
 		int cutoff = (int) ((trainPercentage/100) * instances.numInstances());
 		Instances train = new Instances(instances, 0, cutoff);
 		Instances test = new Instances(instances, cutoff, instances.numInstances()-cutoff);
-		train.setRelationName("FiroUKTrain: -C 16");
+		//train.setRelationName("FiroUKTrain: -C 16");
 		train.setRelationName(trainRelationName);		
-		test.setRelationName("FiroUKTest: -C 16");
+		//test.setRelationName("FiroUKTest: -C 16");
 		test.setRelationName(testRelationName);
 		Pair<Instances, Instances> pair = new Pair<Instances, Instances>(train, test);
 		return pair;
