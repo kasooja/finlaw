@@ -84,11 +84,14 @@ public class GateAnnotationReader {
 		this.annotationTypeList = Lists.newArrayList(annotationTypes);		
 		Map<String, List<Annotation>> annotations = new HashMap<String, List<Annotation>>();
 		for (String annoType : annotationTypes) {
-			annoType = annoType.replace("_Class", "").trim();			
+			annoType = annoType.replace("_Class", "").trim();
 			AnnotationSet annotationTypeSet = annotationsInSet.get(annoType);
+			System.out.println(annoType);
 			if (annotationTypeSet != null) {
 				List<Annotation> annoTypeAnnotations = gate.Utils.inDocumentOrder(annotationTypeSet);  // you will get the sorted  annotation.
 				annotations.put(annoType, annoTypeAnnotations);
+				System.out.println(annoTypeAnnotations.size());
+				
 			}
 		}
 		return annotations;
