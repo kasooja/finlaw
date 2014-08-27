@@ -29,7 +29,7 @@ import edu.insight.finlaw.xml.P2;
 import edu.insight.finlaw.xml.Part;
 
 //this is the class used for rdf generation corresponding to the labels asked by angelina
-public class InstanceGeneratorSecond {
+public class InstanceGeneratorPredefinedProvisions {
 
 	public static Law law = new Law();
 	public static String dataPath =  "src/main/resources/grctcData/uksi-2007-aml.xml";
