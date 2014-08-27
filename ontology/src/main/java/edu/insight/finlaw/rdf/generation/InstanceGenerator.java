@@ -11,10 +11,10 @@ import weka.classifiers.meta.FilteredClassifier;
 import weka.core.Attribute;
 import weka.core.Instance;
 import weka.core.Instances;
-
-//import edu.insight.finlaw.multilabel.instances.LawDataFirohArffConverter;
-//import edu.insight.finlaw.multilabel.instances.MekaModalityArffConverter;
-import edu.insight.finlaw.multilabel.meka.MekaMultiClassifier;
+import edu.insight.finlaw.multilabel.classification.meka.ModalityClassifier;
+import edu.insight.finlaw.multilabel.classification.meka.UKAMLClassifier;
+import edu.insight.finlaw.multilabel.instances.meka.GateToArffConverter;
+import edu.insight.finlaw.onto.Firo_AML_1Ontology;
 import edu.insight.finlaw.onto.Firo_H_1Ontology;
 import edu.insight.finlaw.onto.Firo_S_1Ontology;
 import edu.insight.finlaw.onto.PurposeSpecificOntology;
@@ -40,11 +40,11 @@ public class InstanceGenerator {
 	
 	public static String modalityArff = "src/main/resources/grctcData/arff/ModalityUKAMLBinary.arff";
 
-	private static MekaMultiClassifier firohMulti = new MekaMultiClassifier(); 
+	private static UKAMLClassifier firohMulti = new UKAMLClassifier(); 
 	public static FilteredClassifier firohClassifier = firohMulti.getLearnedClassifier(firohArff);
 
-	private static MekaMultiClassifier modalityMulti = new MekaMultiClassifier();	
-	public static FilteredClassifier modalityClassifier = modalityMulti.getLearnedBinClassifier(modalityArff);
+	private static ModalityClassifier modalityClassifierObj = new ModalityClassifier();	
+	public static FilteredClassifier modalityClassifier = modalityClassifierObj.getLearnedBinClassifier(modalityArff);
 
 
 	public static Map<String, String> getPrefixUriMap() {
@@ -152,12 +152,12 @@ public class InstanceGenerator {
 							System.out.println(modalityResource);
 							System.out.println(classes);
 							for(String label : classes) {								
-								String labelResource = lawName + "-" + Firo_H_1Ontology.classNameUriMap.get(label.toLowerCase()).replace("firoh1:", "") + labelCounter++;
+								String labelResource = lawName + "-" + Firo_AML_1Ontology.classNameUriMap.get(label.toLowerCase()).replace("firoaml:", "") + labelCounter++;
 								Map<String, String> labelResourceProps = new HashMap<String, String>();
 								labelResourceProps.put(Firo_H_1Ontology.Property.ObjectProperty.hasModalityObjProp, modalityResource);
 								labelResourceProps.put(PurposeSpecificOntology.Property.ObjectProperty.inSectionObjProp, sectionResource);
 								labelResourceProps.put(PurposeSpecificOntology.Property.ObjectProperty.inSubSectionObjProp, subSectionResource);								
-								rdfWriter.addRDF(labelResource, Firo_H_1Ontology.classNameUriMap.get(label.toLowerCase()), labelResourceProps);
+								rdfWriter.addRDF(labelResource, Firo_AML_1Ontology.classNameUriMap.get(label.toLowerCase()), labelResourceProps);
 							}
 
 						}						
@@ -170,9 +170,9 @@ public class InstanceGenerator {
 	}
 
 	private static String classifyModality(String p2Text) {
-		Instances trainingInstances = modalityMulti.getTrainingInstances();
+		Instances trainingInstances = modalityClassifierObj.getTrainingInstances();
 		try {
-			Instance instance = MekaModalityArffConverter.getInstance(p2Text, trainingInstances);
+			Instance instance = GateToArffConverter.getInstance(p2Text, trainingInstances);
 			double[] distributionForInstance = modalityClassifier.distributionForInstance(instance);
 			int count = 0;
 			for(double score : distributionForInstance){
@@ -195,7 +195,7 @@ public class InstanceGenerator {
 		Instances trainingInstances = firohMulti.getTrainingInstances();
 		List<String> classes = new ArrayList<String>();
 		try {
-			Instance instance = LawDataFirohArffConverter.getInstance(p2Text, trainingInstances);
+			Instance instance = GateToArffConverter.getInstance(p2Text, trainingInstances);
 			//System.out.println(instance);
 			double[] distributionForInstance = firohClassifier.distributionForInstance(instance);
 			int count = 0;

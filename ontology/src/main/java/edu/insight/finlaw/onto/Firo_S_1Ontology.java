@@ -4,7 +4,7 @@ package edu.insight.finlaw.onto;
 
 public class Firo_S_1Ontology {
 
-	public static String ontoUri = "http://www.GRCTC.com/ontologies/FIRO/FIRO-S_1.0#";
+	public static String ontoUri = "http://www.GRCTC.com/ontologies/FIRO/FIRO-S-v1_0#";								
 	private static final String prefix = "firos1:";
 	public static final String prefixUsed = "firos1";
 		

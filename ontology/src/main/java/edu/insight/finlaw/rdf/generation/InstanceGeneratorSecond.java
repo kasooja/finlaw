@@ -11,11 +11,10 @@ import weka.classifiers.meta.FilteredClassifier;
 import weka.core.Attribute;
 import weka.core.Instance;
 import weka.core.Instances;
-import edu.insight.finlaw.multilabel.instances.meka.LawDataArffConverterMergedUsingLevDist;
-import edu.insight.finlaw.multilabel.instances.meka.MekaModalityArffConverter;
-//import edu.insight.finlaw.multilabel.instances.LawDataArffConverterMergedUsingLevDist;
-//import edu.insight.finlaw.multilabel.instances.MekaModalityArffConverter;
-import edu.insight.finlaw.multilabel.meka.MekaMultiClassifier;
+import edu.insight.finlaw.multilabel.classification.meka.ModalityClassifier;
+import edu.insight.finlaw.multilabel.classification.meka.UKAMLClassifier;
+import edu.insight.finlaw.multilabel.instances.meka.GateToArffConverter;
+import edu.insight.finlaw.onto.Firo_AML_1Ontology;
 import edu.insight.finlaw.onto.Firo_H_1Ontology;
 import edu.insight.finlaw.onto.Firo_S_1Ontology;
 import edu.insight.finlaw.onto.PurposeSpecificOntology;
@@ -34,19 +33,22 @@ public class InstanceGeneratorSecond {
 
 	public static Law law = new Law();
 	public static String dataPath =  "src/main/resources/grctcData/uksi-2007-aml.xml";
-	public final static String lawName = Firo_S_1Ontology.prefixUsed + ":" + "AML2007";
+	public final static String lawNameFiroSPrefix = Firo_S_1Ontology.prefixUsed + ":" + "AML2007";
+	public final static String lawNameFiroHPrefix = Firo_H_1Ontology.prefixUsed + ":" + "AML2007";
+	public final static String lawNameFiroAMLPrefix = Firo_AML_1Ontology.prefixUsed + ":" + "AML2007";
+	
 	public final static String rdfFilePath = "src/main/resources/grctcData/rdf/instances.ttl";
 
 	//public static String firohArff = "src/main/resources/grctcData/arff/FiveClassesFiroUKAMLMulti.arff";
-	public static String firohArff = "src/main/resources/grctcData/arff/AllClassesFiroUKAMLMulti.arff";
-
+	//	public static String firohArff = "src/main/resources/grctcData/arff/AllClassesFiroUKAMLMulti.arff";
+	public static String firohArff = "src/main/resources/grctcData/arff/UKAMLArffExtended5Classes.arff";
 	public static String modalityArff = "src/main/resources/grctcData/arff/ModalityUKAMLBinary.arff";
 
-	private static MekaMultiClassifier firohMulti = new MekaMultiClassifier(); 
+	private static UKAMLClassifier firohMulti = new UKAMLClassifier();
 	public static FilteredClassifier firohClassifier = firohMulti.getLearnedClassifier(firohArff);
 
-	private static MekaMultiClassifier modalityMulti = new MekaMultiClassifier();	
-	public static FilteredClassifier modalityClassifier = modalityMulti.getLearnedBinClassifier(modalityArff);
+	private static ModalityClassifier modalityClassifierObj = new ModalityClassifier();	
+	public static FilteredClassifier modalityClassifier = modalityClassifierObj.getLearnedBinClassifier(modalityArff);
 
 
 	public static Map<String, String> getPrefixUriMap() {
@@ -54,7 +56,7 @@ public class InstanceGeneratorSecond {
 		prefixes.put(Firo_S_1Ontology.prefixUsed, Firo_S_1Ontology.ontoUri);
 		prefixes.put(Firo_H_1Ontology.prefixUsed, Firo_H_1Ontology.ontoUri);
 		prefixes.put(PurposeSpecificOntology.prefixUsed, PurposeSpecificOntology.ontoUri);
-		
+		prefixes.put(Firo_AML_1Ontology.prefixUsed, Firo_AML_1Ontology.ontoUri);		
 		return prefixes;
 	}
 
@@ -64,8 +66,8 @@ public class InstanceGeneratorSecond {
 		TurtleFormatRDFWriter rdfWriter = new TurtleFormatRDFWriter();		
 		rdfWriter.addPrefixes(getPrefixUriMap());
 
-		String prohibitionModalityResource = lawName + "-" + "Prohibition";
-		String obligationModalityResource = lawName + "-" + "Obligation"; 		
+		String prohibitionModalityResource = lawNameFiroHPrefix + "-" + "Prohibition";
+		String obligationModalityResource = lawNameFiroHPrefix + "-" + "Obligation"; 		
 		rdfWriter.addRDF(prohibitionModalityResource, Firo_H_1Ontology.Class.prohibitionClass);
 		rdfWriter.addRDF(obligationModalityResource, Firo_H_1Ontology.Class.obligationClass);
 
@@ -81,23 +83,23 @@ public class InstanceGeneratorSecond {
 			for(P1Group  p1group : part.p1groups){
 				for(P1 p1 : p1group.p1s) {
 					String sectionNumber = p1.pnumber + "";
-					String sectionResource = lawName + "-" + "section" + sectionNumber;
+					String sectionResource = lawNameFiroSPrefix + "-" + "section" + sectionNumber;
 					Map<String, String> sectionResourceProps = new HashMap<String, String>();
 
-					String headingResource = lawName + "-" + "heading" + sectionNumber;
+					String headingResource = lawNameFiroSPrefix + "-" + "heading" + sectionNumber;
 					Map<String, String> headingResourceProps = new HashMap<String, String>();
 					headingResourceProps.put(Firo_S_1Ontology.Property.DataProperty.hasStringDatProp, "\"" + p1group.title.trim() +"\"");
 					rdfWriter.addRDF(headingResource, Firo_S_1Ontology.Class.headingClass, headingResourceProps);
 
-					String sectioNumResource = lawName + "-" + "num" + sectionNumber;
+					String sectioNumResource = lawNameFiroSPrefix + "-" + "num" + sectionNumber;
 					Map<String, String> sectionNumResourceProps = new HashMap<String, String>();
 					sectionNumResourceProps.put(Firo_S_1Ontology.Property.DataProperty.hasNumDatProp, sectionNumber);
 					rdfWriter.addRDF(sectioNumResource, Firo_S_1Ontology.Class.numClass, sectionNumResourceProps);					
 
-					String hierElementsResource = lawName + "-" + "section" + sectionNumber + "-" + "hierElems" + sectionNumber;
+					String hierElementsResource = lawNameFiroSPrefix + "-" + "section" + sectionNumber + "-" + "hierElems" + sectionNumber;
 					Map<String, String> hierElementsResourceProps = new HashMap<String, String>();
 
-					String anhierResource = lawName + "-" + "hierElems" + sectionNumber + "-" + "ANhier" + sectionNumber;
+					String anhierResource = lawNameFiroSPrefix + "-" + "hierElems" + sectionNumber + "-" + "ANhier" + sectionNumber;
 					Map<String, String> anhierResourceProps = new HashMap<String, String>();
 					//anhier resource added later at the end of loop, as it contains the information of every subsection
 
@@ -119,20 +121,20 @@ public class InstanceGeneratorSecond {
 							//System.out.println(p2.p2textValue);
 							String p2Text = p2.p2textValue;
 
-							String subSectionResource = lawName + "-" + "section" + p1.pnumber + "-" + "sub" + p2.p2number;
+							String subSectionResource = lawNameFiroSPrefix + "-" + "section" + p1.pnumber + "-" + "sub" + p2.p2number;
 							Map<String, String> subsectionResourceProps = new HashMap<String, String>();
 
-							String numResource = lawName + "-" + "num" + p1.pnumber + "-" + p2.p2number;
+							String numResource = lawNameFiroSPrefix + "-" + "num" + p1.pnumber + "-" + p2.p2number;
 							Map<String, String> numResourceProps = new HashMap<String, String>();
 							numResourceProps.put(Firo_S_1Ontology.Property.DataProperty.hasNumDatProp, p2.p2number);
 
-							String contentResource = lawName + "-" + "section" + p1.pnumber + "-" + "sub" + p2.p2number + "-content";
+							String contentResource = lawNameFiroSPrefix + "-" + "section" + p1.pnumber + "-" + "sub" + p2.p2number + "-content";
 							Map<String, String> contentResourceProps = new HashMap<String, String>();
 
-							String blockElementsResource = lawName + "-" + "section" + p1.pnumber + "-" + p2.p2number + "-" + "blockElems";
+							String blockElementsResource = lawNameFiroSPrefix + "-" + "section" + p1.pnumber + "-" + p2.p2number + "-" + "blockElems";
 							Map<String, String> blockElementsResourceProps = new HashMap<String, String>();
 
-							String htmlBlockResource = lawName + "-" + "section" + p1.pnumber + "-" + p2.p2number + "-" + "HTMLblock" + htmlBlockCounter++;
+							String htmlBlockResource = lawNameFiroSPrefix + "-" + "section" + p1.pnumber + "-" + p2.p2number + "-" + "HTMLblock" + htmlBlockCounter++;
 							Map<String, String> htmlBlockResourceProps = new HashMap<String, String>();
 
 							String pResource = htmlBlockResource + "-p";
@@ -155,7 +157,7 @@ public class InstanceGeneratorSecond {
 							rdfWriter.addRDF(subSectionResource, Firo_S_1Ontology.Class.subsectionClass, subsectionResourceProps);
 
 							anhierResourceProps.put(Firo_S_1Ontology.Property.ObjectProperty.hasSubSectionObjProp, subSectionResource);
-							List<String> classes = classify(p2Text);
+							List<String> classes = classifyUKAML(p2Text);
 
 							String modalityResource = modalityMap.get(classifyModality(p2Text));
 							System.out.println(modalityResource);
@@ -164,15 +166,18 @@ public class InstanceGeneratorSecond {
 								if(label==null){
 									System.out.println("null");
 								} else {
-									if(Firo_H_1Ontology.classNameUriMap.get(label.toLowerCase()) != null){
-										String labelResource = lawName + "-" + Firo_H_1Ontology.classNameUriMap.get(label.toLowerCase()).replace("firoh1:", "") + labelCounter++;										
+									if(Firo_AML_1Ontology.classNameUriMap.get(label.toLowerCase()) != null){
+										String labelResource = lawNameFiroAMLPrefix + "-" + Firo_AML_1Ontology.classNameUriMap.get(label.toLowerCase()).replace("firoaml:", "") + labelCounter++;
+										//labelCounter++;
 										Map<String, String> labelResourceProps = new HashMap<String, String>();
-										if(label.toLowerCase().equalsIgnoreCase("customer due diligence") || label.toLowerCase().equalsIgnoreCase("registration") || 
-												label.toLowerCase().equalsIgnoreCase("supervision") || label.toLowerCase().equalsIgnoreCase("monitoring"))											
-											labelResourceProps.put(Firo_H_1Ontology.Property.ObjectProperty.hasModalityObjProp, modalityResource);
+										//if(label.toLowerCase().equalsIgnoreCase("customer due diligence") || label.toLowerCase().equalsIgnoreCase("customer identification and verification") || 
+										//		label.toLowerCase().equalsIgnoreCase("enforcement") || label.toLowerCase().equalsIgnoreCase("monitoring") 
+										//		|| label.toLowerCase().equalsIgnoreCase("reporting")) { 											
+										labelResourceProps.put(Firo_H_1Ontology.Property.ObjectProperty.hasModalityObjProp, modalityResource);
+										//}
 										labelResourceProps.put(PurposeSpecificOntology.Property.ObjectProperty.inSectionObjProp, sectionResource);										
 										labelResourceProps.put(PurposeSpecificOntology.Property.ObjectProperty.inSubSectionObjProp, subSectionResource);								
-										rdfWriter.addRDF(labelResource, Firo_H_1Ontology.classNameUriMap.get(label.toLowerCase()), labelResourceProps);
+										rdfWriter.addRDF(labelResource, Firo_AML_1Ontology.classNameUriMap.get(label.toLowerCase()), labelResourceProps);
 									}
 								}
 							} 
@@ -186,13 +191,13 @@ public class InstanceGeneratorSecond {
 	}
 
 	private static String classifyModality(String p2Text) {
-		Instances trainingInstances = modalityMulti.getTrainingInstances();
+		Instances trainingInstances = modalityClassifierObj.getTrainingInstances();
 		try {
-			Instance instance = MekaModalityArffConverter.getInstance(p2Text, trainingInstances);
+			Instance instance = GateToArffConverter.getInstance(p2Text, trainingInstances);
 			double[] distributionForInstance = modalityClassifier.distributionForInstance(instance);
 			int count = 0;
 			for(double score : distributionForInstance){
-				if(score > 0.8){
+				if(score > 0.7){
 					if(count == 0)
 						return "Obligation";
 					else return "Prohibition";
@@ -207,15 +212,15 @@ public class InstanceGeneratorSecond {
 		return null;		
 	}
 
-	private static List<String> classify(String p2Text) {
+	private static List<String> classifyUKAML(String p2Text) {
 		Instances trainingInstances = firohMulti.getTrainingInstances();
 		List<String> classes = new ArrayList<String>();
 		try {
-			Instance instance = LawDataArffConverterMergedUsingLevDist.getInstance(p2Text, trainingInstances);
+			Instance instance = GateToArffConverter.getInstance(p2Text, trainingInstances);
 			double[] distributionForInstance = firohClassifier.distributionForInstance(instance);
-			int count = 12;
+			int count = 0;
 			for(double score : distributionForInstance){
-				if(score >= 0.8){
+				if(score >= 0.985){
 					Attribute attribute = trainingInstances.attribute(count);
 					String attributeName = attribute.name().replace("_Class", "").trim();
 					attributeName = attributeName.replace("-", "").trim();
