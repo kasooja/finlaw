@@ -1,0 +1,3041 @@
+<Legislation xmlns="http://www.legislation.gov.uk/namespaces/legislation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075" NumberOfProvisions="52" xml:lang="en" xsi:schemaLocation="http://www.legislation.gov.uk/namespaces/legislation http://www.legislation.gov.uk/schema/legislation.xsd" SchemaVersion="1.0" xml:base="http://www.legislation.gov.uk/id/uksi/2003/3075"><ukm:Metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:ukm="http://www.legislation.gov.uk/namespaces/metadata">
+					<dc:identifier>http://www.legislation.gov.uk/uksi/2003/3075/made</dc:identifier><dc:subject>Business advice services</dc:subject><dc:subject>Business practice and regulation</dc:subject><dc:subject>European Parliament</dc:subject><dc:subject>Business services</dc:subject><dc:subject>Banking</dc:subject><dc:title>The Money Laundering Regulations 2003</dc:title><dc:publisher>Queen's Printer of Acts of Parliament</dc:publisher><dc:modified>2014-05-29</dc:modified><dc:subject scheme="SIheading">FINANCIAL SERVICES</dc:subject>
+					<dc:description>These Regulations replace the Money Laundering Regulations 1993 and 2001 with updated provisions which reflect Directive 2001/97/EC of the European Parliament and of the Council amending Council Directive 91/308/EEC on prevention of the use of the financial system for the purpose of money laundering. A Transposition Note setting out how the main elements of Directive 2001/97/EC will be transposed into UK law is available from the Financial Systems and International Standards Team, HM Treasury, 1 Horse Guards Road, London SW1A 2HQ. The Transposition Note is also on HM Treasury’s website (www.hm-treasury.gov.uk). A regulatory impact assessment has been prepared and placed in the library of each House of Parliament. A copy is likewise available from the Treasury and can be found on the Treasury’s website.</dc:description>
+					<atom:link rel="self" type="application/xml" href="http://legislation.data.gov.uk/uksi/2003/3075/made/data.xml"/>
+					<atom:link rel="http://www.legislation.gov.uk/def/navigation/resources" href="http://www.legislation.gov.uk/uksi/2003/3075/resources" title="More Resources"/>
+					
+					
+					<atom:link rel="http://www.legislation.gov.uk/def/navigation/act" href="http://www.legislation.gov.uk/uksi/2003/3075/made" title="whole act"/><atom:link rel="http://www.legislation.gov.uk/def/navigation/introduction" href="http://www.legislation.gov.uk/uksi/2003/3075/introduction/made" title="introduction"/><atom:link rel="http://www.legislation.gov.uk/def/navigation/signature" href="http://www.legislation.gov.uk/uksi/2003/3075/signature/made" title="signature"/><atom:link rel="http://www.legislation.gov.uk/def/navigation/note" href="http://www.legislation.gov.uk/uksi/2003/3075/note/made" title="note"/>
+					<atom:link rel="http://www.legislation.gov.uk/def/navigation/body" href="http://www.legislation.gov.uk/uksi/2003/3075/body/made" title="body"/>
+					<atom:link rel="http://www.legislation.gov.uk/def/navigation/schedules" href="http://www.legislation.gov.uk/uksi/2003/3075/schedules/made" title="schedules"/>
+					
+					<atom:link rel="alternate" type="application/rdf+xml" href="http://legislation.data.gov.uk/uksi/2003/3075/made/data.rdf" title="RDF/XML"/><atom:link rel="alternate" type="application/xhtml+xml" href="http://legislation.data.gov.uk/uksi/2003/3075/made/data.htm" title="HTML snippet"/><atom:link rel="alternate" type="application/pdf" href="http://legislation.data.gov.uk/uksi/2003/3075/made/data.pdf" title="PDF"/>
+					<atom:link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/uksi/2003/3075/pdfs/uksi_20033075_en.pdf" title="Print Version"/>
+					<atom:link rel="http://purl.org/dc/terms/tableOfContents" hreflang="en" href="http://www.legislation.gov.uk/uksi/2003/3075/contents/made" title="Table of Contents"/>
+					
+					
+					
+					
+					<ukm:SecondaryMetadata><ukm:DocumentClassification>
+<ukm:DocumentCategory Value="secondary"/>
+<ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+<ukm:DocumentStatus Value="final"/>
+<ukm:DocumentMinorType Value="regulation"/>
+</ukm:DocumentClassification><ukm:Year Value="2003"/><ukm:Number Value="3075"/><ukm:Made Date="2003-11-28"/><ukm:Laid Date="2003-11-28" Class="UnitedKingdomParliament"/><ukm:ISBN Value="0110484002"/><ukm:UnappliedEffects><ukm:UnappliedEffect EffectId="key-8a9b45b10b759be3621adf290906006f" Created="2013-07-05T17:22:32.216+01:00" AffectedClass="UnitedKingdomStatutoryInstrument" Modified="2013-07-05T17:22:32.216+01:00" AffectingClass="UnitedKingdomStatutoryInstrument" URI="http://www.legislation.gov.uk/id/effect/upload-q4w3qyr-109" Type="words substituted" RequiresApplied="true" AffectedProvisions="reg. 2(1)" AffectingEffectsExtent="E+W+S+NI" AffectingYear="2006" AffectingNumber="594" AffectingProvisions="Sch. para. 38(2)" AffectedURI="http://www.legislation.gov.uk/id/uksi/2003/3075" AffectedYear="2003" AffectedNumber="3075" AffectingURI="http://www.legislation.gov.uk/id/uksi/2006/594"><ukm:AffectedTitle>The Money Laundering Regulations 2003</ukm:AffectedTitle><ukm:AffectedProvisions><ukm:Section Ref="regulation-2-1" URI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/1">reg. 2(1)</ukm:Section></ukm:AffectedProvisions><ukm:AffectingTitle>The Serious Organised Crime and Police Act 2005 (Consequential and Supplementary Amendments to Secondary Legislation) Order 2006</ukm:AffectingTitle><ukm:AffectingProvisions><ukm:Section Ref="schedule" URI="http://www.legislation.gov.uk/id/uksi/2006/594/schedule">Sch. </ukm:Section><ukm:Section Ref="schedule-paragraph-38-2" URI="http://www.legislation.gov.uk/id/uksi/2006/594/schedule/paragraph/38/2">para. 38(2)</ukm:Section></ukm:AffectingProvisions><ukm:CommencementAuthority><ukm:Section Ref="article-1" URI="http://www.legislation.gov.uk/id/uksi/2006/594/article/1">art. 1</ukm:Section></ukm:CommencementAuthority><ukm:InForceDates><ukm:InForce Date="2006-04-01" Qualification="wholly in force" Applied="false"/></ukm:InForceDates></ukm:UnappliedEffect><ukm:UnappliedEffect EffectId="key-9d55fc3aaa463eda516aa3b88b2d1606" AffectedClass="UnitedKingdomStatutoryInstrument" Created="2013-07-05T17:22:32.216+01:00" AffectingClass="UnitedKingdomStatutoryInstrument" URI="http://www.legislation.gov.uk/id/effect/upload-q4w3qyr-110" Type="words substituted" RequiresApplied="true" AffectedProvisions="reg. 7(1)(b)" AffectingEffectsExtent="E+W+S+NI" AffectingYear="2006" AffectingNumber="594" AffectingProvisions="Sch. para. 38(3)" AffectedURI="http://www.legislation.gov.uk/id/uksi/2003/3075" AffectedYear="2003" AffectedNumber="3075" AffectingURI="http://www.legislation.gov.uk/id/uksi/2006/594" Modified="2013-07-05T17:22:32.216+01:00"><ukm:AffectedTitle>The Money Laundering Regulations 2003</ukm:AffectedTitle><ukm:AffectedProvisions><ukm:Section Ref="regulation-7-1-b" URI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/7/1/b">reg. 7(1)(b)</ukm:Section></ukm:AffectedProvisions><ukm:AffectingTitle>The Serious Organised Crime and Police Act 2005 (Consequential and Supplementary Amendments to Secondary Legislation) Order 2006</ukm:AffectingTitle><ukm:AffectingProvisions><ukm:Section Ref="schedule" URI="http://www.legislation.gov.uk/id/uksi/2006/594/schedule">Sch. </ukm:Section><ukm:Section Ref="schedule-paragraph-38-3" URI="http://www.legislation.gov.uk/id/uksi/2006/594/schedule/paragraph/38/3">para. 38(3)</ukm:Section></ukm:AffectingProvisions><ukm:CommencementAuthority><ukm:Section Ref="article-1" URI="http://www.legislation.gov.uk/id/uksi/2006/594/article/1">art. 1</ukm:Section></ukm:CommencementAuthority><ukm:InForceDates><ukm:InForce Date="2006-04-01" Qualification="wholly in force" Applied="false"/></ukm:InForceDates></ukm:UnappliedEffect><ukm:UnappliedEffect EffectId="key-4605b918d7097027fbc8f23ec4c4cf2e" AffectedClass="UnitedKingdomStatutoryInstrument" Created="2013-07-05T17:22:32.216+01:00" Modified="2013-07-05T17:22:32.216+01:00" URI="http://www.legislation.gov.uk/id/effect/upload-q4w3qyr-111" Type="words substituted" RequiresApplied="true" AffectedProvisions="reg. 7(1)(d)" AffectingEffectsExtent="E+W+S+NI" AffectingYear="2006" AffectingNumber="594" AffectingProvisions="Sch. para. 38(3)" AffectedURI="http://www.legislation.gov.uk/id/uksi/2003/3075" AffectedYear="2003" AffectedNumber="3075" AffectingURI="http://www.legislation.gov.uk/id/uksi/2006/594" AffectingClass="UnitedKingdomStatutoryInstrument"><ukm:AffectedTitle>The Money Laundering Regulations 2003</ukm:AffectedTitle><ukm:AffectedProvisions><ukm:Section Ref="regulation-7-1-d" URI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/7/1/d">reg. 7(1)(d)</ukm:Section></ukm:AffectedProvisions><ukm:AffectingTitle>The Serious Organised Crime and Police Act 2005 (Consequential and Supplementary Amendments to Secondary Legislation) Order 2006</ukm:AffectingTitle><ukm:AffectingProvisions><ukm:Section Ref="schedule" URI="http://www.legislation.gov.uk/id/uksi/2006/594/schedule">Sch. </ukm:Section><ukm:Section Ref="schedule-paragraph-38-3" URI="http://www.legislation.gov.uk/id/uksi/2006/594/schedule/paragraph/38/3">para. 38(3)</ukm:Section></ukm:AffectingProvisions><ukm:CommencementAuthority><ukm:Section Ref="article-1" URI="http://www.legislation.gov.uk/id/uksi/2006/594/article/1">art. 1</ukm:Section></ukm:CommencementAuthority><ukm:InForceDates><ukm:InForce Date="2006-04-01" Qualification="wholly in force" Applied="false"/></ukm:InForceDates></ukm:UnappliedEffect><ukm:UnappliedEffect EffectId="key-dab3feae3bcd615bbd89e658f8f35e94" Modified="2013-07-18T15:17:21.507+01:00" Created="2013-07-18T15:17:21.507+01:00" URI="http://www.legislation.gov.uk/id/effect/upload-0rsfglv1-81" Type="words inserted" RequiresApplied="true" AffectedProvisions="reg. 2(3)(h)" AffectingEffectsExtent="E+W+S+NI" AffectingYear="2006" AffectingNumber="2383" AffectingProvisions="art. 33" AffectedURI="http://www.legislation.gov.uk/id/uksi/2003/3075" AffectedYear="2003" AffectedNumber="3075" AffectingURI="http://www.legislation.gov.uk/id/uksi/2006/2383" AffectedClass="UnitedKingdomStatutoryInstrument" AffectingClass="UnitedKingdomStatutoryInstrument"><ukm:AffectedTitle>The Money Laundering Regulations 2003</ukm:AffectedTitle><ukm:AffectedProvisions><ukm:Section Ref="regulation-2-3-h" URI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/3/h">reg. 2(3)(h)</ukm:Section></ukm:AffectedProvisions><ukm:AffectingTitle>The Financial Services and Markets Act 2000 (Regulated Activities) (Amendment) (No.2) Order 2006</ukm:AffectingTitle><ukm:AffectingProvisions><ukm:Section Ref="article-33" URI="http://www.legislation.gov.uk/id/uksi/2006/2383/article/33">art. 33</ukm:Section></ukm:AffectingProvisions><ukm:CommencementAuthority><ukm:Section Ref="article-1-2" URI="http://www.legislation.gov.uk/id/uksi/2006/2383/article/1/2">art. 1(2)</ukm:Section></ukm:CommencementAuthority><ukm:InForceDates><ukm:InForce Date="2006-11-06" Qualification="for specified purposes" Applied="false"/><ukm:InForce Date="2007-04-06" Qualification="in force in so far as not already in force" Applied="false"/></ukm:InForceDates></ukm:UnappliedEffect><ukm:UnappliedEffect EffectId="key-57e20df0f6f31a60643c1ed985fc715a" AffectingClass="UnitedKingdomStatutoryInstrument" URI="http://www.legislation.gov.uk/id/effect/upload-0ngtbad1-53" Type="inserted" RequiresApplied="true" AffectedProvisions="reg. 2(2)(a)(iva)" AffectingEffectsExtent="E+W+S+NI" AffectingYear="2006" AffectingNumber="3384" AffectingProvisions="art. 39" AffectedURI="http://www.legislation.gov.uk/id/uksi/2003/3075" AffectedYear="2003" AffectedNumber="3075" AffectingURI="http://www.legislation.gov.uk/id/uksi/2006/3384" AffectedClass="UnitedKingdomStatutoryInstrument" Modified="2013-07-23T16:46:57.033+01:00" Created="2013-07-23T16:46:57.033+01:00"><ukm:AffectedTitle>The Money Laundering Regulations 2003</ukm:AffectedTitle><ukm:AffectedProvisions><ukm:Section Ref="regulation-2-2-a" URI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/2/a">reg. 2(2)(a)</ukm:Section><ukm:Section Ref="regulation-2-2-iva" URI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/2/iva" FoundRef="regulation-2">(iva)</ukm:Section></ukm:AffectedProvisions><ukm:AffectingTitle>The Financial Services and Markets Act 2000 (Regulated Activities) (Amendment No. 3) Order 2006</ukm:AffectingTitle><ukm:AffectingProvisions><ukm:Section Ref="article-39" URI="http://www.legislation.gov.uk/id/uksi/2006/3384/article/39">art. 39</ukm:Section></ukm:AffectingProvisions><ukm:CommencementAuthority><ukm:Section Ref="article-1-2" URI="http://www.legislation.gov.uk/id/uksi/2006/3384/article/1/2">art. 1(2)</ukm:Section></ukm:CommencementAuthority><ukm:InForceDates><ukm:InForce Date="2007-04-01" Qualification="for specified purposes" Applied="false"/><ukm:InForce Date="2007-11-01" Qualification="in force in so far as not already in force" Applied="false"/></ukm:InForceDates></ukm:UnappliedEffect><ukm:UnappliedEffect EffectId="key-7dbe14d130f7731e030795179222169a" URI="http://www.legislation.gov.uk/id/effect/key-7dbe14d130f7731e030795179222169a" Type="words substituted" RequiresApplied="true" AffectedProvisions="reg. 2" AffectingEffectsExtent="E+W+S+NI" AffectingYear="2006" AffectingNumber="3221" AffectingProvisions="Sch. 6 para. 15" AffectedYear="2003" AffectedNumber="3075" AffectedClass="UnitedKingdomStatutoryInstrument" AffectedURI="http://www.legislation.gov.uk/id/uksi/2003/3075" AffectingURI="http://www.legislation.gov.uk/id/uksi/2006/3221" AffectingClass="UnitedKingdomStatutoryInstrument" Modified="2013-07-16T11:40:01.702+01:00"><ukm:AffectedTitle>The Money Laundering Regulations 2003</ukm:AffectedTitle><ukm:AffectedProvisions><ukm:Section Ref="regulation-2" URI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2">reg. 2</ukm:Section></ukm:AffectedProvisions><ukm:AffectingTitle>The Capital Requirements Regulations 2006</ukm:AffectingTitle><ukm:AffectingProvisions><ukm:Section Ref="schedule-6" URI="http://www.legislation.gov.uk/id/uksi/2006/3221/schedule/6">Sch. 6 </ukm:Section><ukm:Section Ref="schedule-6-paragraph-15" URI="http://www.legislation.gov.uk/id/uksi/2006/3221/schedule/6/paragraph/15">para. 15</ukm:Section></ukm:AffectingProvisions><ukm:CommencementAuthority><ukm:Section Ref="regulation-1-1" URI="http://www.legislation.gov.uk/id/uksi/2006/3221/regulation/1/1">reg. 1(1)</ukm:Section></ukm:CommencementAuthority><ukm:InForceDates><ukm:InForce Date="2007-01-01" Qualification="wholly in force" Applied="false"/></ukm:InForceDates></ukm:UnappliedEffect></ukm:UnappliedEffects></ukm:SecondaryMetadata>
+					
+					
+									
+					<ukm:Alternatives>
+      <ukm:Alternative Date="2008-12-04" URI="http://www.legislation.gov.uk/uksi/2003/3075/pdfs/uksi_20033075_en.pdf" Title="Print Version"/>
+   </ukm:Alternatives>
+					
+					<ukm:Statistics>
+									<ukm:TotalParagraphs Value="52"/>
+									<ukm:BodyParagraphs Value="30"/>
+									<ukm:ScheduleParagraphs Value="22"/>
+									<ukm:TotalImages Value="0"/>
+								</ukm:Statistics>
+					
+				</ukm:Metadata><Secondary>
+<SecondaryPrelims DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/introduction/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/introduction">
+<Number>2003 No. 3075</Number>
+<SubjectInformation><Subject>
+<Title>FINANCIAL SERVICES</Title>
+</Subject>
+</SubjectInformation>
+<Title>The Money Laundering Regulations 2003</Title>
+<MadeDate>
+<Text>Made</Text>
+<DateText>28th November 2003</DateText>
+</MadeDate>
+<LaidDate>
+<Text>Laid before Parliament</Text>
+<DateText>28th November 2003</DateText>
+</LaidDate>
+<ComingIntoForce>
+<Text>Coming into force in accordance with regulation 1(2)</Text>
+</ComingIntoForce>
+<SecondaryPreamble>
+<IntroductoryText>
+<P>
+<Text>Whereas the Treasury are a government department designated<FootnoteRef Ref="f00001"/> for the purposes of section 2(2) of the European Communities Act 1972<FootnoteRef Ref="f00002"/> in relation to measures relating to preventing the use of the financial system for the purpose of money laundering;</Text>
+</P>
+</IntroductoryText>
+<EnactingText>
+<Para>
+<Text>Now therefore the Treasury, in exercise of the powers conferred on them by—</Text>
+<OrderedList Decoration="parens" Type="roman">
+<ListItem>
+<Para>
+<Text>section 2(2) of the European Communities Act 1972, and</Text>
+</Para>
+</ListItem>
+<ListItem NumberOverride="ii">
+<Para>
+<Text>sections 168(4)(b), 402(1)(b), 417(1)<FootnoteRef Ref="f00003"/> and 428(3) of the Financial Services and Markets Act 2000<FootnoteRef Ref="f00004"/>,</Text>
+</Para>
+</ListItem>
+</OrderedList>
+<Text>hereby make the following Regulations:</Text>
+</Para>
+</EnactingText>
+</SecondaryPreamble>
+</SecondaryPrelims>
+<Body DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/body/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/body" NumberOfProvisions="30" NumberFormat="default">
+<Part DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/part/I/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/part/I" NumberOfProvisions="2" id="part-I">
+<Number>PART I</Number>
+<Title>GENERAL</Title>
+<P1group>
+<Title>Citation, commencement <Abbreviation Expansion="et cetera" xml:lang="la">etc.</Abbreviation></Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/1" id="regulation-1">
+<Pnumber>1</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/1/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/1/1" id="regulation-1-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>These Regulations may be cited as the Money Laundering Regulations 2003.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/1/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/1/2" id="regulation-1-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>These Regulations come into force—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/1/2/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/1/2/a" id="regulation-1-2-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>for the purposes of regulation 10 in so far as it relates to a person who acts as a high value dealer, on 1st April 2004;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/1/2/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/1/2/b" id="regulation-1-2-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>for the purposes of regulation 2(3)(h), on 31st October 2004;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/1/2/c/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/1/2/c" id="regulation-1-2-c">
+<Pnumber>c</Pnumber>
+<P3para>
+<Text>for the purposes of regulation 2(3)(i), on 14th January 2005;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/1/2/d/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/1/2/d" id="regulation-1-2-d">
+<Pnumber>d</Pnumber>
+<P3para>
+<Text>for all other purposes, on 1st March 2004.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/1/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/1/3" id="regulation-1-3">
+<Pnumber>3</Pnumber>
+<P2para>
+<Text>These Regulations are prescribed for the purposes of sections 168(4)(b) and 402(1)(b) of the 2000 Act.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/1/4/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/1/4" id="regulation-1-4">
+<Pnumber>4</Pnumber>
+<P2para>
+<Text>The following Regulations are revoked—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/1/4/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/1/4/a" id="regulation-1-4-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>the Money Laundering Regulations 1993<FootnoteRef Ref="f00005"/>;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/1/4/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/1/4/b" id="regulation-1-4-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>the Financial Services and Markets Act 2000 (Regulations Relating to Money Laundering) Regulations 2001<FootnoteRef Ref="f00006"/>;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/1/4/c/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/1/4/c" id="regulation-1-4-c">
+<Pnumber>c</Pnumber>
+<P3para>
+<Text>the Money Laundering Regulations 2001<FootnoteRef Ref="f00007"/>.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+<P1group>
+<Title>Interpretation</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2" id="regulation-2">
+<Pnumber>2</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/1" id="regulation-2-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>In these Regulations—</Text>
+<UnorderedList Decoration="none" Class="Definition">
+<ListItem>
+<Para>
+<Text>“the 2000 Act” means the Financial Services and Markets Act 2000;</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“applicant for business” means a person seeking to form a business relationship, or carry out a one-off transaction, with another person acting in the course of relevant business carried on by that other person in the United Kingdom;</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“applicant for registration” means an applicant for registration as a money service operator, or as a high value dealer;</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“the appropriate judicial authority” means—</Text>
+<OrderedList Decoration="parens" Type="alpha">
+<ListItem>
+<Para>
+<Text>in England and Wales, a magistrates' court,</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>in Scotland, the sheriff,</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>in Northern Ireland, a court of summary jurisdiction;</Text>
+</Para>
+</ListItem>
+</OrderedList></Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“authorised person” has the meaning given by section 31(2) of the 2000 Act;</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“the Authority” means the Financial Services Authority;</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“the Banking Consolidation Directive” means Directive <Citation URI="http://www.legislation.gov.uk/european/directive/2000/0012" id="c00001" Class="EuropeanUnionDirective" Year="2000" Number="12">2000/12/<Acronym Expansion="European Community">EC</Acronym></Citation> of the European Parliament and of the Council of 20th March 2000 relating to the taking up and pursuit of the business of credit institutions as last amended by Directive <Citation URI="http://www.legislation.gov.uk/european/directive/2002/0087" id="c00002" Class="EuropeanUnionDirective" Year="2002" Number="87">2002/87/EC</Citation> of the European Parliament and of the Council of 16th December 2002<FootnoteRef Ref="f00008"/>;</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“business relationship” means any arrangement the purpose of which is to facilitate the carrying out of transactions on a frequent, habitual or regular basis where the total amount of any payments to be made by any person to any other in the course of the arrangement is not known or capable of being ascertained at the outset;</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“cash” means notes, coins or travellers' cheques in any currency;</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“the Commissioners” means the Commissioners of Customs and Excise;</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“constable” includes a person commissioned by the Commissioners and a person authorised for the purposes of these Regulations by the Director General of the National Criminal Intelligence Service;</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“<Acronym Expansion="European Economic Area">EEA</Acronym> State” means a State which is a contracting party to the agreement on the European Economic Area signed at Oporto on 2nd May 1992 as it has effect for the time being;</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“estate agency work” has the meaning given by section 1 of the Estate Agents Act 1979<FootnoteRef Ref="f00009"/> save for the omission of the words “(including a business in which he is employed)” in subsection (1) and includes a case where, in relation to a disposal or acquisition, the person acts as principal;</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“high value dealer” means a person who carries on the activity mentioned in paragraph (2)(n);</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“the Life Assurance Consolidation Directive” means Directive <Citation URI="http://www.legislation.gov.uk/european/directive/2002/0083" id="c00003" Class="EuropeanUnionDirective" Year="2002" Number="83">2002/83/EC</Citation> of the European Parliament and of the Council of 5th November 2002 concerning life assurance<FootnoteRef Ref="f00010"/>;</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“justice” means a justice of the peace or, in relation to Scotland, a justice within the meaning of section 307 of the Criminal Procedure (Scotland) Act 1995<FootnoteRef Ref="f00011"/>;</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“money laundering” means an act which falls within section 340(11) of the Proceeds of Crime Act 2002<FootnoteRef Ref="f00012"/> or an offence under section 18 of the Terrorism Act 2000<FootnoteRef Ref="f00013"/>;</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“the Money Laundering Directive” means Council Directive <Citation URI="http://www.legislation.gov.uk/european/directive/1991/0308" id="c00004" Class="EuropeanEconomicCommunityDirective" Year="1991" Number="308">91/308/<Acronym Expansion="European Economic Community">EEC</Acronym></Citation> of 10th June 1991 on prevention of the use of the financial system for the purpose of money laundering as amended by Directive <Citation URI="http://www.legislation.gov.uk/european/directive/2001/0097" id="c00005" Class="EuropeanUnionDirective" Year="2001" Number="97">2001/97/EC</Citation> of the European Parliament and of the Council of 4th December 2001<FootnoteRef Ref="f00014"/>;</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“money service business” means any of the activities mentioned in paragraph (2)(d) (so far as not excluded by paragraph (3)) when carried on by way of business;</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“money service operator” means a person who carries on money service business other than a person who carries on relevant business falling within any of sub-paragraphs (a) to (c) of paragraph (2);</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“nominated officer” has the meaning given by regulation 7;</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“officer” (except in regulations 7, 10 and  27) has the meaning given by section 1(1) of the Customs and Excise Management Act 1979<FootnoteRef Ref="f00015"/>;</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“officer in overall charge of the investigation” means the person whose name and address are endorsed on the order concerned as being the officer so in charge;</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“one-off transaction” means any transaction other than one carried out in the course of an existing business relationship;</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“operator” means a money service operator;</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“recorded information” includes information recorded in any form and any document of any nature whatsoever;</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“registered number” has the meaning given by regulation 9(2);</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“relevant business” has the meaning given by paragraph (2);</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“the review procedure” means the procedure under regulation 21;</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“satisfactory evidence of identity” has the meaning given by paragraphs (5) and (6);</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“supervisory authority” has the meaning given by paragraphs (7) and (8);</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“tribunal” means a <Acronym Expansion="Value Added Tax">VAT</Acronym> and duties tribunal.</Text>
+</Para>
+</ListItem>
+</UnorderedList>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/2" id="regulation-2-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>For the purposes of these Regulations, “relevant business” means—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/2/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/2/a" id="regulation-2-2-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>the regulated activity of—</Text>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/2/a/i/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/2/a/i" id="regulation-2-2-a-i">
+<Pnumber>i</Pnumber>
+<P4para>
+<Text>accepting deposits;</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/2/a/ii/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/2/a/ii" id="regulation-2-2-a-ii">
+<Pnumber>ii</Pnumber>
+<P4para>
+<Text>effecting or carrying out contracts of long-term insurance when carried on by a person who has received official authorisation pursuant to Article 4 or 51 of the Life Assurance Consolidation Directive;</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/2/a/iii/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/2/a/iii" id="regulation-2-2-a-iii">
+<Pnumber>iii</Pnumber>
+<P4para>
+<Text>dealing in investments as principal or as agent;</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/2/a/iv/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/2/a/iv" id="regulation-2-2-a-iv">
+<Pnumber>iv</Pnumber>
+<P4para>
+<Text>arranging deals in investments;</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/2/a/v/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/2/a/v" id="regulation-2-2-a-v">
+<Pnumber>v</Pnumber>
+<P4para>
+<Text>managing investments;</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/2/a/vi/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/2/a/vi" id="regulation-2-2-a-vi">
+<Pnumber>vi</Pnumber>
+<P4para>
+<Text>safeguarding and administering investments;</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/2/a/vii/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/2/a/vii" id="regulation-2-2-a-vii">
+<Pnumber>vii</Pnumber>
+<P4para>
+<Text>sending dematerialised instructions;</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/2/a/viii/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/2/a/viii" id="regulation-2-2-a-viii">
+<Pnumber>viii</Pnumber>
+<P4para>
+<Text>establishing (and taking other steps in relation to) collective investment schemes;</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/2/a/ix/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/2/a/ix" id="regulation-2-2-a-ix">
+<Pnumber>ix</Pnumber>
+<P4para>
+<Text>advising on investments; or</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/2/a/x/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/2/a/x" id="regulation-2-2-a-x">
+<Pnumber>x</Pnumber>
+<P4para>
+<Text>issuing electronic money;</Text>
+</P4para>
+</P4>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/2/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/2/b" id="regulation-2-2-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>the activities of the National Savings Bank;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/2/c/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/2/c" id="regulation-2-2-c">
+<Pnumber>c</Pnumber>
+<P3para>
+<Text>any activity carried on for the purpose of raising money authorised to be raised under the National Loans Act 1968<FootnoteRef Ref="f00016"/> under the auspices of the Director of Savings;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/2/d/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/2/d" id="regulation-2-2-d">
+<Pnumber>d</Pnumber>
+<P3para>
+<Text>the business of operating a bureau de change, transmitting money (or any representation of monetary value) by any means or cashing cheques which are made payable to customers;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/2/e/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/2/e" id="regulation-2-2-e">
+<Pnumber>e</Pnumber>
+<P3para>
+<Text>any of the activities in points 1 to 12 or 14 of Annex 1 to the Banking Consolidation Directive (which activities are, for convenience, set out in Schedule 1 to these Regulations) when carried on by way of business, ignoring an activity falling within any of sub-paragraphs (a) to (d);</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/2/f/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/2/f" id="regulation-2-2-f">
+<Pnumber>f</Pnumber>
+<P3para>
+<Text>estate agency work;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/2/g/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/2/g" id="regulation-2-2-g">
+<Pnumber>g</Pnumber>
+<P3para>
+<Text>operating a casino by way of business;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/2/h/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/2/h" id="regulation-2-2-h">
+<Pnumber>h</Pnumber>
+<P3para>
+<Text>the activities of a person appointed to act as an insolvency practitioner within the meaning of section 388 of the Insolvency Act 1986<FootnoteRef Ref="f00017"/> or Article 3 of the Insolvency (Northern Ireland) Order 1989<FootnoteRef Ref="f00018"/>;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/2/i/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/2/i" id="regulation-2-2-i">
+<Pnumber>i</Pnumber>
+<P3para>
+<Text>the provision by way of business of advice about the tax affairs of another person by a body corporate or unincorporate or, in the case of a sole practitioner, by an individual;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/2/j/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/2/j" id="regulation-2-2-j">
+<Pnumber>j</Pnumber>
+<P3para>
+<Text>the provision by way of business of accountancy services by a body corporate or unincorporate or, in the case of a sole practitioner, by an individual;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/2/k/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/2/k" id="regulation-2-2-k">
+<Pnumber>k</Pnumber>
+<P3para>
+<Text>the provision by way of business of audit services by a person who is eligible for appointment as a company auditor under section 25 of the Companies Act 1989<FootnoteRef Ref="f00019"/> or Article 28 of the Companies (Northern Ireland) Order 1990<FootnoteRef Ref="f00020"/>;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/2/l/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/2/l" id="regulation-2-2-l">
+<Pnumber>l</Pnumber>
+<P3para>
+<Text>the provision by way of business of legal services by a body corporate or unincorporate or, in the case of a sole practitioner, by an individual and which involves participation in a financial or real property transaction (whether by assisting in the planning or execution of any such transaction or otherwise by acting for, or on behalf of, a client in any such transaction);</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/2/m/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/2/m" id="regulation-2-2-m">
+<Pnumber>m</Pnumber>
+<P3para>
+<Text>the provision by way of business of services in relation to the formation, operation or management of a company or a trust; or</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/2/n/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/2/n" id="regulation-2-2-n">
+<Pnumber>n</Pnumber>
+<P3para>
+<Text>the activity of dealing in goods of any description by way of business (including dealing as an auctioneer) whenever a transaction involves accepting a total cash payment of 15,000 euro or more.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/3" id="regulation-2-3">
+<Pnumber>3</Pnumber>
+<P2para>
+<Text>Paragraph (2) does not apply to—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/3/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/3/a" id="regulation-2-3-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>the issue of withdrawable share capital within the limit set by section 6 of the Industrial and Provident Societies Act 1965<FootnoteRef Ref="f00021"/> by a society registered under that Act;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/3/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/3/b" id="regulation-2-3-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>the acceptance of deposits from the public within the limit set by section 7(3) of that Act by such a society;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/3/c/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/3/c" id="regulation-2-3-c">
+<Pnumber>c</Pnumber>
+<P3para>
+<Text>the issue of withdrawable share capital within the limit set by section 6 of the Industrial and Provident Societies Act (Northern Ireland) 1969<FootnoteRef Ref="f00022"/> by a society registered under that Act;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/3/d/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/3/d" id="regulation-2-3-d">
+<Pnumber>d</Pnumber>
+<P3para>
+<Text>the acceptance of deposits from the public within the limit set by section 7(3) of that Act by such a society;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/3/e/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/3/e" id="regulation-2-3-e">
+<Pnumber>e</Pnumber>
+<P3para>
+<Text>activities carried on by the Bank of England;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/3/f/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/3/f" id="regulation-2-3-f">
+<Pnumber>f</Pnumber>
+<P3para>
+<Text>any activity in respect of which an exemption order under section 38 of the 2000 Act has effect if it is carried on by a person who is for the time being specified in the order or falls within a class of persons so specified;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/3/g/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/3/g" id="regulation-2-3-g">
+<Pnumber>g</Pnumber>
+<P3para>
+<Text>any activity (other than one falling within sub-paragraph (f)) in respect of which a person was an exempted person for the purposes of section 45 of the Financial Services Act 1986<FootnoteRef Ref="f00023"/> immediately before its repeal;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/3/h/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/3/h" id="regulation-2-3-h">
+<Pnumber>h</Pnumber>
+<P3para>
+<Text>the regulated activities of arranging deals in investments or advising on investments, in so far as the investment consists of rights under a regulated mortgage contract;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/3/i/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/3/i" id="regulation-2-3-i">
+<Pnumber>i</Pnumber>
+<P3para>
+<Text>the regulated activities of dealing in investments as agent, arranging deals in investments, managing investments or advising on  investments, in so far as the investment consists of rights under, or any right to or interest in, a contract of insurance which is not a qualifying contract of insurance; or</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/3/j/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/3/j" id="regulation-2-3-j">
+<Pnumber>j</Pnumber>
+<P3para>
+<Text>the Official Solicitor to the Supreme Court when acting as trustee in his official capacity.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/4/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/4" id="regulation-2-4">
+<Pnumber>4</Pnumber>
+<P2para>
+<Text>The following must be read with section 22 of the 2000 Act, any relevant order under that section and Schedule 2 to that Act—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/4/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/4/a" id="regulation-2-4-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>paragraphs (2)(a) and (3)(h) and (i);</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/4/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/4/b" id="regulation-2-4-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>regulation 25 (authorised persons operating a bureau de change);</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/4/c/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/4/c" id="regulation-2-4-c">
+<Pnumber>c</Pnumber>
+<P3para>
+<Text>references in these Regulations to a contract of long-term insurance.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/5/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/5" id="regulation-2-5">
+<Pnumber>5</Pnumber>
+<P2para>
+<Text>For the purposes of these Regulations, and subject to paragraph (6), “satisfactory evidence of identity” is evidence which is reasonably capable of establishing (and does in fact establish to the satisfaction of the person who obtains it) that the applicant for business is the person he claims to be.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/6/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/6" id="regulation-2-6">
+<Pnumber>6</Pnumber>
+<P2para>
+<Text>Where the person who obtains the evidence mentioned in paragraph (5) knows or has reasonable grounds for believing that the applicant for business is a money service operator, satisfactory evidence of identity must also include the applicant’s registered number (if any).</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/7/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/7" id="regulation-2-7">
+<Pnumber>7</Pnumber>
+<P2para>
+<Text>For the purposes of these Regulations, each of the following is a supervisory authority—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/7/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/7/a" id="regulation-2-7-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>the Bank of England;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/7/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/7/b" id="regulation-2-7-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>the Authority;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/7/c/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/7/c" id="regulation-2-7-c">
+<Pnumber>c</Pnumber>
+<P3para>
+<Text>the Council of Lloyd's;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/7/d/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/7/d" id="regulation-2-7-d">
+<Pnumber>d</Pnumber>
+<P3para>
+<Text>the Office of Fair Trading;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/7/e/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/7/e" id="regulation-2-7-e">
+<Pnumber>e</Pnumber>
+<P3para>
+<Text>the Occupational Pensions Regulatory Authority;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/7/f/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/7/f" id="regulation-2-7-f">
+<Pnumber>f</Pnumber>
+<P3para>
+<Text>a body which is a designated professional body for the purposes of Part 20 of the 2000 Act;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/7/g/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/7/g" id="regulation-2-7-g">
+<Pnumber>g</Pnumber>
+<P3para>
+<Text>the Gaming Board for Great Britain.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/8/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/8" id="regulation-2-8">
+<Pnumber>8</Pnumber>
+<P2para>
+<Text>The Secretary of State and the Treasury are each a supervisory authority in the exercise, in relation to a person carrying on relevant business, of their respective functions under the enactments relating to companies or insolvency or under the 2000 Act.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/9/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/9" id="regulation-2-9">
+<Pnumber>9</Pnumber>
+<P2para>
+<Text>In these Regulations, references to amounts in euro include references to equivalent amounts in another currency.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/2/10/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/2/10" id="regulation-2-10">
+<Pnumber>10</Pnumber>
+<P2para>
+<Text>For the purpose of the application of these Regulations to Scotland, “real property” means “heritable property”.</Text>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+</Part>
+<Part DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/part/II/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/part/II" NumberOfProvisions="6" id="part-II">
+<Number>PART II</Number>
+<Title>OBLIGATIONS ON PERSONS WHO CARRY ON RELEVANT BUSINESS</Title>
+<P1group>
+<Title>Systems and training etc. to prevent money laundering</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/3" id="regulation-3">
+<Pnumber>3</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/3/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/3/1" id="regulation-3-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>Every person must in the course of relevant business carried on by him in the United Kingdom—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/3/1/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/3/1/a" id="regulation-3-1-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>comply with the requirements of regulations 4 (identification procedures), 6 (record-keeping procedures) and 7 (internal reporting procedures);</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/3/1/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/3/1/b" id="regulation-3-1-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>establish such other procedures of internal control and communication as may be appropriate for the purposes of forestalling and preventing money laundering; and</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/3/1/c/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/3/1/c" id="regulation-3-1-c">
+<Pnumber>c</Pnumber>
+<P3para>
+<Text>take appropriate measures so that relevant employees are—</Text>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/3/1/c/i/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/3/1/c/i" id="regulation-3-1-c-i">
+<Pnumber>i</Pnumber>
+<P4para>
+<Text>made aware of the provisions of these Regulations, Part 7 of the Proceeds of Crime Act 2002 (money laundering) and sections 18 and 21A of the Terrorism Act 2000<FootnoteRef Ref="f00024"/>; and</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/3/1/c/ii/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/3/1/c/ii" id="regulation-3-1-c-ii">
+<Pnumber>ii</Pnumber>
+<P4para>
+<Text>given training in how to recognise and deal with transactions which may be related to money laundering.</Text>
+</P4para>
+</P4>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/3/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/3/2" id="regulation-3-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>A person who contravenes this regulation is guilty of an offence and liable—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/3/2/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/3/2/a" id="regulation-3-2-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>on conviction on indictment, to imprisonment for a term not exceeding 2 years, to a fine or to both;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/3/2/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/3/2/b" id="regulation-3-2-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>on summary conviction, to a fine not exceeding the statutory maximum.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/3/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/3/3" id="regulation-3-3">
+<Pnumber>3</Pnumber>
+<P2para>
+<Text>In deciding whether a person has committed an offence under this regulation, the court must consider whether he followed any relevant guidance which was at the time concerned—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/3/3/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/3/3/a" id="regulation-3-3-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>issued by a supervisory authority or any other appropriate body;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/3/3/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/3/3/b" id="regulation-3-3-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>approved by the Treasury; and</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/3/3/c/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/3/3/c" id="regulation-3-3-c">
+<Pnumber>c</Pnumber>
+<P3para>
+<Text>published in a manner approved by the Treasury as appropriate in their opinion to bring the guidance to the attention of persons likely to be affected by it.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/3/4/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/3/4" id="regulation-3-4">
+<Pnumber>4</Pnumber>
+<P2para>
+<Text>An appropriate body is any body which regulates or is representative of any trade, profession, business or employment carried on by the alleged offender.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/3/5/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/3/5" id="regulation-3-5">
+<Pnumber>5</Pnumber>
+<P2para>
+<Text>In proceedings against any person for an offence under this regulation, it is a defence for that person to show that he took all reasonable steps and exercised all due diligence to avoid committing the offence.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/3/6/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/3/6" id="regulation-3-6">
+<Pnumber>6</Pnumber>
+<P2para>
+<Text>Where a person is convicted of an offence under this regulation, he shall not also be liable to a penalty under regulation 20 (power to impose penalties).</Text>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+<P1group>
+<Title>Identification procedures</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/4/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/4" id="regulation-4">
+<Pnumber>4</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/4/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/4/1" id="regulation-4-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>In this regulation and in regulations 5 to 7—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/4/1/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/4/1/a" id="regulation-4-1-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>“A” means a person who carries on relevant business in the United Kingdom; and</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/4/1/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/4/1/b" id="regulation-4-1-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>“B” means an applicant for business.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/4/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/4/2" id="regulation-4-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>This regulation applies if—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/4/2/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/4/2/a" id="regulation-4-2-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>A and B form, or agree to form, a business relationship;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/4/2/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/4/2/b" id="regulation-4-2-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>in respect of any one-off transaction—</Text>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/4/2/b/i/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/4/2/b/i" id="regulation-4-2-b-i">
+<Pnumber>i</Pnumber>
+<P4para>
+<Text>A knows or suspects that the transaction involves money laundering; or</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/4/2/b/ii/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/4/2/b/ii" id="regulation-4-2-b-ii">
+<Pnumber>ii</Pnumber>
+<P4para>
+<Text>payment of 15,000 euro or more is to be made by or to B; or</Text>
+</P4para>
+</P4>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/4/2/c/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/4/2/c" id="regulation-4-2-c">
+<Pnumber>c</Pnumber>
+<P3para>
+<Text>in respect of two or more one-off transactions, it appears to A (whether at the outset or subsequently) that the transactions are linked and involve, in total, the payment of 15,000 euro or more by or to B.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/4/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/4/3" id="regulation-4-3">
+<Pnumber>3</Pnumber>
+<P2para>
+<Text>A must maintain identification procedures which—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/4/3/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/4/3/a" id="regulation-4-3-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>require that as soon as is reasonably practicable after contact is first made between A and B—</Text>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/4/3/a/i/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/4/3/a/i" id="regulation-4-3-a-i">
+<Pnumber>i</Pnumber>
+<P4para>
+<Text>B must produce satisfactory evidence of his identity; or</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/4/3/a/ii/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/4/3/a/ii" id="regulation-4-3-a-ii">
+<Pnumber>ii</Pnumber>
+<P4para>
+<Text>such measures specified in the procedures must be taken in order to produce satisfactory evidence of B’s identity;</Text>
+</P4para>
+</P4>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/4/3/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/4/3/b" id="regulation-4-3-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>take into account the greater potential for money laundering which arises when B is not physically present when being identified;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/4/3/c/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/4/3/c" id="regulation-4-3-c">
+<Pnumber>c</Pnumber>
+<P3para>
+<Text>require that where satisfactory evidence of identity is not obtained, the business relationship or one-off transaction must not proceed any further; and</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/4/3/d/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/4/3/d" id="regulation-4-3-d">
+<Pnumber>d</Pnumber>
+<P3para>
+<Text>require that where B acts or appears to act for another person, reasonable measures must be taken for the purpose of establishing the identity of that person.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+<P1group>
+<Title>Exceptions</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/5/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/5" id="regulation-5">
+<Pnumber>5</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/5/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/5/1" id="regulation-5-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>Except in circumstances falling within regulation 4(2)(b)(i), identification procedures under regulation 4 do not require A to take steps to obtain evidence of any person’s identity in any of the following circumstances.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/5/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/5/2" id="regulation-5-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>Where A has reasonable grounds for believing that B—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/5/2/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/5/2/a" id="regulation-5-2-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>carries on in the United Kingdom relevant business falling within any of sub-paragraphs (a) to (e) of regulation 2(2), is not a money service operator and, if carrying on an activity falling within regulation 2(2)(a), is an authorised person with permission under the 2000 Act to carry on that activity;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/5/2/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/5/2/b" id="regulation-5-2-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>does not carry on relevant business in the United Kingdom but does carry on comparable activities to those falling within sub-paragraph (a) and is covered by the Money Laundering Directive; or</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/5/2/c/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/5/2/c" id="regulation-5-2-c">
+<Pnumber>c</Pnumber>
+<P3para>
+<Text>is regulated by an overseas regulatory authority (within the meaning given by section 82 of the Companies Act 1989) and is based or incorporated in a country (other than an EEA State) whose law contains comparable provisions to those contained in the Money Laundering Directive.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/5/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/5/3" id="regulation-5-3">
+<Pnumber>3</Pnumber>
+<P2para>
+<Text>Where—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/5/3/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/5/3/a" id="regulation-5-3-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>A carries out a one-off transaction with or for a third party pursuant to an introduction effected by a person who has provided a written assurance that evidence of the identity of all third parties introduced by him will have been obtained and recorded under procedures maintained by him;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/5/3/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/5/3/b" id="regulation-5-3-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>that person identifies the third party; and</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/5/3/c/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/5/3/c" id="regulation-5-3-c">
+<Pnumber>c</Pnumber>
+<P3para>
+<Text>A has reasonable grounds for believing that that person falls within any of sub-paragraphs (a) to (c) of paragraph (2).</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/5/4/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/5/4" id="regulation-5-4">
+<Pnumber>4</Pnumber>
+<P2para>
+<Text>In relation to a contract of long-term insurance—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/5/4/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/5/4/a" id="regulation-5-4-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>in connection with a pension scheme taken out by virtue of a person’s contract of employment or occupation where the contract of long-term insurance—</Text>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/5/4/a/i/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/5/4/a/i" id="regulation-5-4-a-i">
+<Pnumber>i</Pnumber>
+<P4para>
+<Text>contains no surrender clause; and</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/5/4/a/ii/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/5/4/a/ii" id="regulation-5-4-a-ii">
+<Pnumber>ii</Pnumber>
+<P4para>
+<Text>may not be used as collateral for a loan; or</Text>
+</P4para>
+</P4>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/5/4/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/5/4/b" id="regulation-5-4-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>in respect of which a premium is payable—</Text>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/5/4/b/i/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/5/4/b/i" id="regulation-5-4-b-i">
+<Pnumber>i</Pnumber>
+<P4para>
+<Text>in one instalment of an amount not exceeding 2,500 euro; or</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/5/4/b/ii/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/5/4/b/ii" id="regulation-5-4-b-ii">
+<Pnumber>ii</Pnumber>
+<P4para>
+<Text>periodically and where the total payable in respect of any calendar year does not exceed 1,000 euro.</Text>
+</P4para>
+</P4>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/5/5/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/5/5" id="regulation-5-5">
+<Pnumber>5</Pnumber>
+<P2para>
+<Text>Where the proceeds of a one-off transaction are payable to B but are instead directly reinvested on his behalf in another transaction—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/5/5/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/5/5/a" id="regulation-5-5-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>of which a record is kept; and</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/5/5/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/5/5/b" id="regulation-5-5-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>which can result only in another reinvestment made on B’s behalf or in a payment made directly to B.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+<P1group>
+<Title>Record-keeping procedures</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/6/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/6" id="regulation-6">
+<Pnumber>6</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/6/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/6/1" id="regulation-6-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>A must maintain procedures which require the retention of the records prescribed in paragraph (2) for the period prescribed in paragraph (3).</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/6/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/6/2" id="regulation-6-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>The records are—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/6/2/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/6/2/a" id="regulation-6-2-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>where evidence of identity has been obtained under the procedures stipulated by regulation 4 (identification procedures) or pursuant to regulation 8 (casinos)—</Text>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/6/2/a/i/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/6/2/a/i" id="regulation-6-2-a-i">
+<Pnumber>i</Pnumber>
+<P4para>
+<Text>a copy of that evidence;</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/6/2/a/ii/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/6/2/a/ii" id="regulation-6-2-a-ii">
+<Pnumber>ii</Pnumber>
+<P4para>
+<Text>information as to where a copy of that evidence may be obtained; or</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/6/2/a/iii/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/6/2/a/iii" id="regulation-6-2-a-iii">
+<Pnumber>iii</Pnumber>
+<P4para>
+<Text>information enabling the evidence of identity to be re-obtained, but only where it is not reasonably practicable for A to comply with paragraph (i) or (ii); and</Text>
+</P4para>
+</P4>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/6/2/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/6/2/b" id="regulation-6-2-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>a record containing details relating to all transactions carried out by A in the course of relevant business.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/6/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/6/3" id="regulation-6-3">
+<Pnumber>3</Pnumber>
+<P2para>
+<Text>In relation to the records mentioned in paragraph (2)(a), the period is—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/6/3/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/6/3/a" id="regulation-6-3-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>where A and B have formed a business relationship, at least five years commencing with the date on which the relationship ends; or</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/6/3/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/6/3/b" id="regulation-6-3-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>in the case of a one-off transaction (or a series of such transactions), at least five years commencing with the date of the completion of all activities taking place in the course of that transaction (or, as the case may be, the last of the transactions).</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/6/4/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/6/4" id="regulation-6-4">
+<Pnumber>4</Pnumber>
+<P2para>
+<Text>In relation to the records mentioned in paragraph (2)(b), the period is at least five years commencing with the date on which all activities taking place in the course of the transaction in question were completed.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/6/5/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/6/5" id="regulation-6-5">
+<Pnumber>5</Pnumber>
+<P2para>
+<Text>Where A is an appointed representative, his principal must ensure that A complies with this regulation in respect of any relevant business carried out by A for which the principal has accepted responsibility pursuant to section 39(1) of the 2000 Act.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/6/6/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/6/6" id="regulation-6-6">
+<Pnumber>6</Pnumber>
+<P2para>
+<Text>Where the principal fails to do so, he is to be treated as having contravened regulation 3 and he, as well as A, is guilty of an offence.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/6/7/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/6/7" id="regulation-6-7">
+<Pnumber>7</Pnumber>
+<P2para>
+<Text>“Appointed representative” has the meaning given by section 39(2) of the 2000 Act and “principal” has the meaning given by section 39(1) of that Act.</Text>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+<P1group>
+<Title>Internal reporting procedures</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/7/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/7" id="regulation-7">
+<Pnumber>7</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/7/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/7/1" id="regulation-7-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>A must maintain internal reporting procedures which require that—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/7/1/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/7/1/a" id="regulation-7-1-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>a person in A’s organisation is nominated to receive disclosures under this regulation (“the nominated officer”);</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/7/1/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/7/1/b" id="regulation-7-1-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>anyone in A’s organisation to whom information or other matter comes in the course of relevant business as a result of which he knows or suspects or has reasonable grounds for knowing or suspecting that a person is engaged in money laundering must, as soon as is practicable after the information or other matter comes to him, disclose it to the nominated officer or a person authorised for the purposes of these Regulations by the Director General of the National Criminal Intelligence Service;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/7/1/c/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/7/1/c" id="regulation-7-1-c">
+<Pnumber>c</Pnumber>
+<P3para>
+<Text>where a disclosure is made to the nominated officer, he must consider it in the light of any relevant information which is available to A and determine whether it gives rise to such knowledge or suspicion or such reasonable grounds for knowledge or suspicion; and</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/7/1/d/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/7/1/d" id="regulation-7-1-d">
+<Pnumber>d</Pnumber>
+<P3para>
+<Text>where the nominated officer does so determine, the information or other matter must be disclosed to a person authorised for the purposes of these Regulations by the Director General of the National Criminal Intelligence Service.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/7/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/7/2" id="regulation-7-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>Paragraph (1) does not apply where A is an individual who neither employs nor acts in association with any other person.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/7/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/7/3" id="regulation-7-3">
+<Pnumber>3</Pnumber>
+<P2para>
+<Text>Paragraph (1)(b) does not apply in relation to a professional legal adviser where the information or other matter comes to him in privileged circumstances.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/7/4/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/7/4" id="regulation-7-4">
+<Pnumber>4</Pnumber>
+<P2para>
+<Text>Information or other matter comes to a professional legal adviser in privileged circumstances if it is communicated or given to him—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/7/4/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/7/4/a" id="regulation-7-4-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>by (or by a representative of) a client of his in connection with the giving by the adviser of legal advice to the client;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/7/4/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/7/4/b" id="regulation-7-4-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>by (or by a representative of) a person seeking legal advice from the adviser; or</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/7/4/c/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/7/4/c" id="regulation-7-4-c">
+<Pnumber>c</Pnumber>
+<P3para>
+<Text>by a person in connection with legal proceedings or contemplated legal proceedings.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/7/5/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/7/5" id="regulation-7-5">
+<Pnumber>5</Pnumber>
+<P2para>
+<Text>But paragraph (4) does not apply to information or other matter which is communicated or given with the intention of furthering a criminal purpose.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/7/6/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/7/6" id="regulation-7-6">
+<Pnumber>6</Pnumber>
+<P2para>
+<Text>“Professional legal adviser” includes any person in whose hands information or other matter may come in privileged circumstances.</Text>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+<P1group>
+<Title>Casinos</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/8/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/8" id="regulation-8">
+<Pnumber>8</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/8/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/8/1" id="regulation-8-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>A person who operates a casino by way of business in the United Kingdom must obtain satisfactory evidence of identity of any person before allowing that person to use the casino’s gaming facilities.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/8/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/8/2" id="regulation-8-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>A person who fails to do so is to be treated as having contravened regulation 3.</Text>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+</Part>
+<Part DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/part/III/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/part/III" NumberOfProvisions="17" id="part-III">
+<Number>PART III</Number>
+<Title>MONEY SERVICE OPERATORS AND HIGH VALUE DEALERS</Title>
+<Pblock DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/part/III/crossheading/registration/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/part/III/crossheading/registration" NumberOfProvisions="6" id="part-III-crossheading-registration">
+<Title>Registration</Title>
+<P1group>
+<Title>Registers of money service operators and high value dealers</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/9/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/9" id="regulation-9">
+<Pnumber>9</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/9/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/9/1" id="regulation-9-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>The Commissioners must maintain a register of operators.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/9/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/9/2" id="regulation-9-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>The Commissioners must allocate to every registered operator a number, which is to be known as his registered number.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/9/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/9/3" id="regulation-9-3">
+<Pnumber>3</Pnumber>
+<P2para>
+<Text>The Commissioners must maintain a register of high value dealers.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/9/4/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/9/4" id="regulation-9-4">
+<Pnumber>4</Pnumber>
+<P2para>
+<Text>The Commissioners may keep the registers in any form they think fit.</Text>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+<P1group>
+<Title>Requirement to be registered</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/10/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/10" id="regulation-10">
+<Pnumber>10</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/10/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/10/1" id="regulation-10-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>A person who acts as an operator or as a high value dealer must first be registered by the Commissioners.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/10/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/10/2" id="regulation-10-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>An applicant for registration must—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/10/2/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/10/2/a" id="regulation-10-2-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>make an application to be registered in such manner as the Commissioners may direct; and</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/10/2/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/10/2/b" id="regulation-10-2-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>furnish the following information to the Commissioners—</Text>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/10/2/b/i/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/10/2/b/i" id="regulation-10-2-b-i">
+<Pnumber>i</Pnumber>
+<P4para>
+<Text>his name and (if different) the name of the business;</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/10/2/b/ii/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/10/2/b/ii" id="regulation-10-2-b-ii">
+<Pnumber>ii</Pnumber>
+<P4para>
+<Text>his VAT registration number or, if he is not registered for VAT, any other reference number issued to him by the Commissioners;</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/10/2/b/iii/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/10/2/b/iii" id="regulation-10-2-b-iii">
+<Pnumber>iii</Pnumber>
+<P4para>
+<Text>the nature of the business;</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/10/2/b/iv/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/10/2/b/iv" id="regulation-10-2-b-iv">
+<Pnumber>iv</Pnumber>
+<P4para>
+<Text>the address of each of the premises at which he proposes to carry on the business;</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/10/2/b/v/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/10/2/b/v" id="regulation-10-2-b-v">
+<Pnumber>v</Pnumber>
+<P4para>
+<Text>any agency or franchise agreement relating to the business, and the names and addresses of all relevant principals, agents, franchisors or franchisees;</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/10/2/b/vi/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/10/2/b/vi" id="regulation-10-2-b-vi">
+<Pnumber>vi</Pnumber>
+<P4para>
+<Text>the name of the nominated officer (if any); and</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/10/2/b/vii/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/10/2/b/vii" id="regulation-10-2-b-vii">
+<Pnumber>vii</Pnumber>
+<P4para>
+<Text>whether any person concerned (or proposed to be concerned) in the management, control or operation of the business has been convicted of money laundering or an offence under these Regulations.</Text>
+</P4para>
+</P4>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/10/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/10/3" id="regulation-10-3">
+<Pnumber>3</Pnumber>
+<P2para>
+<Text>At any time after receiving an application for registration and before determining it, the Commissioners may require the applicant for registration to furnish them, within 21 days beginning with the date of being requested to do so, with such further information as they reasonably consider necessary to enable them to determine the application.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/10/4/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/10/4" id="regulation-10-4">
+<Pnumber>4</Pnumber>
+<P2para>
+<Text>Any information to be furnished to the Commissioners under this regulation must be in such form or verified in such manner as they may specify.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/10/5/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/10/5" id="regulation-10-5">
+<Pnumber>5</Pnumber>
+<P2para>
+<Text>In this regulation, “the business” means money service business (or, in the case of a high value dealer, the business of dealing in goods) which the applicant for registration carries on or proposes to carry on.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/10/6/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/10/6" id="regulation-10-6">
+<Pnumber>6</Pnumber>
+<P2para>
+<Text>In paragraph (2)(b)(vii), the reference to “money laundering or an offence under these Regulations” includes an offence referred to in regulation 2(3) of the Money Laundering Regulations 1993 or an offence under regulation 5 of those Regulations.</Text>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+<P1group>
+<Title>Supplementary information</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/11/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/11" id="regulation-11">
+<Pnumber>11</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/11/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/11/1" id="regulation-11-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>If at any time after a person has furnished the Commissioners with any information under regulation 10—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/11/1/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/11/1/a" id="regulation-11-1-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>there is a change affecting any matter contained in that information; or</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/11/1/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/11/1/b" id="regulation-11-1-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>it becomes apparent to that person that the information contains an inaccuracy;</Text>
+</P3para>
+</P3>
+<Text>he must supply the Commissioners with details of the change or, as the case may be, a correction of the inaccuracy (hereafter “supplementary information”) within 30 days beginning with the date of the occurrence of the change (or the discovery of the inaccuracy) or within such later time as may be agreed with the Commissioners.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/11/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/11/2" id="regulation-11-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>The supplementary information must be supplied in such manner as the Commissioners may direct.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/11/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/11/3" id="regulation-11-3">
+<Pnumber>3</Pnumber>
+<P2para>
+<Text>The obligation in paragraph (1) applies also to changes affecting any matter contained in any supplementary information supplied pursuant to this regulation.</Text>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+<P1group>
+<Title>Determination of application to register</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/12/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/12" id="regulation-12">
+<Pnumber>12</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/12/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/12/1" id="regulation-12-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>The Commissioners may refuse to register an applicant for registration if, and only if—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/12/1/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/12/1/a" id="regulation-12-1-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>any requirement of—</Text>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/12/1/a/i/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/12/1/a/i" id="regulation-12-1-a-i">
+<Pnumber>i</Pnumber>
+<P4para>
+<Text>paragraphs (2) to (4) of regulation 10 (requirement to be registered);</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/12/1/a/ii/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/12/1/a/ii" id="regulation-12-1-a-ii">
+<Pnumber>ii</Pnumber>
+<P4para>
+<Text>regulation 11 (supplementary information); or</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/12/1/a/iii/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/12/1/a/iii" id="regulation-12-1-a-iii">
+<Pnumber>iii</Pnumber>
+<P4para>
+<Text>regulation 14 (fees);</Text>
+</P4para>
+</P4>
+<Text>has not been complied with; or</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/12/1/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/12/1/b" id="regulation-12-1-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>it appears to them that any information furnished pursuant to regulation 10 or 11 is false or misleading in a material particular.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/12/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/12/2" id="regulation-12-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>The Commissioners must, by the end of the period of 45 days beginning with the date on which they receive the application or, where applicable, the date on which they receive any further information required under regulation 10(3), give notice in writing to the applicant for registration of—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/12/2/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/12/2/a" id="regulation-12-2-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>their decision to register him and, in the case of an applicant for registration as an operator, his registered number; or</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/12/2/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/12/2/b" id="regulation-12-2-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>the following matters—</Text>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/12/2/b/i/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/12/2/b/i" id="regulation-12-2-b-i">
+<Pnumber>i</Pnumber>
+<P4para>
+<Text>their decision not to register him;</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/12/2/b/ii/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/12/2/b/ii" id="regulation-12-2-b-ii">
+<Pnumber>ii</Pnumber>
+<P4para>
+<Text>the reasons for their decision;</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/12/2/b/iii/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/12/2/b/iii" id="regulation-12-2-b-iii">
+<Pnumber>iii</Pnumber>
+<P4para>
+<Text>the review procedure; and</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/12/2/b/iv/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/12/2/b/iv" id="regulation-12-2-b-iv">
+<Pnumber>iv</Pnumber>
+<P4para>
+<Text>the right to appeal to a tribunal.</Text>
+</P4para>
+</P4>
+</P3para>
+</P3>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+<P1group>
+<Title>Cancellation of registration</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/13/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/13" id="regulation-13">
+<Pnumber>13</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/13/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/13/1" id="regulation-13-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>The Commissioners may cancel the registration of an operator or high value dealer if, at any time after registration, it appears to them that they would have had grounds to refuse registration under paragraph (1) of regulation 12 (determination of application to register).</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/13/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/13/2" id="regulation-13-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>Where the Commissioners decide to cancel the registration of an operator or high value dealer, they must forthwith inform him, in writing, of—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/13/2/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/13/2/a" id="regulation-13-2-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>their decision and the date from which the cancellation takes effect;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/13/2/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/13/2/b" id="regulation-13-2-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>the reasons for their decision;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/13/2/c/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/13/2/c" id="regulation-13-2-c">
+<Pnumber>c</Pnumber>
+<P3para>
+<Text>the review procedure; and</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/13/2/d/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/13/2/d" id="regulation-13-2-d">
+<Pnumber>d</Pnumber>
+<P3para>
+<Text>the right to appeal to a tribunal.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+<P1group>
+<Title>Fees</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/14/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/14" id="regulation-14">
+<Pnumber>14</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/14/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/14/1" id="regulation-14-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>The Commissioners may charge a fee—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/14/1/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/14/1/a" id="regulation-14-1-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>to an applicant for registration; and</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/14/1/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/14/1/b" id="regulation-14-1-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>to an operator or high value dealer annually on the anniversary of his registration by them under these Regulations.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/14/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/14/2" id="regulation-14-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>The Commissioners may charge under paragraph (1) such fees as they consider will enable them to meet any expenses incurred by them in carrying out any of their functions under these Regulations or for any incidental purpose.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/14/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/14/3" id="regulation-14-3">
+<Pnumber>3</Pnumber>
+<P2para>
+<Text>Without prejudice to the generality of paragraph (2), a fee may be charged in respect of each of the premises at which the operator, high value dealer or applicant for registration carries on (or proposes to carry on) money service business or relevant business falling within regulation 2(2)(n).</Text>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+</Pblock>
+<Pblock DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/part/III/crossheading/powers-of-the-commissioners/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/part/III/crossheading/powers-of-the-commissioners" NumberOfProvisions="5" id="part-III-crossheading-powers-of-the-commissioners">
+<Title>Powers of the Commissioners</Title>
+<P1group>
+<Title>Entry, inspection etc.</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/15/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/15" id="regulation-15">
+<Pnumber>15</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/15/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/15/1" id="regulation-15-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>Where an officer has reasonable cause to believe that any premises are used in connection with money service business or relevant business falling within regulation 2(2)(n), he may at any reasonable time enter and inspect the premises and inspect any recorded information or currency found on the premises.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/15/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/15/2" id="regulation-15-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>An operator or high value dealer must—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/15/2/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/15/2/a" id="regulation-15-2-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>furnish to an officer, within such time and in such form as the officer may reasonably require, such information relating to the business as the officer may reasonably specify; and</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/15/2/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/15/2/b" id="regulation-15-2-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>upon demand made by the officer, produce or cause to be produced for inspection by the officer at such place, and at such time, as the officer may reasonably require, any recorded information relating to the business.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/15/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/15/3" id="regulation-15-3">
+<Pnumber>3</Pnumber>
+<P2para>
+<Text>An officer may take copies of, or make extracts from, any recorded information produced under paragraph (2).</Text>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+<P1group>
+<Title>Order for access to recorded information</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/16/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/16" id="regulation-16">
+<Pnumber>16</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/16/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/16/1" id="regulation-16-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>Where, on an application by an officer, a justice is satisfied that there are reasonable grounds for believing—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/16/1/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/16/1/a" id="regulation-16-1-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>that an offence under these Regulations is being, has been or is about to be committed by an operator or high value dealer; and</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/16/1/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/16/1/b" id="regulation-16-1-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>that any recorded information which may be required as evidence for the purpose of any proceedings in respect of such an offence is in the possession of any person;</Text>
+</P3para>
+</P3>
+<Text>he may make an order under this regulation.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/16/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/16/2" id="regulation-16-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>An order under this regulation is an order that the person who appears to the justice to be in possession of the recorded information to which the application relates must—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/16/2/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/16/2/a" id="regulation-16-2-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>give an officer access to it;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/16/2/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/16/2/b" id="regulation-16-2-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>permit an officer to take copies of, or make extracts from, any information produced; or</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/16/2/c/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/16/2/c" id="regulation-16-2-c">
+<Pnumber>c</Pnumber>
+<P3para>
+<Text>permit an officer to remove and take away any of it which he reasonably considers necessary;</Text>
+</P3para>
+</P3>
+<Text>not later than the end of the period of 7 days beginning with the date of the order or the end of such longer period as the order may specify.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/16/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/16/3" id="regulation-16-3">
+<Pnumber>3</Pnumber>
+<P2para>
+<Text>Where the recorded information consists of information stored in any electronic form, an order under this regulation has effect as an order to produce the information in a form in which it is visible and legible, or from which it can readily be produced in a visible and legible form, and, if the officer wishes to remove it, in a form in which it can be removed.</Text>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+<P1group>
+<Title>Procedure where recorded information is removed</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/17/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/17" id="regulation-17">
+<Pnumber>17</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/17/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/17/1" id="regulation-17-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>An officer who removes any recorded information in the exercise of a power conferred by regulation 16 must, if so requested by a person showing himself—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/17/1/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/17/1/a" id="regulation-17-1-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>to be the occupier of premises from which the information was removed; or</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/17/1/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/17/1/b" id="regulation-17-1-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>to have had custody or control of the information immediately before the removal;</Text>
+</P3para>
+</P3>
+<Text>provide that person with a record of what he has removed.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/17/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/17/2" id="regulation-17-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>The officer must provide the record within a reasonable time from the making of the request for it.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/17/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/17/3" id="regulation-17-3">
+<Pnumber>3</Pnumber>
+<P2para>
+<Text>Subject to paragraph (7), if a request for permission to be granted access to anything which—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/17/3/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/17/3/a" id="regulation-17-3-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>has been removed by an officer; and</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/17/3/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/17/3/b" id="regulation-17-3-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>is retained by the Commissioners for the purposes of investigating an offence;</Text>
+</P3para>
+</P3>
+<Text>is made to the officer in overall charge of the investigation by a person who had custody or control of the thing immediately before it was so removed or by someone acting on behalf of such a person, that officer must allow the person who made the request access to it under the supervision of an officer.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/17/4/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/17/4" id="regulation-17-4">
+<Pnumber>4</Pnumber>
+<P2para>
+<Text>Subject to paragraph (7), if a request for a photograph or copy of any such thing is made to the officer in overall charge of the investigation by a person who had custody or control of the thing immediately before it was so removed, or by someone acting on behalf of such a person, that officer must—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/17/4/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/17/4/a" id="regulation-17-4-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>allow the person who made the request access to it under the supervision of an officer for the purpose of photographing it or copying it; or</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/17/4/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/17/4/b" id="regulation-17-4-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>photograph or copy it, or cause it to be photographed or copied.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/17/5/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/17/5" id="regulation-17-5">
+<Pnumber>5</Pnumber>
+<P2para>
+<Text>Where anything is photographed or copied under paragraph (4)(b), the photograph or copy must be supplied to the person who made the request.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/17/6/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/17/6" id="regulation-17-6">
+<Pnumber>6</Pnumber>
+<P2para>
+<Text>The photograph or copy must be supplied within a reasonable time from the making of the request.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/17/7/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/17/7" id="regulation-17-7">
+<Pnumber>7</Pnumber>
+<P2para>
+<Text>There is no duty under this regulation to grant access to, or supply a photograph or a copy of, anything if the officer in overall charge of the investigation for the purposes of which it was removed has reasonable grounds for believing that to do so would prejudice—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/17/7/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/17/7/a" id="regulation-17-7-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>that investigation;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/17/7/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/17/7/b" id="regulation-17-7-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>the investigation of an offence other than the offence for the purposes of the investigation of which the recorded information was removed; or</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/17/7/c/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/17/7/c" id="regulation-17-7-c">
+<Pnumber>c</Pnumber>
+<P3para>
+<Text>any criminal proceedings which may be brought as a result of—</Text>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/17/7/c/i/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/17/7/c/i" id="regulation-17-7-c-i">
+<Pnumber>i</Pnumber>
+<P4para>
+<Text>the investigation of which he is in charge; or</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/17/7/c/ii/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/17/7/c/ii" id="regulation-17-7-c-ii">
+<Pnumber>ii</Pnumber>
+<P4para>
+<Text>any such investigation as is mentioned in sub-paragraph (b).</Text>
+</P4para>
+</P4>
+</P3para>
+</P3>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+<P1group>
+<Title>Failure to comply with requirements under regulation 17</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/18/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/18" id="regulation-18">
+<Pnumber>18</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/18/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/18/1" id="regulation-18-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>Where, on an application made as mentioned in paragraph (2), the appropriate judicial authority is satisfied that a person has failed to comply with a requirement imposed by regulation 17, the authority may order that person to comply with the requirement within such time and in such manner as may be specified in the order.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/18/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/18/2" id="regulation-18-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>An application under paragraph (1) may only be made—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/18/2/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/18/2/a" id="regulation-18-2-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>in the case of a failure to comply with any of the requirements imposed by regulation 17(1) and (2), by the occupier of the premises from which the thing in question was removed or by the person who had custody or control of it immediately before it was so removed;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/18/2/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/18/2/b" id="regulation-18-2-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>in any other case, by the person who had such custody or control.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/18/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/18/3" id="regulation-18-3">
+<Pnumber>3</Pnumber>
+<P2para>
+<Text>In England and Wales and Northern Ireland, an application for an order under this regulation is to be made by complaint; and sections 21 and 42(2) of the Interpretation Act (Northern Ireland) 1954<FootnoteRef Ref="f00025"/> apply as if any reference in those provisions to any enactment included a reference to this regulation.</Text>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+<P1group>
+<Title>Entry, search etc.</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/19/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/19" id="regulation-19">
+<Pnumber>19</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/19/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/19/1" id="regulation-19-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>Where a justice is satisfied on information on oath that there is reasonable ground for suspecting that an offence under these Regulations is being, has been or is about to be committed by an operator or high value dealer on any premises or that evidence of the commission of such an offence is to be found there, he may issue a warrant in writing authorising any officer to enter those premises, if necessary by force, at any time within one month from the time of the issue of the warrant and search them.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/19/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/19/2" id="regulation-19-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>A person who enters the premises under the authority of the warrant may—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/19/2/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/19/2/a" id="regulation-19-2-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>take with him such other persons as appear to him to be necessary;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/19/2/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/19/2/b" id="regulation-19-2-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>seize and remove any documents or other things whatsoever found on the premises which he has reasonable cause to believe may be required as evidence for the purpose of proceedings in respect of an offence under these Regulations; and</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/19/2/c/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/19/2/c" id="regulation-19-2-c">
+<Pnumber>c</Pnumber>
+<P3para>
+<Text>search or cause to be searched any person found on the premises whom he has reasonable cause to believe to be in possession of any such documents or other things; but no woman or girl may be searched except by a woman.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/19/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/19/3" id="regulation-19-3">
+<Pnumber>3</Pnumber>
+<P2para>
+<Text>The powers conferred by a warrant under this regulation may not be exercised—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/19/3/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/19/3/a" id="regulation-19-3-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>outside such times of day as may be specified in the warrant; or</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/19/3/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/19/3/b" id="regulation-19-3-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>if the warrant so provides, otherwise than in the presence of a constable in uniform.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/19/4/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/19/4" id="regulation-19-4">
+<Pnumber>4</Pnumber>
+<P2para>
+<Text>An officer seeking to exercise the powers conferred by a warrant under this regulation or, if there is more than one such officer, that one of them who is in charge of the search must provide a copy of the warrant endorsed with his name as follows—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/19/4/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/19/4/a" id="regulation-19-4-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>if the occupier of the premises concerned is present at the time the search is to begin, the copy must be supplied to the occupier;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/19/4/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/19/4/b" id="regulation-19-4-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>if at that time the occupier is not present but a person who appears to the officer to be in charge of the premises is present, the copy must be supplied to that person;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/19/4/c/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/19/4/c" id="regulation-19-4-c">
+<Pnumber>c</Pnumber>
+<P3para>
+<Text>if neither sub-paragraph (a) nor (b) applies, the copy must be left in a prominent place on the premises.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+</Pblock>
+<Pblock DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/part/III/crossheading/penalties-review-and-appeals/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/part/III/crossheading/penalties-review-and-appeals" NumberOfProvisions="3" id="part-III-crossheading-penalties-review-and-appeals">
+<Title>Penalties, review and appeals</Title>
+<P1group>
+<Title>Power to impose penalties</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/20/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/20" id="regulation-20">
+<Pnumber>20</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/20/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/20/1" id="regulation-20-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>The Commissioners may impose a penalty of such amount as they consider appropriate, not exceeding £5,000, on a person to whom regulation 10 (requirement to be registered) applies, where that person fails to comply with any requirement in regulation 3 (systems and training etc. to prevent money laundering), 10, 11 (supplementary information), 14 (fees) or 15 (entry, inspection etc.).</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/20/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/20/2" id="regulation-20-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>The Commissioners must not impose a penalty on a person where there are reasonable grounds for them to be satisfied that the person took all reasonable steps for securing that the requirement would be complied with.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/20/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/20/3" id="regulation-20-3">
+<Pnumber>3</Pnumber>
+<P2para>
+<Text>Where the Commissioners decide to impose a penalty under this regulation, they must forthwith inform the person, in writing, of—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/20/3/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/20/3/a" id="regulation-20-3-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>their decision to impose the penalty and its amount;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/20/3/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/20/3/b" id="regulation-20-3-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>their reasons for imposing the penalty;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/20/3/c/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/20/3/c" id="regulation-20-3-c">
+<Pnumber>c</Pnumber>
+<P3para>
+<Text>the review procedure; and</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/20/3/d/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/20/3/d" id="regulation-20-3-d">
+<Pnumber>d</Pnumber>
+<P3para>
+<Text>the right to appeal to a tribunal.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/20/4/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/20/4" id="regulation-20-4">
+<Pnumber>4</Pnumber>
+<P2para>
+<Text>Where a person is liable to a penalty under this regulation, the Commissioners may reduce the penalty to such amount (including nil) as they think proper.</Text>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+<P1group>
+<Title>Review procedure</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/21/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/21" id="regulation-21">
+<Pnumber>21</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/21/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/21/1" id="regulation-21-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>This regulation applies to the following decisions of the Commissioners—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/21/1/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/21/1/a" id="regulation-21-1-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>a decision under regulation 12 to refuse to register an applicant;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/21/1/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/21/1/b" id="regulation-21-1-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>a decision under regulation 13 to cancel the registration of an operator or high value dealer;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/21/1/c/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/21/1/c" id="regulation-21-1-c">
+<Pnumber>c</Pnumber>
+<P3para>
+<Text>a decision under regulation 20 to impose a penalty.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/21/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/21/2" id="regulation-21-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>Any person who is the subject of a decision as mentioned in paragraph (1) may by notice in writing to the Commissioners require them to review that decision.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/21/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/21/3" id="regulation-21-3">
+<Pnumber>3</Pnumber>
+<P2para>
+<Text>The Commissioners need not review any decision unless the notice requiring the review is given before the end of the period of 45 days beginning with the date on which written notification of the decision was first given to the person requiring the review.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/21/4/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/21/4" id="regulation-21-4">
+<Pnumber>4</Pnumber>
+<P2para>
+<Text>A person may give a notice under this regulation to require a decision to be reviewed for a second or subsequent time only if—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/21/4/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/21/4/a" id="regulation-21-4-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>the grounds on which he requires the further review are that the Commissioners did not, on any previous review, have the opportunity to consider certain facts or other matters; and</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/21/4/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/21/4/b" id="regulation-21-4-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>he does not, on the further review, require the Commissioners to consider any facts or matters which were considered on a previous review except in so far as they are relevant to any issue to which the facts or matters not previously considered relate.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/21/5/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/21/5" id="regulation-21-5">
+<Pnumber>5</Pnumber>
+<P2para>
+<Text>Where the Commissioners are required under this regulation to review any decision they must either—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/21/5/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/21/5/a" id="regulation-21-5-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>confirm the decision; or</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/21/5/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/21/5/b" id="regulation-21-5-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>withdraw or vary the decision and take such further steps (if any) in consequence of the withdrawal or variation as they consider appropriate.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/21/6/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/21/6" id="regulation-21-6">
+<Pnumber>6</Pnumber>
+<P2para>
+<Text>Where the Commissioners do not, within 45 days beginning with the date on which the review was required by a person, give notice to that person of their determination of the review, they are to be assumed for the purposes of these Regulations to have confirmed the decision.</Text>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+<P1group>
+<Title>Appeals to a VAT and duties tribunal</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/22/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/22" id="regulation-22">
+<Pnumber>22</Pnumber>
+<P1para>
+<Text>On an appeal from any decision by the Commissioners on a review under regulation 21, the tribunal have the power to—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/22/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/22/a" id="regulation-22-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>quash or vary any decision of the Commissioners, including the power to reduce any penalty to such amount (including nil) as they think proper; and</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/22/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/22/b" id="regulation-22-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>substitute their own decision for any decision quashed on appeal.</Text>
+</P3para>
+</P3>
+</P1para>
+</P1>
+</P1group>
+</Pblock>
+<Pblock DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/part/III/crossheading/miscellaneous/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/part/III/crossheading/miscellaneous" NumberOfProvisions="3" id="part-III-crossheading-miscellaneous">
+<Title>Miscellaneous</Title>
+<P1group>
+<Title>Prosecution of offences by the Commissioners</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/23/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/23" id="regulation-23">
+<Pnumber>23</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/23/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/23/1" id="regulation-23-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>Proceedings for an offence under these Regulations may be instituted by order of the Commissioners.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/23/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/23/2" id="regulation-23-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>Such proceedings may be instituted only against an operator or high value dealer or, where such a person is a body corporate, a partnership or an unincorporated association, against any person who is liable to be proceeded against under regulation 27 (offences by bodies corporate etc.).</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/23/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/23/3" id="regulation-23-3">
+<Pnumber>3</Pnumber>
+<P2para>
+<Text>Any such proceedings which are so instituted must be commenced in the name of an officer.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/23/4/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/23/4" id="regulation-23-4">
+<Pnumber>4</Pnumber>
+<P2para>
+<Text>In the case of the death, removal, discharge or absence of the officer in whose name any such proceedings were commenced, those proceedings may be continued by another officer.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/23/5/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/23/5" id="regulation-23-5">
+<Pnumber>5</Pnumber>
+<P2para>
+<Text>Where the Commissioners investigate, or propose to investigate, any matter with a view to determining—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/23/5/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/23/5/a" id="regulation-23-5-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>whether there are grounds for believing that an offence under these Regulations has been committed by any person mentioned in paragraph (2); or</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/23/5/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/23/5/b" id="regulation-23-5-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>whether such a person should be prosecuted for such an offence;</Text>
+</P3para>
+</P3>
+<Text>that matter is to be treated as an assigned matter within the meaning of the Customs and Excise Management Act 1979.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/23/6/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/23/6" id="regulation-23-6">
+<Pnumber>6</Pnumber>
+<P2para>
+<Text>In exercising their power to institute proceedings for an offence under these Regulations, the Commissioners must comply with any conditions or restrictions imposed in writing by the Treasury.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/23/7/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/23/7" id="regulation-23-7">
+<Pnumber>7</Pnumber>
+<P2para>
+<Text>Conditions or restrictions may be imposed under paragraph (6) in relation to—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/23/7/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/23/7/a" id="regulation-23-7-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>proceedings generally; or</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/23/7/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/23/7/b" id="regulation-23-7-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>such proceedings, or categories of proceedings, as the Treasury may direct.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+<P1group>
+<Title>Recovery of fees and penalties through the court</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/24/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/24" id="regulation-24">
+<Pnumber>24</Pnumber>
+<P1para>
+<Text>Where any fee is charged, or any penalty is imposed, by virtue of these Regulations—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/24/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/24/a" id="regulation-24-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>if the person from whom it is recoverable resides in England and Wales or Northern Ireland, it is recoverable as a civil debt; and</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/24/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/24/b" id="regulation-24-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>if that person resides in Scotland, it may be enforced in the same manner as an extract registered decree arbitral bearing a warrant for execution issued by the sheriff court of any sheriffdom in Scotland.</Text>
+</P3para>
+</P3>
+</P1para>
+</P1>
+</P1group>
+<P1group>
+<Title>Authorised persons operating a bureau de change</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/25/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/25" id="regulation-25">
+<Pnumber>25</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/25/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/25/1" id="regulation-25-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>No authorised person may, as from 1st April 2004, carry on the business of operating a bureau de change unless he has first informed the Authority that he proposes to do so.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/25/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/25/2" id="regulation-25-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>Where an authorised person ceases to carry on that business, he must inform the Authority forthwith.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/25/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/25/3" id="regulation-25-3">
+<Pnumber>3</Pnumber>
+<P2para>
+<Text>Any information to be supplied to the Authority under this regulation must be in such form or verified in such manner as the Authority may specify.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/25/4/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/25/4" id="regulation-25-4">
+<Pnumber>4</Pnumber>
+<P2para>
+<Text>Any requirement imposed by this regulation is to be treated as if it were a requirement imposed by or under the 2000 Act.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/25/5/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/25/5" id="regulation-25-5">
+<Pnumber>5</Pnumber>
+<P2para>
+<Text>Any function of the Authority under this regulation is to be treated as if it were a function of the Authority under the 2000 Act.</Text>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+</Pblock>
+</Part>
+<Part DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/part/IV/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/part/IV" NumberOfProvisions="5" id="part-IV">
+<Number>PART IV</Number>
+<Title>MISCELLANEOUS</Title>
+<P1group>
+<Title>Supervisory authorities etc. to report evidence of money laundering</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/26/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/26" id="regulation-26">
+<Pnumber>26</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/26/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/26/1" id="regulation-26-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>Where a supervisory authority, in the light of any information obtained by it, knows or suspects, or has reasonable grounds for knowing or suspecting, that someone has or may have been engaged in money laundering, the supervisory authority must disclose the information to a constable as soon as is reasonably practicable.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/26/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/26/2" id="regulation-26-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>Where a supervisory authority passes the information to any other person who has such knowledge or suspicion or such reasonable grounds for knowledge or suspicion as is mentioned in paragraph (1), he may disclose the information to a constable.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/26/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/26/3" id="regulation-26-3">
+<Pnumber>3</Pnumber>
+<P2para>
+<Text>Where any person within paragraph (6), in the light of any information obtained by him, knows or suspects or has reasonable grounds for knowing or suspecting that someone has or may have been engaged in money laundering, he must, as soon as is reasonably practicable, disclose that information either to a constable or to the supervisory authority by whom he was appointed or authorised.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/26/4/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/26/4" id="regulation-26-4">
+<Pnumber>4</Pnumber>
+<P2para>
+<Text>Where information has been disclosed to a constable under this regulation, he (or any person obtaining the information from him) may disclose it in connection with the investigation of any criminal offence or for the purpose of any criminal proceedings, but not otherwise.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/26/5/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/26/5" id="regulation-26-5">
+<Pnumber>5</Pnumber>
+<P2para>
+<Text>A disclosure made under this regulation is not to be taken to breach any restriction on the disclosure of information (however imposed).</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/26/6/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/26/6" id="regulation-26-6">
+<Pnumber>6</Pnumber>
+<P2para>
+<Text>Persons within this paragraph are—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/26/6/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/26/6/a" id="regulation-26-6-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>a person or inspector appointed under section 65 or 66 of the Friendly Societies Act 1992<FootnoteRef Ref="f00026"/>;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/26/6/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/26/6/b" id="regulation-26-6-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>an inspector appointed under section 49 of the Industrial and Provident Societies Act 1965 or section 18 of the Credit Unions Act 1979<FootnoteRef Ref="f00027"/>;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/26/6/c/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/26/6/c" id="regulation-26-6-c">
+<Pnumber>c</Pnumber>
+<P3para>
+<Text>an inspector appointed under section 431, 432, 442 or 446 of the Companies Act 1985<FootnoteRef Ref="f00028"/> or under Article 424, 425, 435 or 439 of the Companies (Northern Ireland) Order 1986<FootnoteRef Ref="f00029"/>;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/26/6/d/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/26/6/d" id="regulation-26-6-d">
+<Pnumber>d</Pnumber>
+<P3para>
+<Text>a person or inspector appointed under section 55 or 56 of the Building Societies Act 1986<FootnoteRef Ref="f00030"/>;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/26/6/e/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/26/6/e" id="regulation-26-6-e">
+<Pnumber>e</Pnumber>
+<P3para>
+<Text>a person appointed under section 167, 168(3) or (5), 169(1)(b) or 284 of the 2000 Act, or under regulations made as a result of section 262(2)(k) of that Act, to conduct an investigation; and</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/26/6/f/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/26/6/f" id="regulation-26-6-f">
+<Pnumber>f</Pnumber>
+<P3para>
+<Text>a person authorised to require the production of documents under section 447 of the Companies Act 1985, Article 440 of the Companies (Northern Ireland) Order 1986 or section 84 of the Companies Act 1989.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+<P1group>
+<Title>Offences by bodies corporate etc.</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/27/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/27" id="regulation-27">
+<Pnumber>27</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/27/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/27/1" id="regulation-27-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>If an offence under regulation 3 committed by a body corporate is shown—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/27/1/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/27/1/a" id="regulation-27-1-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>to have been committed with the consent or the connivance of an officer; or</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/27/1/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/27/1/b" id="regulation-27-1-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>to be attributable to any neglect on his part;</Text>
+</P3para>
+</P3>
+<Text>the officer as well as the body corporate is guilty of an offence and liable to be proceeded against and punished accordingly.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/27/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/27/2" id="regulation-27-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>If an offence under regulation 3 committed by a partnership is shown—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/27/2/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/27/2/a" id="regulation-27-2-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>to have been committed with the consent or the connivance of a partner; or</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/27/2/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/27/2/b" id="regulation-27-2-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>to be attributable to any neglect on his part;</Text>
+</P3para>
+</P3>
+<Text>the partner as well as the partnership is guilty of an offence and liable to be proceeded against and punished accordingly.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/27/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/27/3" id="regulation-27-3">
+<Pnumber>3</Pnumber>
+<P2para>
+<Text>If an offence under regulation 3 committed by an unincorporated association (other than a partnership) is shown—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/27/3/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/27/3/a" id="regulation-27-3-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>to have been committed with the consent or the connivance of an officer of the association or a member of its governing body; or</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/27/3/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/27/3/b" id="regulation-27-3-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>to be attributable to any neglect on the part of such an officer or member;</Text>
+</P3para>
+</P3>
+<Text>that officer or member as well as the association is guilty of an offence and liable to be proceeded against and punished accordingly.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/27/4/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/27/4" id="regulation-27-4">
+<Pnumber>4</Pnumber>
+<P2para>
+<Text>If the affairs of a body corporate are managed by its members, paragraph (1) applies in relation to the acts and defaults of a member in connection with his functions of management as if he were a director of the body.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/27/5/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/27/5" id="regulation-27-5">
+<Pnumber>5</Pnumber>
+<P2para>
+<Text>In this regulation—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/27/5/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/27/5/a" id="regulation-27-5-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>“partner” includes a person purporting to act as a partner; and</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/27/5/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/27/5/b" id="regulation-27-5-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>“officer”, in relation to a body corporate, means a director, manager, secretary, chief executive, member of the committee of management, or a person purporting to act in such a capacity.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+<P1group>
+<Title>Prohibitions in relation to certain countries</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/28/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/28" id="regulation-28">
+<Pnumber>28</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/28/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/28/1" id="regulation-28-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>The Treasury may direct any person who carries on relevant business—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/28/1/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/28/1/a" id="regulation-28-1-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>not to enter a business relationship;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/28/1/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/28/1/b" id="regulation-28-1-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>not to carry out any one-off transaction; or</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/28/1/c/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/28/1/c" id="regulation-28-1-c">
+<Pnumber>c</Pnumber>
+<P3para>
+<Text>not to proceed any further with a business relationship or one-off transaction;</Text>
+</P3para>
+</P3>
+<Text>in relation to a person who is based or incorporated in a country (other than an EEA State) to which the Financial Action Task Force has decided to apply counter-measures.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/28/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/28/2" id="regulation-28-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>A person who fails to comply with a Treasury direction is to be treated as having contravened regulation 3.</Text>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+<P1group>
+<Title>Minor and consequential amendments</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/29/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/29" id="regulation-29">
+<Pnumber>29</Pnumber>
+<P1para>
+<Text>The provisions mentioned in Schedule 2 to these Regulations have effect subject to the amendments there specified, being minor amendments and amendments consequential on the provisions of these Regulations.</Text>
+</P1para>
+</P1>
+</P1group>
+<P1group>
+<Title>Transitional provisions</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/30/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/30" id="regulation-30">
+<Pnumber>30</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/30/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/30/1" id="regulation-30-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>Nothing in these Regulations obliges any person who carries on relevant business falling within any of sub-paragraphs (a) to (e) of  regulation 2(2) to maintain identification procedures which require evidence to be obtained in respect of any business relationship formed by him before 1st April 1994.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/30/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/30/2" id="regulation-30-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>Nothing in these Regulations obliges any person who carries on relevant business falling within any of sub-paragraphs (f) to (n) of  regulation 2(2)—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/30/2/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/30/2/a" id="regulation-30-2-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>to maintain identification procedures which require evidence to be obtained in respect of any business relationship formed by him before 1st March 2004; or</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/regulation/30/2/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/regulation/30/2/b" id="regulation-30-2-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>to maintain internal reporting procedures which require any action to be taken in respect of any knowledge, suspicion or reasonable grounds for knowledge or suspicion which came to that person before 1st March 2004.</Text>
+</P3para>
+</P3>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+</Part>
+<SignedSection DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/signature/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/signature">
+<Signatory>
+<Signee>
+<PersonName>John Heppell</PersonName>
+<PersonName>Nick Ainger</PersonName>
+<JobTitle>Two of the Lords Commissioners of Her Majesty’s Treasury</JobTitle>
+<DateSigned Date="2003-11-28">
+<DateText>28th November 2003</DateText>
+</DateSigned>
+</Signee>
+</Signatory>
+</SignedSection>
+</Body>
+<Schedules>
+<Schedule DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/1" NumberOfProvisions="14" NumberFormat="default" id="schedule-1">
+<Number>SCHEDULE 1</Number>
+<TitleBlock>
+<Title>ACTIVITIES LISTED IN ANNEX 1 TO THE BANKING CONSOLIDATION DIRECTIVE</Title>
+</TitleBlock>
+<Reference>Regulation 2(2)(e)</Reference>
+<ScheduleBody>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/1/paragraph/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/1/paragraph/1" id="schedule-1-paragraph-1">
+<Pnumber>1</Pnumber>
+<P1para>
+<Text>Acceptance of deposits and other repayable funds.</Text>
+</P1para>
+</P1>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/1/paragraph/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/1/paragraph/2" id="schedule-1-paragraph-2">
+<Pnumber>2</Pnumber>
+<P1para>
+<Text>Lending.</Text>
+</P1para>
+</P1>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/1/paragraph/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/1/paragraph/3" id="schedule-1-paragraph-3">
+<Pnumber>3</Pnumber>
+<P1para>
+<Text>Financial leasing.</Text>
+</P1para>
+</P1>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/1/paragraph/4/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/1/paragraph/4" id="schedule-1-paragraph-4">
+<Pnumber>4</Pnumber>
+<P1para>
+<Text>Money transmission services.</Text>
+</P1para>
+</P1>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/1/paragraph/5/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/1/paragraph/5" id="schedule-1-paragraph-5">
+<Pnumber>5</Pnumber>
+<P1para>
+<Text>Issuing and administering means of payment (eg credit cards, travellers' cheques and bankers' drafts).</Text>
+</P1para>
+</P1>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/1/paragraph/6/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/1/paragraph/6" id="schedule-1-paragraph-6">
+<Pnumber>6</Pnumber>
+<P1para>
+<Text>Guarantees and commitments.</Text>
+</P1para>
+</P1>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/1/paragraph/7/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/1/paragraph/7" id="schedule-1-paragraph-7">
+<Pnumber>7</Pnumber>
+<P1para>
+<Text>Trading for own account or for account of customers in—</Text>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/1/paragraph/7/a/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/1/paragraph/7/a" id="schedule-1-paragraph-7-a">
+<Pnumber>a</Pnumber>
+<P3para>
+<Text>money market instruments (cheques, bills, certificates of deposit, etc.);</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/1/paragraph/7/b/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/1/paragraph/7/b" id="schedule-1-paragraph-7-b">
+<Pnumber>b</Pnumber>
+<P3para>
+<Text>foreign exchange;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/1/paragraph/7/c/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/1/paragraph/7/c" id="schedule-1-paragraph-7-c">
+<Pnumber>c</Pnumber>
+<P3para>
+<Text>financial futures and options;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/1/paragraph/7/d/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/1/paragraph/7/d" id="schedule-1-paragraph-7-d">
+<Pnumber>d</Pnumber>
+<P3para>
+<Text>exchange and interest-rate instruments;</Text>
+</P3para>
+</P3>
+<P3 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/1/paragraph/7/e/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/1/paragraph/7/e" id="schedule-1-paragraph-7-e">
+<Pnumber>e</Pnumber>
+<P3para>
+<Text>transferable securities.</Text>
+</P3para>
+</P3>
+</P1para>
+</P1>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/1/paragraph/8/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/1/paragraph/8" id="schedule-1-paragraph-8">
+<Pnumber>8</Pnumber>
+<P1para>
+<Text>Participation in securities issues and the provision of services related to such issues.</Text>
+</P1para>
+</P1>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/1/paragraph/9/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/1/paragraph/9" id="schedule-1-paragraph-9">
+<Pnumber>9</Pnumber>
+<P1para>
+<Text>Advice to undertakings on capital structure, industrial strategy and related questions and advice as well as services relating to mergers and the purchase of undertakings.</Text>
+</P1para>
+</P1>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/1/paragraph/10/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/1/paragraph/10" id="schedule-1-paragraph-10">
+<Pnumber>10</Pnumber>
+<P1para>
+<Text>Money broking.</Text>
+</P1para>
+</P1>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/1/paragraph/11/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/1/paragraph/11" id="schedule-1-paragraph-11">
+<Pnumber>11</Pnumber>
+<P1para>
+<Text>Portfolio management and advice.</Text>
+</P1para>
+</P1>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/1/paragraph/12/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/1/paragraph/12" id="schedule-1-paragraph-12">
+<Pnumber>12</Pnumber>
+<P1para>
+<Text>Safekeeping and administration of securities.</Text>
+</P1para>
+</P1>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/1/paragraph/13/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/1/paragraph/13" id="schedule-1-paragraph-13">
+<Pnumber>13</Pnumber>
+<P1para>
+<Text>Credit reference services.</Text>
+</P1para>
+</P1>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/1/paragraph/14/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/1/paragraph/14" id="schedule-1-paragraph-14">
+<Pnumber>14</Pnumber>
+<P1para>
+<Text>Safe custody services.</Text>
+</P1para>
+</P1>
+</ScheduleBody>
+</Schedule>
+<Schedule DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2" NumberOfProvisions="8" NumberFormat="default" id="schedule-2">
+<Number>SCHEDULE 2</Number>
+<TitleBlock>
+<Title>MINOR AND CONSEQUENTIAL AMENDMENTS</Title>
+</TitleBlock>
+<Reference>Regulation 29</Reference>
+<ScheduleBody>
+<Part DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/part/I/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/part/I" NumberOfProvisions="2" id="schedule-2-part-I">
+<Number>PART I</Number>
+<Title><Strong>Primary Legislation</Strong></Title>
+<Pblock DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/part/I/crossheading/value-added-tax-act-1994-c-23/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/part/I/crossheading/value-added-tax-act-1994-c-23" NumberOfProvisions="1" id="schedule-2-part-I-crossheading-value-added-tax-act-1994-c-23">
+<Title>Value Added Tax Act <Citation URI="http://www.legislation.gov.uk/id/ukpga/1994/23" id="c00006" Class="UnitedKingdomPublicGeneralAct" Year="1994" Number="0023">1994 (c. 23)</Citation></Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/1" id="schedule-2-paragraph-1">
+<Pnumber>1</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/1/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/1/1" id="schedule-2-paragraph-1-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>Section 83 of the Value Added Tax Act 1994 is amended as follows.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/1/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/1/2" id="schedule-2-paragraph-1-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>In paragraph (zz), for “regulation 16 of the Money Laundering Regulations 2001”, substitute “regulation 21 of the Money Laundering Regulations 2003”.</Text>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</Pblock>
+<Pblock DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/part/I/crossheading/northern-ireland-act-1998-c-47/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/part/I/crossheading/northern-ireland-act-1998-c-47" NumberOfProvisions="1" id="schedule-2-part-I-crossheading-northern-ireland-act-1998-c-47">
+<Title>Northern Ireland Act <Citation URI="http://www.legislation.gov.uk/id/ukpga/1998/47" id="c00007" Class="UnitedKingdomPublicGeneralAct" Year="1998" Number="0047">1998 (c. 47)</Citation></Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/2" id="schedule-2-paragraph-2">
+<Pnumber>2</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/2/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/2/1" id="schedule-2-paragraph-2-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>Paragraph 25 of Schedule 3 (reserved matters) to the Northern Ireland Act 1998 is amended as follows.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/2/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/2/2" id="schedule-2-paragraph-2-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>For “1993” substitute “2003”.</Text>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</Pblock>
+</Part>
+<Part DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/part/II/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/part/II" NumberOfProvisions="6" id="schedule-2-part-II">
+<Number>PART II</Number>
+<Title><Strong>Secondary Legislation</Strong></Title>
+<Pblock DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/part/II/crossheading/the-crossborder-credit-transfers-regulations-1999-si-19991876/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/part/II/crossheading/the-crossborder-credit-transfers-regulations-1999-si-19991876" NumberOfProvisions="1" id="schedule-2-part-II-crossheading-the-crossborder-credit-transfers-regulations-1999-si-19991876">
+<Title>The Cross-Border Credit Transfers Regulations 1999 (<Acronym Expansion="Statutory Instrument">S.I.</Acronym> <Citation URI="http://www.legislation.gov.uk/id/uksi/1999/1876" id="c00008" Class="UnitedKingdomStatutoryInstrument" Year="1999" Number="1876">1999/1876</Citation>)</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/3" id="schedule-2-paragraph-3">
+<Pnumber>3</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/3/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/3/1" id="schedule-2-paragraph-3-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>Regulation 12 of the Cross-Border Credit Transfers Regulations 1999 is amended as follows.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/3/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/3/2" id="schedule-2-paragraph-3-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>For paragraph (2) substitute—</Text>
+<BlockAmendment TargetClass="unknown" TargetSubClass="unknown" Context="unknown" Format="default" NumberFormat="default">
+<P2>
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>In this regulation “enactments relating to money laundering” means section 18 of the Terrorism Act 2000, section 340(11) of the Proceeds of Crime Act 2002 and the Money Laundering Regulations 2003.</Text>
+</P2para>
+</P2>
+</BlockAmendment>
+<AppendText>.</AppendText></P2para>
+</P2>
+</P1para>
+</P1>
+</Pblock>
+<Pblock DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/part/II/crossheading/the-terrorism-act-2000-crown-servants-and-regulators-regulations-2001-si-2001192/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/part/II/crossheading/the-terrorism-act-2000-crown-servants-and-regulators-regulations-2001-si-2001192" NumberOfProvisions="1" id="schedule-2-part-II-crossheading-the-terrorism-act-2000-crown-servants-and-regulators-regulations-2001-si-2001192">
+<Title>The Terrorism Act 2000 (Crown Servants and Regulators) Regulations 2001 (S.I. <Citation URI="http://www.legislation.gov.uk/id/uksi/2001/192" id="c00009" Class="UnitedKingdomStatutoryInstrument" Year="2001" Number="0192">2001/192</Citation>)</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/4/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/4" id="schedule-2-paragraph-4">
+<Pnumber>4</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/4/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/4/1" id="schedule-2-paragraph-4-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>The Terrorism Act 2000 (Crown Servants and Regulators) Regulations 2001 are amended as follows.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/4/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/4/2" id="schedule-2-paragraph-4-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>In regulation 2, for the definition of “relevant financial business” substitute—</Text>
+<BlockAmendment TargetClass="secondary" TargetSubClass="regulation" Context="main" Format="default" NumberFormat="default">
+<UnorderedList Decoration="none" Class="Definition">
+<ListItem>
+<Para>
+<Text>“relevant business” has the meaning given by regulation 2(2) of the Money Laundering Regulations 2003.</Text>
+</Para>
+</ListItem>
+</UnorderedList>
+</BlockAmendment>
+<AppendText>.</AppendText></P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/4/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/4/3" id="schedule-2-paragraph-4-3">
+<Pnumber>3</Pnumber>
+<P2para>
+<Text>In regulation 3, for “relevant financial business” substitute “relevant business”.</Text>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</Pblock>
+<Pblock DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/part/II/crossheading/the-representation-of-the-people-england-and-wales-regulations-2001-si-2001341/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/part/II/crossheading/the-representation-of-the-people-england-and-wales-regulations-2001-si-2001341" NumberOfProvisions="1" id="schedule-2-part-II-crossheading-the-representation-of-the-people-england-and-wales-regulations-2001-si-2001341">
+<Title>The Representation of the People (England and Wales) Regulations 2001 (S.I. <Citation URI="http://www.legislation.gov.uk/id/uksi/2001/341" id="c00010" Class="UnitedKingdomStatutoryInstrument" Year="2001" Number="0341">2001/341</Citation>)</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/5/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/5" id="schedule-2-paragraph-5">
+<Pnumber>5</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/5/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/5/1" id="schedule-2-paragraph-5-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>The Representation of the People (England and Wales) Regulations 2001 are amended as follows.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/5/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/5/2" id="schedule-2-paragraph-5-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>In regulation 114(3)(b)<FootnoteRef Ref="f00031"/>—</Text>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/5/2/i/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/5/2/i" id="schedule-2-paragraph-5-2-i">
+<Pnumber>i</Pnumber>
+<P4para>
+<Text>for “1993” substitute “2003”; and</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/5/2/ii/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/5/2/ii" id="schedule-2-paragraph-5-2-ii">
+<Pnumber>ii</Pnumber>
+<P4para>
+<Text>omit “, the Money Laundering Regulations 2001”.</Text>
+</P4para>
+</P4>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</Pblock>
+<Pblock DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/part/II/crossheading/the-representation-of-the-people-northern-ireland-regulations-2001-si-2001400/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/part/II/crossheading/the-representation-of-the-people-northern-ireland-regulations-2001-si-2001400" NumberOfProvisions="1" id="schedule-2-part-II-crossheading-the-representation-of-the-people-northern-ireland-regulations-2001-si-2001400">
+<Title>The Representation of the People (Northern Ireland) Regulations 2001 (S.I. <Citation URI="http://www.legislation.gov.uk/id/uksi/2001/400" id="c00011" Class="UnitedKingdomStatutoryInstrument" Year="2001" Number="0400">2001/400</Citation>)</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/6/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/6" id="schedule-2-paragraph-6">
+<Pnumber>6</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/6/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/6/1" id="schedule-2-paragraph-6-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>The Representation of the People (Northern Ireland) Regulations 2001 are amended as follows.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/6/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/6/2" id="schedule-2-paragraph-6-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>In regulation 107(3)(b)<FootnoteRef Ref="f00032"/>—</Text>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/6/2/i/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/6/2/i" id="schedule-2-paragraph-6-2-i">
+<Pnumber>i</Pnumber>
+<P4para>
+<Text>in paragraph (i), for “1993” substitute “2003”;</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/6/2/ii/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/6/2/ii" id="schedule-2-paragraph-6-2-ii">
+<Pnumber>ii</Pnumber>
+<P4para>
+<Text>omit paragraph (ii); and</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/6/2/iii/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/6/2/iii" id="schedule-2-paragraph-6-2-iii">
+<Pnumber>iii</Pnumber>
+<P4para>
+<Text>in paragraph (iii), omit the words “either of” and “sets of”.</Text>
+</P4para>
+</P4>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</Pblock>
+<Pblock DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/part/II/crossheading/the-representation-of-the-people-scotland-regulations-2001-si-2001497/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/part/II/crossheading/the-representation-of-the-people-scotland-regulations-2001-si-2001497" NumberOfProvisions="1" id="schedule-2-part-II-crossheading-the-representation-of-the-people-scotland-regulations-2001-si-2001497">
+<Title>The Representation of the People (Scotland) Regulations 2001 (S.I. <Citation URI="http://www.legislation.gov.uk/id/uksi/2001/497" id="c00012" Class="UnitedKingdomStatutoryInstrument" Year="2001" Number="0497">2001/497</Citation>)</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/7/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/7" id="schedule-2-paragraph-7">
+<Pnumber>7</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/7/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/7/1" id="schedule-2-paragraph-7-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>The Representation of the People (Scotland) Regulations 2001 are amended as follows.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/7/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/7/2" id="schedule-2-paragraph-7-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>In regulation 113(3)(b)<FootnoteRef Ref="f00033"/>—</Text>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/7/2/i/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/7/2/i" id="schedule-2-paragraph-7-2-i">
+<Pnumber>i</Pnumber>
+<P4para>
+<Text>for “1993” substitute “2003”; and</Text>
+</P4para>
+</P4>
+<P4 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/7/2/ii/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/7/2/ii" id="schedule-2-paragraph-7-2-ii">
+<Pnumber>ii</Pnumber>
+<P4para>
+<Text>omit “, the Money Laundering Regulations 2001”.</Text>
+</P4para>
+</P4>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</Pblock>
+<Pblock DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/part/II/crossheading/the-proceeds-of-crime-act-2002-failure-to-disclose-money-laundering-specified-trainingorder-2003-si-2003171/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/part/II/crossheading/the-proceeds-of-crime-act-2002-failure-to-disclose-money-laundering-specified-trainingorder-2003-si-2003171" NumberOfProvisions="1" id="schedule-2-part-II-crossheading-the-proceeds-of-crime-act-2002-failure-to-disclose-money-laundering-specified-trainingorder-2003-si-2003171">
+<Title>The Proceeds of Crime Act 2002 (Failure to Disclose Money Laundering: Specified Training)Order 2003 (S.I. <Citation URI="http://www.legislation.gov.uk/id/uksi/2003/171" id="c00013" Class="UnitedKingdomStatutoryInstrument" Year="2003" Number="0171">2003/171</Citation>)</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/8/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/8" id="schedule-2-paragraph-8">
+<Pnumber>8</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/8/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/8/1" id="schedule-2-paragraph-8-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>The Proceeds of Crime Act 2002 (Failure to Disclose Money Laundering: Specified Training) Order 2003 is amended as follows.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/schedule/2/paragraph/8/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/schedule/2/paragraph/8/2" id="schedule-2-paragraph-8-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>In article 2, for “regulation 5(1)(c) of the Money Laundering Regulations 1993” substitute “regulation 3(1)(c)(ii) of the Money Laundering Regulations 2003”.</Text>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</Pblock>
+</Part>
+</ScheduleBody>
+</Schedule>
+</Schedules>
+<ExplanatoryNotes DocumentURI="http://www.legislation.gov.uk/uksi/2003/3075/note/made" IdURI="http://www.legislation.gov.uk/id/uksi/2003/3075/note">
+<Comment>
+<Para>
+<Text>(This note is not part of the Regulations)</Text>
+</Para>
+</Comment>
+<P>
+<Text>These Regulations replace the Money Laundering Regulations 1993 and 2001 with updated provisions which reflect Directive <Citation URI="http://www.legislation.gov.uk/european/directive/2001/0097" id="c00014" Class="EuropeanUnionDirective" Year="2001" Number="97">2001/97/EC</Citation> of the European Parliament and of the Council amending Council Directive <Citation URI="http://www.legislation.gov.uk/european/directive/1991/0308" id="c00015" Class="EuropeanEconomicCommunityDirective" Year="1991" Number="308">91/308/EEC</Citation> on prevention of the use of the financial system for the purpose of money laundering. A Transposition Note setting out how the main elements of Directive <Citation URI="http://www.legislation.gov.uk/european/directive/2001/0097" id="c00016" Class="EuropeanUnionDirective" Year="2001" Number="97">2001/97/EC</Citation> will be transposed into <Acronym Expansion="United Kingdom">UK</Acronym> law is available from the Financial Systems and International Standards Team, <Acronym Expansion="Her Majesty">HM</Acronym> Treasury, 1 Horse Guards Road, London SW1A 2HQ. The Transposition Note is also on HM Treasury’s website (<ExternalLink Title="HM Treasury website" URI="http://www.hm-treasury.gov.uk" id="i00000">www.hm-treasury.gov.uk</ExternalLink>). A regulatory impact assessment has been prepared and placed in the library of each House of Parliament. A copy is likewise available from the Treasury and can be found on the Treasury’s website.</Text>
+</P>
+<P>
+<Text>Where business relationships are formed, or one-off transactions are carried out, in the course of relevant business (defined in regulation 2), the persons carrying out such relevant business are required to maintain certain identification procedures (regulation 4), record-keeping procedures (regulation 6) and internal reporting procedures (regulation 7) and to establish other appropriate procedures for the purpose of forestalling or preventing money laundering (regulation 3(1)(b)). They are also required to train their employees in those procedures and, more generally, in the recognition of money laundering transactions and the law relating to money laundering (regulation 3(1)(c)). A person who fails to maintain the procedures or carry out the training is guilty of a criminal offence (regulation 3(2)). Casino operators must obtain satisfactory evidence of the identity of all people using their gaming facilities (regulation 8).</Text>
+</P>
+<P>
+<Text>Regulation 9 requires the Commissioners of Customs and Excise to keep a register of money service operators and a register of high value dealers and regulations 10-11 state the registration requirements placed on such persons. Regulation 12 lists the grounds on which registration may be refused by the Commissioners, including where information which has been supplied is incomplete, false or misleading. Regulation 13 lists the circumstances in which registration may be cancelled by the Commissioners. Regulation 14 allows the Commissioners to charge fees.</Text>
+</P>
+<P>
+<Text>Regulations 15 to 19 state the powers of the Commissioners in relation to money service operators and high value dealers, including a power to enter and inspect premises. Where there are reasonable grounds for believing that an offence under the Regulations is being, has been or is about to be committed by a money service operator or high value dealer, the Commissioners may seek a court order requiring any person in possession of certain information to allow them access to it. Regulation 19 allows the Commissioners to enter premises with a warrant, to search persons and to take away documents. Regulation 20 allows the Commissioners to impose a civil penalty in certain circumstances. Regulation 21 provides a mechanism for a formal review by the Commissioners of their decisions. Regulation 22 provides for appeals against the Commissioners' decisions to be heard by a VAT tribunal. Regulation 23 allows the Commissioners to prosecute offences under the Regulations. Regulation 24 allows fees and penalties to be recovered as a civil debt. Regulation 25 requires people who are authorised by the Financial Services Authority (“the <Abbreviation Expansion="Financial Services Authority">FSA</Abbreviation>”) to inform the FSA before they operate bureaux de change.</Text>
+</P>
+<P>
+<Text>Regulation 26 requires supervisory authorities (defined in regulation 2) and various other people who obtain information indicative of money laundering to inform a constable. Regulation 28 allows the Treasury to require people who carry on relevant business to refrain from doing business with people in certain non-EEA States.</Text>
+</P>
+</ExplanatoryNotes>
+</Secondary><Footnotes><Footnote id="f00001">
+<FootnoteText>
+<Para>
+<Text>S.I. <Citation URI="http://www.legislation.gov.uk/id/uksi/1992/1711" id="c00017" Class="UnitedKingdomStatutoryInstrument" Year="1992" Number="1711">1992/1711</Citation>.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00002">
+<FootnoteText>
+<Para>
+<Text><Citation URI="http://www.legislation.gov.uk/id/ukpga/1972/68" id="c00018" Class="UnitedKingdomPublicGeneralAct" Year="1972" Number="0068">1972 c. 68</Citation>. By virtue of the amendment of section 1(2) made by section 1 of the European Economic Area Act <Citation URI="http://www.legislation.gov.uk/id/ukpga/1993/51" id="c00019" Class="UnitedKingdomPublicGeneralAct" Year="1993" Number="0051">1993 (c. 51)</Citation> regulations may be made under section 2(2) to implement obligations of the United Kingdom created by or arising under the Agreement on the European Economic Area signed at Oporto on 2nd May 1992 (<Abbreviation Expansion="Command Paper">Cm</Abbreviation> 2073) and the Protocol adjusting that Agreement signed at Brussels on 17th March 1993 (Cm 2183).</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00003">
+<FootnoteText>
+<Para>
+<Text>See the definition of “prescribed”.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00004">
+<FootnoteText>
+<Para>
+<Text><Citation URI="http://www.legislation.gov.uk/id/ukpga/2000/8" id="c00020" Class="UnitedKingdomPublicGeneralAct" Year="2000" Number="0008">2000 c. 8</Citation>.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00005">
+<FootnoteText>
+<Para>
+<Text>S.I. <Citation URI="http://www.legislation.gov.uk/id/uksi/1993/1933" id="c00021" Class="UnitedKingdomStatutoryInstrument" Year="1993" Number="1933">1993/1933</Citation>, amended by S.I. <Citation URI="http://www.legislation.gov.uk/id/uksi/1994/1696" id="c00022" Class="UnitedKingdomStatutoryInstrument" Year="1994" Number="1696">1994/1696</Citation>, S.I. <Citation URI="http://www.legislation.gov.uk/id/uksi/1998/1129" id="c00023" Class="UnitedKingdomStatutoryInstrument" Year="1998" Number="1129">1998/1129</Citation>, S.I. <Citation URI="http://www.legislation.gov.uk/id/uksi/2000/2952" id="c00024" Class="UnitedKingdomStatutoryInstrument" Year="2000" Number="2952">2000/2952</Citation>, S.I. <Citation URI="http://www.legislation.gov.uk/id/uksi/2001/3641" id="c00025" Class="UnitedKingdomStatutoryInstrument" Year="2001" Number="3641">2001/3641</Citation> and <Citation URI="http://www.legislation.gov.uk/id/uksi/2001/3649" id="c00026" Class="UnitedKingdomStatutoryInstrument" Year="2001" Number="3649">3649</Citation>.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00006">
+<FootnoteText>
+<Para>
+<Text>S.I. <Citation URI="http://www.legislation.gov.uk/id/uksi/2001/1819" id="c00027" Class="UnitedKingdomStatutoryInstrument" Year="2001" Number="1819">2001/1819</Citation>.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00007">
+<FootnoteText>
+<Para>
+<Text>S.I. <Citation URI="http://www.legislation.gov.uk/id/uksi/2001/3641" id="c00028" Class="UnitedKingdomStatutoryInstrument" Year="2001" Number="3641">2001/3641</Citation>.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00008">
+<FootnoteText>
+<Para>
+<Text><Acronym Expansion="Official Journal">OJ</Acronym> L 126, 26.5.2000, p.1; OJ L 35, 11.2.2003, p.1.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00009">
+<FootnoteText>
+<Para>
+<Text><Citation URI="http://www.legislation.gov.uk/id/ukpga/1979/38" id="c00029" Class="UnitedKingdomPublicGeneralAct" Year="1979" Number="0038">1979 c. 38</Citation>. Section 1 was amended by the Law Reform (Miscellaneous Provisions) (Scotland) Act <Citation URI="http://www.legislation.gov.uk/id/ukpga/1985/73" id="c00030" Class="UnitedKingdomPublicGeneralAct" Year="1985" Number="0073">1985 (c. 73)</Citation>, Schedule 1, Pt I, para. 40, the Planning (Consequential Provisions) Act <Citation URI="http://www.legislation.gov.uk/id/ukpga/1990/11" id="c00031" Class="UnitedKingdomPublicGeneralAct" Year="1990" Number="0011">1990 (c. 11)</Citation>, Schedule 2, para. 42, the Planning (Consequential Provisions) (Scotland) Act <Citation URI="http://www.legislation.gov.uk/id/ukpga/1997/11" id="c00032" Class="UnitedKingdomPublicGeneralAct" Year="1997" Number="0011">1997 (c. 11)</Citation>, Schedule 2, para. 28 and by S.I. <Citation URI="http://www.legislation.gov.uk/id/uksi/2001/1283" id="c00033" Class="UnitedKingdomStatutoryInstrument" Year="2001" Number="1283">2001/1283</Citation>.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00010">
+<FootnoteText>
+<Para>
+<Text>OJ L 345, 19.12.2002, p.1.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00011">
+<FootnoteText>
+<Para>
+<Text><Citation URI="http://www.legislation.gov.uk/id/ukpga/1995/46" id="c00034" Class="UnitedKingdomPublicGeneralAct" Year="1995" Number="0046">1995 c. 46</Citation>.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00012">
+<FootnoteText>
+<Para>
+<Text><Citation URI="http://www.legislation.gov.uk/id/ukpga/2002/29" id="c00035" Class="UnitedKingdomPublicGeneralAct" Year="2002" Number="0029">2002 c. 29</Citation>.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00013">
+<FootnoteText>
+<Para>
+<Text><Citation URI="http://www.legislation.gov.uk/id/ukpga/2000/11" id="c00036" Class="UnitedKingdomPublicGeneralAct" Year="2000" Number="0011">2000 c. 11</Citation>.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00014">
+<FootnoteText>
+<Para>
+<Text>OJ L 166, 28.6.1991, p.77; OJ L 344, 28.12.2001, p.76.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00015">
+<FootnoteText>
+<Para>
+<Text><Citation URI="http://www.legislation.gov.uk/id/ukpga/1979/2" id="c00037" Class="UnitedKingdomPublicGeneralAct" Year="1979" Number="0002">1979 c. 2</Citation>.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00016">
+<FootnoteText>
+<Para>
+<Text><Citation URI="http://www.legislation.gov.uk/id/ukpga/1968/13" id="c00038" Class="UnitedKingdomPublicGeneralAct" Year="1968" Number="0013">1968 c. 13</Citation>.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00017">
+<FootnoteText>
+<Para>
+<Text><Citation URI="http://www.legislation.gov.uk/id/ukpga/1986/45" id="c00039" Class="UnitedKingdomPublicGeneralAct" Year="1986" Number="0045">1986 c. 45</Citation>.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00018">
+<FootnoteText>
+<Para>
+<Text>S.I. <Citation URI="http://www.legislation.gov.uk/id/nisi/1989/2405" id="c00040" Class="NorthernIrelandOrderInCouncil" AlternativeNumber="N.I. 19" Year="1989" Number="2405">1989/2405 (N.I. 19)</Citation>.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00019">
+<FootnoteText>
+<Para>
+<Text><Citation URI="http://www.legislation.gov.uk/id/ukpga/1989/40" id="c00041" Class="UnitedKingdomPublicGeneralAct" Year="1989" Number="0040">1989 c. 40</Citation>.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00020">
+<FootnoteText>
+<Para>
+<Text>S.I. <Citation URI="http://www.legislation.gov.uk/id/nisi/1990/593" id="c00042" Class="NorthernIrelandOrderInCouncil" AlternativeNumber="N.I. 5" Year="1990" Number="0593">1990/593 (N.I. 5)</Citation>.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00021">
+<FootnoteText>
+<Para>
+<Text><Citation URI="http://www.legislation.gov.uk/id/ukpga/1965/12" id="c00043" Class="UnitedKingdomPublicGeneralAct" Year="1965" Number="0012">1965 c. 12</Citation>.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00022">
+<FootnoteText>
+<Para>
+<Text><Citation URI="http://www.legislation.gov.uk/id/apni/1969/24" id="c00044" Class="NorthernIrelandParliamentAct" Year="1969" Number="0024">1969 c. 24 (N.I.)</Citation>.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00023">
+<FootnoteText>
+<Para>
+<Text><Citation URI="http://www.legislation.gov.uk/id/ukpga/1986/60" id="c00045" Class="UnitedKingdomPublicGeneralAct" Year="1986" Number="0060">1986 c. 60</Citation>. This Act was repealed as from 1st December 2001 by S.I. <Citation URI="http://www.legislation.gov.uk/id/uksi/2001/3649" id="c00046" Class="UnitedKingdomStatutoryInstrument" Year="2001" Number="3649">2001/3649</Citation>, art. 3(1)(c).</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00024">
+<FootnoteText>
+<Para>
+<Text>Section 21A was inserted by the Anti-terrorism, Crime and Security Act <Citation URI="http://www.legislation.gov.uk/id/ukpga/2001/24" id="c00047" Class="UnitedKingdomPublicGeneralAct" Year="2001" Number="0024">2001 (c. 24)</Citation>, Schedule 2, Part 3, para. 5.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00025">
+<FootnoteText>
+<Para>
+<Text><Citation URI="http://www.legislation.gov.uk/id/apni/1954/33" id="c00048" Class="NorthernIrelandParliamentAct" Year="1954" Number="0033">1954 c. 33 (N.I.)</Citation>.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00026">
+<FootnoteText>
+<Para>
+<Text><Citation URI="http://www.legislation.gov.uk/id/ukpga/1992/40" id="c00049" Class="UnitedKingdomPublicGeneralAct" Year="1992" Number="0040">1992 c. 40</Citation>.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00027">
+<FootnoteText>
+<Para>
+<Text><Citation URI="http://www.legislation.gov.uk/id/ukpga/1979/34" id="c00050" Class="UnitedKingdomPublicGeneralAct" Year="1979" Number="0034">1979 c. 34</Citation>.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00028">
+<FootnoteText>
+<Para>
+<Text><Citation URI="http://www.legislation.gov.uk/id/ukpga/1985/6" id="c00051" Class="UnitedKingdomPublicGeneralAct" Year="1985" Number="0006">1985 c. 6</Citation>.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00029">
+<FootnoteText>
+<Para>
+<Text>S.I. <Citation URI="http://www.legislation.gov.uk/id/nisi/1986/1032" id="c00052" Class="NorthernIrelandOrderInCouncil" AlternativeNumber="N.I. 6" Year="1986" Number="1032">1986/1032 (N.I. 6)</Citation>.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00030">
+<FootnoteText>
+<Para>
+<Text><Citation URI="http://www.legislation.gov.uk/id/ukpga/1986/53" id="c00053" Class="UnitedKingdomPublicGeneralAct" Year="1986" Number="0053">1986 c. 53</Citation>.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00031">
+<FootnoteText>
+<Para>
+<Text>Inserted by regulation 15 of the Representation of the People (England and Wales) (Amendment) Regulations 2002 (S.I. <Citation URI="http://www.legislation.gov.uk/id/uksi/2002/1871" id="c00054" Class="UnitedKingdomStatutoryInstrument" Year="2002" Number="1871">2002/1871</Citation>).</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00032">
+<FootnoteText>
+<Para>
+<Text>Inserted by regulation 21 of the Representation of the People (Northern Ireland) (Amendment) Regulations 2002 (S.I. <Citation URI="http://www.legislation.gov.uk/id/uksi/2002/1873" id="c00055" Class="UnitedKingdomStatutoryInstrument" Year="2002" Number="1873">2002/1873</Citation>).</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00033">
+<FootnoteText>
+<Para>
+<Text>Inserted by regulation 14 of the Representation of the People (Scotland) (Amendment) Regulations 2002 (S.I. <Citation URI="http://www.legislation.gov.uk/id/uksi/2002/1872" id="c00056" Class="UnitedKingdomStatutoryInstrument" Year="2002" Number="1872">2002/1872</Citation>).</Text>
+</Para>
+</FootnoteText>
+</Footnote></Footnotes></Legislation>
