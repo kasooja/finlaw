@@ -78,8 +78,11 @@ public class Query2ResultWindow extends JFrame {
 				Provision = queryResult.substring(startIndex, endIndex);
 
 				queryResult = queryResult.substring(endIndex+1, queryResult.length()-2);
-
-				Provision = Extract(Provision);
+				try {
+					Provision = Extract(Provision);
+				} catch (Exception e){
+					break;
+				}
 
 				// Extracting Modality
 
@@ -155,8 +158,8 @@ public class Query2ResultWindow extends JFrame {
 	String ExtractText(String subQuery)
 	{
 
-	//	int startIndex = subQuery.indexOf("value\":");
-	//	subQuery = subQuery.substring(startIndex, subQuery.length()-2);
+		//	int startIndex = subQuery.indexOf("value\":");
+		//	subQuery = subQuery.substring(startIndex, subQuery.length()-2);
 
 		//System.out.print(subQuery);
 
