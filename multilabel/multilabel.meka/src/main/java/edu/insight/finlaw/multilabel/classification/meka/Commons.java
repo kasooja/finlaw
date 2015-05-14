@@ -5,7 +5,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Random;
 
-import meka.gui.explorer.Explorer;
+import meka.core.MLUtils;
 import weka.classifiers.Classifier;
 import weka.core.Instances;
 import weka.core.SelectedTag;
@@ -20,10 +20,9 @@ import edu.insight.finlaw.utils.Pair;
 public class Commons {
 
 	/**
-	 * Loads the dataset from disk.
-	 * 
-	 * @param file the dataset to load (e.g., "weka/classifiers/data/something.arff")
-	 * @throws Exception if loading fails, e.g., file does not exit
+	 * Loads the dataset from disk.	 
+	 @param: file the dataset to load (e.g., "weka/classifiers/data/something.arff")
+	 @throws: Exception if loading fails, e.g., file does not exit
 	 */
 	public static Instances loadWekaData(String filePath){
 		File file = new File(filePath);
@@ -40,7 +39,8 @@ public class Commons {
 	public static Instances loadMekaInstances(String arffFilePath) {
 		try {
 			Instances D = DataSource.read(arffFilePath);
-			Explorer.prepareData(D); //Explorer is a meka based class
+			MLUtils.prepareData(D);
+		//	Explorer.prepareData(D); // for until 1.6.2 version of meka, Explorer is a meka based class
 			return D;
 		} catch(Exception e) {
 			System.err.println("");
@@ -53,7 +53,7 @@ public class Commons {
 	public static Instances prepareMekaInstances(Instances D) {
 		try {
 			//D = DataSource.read(arffFilePath);
-			Explorer.prepareData(D); //Explorer is a meka based class
+			//Explorer.prepareData(D); //Explorer is a meka based class
 
 			return D;
 		} catch(Exception e) {
@@ -77,6 +77,8 @@ public class Commons {
 		stringToWordVector.setLowerCaseTokens(true);
 		stringToWordVector.setDoNotOperateOnPerClassBasis(false);
 		NGramTokenizer tok = new NGramTokenizer();
+		tok.setNGramMinSize(1);		
+		tok.setNGramMaxSize(2);		
 		stringToWordVector.setTokenizer(tok);		
 		//stringToWordVector.setIDFTransform(true);
 		//stringToWordVector.setTFTransform(true);
