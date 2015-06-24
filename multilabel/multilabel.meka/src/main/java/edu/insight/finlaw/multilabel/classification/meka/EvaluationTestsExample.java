@@ -19,19 +19,23 @@ package edu.insight.finlaw.multilabel.classification.meka;
 
 
 import junit.framework.Test;
-import junit.framework.TestSuite;
 import junit.framework.TestCase;
-import meka.classifiers.multilabel.meta.*;
-import meka.classifiers.multilabel.*;
-import weka.classifiers.functions.*;
-import weka.classifiers.lazy.*;
-import weka.core.converters.ConverterUtils.DataSource;
-import weka.core.Instances;
-import meka.core.Result;
-import meka.core.Metrics;
+import junit.framework.TestSuite;
+import meka.classifiers.multilabel.CC;
+import meka.classifiers.multilabel.CCUpdateable;
+import meka.classifiers.multilabel.Evaluation;
+import meka.classifiers.multilabel.IncrementalEvaluation;
+import meka.classifiers.multilabel.MultilabelClassifier;
+import meka.classifiers.multilabel.meta.BaggingML;
+import meka.classifiers.multilabel.meta.BaggingMLUpdateable;
 import meka.core.MLEvalUtils;
-
-import meka.gui.explorer.Explorer;
+import meka.core.Metrics;
+import meka.core.Result;
+import weka.classifiers.functions.Logistic;
+import weka.classifiers.functions.SMO;
+import weka.classifiers.lazy.IBk;
+import weka.core.Instances;
+import weka.core.converters.ConverterUtils.DataSource;
 
 /**
  * EvaluationTests. Run from the command line with:<p/>
@@ -62,7 +66,7 @@ public class EvaluationTestsExample extends TestCase {
 	public static Instances loadInstances(String fn) {
 		try {
 			Instances D = DataSource.read(fn);
-			Explorer.prepareData(D);
+		//	Explorer.prepareData(D);
 			return D;
 		} catch(Exception e) {
 			System.err.println("");

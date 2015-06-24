@@ -44,12 +44,13 @@ public class Commons {
 		//Stemmer stemmer = new SnowballStemmer();
 		StringToWordVector stringToWordVector = new StringToWordVector();	
 		//stringToWordVector.setStemmer(stemmer);
-		stringToWordVector.setWordsToKeep(4000);
+		stringToWordVector.setWordsToKeep(2500);
 		stringToWordVector.setNormalizeDocLength(selectedTag);		
 		stringToWordVector.setMinTermFreq(4);
 		stringToWordVector.setLowerCaseTokens(true);
 		stringToWordVector.setDoNotOperateOnPerClassBasis(false);
 		NGramTokenizer tok = new NGramTokenizer();
+		tok.setNGramMaxSize(2);
 		stringToWordVector.setTokenizer(tok);
 		//stringToWordVector.setIDFTransform(true);
 		//stringToWordVector.setTFTransform(true);

@@ -65,17 +65,13 @@ public class GateToArffConverter {
 			labelsToBeUsed.add(label.trim());
 		}
 	}
-	
-//	public Instances getInst(String annotatedGateFile, List<String> features, String instancesName, double stringDistanceThreshold) {
-//		String annotationSetName = null;
-//	}
-//	
 
 	public Instances getInstBsdOnFeatsNStrDist(String annotatedGateFile, List<String> features, String instancesName, double stringDistanceThreshold) {
 		String annotationSetName = null; 
 		GateAnnotationReader gateAnnoReader = new GateAnnotationReader();
 		gateAnnoReader.setDocument(annotatedGateFile);
-		Map<String, List<Annotation>> annotations = gateAnnoReader.readAnnotatedGateFile(labelsToBeUsed, annotationSetName);
+		//Map<String, List<Annotation>> annotations = gateAnnoReader.readAnnotatedGateFile(labelsToBeUsed, annotationSetName);
+		Map<String, List<Annotation>> annotations = gateAnnoReader.readAnnotatedGateFileLabels(labelsToBeUsed, annotationSetName);
 		List<String> annotationTypeList = gateAnnoReader.getAnnotationTypeList();
 		Integer textAttributeIndex = null; 
 		//MEKA based naming of instances
@@ -199,7 +195,7 @@ public class GateToArffConverter {
 
 	public static void main(String[] args) {
 		String ukamlConfigFile = "src/main/resources/load/eu.insight.finlaw.multilabel.ukaml.instances.meka";
-		String modalityConfigFile = "src/main/resources/load/eu.insight.finlaw.multilabel.modality.instances.meka";
+		//String modalityConfigFile = "src/main/resources/load/eu.insight.finlaw.multilabel.modality.instances.meka";
 		createUKAMLInstances(ukamlConfigFile);
 		//createModalityInstances(modalityConfigFile);
 	}

@@ -1,3 +1,5 @@
 #labels = all
 #labels = Customer Due Diligence, Customer Identification and Verification, Defence, Disclosure, Enforcement, Internal Programme, Interpretation, Monitoring, Penalty, Record Keeping, Registration, Reporting, Review and Appeal Procedure, Supervision, Suspicious Activity Reporting, Training and Education
-labels = Customer Due Diligence, Customer Identification and Verification, Enforcement, Monitoring, Reporting
+#labels = Customer Due Diligence, Customer Identification and Verification, Enforcement, Monitoring, Reporting
+uklabels = customerduediligence, customeridentificationverification, enforcement, monitoring, reporting
+uslabels = Customer Due Diligence, Customer Identification and Verification, Enforcement, Monitoring, Reporting

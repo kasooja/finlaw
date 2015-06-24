@@ -26,7 +26,7 @@ public class MekaDemo {
 	public static Instances loadInstances(String fn) {
 		try {
 			Instances D = DataSource.read(fn);
-			Explorer.prepareData(D);
+			//Explorer.prepareData(D);
 			return D;
 		} catch(Exception e) {
 			System.err.println("");

@@ -37,6 +37,7 @@ public class EncoderDecoder {
 		System.out.println(convData);
 		
 		BasicFileTools.writeFile("src/main/resources/test.txt", convData);
+		in.close();
 		
 	}
 }
