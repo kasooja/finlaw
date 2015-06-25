@@ -19,6 +19,7 @@ import weka.core.Instance;
 import weka.core.Instances;
 import weka.core.converters.ArffSaver;
 import edu.insight.finlaw.gate.annotation.reader.GateAnnotationReader;
+import edu.insight.finlaw.parsers.ArkParser;
 import edu.insight.finlaw.utils.BasicFileTools;
 import edu.insight.finlaw.utils.StringDistance;
 import gate.Annotation;
@@ -38,6 +39,7 @@ public class GateAnnotationsToFeatureVectorConverter {
 	private List<String> annotationTypeList;
 	private Attribute textAttribute;
 	private Attribute previousContextAttribute;
+	private Attribute arkFramesAttribute;
 	private static List<String> classLabelVals; 
 	private static String featureFile1 = "src/main/resources/grctcData/leona_features";
 	private static String featureFile2 = "src/main/resources/grctcData/my_features";
@@ -47,7 +49,7 @@ public class GateAnnotationsToFeatureVectorConverter {
 
 	static{
 		attVals = new ArrayList<String>();
-		attVals.add("0"); attVals.add("1"); attVals.add("2");	
+		attVals.add("0"); attVals.add("1");	
 		tOrfVals = new ArrayList<String>();
 		tOrfVals.add("f"); tOrfVals.add("t");
 		leonaFeatures = getFeatureList(featureFile1);
@@ -180,13 +182,14 @@ public class GateAnnotationsToFeatureVectorConverter {
 
 	/*
 	 * convert gate annotations to feature vectors, it uses string distance to resolve multi-label,
-	 * it does not use sequential context
+	 * 
 	 */
 	public Instances getInstances(String annotationSetName, String annotatedGateFile, List<String> features, String instancesName, double stringDistanceThreshold, String tagName) {		 
 		GateAnnotationReader gateAnnoReader = new GateAnnotationReader();
 		gateAnnoReader.setDocument(annotatedGateFile);	
 		LinkedHashMap<String, Annotation> annotations = gateAnnoReader.readAnnotatedGateFileFeaturesSequence(ukLabelsToBeUsed, annotationSetName, tagName);	
 		annotationTypeList = gateAnnoReader.getAnnotationTypeList();
+		annotationTypeList.remove("customeridentificationverification");		
 		String previousContext = "";
 		//MEKA based naming of instances
 		instancesName = instancesName + ": -C " + annotationTypeList.size() + " ";
@@ -194,17 +197,25 @@ public class GateAnnotationsToFeatureVectorConverter {
 			atts.add(new Attribute(annotationType + "_Class", attVals));		
 		textAttribute = new Attribute("text", (ArrayList<String>) null);
 		previousContextAttribute = new Attribute("previousContext", (ArrayList<String>) null);
+		arkFramesAttribute = new Attribute("arkFrames", (ArrayList<String>) null);
 		atts.add(textAttribute);
-		atts.add(previousContextAttribute);			
+		atts.add(previousContextAttribute);
+		atts.add(arkFramesAttribute);		
 		data = new Instances(instancesName, atts, 0);		
+		int co = 0;
 		for(String annoTypes : annotations.keySet()){
 			Annotation annotation = annotations.get(annoTypes);
 			String[] split = annoTypes.split("\t");
 			String content;
 			try {
-				content = gateAnnoReader.getDocument().getContent().getContent(annotation.getStartNode().getOffset(), annotation.getEndNode().getOffset()).toString();
-				
-				content = content.replaceAll("\\W\\W\\w+;", " ").trim();
+				content = gateAnnoReader.getDocument().getContent().getContent(annotation.getStartNode().getOffset(), annotation.getEndNode().getOffset()).toString();				
+				content = content.replaceAll("\\W\\W\\w+;", " ").trim();			
+				String arkJson = ArkParser.frameNetParse(content);
+				System.out.println(content);
+				System.out.println(co++);
+				String arkFrames = ArkParser.readArkJsonFrameNames(arkJson);
+				ArkParser.disconnectArkParser();
+				//further preprocessing, not suitable for parsers
 				content = content.replaceAll("\\W", " ").trim();
 				content = content.replaceAll("\\s\\w\\s", " ").trim();
 				content = content.replaceAll("\\b\\w\\s", " ").trim();
@@ -222,7 +233,8 @@ public class GateAnnotationsToFeatureVectorConverter {
 					vals[annoTypeIndex] = attVals.indexOf("1");
 				}		
 				vals[count++] = data.attribute("text").addStringValue(content);
-				vals[count++] = data.attribute("previousContext").addStringValue(previousContext);				 
+				vals[count++] = data.attribute("previousContext").addStringValue(previousContext);
+				vals[count++] = data.attribute("arkFrames").addStringValue(arkFrames);
 				StringTokenizer tokenizer = new StringTokenizer(content);
 				StringBuffer buffer = new StringBuffer();
 				while(tokenizer.hasMoreTokens()){
@@ -236,32 +248,13 @@ public class GateAnnotationsToFeatureVectorConverter {
 			}
 		}
 		gateAnnoReader.cleanUp();
+		ArkParser.disconnectArkParser();
 		return data;
 	}
 
-//	public static void createUKAMLInstances(String configFile) {		
-//		//String annotatedGateFile = "src/main/resources/grctcData/UK_AML_xml_annotated_firo_extended.xml";
-//		String annotatedGateFile = "src/main/resources/grctcData/20141029_UKSI-2007-2157-made-XML-AML.xml";
-//		//String arffFileNameNonFilt = "src/main/resources/grctcData/arff/UKAMLArffExtended.arff";
-//		String arffFileNameNonFilt = "src/main/resources/grctcData/arff/UKAMLArffP2TagsFeaturesSeqContext.arff";
-//		String instancesName = "FIROInstances";
-//		GateAnnotationsToFeatureVectorConverter arffConverter = new GateAnnotationsToFeatureVectorConverter(configFile);
-//		double stringDistanceThreshold = 50.0;
-//		//Instances instances = arffConverter.getInstBsdOnFeatsNStrDist(annotatedGateFile, features, instancesName, stringDistanceThreshold);
-//		Instances instances = arffConverter.getInstances(annotatedGateFile, features, instancesName, stringDistanceThreshold);
-//		System.out.println(instances.numInstances());
-//		ArffSaver saver = new ArffSaver();		
-//		try {
-//			saver.setInstances(instances);
-//			saver.setFile(new File(arffFileNameNonFilt));		
-//			saver.writeBatch();
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}	
-//	}
-
 
 	public static void createUKUSAMLInstances(String configFile) {
+		GateAnnotationsToFeatureVectorConverter featureVectorConverter = new GateAnnotationsToFeatureVectorConverter(configFile);
 		String annotationSetName = "Original markups";
 		String tagName = "P2";		
 		String uk1AnnotatedGateFile = "src/main/resources/grctcData/annotatedamllegislation/20141029_UKSI-2007-2157-made-XML-AML.xml";
@@ -279,9 +272,8 @@ public class GateAnnotationsToFeatureVectorConverter {
 //		String uk11AnnotatedGateFile = "src/main/resources/grctcData/annotatedamllegislation/Terrorism Act Order 2003.xml";	
 		
 		//String arffFileNameNonFilt = "src/main/resources/grctcData/arff/UKAMLArffExtended.arff";
-		String arffFileNameNonFilt = "src/main/resources/grctcData/annotatedamllegislation/arff/USUKAMLArffP2TagsFeaturesSeqContext.arff";
-		String instancesName = "FIROInstances";
-		GateAnnotationsToFeatureVectorConverter featureVectorConverter = new GateAnnotationsToFeatureVectorConverter(configFile);
+		String arffFileNameNonFilt = "src/main/resources/grctcData/annotatedamllegislation/arff/USUKAMLAll.arff";
+		String instancesName = "FIROInstances";		
 		double stringDistanceThreshold = 50.0;
 		//Instances instances = arffConverter.getInstBsdOnFeatsNStrDist(annotatedGateFile, features, instancesName, stringDistanceThreshold);
 		Instances uk1Instances = featureVectorConverter.getInstances(annotationSetName, uk1AnnotatedGateFile, features, instancesName, stringDistanceThreshold, tagName);

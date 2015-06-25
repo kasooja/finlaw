@@ -95,7 +95,7 @@ public class GateAnnotationReader {
 			if (annotationTypeSet != null) {
 				List<Annotation> annoTypeAnnotations = gate.Utils.inDocumentOrder(annotationTypeSet);  // you will get the sorted  annotation.
 				annotations.put(annoType, annoTypeAnnotations);
-			//	System.out.println(annoTypeAnnotations.size());				
+				//	System.out.println(annoTypeAnnotations.size());				
 			}
 		}
 		return annotations;
@@ -190,17 +190,24 @@ public class GateAnnotationReader {
 						if(labels==null){
 							labels = "";
 						}
-						if("customeridentifcationverification".equalsIgnoreCase(annotationFeature.trim())){
-							annotationFeature = "CustomerIdentificationVerification";
+						if("customeridentificationverification".equalsIgnoreCase(annotationFeature.trim())){						
+							//annotationFeature = "CustomerIdentificationVerification"; 
+							annotationFeature = "customerduediligence";
 						}
-						labels = labels + "\t" + annotationFeature; 
+						if(!labels.contains(annotationFeature)){
+							labels = labels + "\t" + annotationFeature;	
+						}						 
 					}
 				}
 			}			
 			if(labels!=null) {
 				labels = labels + "\t" + counter++;
 				sequenceP2s.put(labels.trim(), annotation);
-			}
+			} 
+//			else {
+//				labels = "others" + "\t" + counter++;
+//				sequenceP2s.put(labels.trim(), annotation);						
+//			}
 		}
 		return sequenceP2s;
 	} 
