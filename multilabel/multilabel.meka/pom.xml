@@ -13,7 +13,7 @@
 		<dependency>
 			<groupId>net.sf.meka</groupId>
 			<artifactId>meka</artifactId>
-			<version>1.7.3</version>
+			<version>1.9.0</version>
 		</dependency>
 
 
@@ -38,7 +38,7 @@
 		<dependency>
 			<groupId>nz.ac.waikato.cms.weka</groupId>
 			<artifactId>LibSVM</artifactId>
-			<version>1.0.6</version>
+			<version>1.0.8</version>
 		</dependency>
 
 	</dependencies>

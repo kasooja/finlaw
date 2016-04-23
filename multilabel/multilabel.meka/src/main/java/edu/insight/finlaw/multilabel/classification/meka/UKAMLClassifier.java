@@ -1,7 +1,7 @@
 package edu.insight.finlaw.multilabel.classification.meka;
 
 import meka.classifiers.multilabel.BR;
-import meka.classifiers.multilabel.MultilabelClassifier;
+import meka.classifiers.multilabel.MultiLabelClassifier;
 import weka.classifiers.meta.FilteredClassifier;
 import weka.classifiers.trees.J48;
 import weka.core.Instances;
@@ -13,7 +13,7 @@ public class UKAMLClassifier {
 
 	private Instances trainingInstances;
 
-	public static MultilabelClassifier makeMulClassifier() {
+	public static MultiLabelClassifier makeMulClassifier() {
 		BR h = new BR();
 		//h.setClassifier(new J48());
 		//h.setClassifier(new NaiveBayesMultinomialText());
@@ -21,7 +21,7 @@ public class UKAMLClassifier {
 	}
 	
 
-	public  MultilabelClassifier makeSVMbasedClassifier(){
+	public  MultiLabelClassifier makeSVMbasedClassifier(){
 		BR h = new BR();
 		h.setClassifier(Commons.getFirstBinClassifierFromJson());	
 		return h;
@@ -64,7 +64,7 @@ public class UKAMLClassifier {
 		}	
 		
 		
-		MultilabelClassifier multiClassifier = makeMulClassifier();		
+		MultiLabelClassifier multiClassifier = makeMulClassifier();		
 		try {
 			Pair<Instances,Instances> trainTest = Commons.getTrainTest(filteredUKAMLInstances, "FiroUKTrain: -C 5", "FiroUKTrain: -C 5", 80);
 			Instances train = trainTest.getFirst();
