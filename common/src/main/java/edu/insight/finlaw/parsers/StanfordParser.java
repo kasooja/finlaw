@@ -1,5 +1,7 @@
 package edu.insight.finlaw.parsers;
 
+
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -24,7 +26,6 @@ import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.ling.Label;
 import edu.stanford.nlp.ling.Sentence;
 import edu.stanford.nlp.pipeline.Annotation;
-import edu.stanford.nlp.pipeline.CoreNLPProtos.Token;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 import edu.stanford.nlp.trees.GrammaticalStructure;
@@ -583,34 +584,34 @@ public class StanfordParser {
 						if (child.isLeaf()) {
 							if (child.parent(tree).parent(tree).parent(tree).value().contains("VP") &&
 									child.parent(tree).parent(tree).value().contains("VP")) {
-								
+
 								//String governingVerb = child.parent(tree).parent(tree).parent(tree).
-										//headTerminal(hf).value().toLowerCase();// + token.getCoveredText();
+								//headTerminal(hf).value().toLowerCase();// + token.getCoveredText();
 								//System.out.println(governingVerb);
 								//return governingVerb;		
 							}
 
 							if (child.parent(tree).parent(tree).parent(tree).value().contains("VP") &&
 									child.parent(tree).parent(tree).value().contains("ADJP")) {
-//								String governingVerb = child.parent(tree).parent(tree).parent(tree).
-//										headTerminal(hf).value().toLowerCase();// + token.getCoveredText();
-//								//					System.out.println(governingVerb);
-//								return governingVerb;
+								//								String governingVerb = child.parent(tree).parent(tree).parent(tree).
+								//										headTerminal(hf).value().toLowerCase();// + token.getCoveredText();
+								//								//					System.out.println(governingVerb);
+								//								return governingVerb;
 							}
 
 							if (child.parent(tree).parent(tree).parent(tree).value().contains("VP") &&
 									child.parent(tree).parent(tree).value().contains("NN")) {
-//								String governingVerb = child.parent(tree).parent(tree).parent(tree).
-//										headTerminal(hf).value().toLowerCase(); // + token.getCoveredText();
-//								//					System.out.println(governingVerb);
-//								return governingVerb;					
+								//								String governingVerb = child.parent(tree).parent(tree).parent(tree).
+								//										headTerminal(hf).value().toLowerCase(); // + token.getCoveredText();
+								//								//					System.out.println(governingVerb);
+								//								return governingVerb;					
 							}
 						}
 					}
 				}
 			}
 		}
-
+		return null;
 	}
 
 
