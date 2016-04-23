@@ -12,8 +12,9 @@ import weka.core.converters.ConverterUtils.DataSource;
 
 public class ModalityClassifier {
 	public static String modalityArff = "src/main/resources/grctcData/arff/ModalityUKAMLBinary.arff";
-	//private static MekaMultiClassifier modalityMulti = new MekaMultiClassifier();	
-	public static FilteredClassifier modalityClassifier = modalityMulti.getEmptyBinClassifier();
+	private static edu.insight.finlaw.multilabel.classification.meka.ModalityClassifier modalityMulti = new edu.insight.finlaw.multilabel.classification.meka.ModalityClassifier();
+	//
+	public static FilteredClassifier modalityClassifier = modalityMulti.getLearnedBinClassifier(modalityArff);//getEmptyBinClassifier
 
 	public static void main(String[] args) {		
 		DataSource source;
@@ -33,7 +34,7 @@ public class ModalityClassifier {
 			randData.randomize(rand);         // randomize data with number generator
 			Evaluation eval = new Evaluation(randData);
 			for (int n = 0; n < folds; n++) {
-				modalityClassifier = modalityMulti.getEmptyBinClassifier();					
+				modalityClassifier = modalityMulti.getLearnedBinClassifier(modalityArff);//getEmptyBinClassifier();					
 				Instances train = randData.trainCV(folds, n);
 				Instances test = randData.testCV(folds, n);
 				// build and evaluate classifier
