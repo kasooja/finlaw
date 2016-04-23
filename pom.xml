@@ -66,8 +66,6 @@
 		<module>ontology</module>
 		<module>demo</module>
 		<module>multilabel</module>
-		<module>sequence</module>
-		<module>wordembed</module>
 	</modules>
 
 </project>
