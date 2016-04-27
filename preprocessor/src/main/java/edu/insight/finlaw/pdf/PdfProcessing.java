@@ -7,6 +7,8 @@ import org.apache.pdfbox.util.PDFTextStripper;
 
 public class PdfProcessing {
 	
+	private static String regulationText = "(\\d).—(.*)(\\d).—";
+	
 	public static String getContentOfPdf(File inputFile) {
 		PDDocument pd;
 		String textContent = null;
@@ -27,7 +29,7 @@ public class PdfProcessing {
 	}
 	
 	public static void main(String[] args) {
-		String filePath = "final/IrishAML.pdf";
+		String filePath = "src/main/resources/grctcData/IrishAML.pdf";
 		String contentOfPdf = getContentOfPdf(new File(filePath));
 		System.out.println(contentOfPdf);
 	}

@@ -13,7 +13,7 @@ import weka.core.Instance;
 import weka.core.Instances;
 import edu.insight.finlaw.multilabel.classification.meka.ModalityClassifier;
 import edu.insight.finlaw.multilabel.classification.meka.UKAMLClassifier;
-import edu.insight.finlaw.multilabel.instances.meka.GateToArffConverter;
+import edu.insight.finlaw.multilabel.rough.GateToArffConverter;
 import edu.insight.finlaw.onto.Firo_AML_1Ontology;
 import edu.insight.finlaw.onto.Firo_H_1Ontology;
 import edu.insight.finlaw.onto.Firo_S_1Ontology;

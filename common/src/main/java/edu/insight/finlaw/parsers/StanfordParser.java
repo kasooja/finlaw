@@ -1,7 +1,6 @@
 package edu.insight.finlaw.parsers;
 
 
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -31,12 +30,14 @@ import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 import edu.stanford.nlp.trees.GrammaticalStructure;
 import edu.stanford.nlp.trees.GrammaticalStructureFactory;
 import edu.stanford.nlp.trees.PennTreebankLanguagePack;
+import edu.stanford.nlp.trees.SemanticHeadFinder;
 import edu.stanford.nlp.trees.Tree;
 import edu.stanford.nlp.trees.TreeCoreAnnotations;
 import edu.stanford.nlp.trees.TreeCoreAnnotations.TreeAnnotation;
 import edu.stanford.nlp.trees.TreebankLanguagePack;
 import edu.stanford.nlp.trees.TypedDependency;
 import edu.stanford.nlp.util.CoreMap;
+import edu.stanford.nlp.trees.HeadFinder;
 
 
 public class StanfordParser {
@@ -48,26 +49,22 @@ public class StanfordParser {
 	private static Pattern pattern1;
 	private static String nsubjPattern = "(nsubj_.*)";
 	private static Pattern subjPattern = Pattern.compile(nsubjPattern);
-
 	// creates a StanfordCoreNLP object, with POS tagging, lemmatization, NER, parsing, and coreference resolution 
 	private static	Properties props = new Properties();
 	static {
 		pattern = java.util.regex.Pattern.compile(patt);
 		pattern1 = Pattern.compile(patt1);
-		props.put("annotators", "tokenize, ssplit, parse, lemma");
+		props.put("annotators", "tokenize, ssplit");
 		tagger =  new MaxentTagger("src/main/resources/english-left3words/english-left3words-distsim.tagger");
 	}
 
 	private static StanfordCoreNLP sentPipeline = new StanfordCoreNLP(props);
-
 	//returns Adjective Phrase, by taking a Parse Tree as input
-
 	public static String lemmatizeWord(String text) {
 		List<String> lemmas = new LinkedList<String>();
 		Annotation document = new Annotation(text);
 		// run all Annotators on this text
 		sentPipeline.annotate(document);
-
 		List<CoreMap> sentences = document.get(SentencesAnnotation.class);
 		for(CoreMap sentence: sentences) {
 			// Iterate over all tokens in a sentence
@@ -170,26 +167,12 @@ public class StanfordParser {
 		return tagTextMap;
 	}
 
-	//breaks input text into sentences
-	public static List<String> getSentences(String text){
-
-		// create an empty Annotation just with the given text	
-		List<String> sentences = new ArrayList<String>();
-
-		Annotation document = new Annotation(text);   
-		//each text is treated as an Annotation type in order to perform any Stanford NLP task on it
-
-		// run all Annotators on this text
-		sentPipeline.annotate(document);
-
-		// these are all the sentences in this document
-		// a CoreMap is essentially a Map that uses class objects as keys and has values with custom types
-		List<CoreMap> sents = document.get(SentencesAnnotation.class);
+	public static List<String> getSentences(Annotation annotation){
+		List<String> sentences = new ArrayList<String>();		
+		List<CoreMap> sents = annotation.get(SentencesAnnotation.class);
 		for(CoreMap sentence: sents) 		{
-			//System.out.println(sentence);
 			sentences.add(sentence.toString());
 		}
-
 		return sentences;
 	}
 
@@ -271,10 +254,6 @@ public class StanfordParser {
 			sentences.add(sente.toString());
 		}	
 	}
-
-
-
-
 
 	public static ArrayList<String> getDependencyTriplesPos(String text, Annotation document, LinkedHashMap<CoreMap, String> sentencePosTagMap) {	
 		ArrayList<String> dependencies = new ArrayList<String>();
@@ -473,18 +452,34 @@ public class StanfordParser {
 	//
 	//	}
 
-	public static LinkedHashMap<CoreMap, String> posTagger(Annotation annotation, String sentence){
-		LinkedHashMap<CoreMap, String> sentencePosTagMap = new LinkedHashMap<CoreMap, String>();	
+
+	public static String getPosTagString(Annotation annotation) {
+		StringBuilder bld = new StringBuilder();
 		List<CoreMap> sents = annotation.get(SentencesAnnotation.class);		
 		for(CoreMap sente: sents){
-			String taggedSentence = tagger.tagString(sentence);
+			String taggedSentence = tagger.tagString(sente.toString());
+			String[] split = taggedSentence.split("\\s+");
+			for(String s : split){
+				String pos = s.split("_")[1];
+				bld.append(pos + " ");				
+			}		
+		}		
+		return bld.toString().trim();
+	}
+
+	
+	public static LinkedHashMap<CoreMap, String> posTag(Annotation annotation) {
+		LinkedHashMap<CoreMap, String> sentencePosTagMap = new LinkedHashMap<CoreMap, String>();	
+		List<CoreMap> sents = annotation.get(SentencesAnnotation.class);
+		for(CoreMap sente: sents) {			
+			String taggedSentence = tagger.tagString(sente.toString());
 			sentencePosTagMap.put(sente, taggedSentence);
 		}
-
 		return sentencePosTagMap;
 	}
 
-	public static String posTagger(String sentence){
+
+	public static String getPosTag(String sentence){
 		String taggedSentence = tagger.tagString(sentence);
 		return taggedSentence;
 	}
@@ -559,8 +554,6 @@ public class StanfordParser {
 				for (CoreLabel token: sentence.get(TokensAnnotation.class)) {
 
 				}
-
-
 				ArrayList<Tree> tagTexts = extractTag(tree, "S");		
 			}
 		}
@@ -572,38 +565,38 @@ public class StanfordParser {
 		LinkedHashMap<String, String> map = new LinkedHashMap<String, String>();
 		Annotation annotation = new Annotation(text);
 		sentPipeline.annotate(annotation);
+		HeadFinder hf = new SemanticHeadFinder();		
 		List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
 		if (sentences != null && sentences.size() > 0) {
-			for(CoreMap sentence: sentences) {			
+			for(CoreMap sentence: sentences) { 
 				Tree tree = sentence.get(TreeCoreAnnotations.TreeAnnotation.class);
 				for (CoreLabel token: sentence.get(TokensAnnotation.class)) {
 					Iterator<Tree> treeIterate = tree.iterator();
 					while (treeIterate.hasNext()) {
-						Tree child = treeIterate.next();					
+						Tree child = treeIterate.next(); 
 						if (child.isLeaf()) {
 							if (child.parent(tree).parent(tree).parent(tree).value().contains("VP") &&
 									child.parent(tree).parent(tree).value().contains("VP")) {
-
-								//String governingVerb = child.parent(tree).parent(tree).parent(tree).
-								//headTerminal(hf).value().toLowerCase();// + token.getCoveredText();
-								//System.out.println(governingVerb);
-								//return governingVerb;		
+								String governingVerb = child.parent(tree).parent(tree).parent(tree).
+										headTerminal(hf).value().toLowerCase();// + token.getCoveredText();
+								System.out.println(governingVerb);
+								return governingVerb; 
 							}
 
 							if (child.parent(tree).parent(tree).parent(tree).value().contains("VP") &&
 									child.parent(tree).parent(tree).value().contains("ADJP")) {
-								//								String governingVerb = child.parent(tree).parent(tree).parent(tree).
-								//										headTerminal(hf).value().toLowerCase();// + token.getCoveredText();
-								//								//					System.out.println(governingVerb);
-								//								return governingVerb;
+								String governingVerb = child.parent(tree).parent(tree).parent(tree).
+										headTerminal(hf).value().toLowerCase();// + token.getCoveredText();
+								// System.out.println(governingVerb);
+								return governingVerb;
 							}
 
 							if (child.parent(tree).parent(tree).parent(tree).value().contains("VP") &&
 									child.parent(tree).parent(tree).value().contains("NN")) {
-								//								String governingVerb = child.parent(tree).parent(tree).parent(tree).
-								//										headTerminal(hf).value().toLowerCase(); // + token.getCoveredText();
-								//								//					System.out.println(governingVerb);
-								//								return governingVerb;					
+								String governingVerb = child.parent(tree).parent(tree).parent(tree).
+										headTerminal(hf).value().toLowerCase(); // + token.getCoveredText();
+								// System.out.println(governingVerb);
+								return governingVerb; 
 							}
 						}
 					}
@@ -611,11 +604,14 @@ public class StanfordParser {
 			}
 		}
 		return null;
+
 	}
+
 
 
 	public static void main(String[] args) throws IOException {
 		String text = "Our room was tiny, and the bath was small too.";
+		String governingVerb = getGoverningVerb(text);
 		//List<String> clauses = getClauses(text);
 		//for(String clause:clauses)
 		//	System.out.println(clause);
