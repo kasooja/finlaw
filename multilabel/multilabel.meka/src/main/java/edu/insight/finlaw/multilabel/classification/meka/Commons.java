@@ -12,6 +12,7 @@ import weka.core.SelectedTag;
 import weka.core.Utils;
 import weka.core.converters.ConverterUtils.DataSource;
 import weka.core.tokenizers.NGramTokenizer;
+import weka.filters.unsupervised.attribute.Remove;
 import weka.filters.unsupervised.attribute.StringToWordVector;
 import edu.insight.finlaw.multilabel.utils.ConfigParameters;
 import edu.insight.finlaw.utils.BasicFileTools;
@@ -34,7 +35,19 @@ public class Commons {
 		}
 		return null;
 	}
-
+	
+	public static Remove getRemoveFilter(String index) {	
+		Remove remove = new Remove();		
+		String[] options = new String[2];
+		options[0] = "-R";
+		options[1] = index;
+		try {
+			remove.setOptions(options);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return remove;
+	}
 
 	public static Instances loadMekaInstances(String arffFilePath) {
 		try {
@@ -71,11 +84,11 @@ public class Commons {
 		//Stemmer stemmer = new SnowballStemmer();
 		StringToWordVector stringToWordVector = new StringToWordVector();	
 		//stringToWordVector.setStemmer(stemmer);
-		stringToWordVector.setWordsToKeep(20000);
+		stringToWordVector.setWordsToKeep(500);
 		stringToWordVector.setNormalizeDocLength(selectedTag);		
-		stringToWordVector.setMinTermFreq(2);
+		stringToWordVector.setMinTermFreq(4);
 		stringToWordVector.setLowerCaseTokens(true);
-		stringToWordVector.setDoNotOperateOnPerClassBasis(false);
+		//stringToWordVector.setDoNotOperateOnPerClassBasis(false);
 		NGramTokenizer tok = new NGramTokenizer();
 		tok.setNGramMinSize(1);		
 		tok.setNGramMaxSize(2);		
