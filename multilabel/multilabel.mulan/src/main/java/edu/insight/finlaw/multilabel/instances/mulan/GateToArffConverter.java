@@ -71,7 +71,7 @@ public class GateToArffConverter {
 		GateAnnotationReader gateAnnoReader = new GateAnnotationReader();
 		gateAnnoReader.setDocument(annotatedGateFile);
 		//Map<String, List<Annotation>> annotations = gateAnnoReader.readAnnotatedGateFile(labelsToBeUsed, annotationSetName);
-		Map<String, List<Annotation>> annotations = gateAnnoReader.readAnnotatedGateFileLabels(labelsToBeUsed, annotationSetName);
+		Map<String, List<Annotation>> annotations = gateAnnoReader.getGateAnnotationsLabelTagged(labelsToBeUsed, annotationSetName);
 		List<String> annotationTypeList = gateAnnoReader.getAnnotationTypeList();
 		Integer textAttributeIndex = null; 
 		//MEKA based naming of instances
