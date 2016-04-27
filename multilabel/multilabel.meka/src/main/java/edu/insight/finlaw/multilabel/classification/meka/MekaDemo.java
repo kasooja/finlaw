@@ -4,10 +4,9 @@ package edu.insight.finlaw.multilabel.classification.meka;
 import meka.classifiers.multilabel.BR;
 import meka.classifiers.multilabel.CC;
 import meka.classifiers.multilabel.Evaluation;
-import meka.classifiers.multilabel.meta.BaggingML;
 import meka.classifiers.multilabel.MultiLabelClassifier;
+import meka.classifiers.multilabel.meta.BaggingML;
 import meka.core.Result;
-import meka.gui.explorer.Explorer;
 import weka.classifiers.Classifier;
 import weka.classifiers.functions.SMO;
 import weka.classifiers.trees.J48;
@@ -105,35 +104,34 @@ public class MekaDemo {
 //			h.buildClassifier(D);
 //			//double[] distributionForInstance = h.distributionForInstance(D.get(7));
 //			//Evaluation.cvModel(h, D, numFolds, top, vop)
-//			//Result[] cvModel = Evaluation.cvModel(h, D, 28, "PCut1", "6");
-//			Result cvModel = Evaluation.cvModel(h, D, 28, "PCut1", "6");
-//			System.out.println(cvModel.size());
+//			Result[] cvModel = Evaluation.cvModel(h, D, 28, "PCut1", "6");
+//			System.out.println(cvModel.length);
 //			double avg = 0.0;
 //			int count = 0;
 //			int[][][] matrices = new int[16][2][2];
 //		
-////			for(Result result : cvModel){
-////				int[][] allActuals = result.allActuals();	
-////				double[][] allPredictions = result.allPredictions();
-////
-////				int counter = 0;
-////				for(counter = 0; counter<16; counter++) {
-////					if(allActuals[0][counter] == allPredictions[0][counter]){
-////						if(allActuals[0][counter] == 1)
-////							matrices[counter][0][0] = matrices[counter][0][0] + 1;
-////						if(allActuals[0][counter] == 0)
-////							matrices[counter][1][0] = matrices[counter][1][0] + 1;							
-////					}					
-////					if(allActuals[0][counter] != allPredictions[0][counter]){					
-////						if(allActuals[0][counter] == 1)
-////							matrices[counter][0][1] = matrices[counter][0][1] + 1;
-////						if(allActuals[0][counter] == 0)
-////							matrices[counter][1][1] = matrices[counter][1][1] + 1;					
-////					}
-////				}				
-////				Double accuracy = result.output.get("Accuracy");
-////				avg = avg + accuracy;
-////				System.out.println(result);
+//			for(Result result : cvModel){
+//				int[][] allActuals = result.allActuals();	
+//				double[][] allPredictions = result.allPredictions();
+//
+//				int counter = 0;
+//				for(counter = 0; counter<16; counter++) {
+//					if(allActuals[0][counter] == allPredictions[0][counter]){
+//						if(allActuals[0][counter] == 1)
+//							matrices[counter][0][0] = matrices[counter][0][0] + 1;
+//						if(allActuals[0][counter] == 0)
+//							matrices[counter][1][0] = matrices[counter][1][0] + 1;							
+//					}					
+//					if(allActuals[0][counter] != allPredictions[0][counter]){					
+//						if(allActuals[0][counter] == 1)
+//							matrices[counter][0][1] = matrices[counter][0][1] + 1;
+//						if(allActuals[0][counter] == 0)
+//							matrices[counter][1][1] = matrices[counter][1][1] + 1;					
+//					}
+//				}				
+//				Double accuracy = result.output.get("Accuracy");
+//				avg = avg + accuracy;
+//				System.out.println(result);
 //				System.out.println("-------------------------------------------------------------");
 //				//				for(int labelNumber = 0; labelNumber < 16; labelNumber++) {
 //				//					System.out.println("Matrix Number: " + labelNumber);
